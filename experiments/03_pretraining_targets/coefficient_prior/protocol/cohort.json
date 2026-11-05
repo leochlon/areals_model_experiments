@@ -1,0 +1,21 @@
+{
+  "closed_packs": 350,
+  "counts": {
+    "test": 632,
+    "train": 14304,
+    "val": 637
+  },
+  "observed_utc": "2026-10-31T11:34:09.506130+00:00",
+  "outcomes": {
+    "patch": {
+      "coverage_excluded": 24779,
+      "failed": 2307,
+      "ok": 17714
+    },
+    "query": {
+      "failed": 6246,
+      "ok": 38554
+    }
+  },
+  "rule": "All patch-ok AND query-ok objects in closed packs at snapshot time; original splits retained."
+}

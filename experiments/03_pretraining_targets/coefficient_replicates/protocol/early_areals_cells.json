@@ -1,0 +1,132 @@
+[
+  {
+    "model": "areals/seed17",
+    "pretraining_seed": 17,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed17/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 274,
+    "seed": 0,
+    "out": "pressure/areals/seed17/n274/seed0"
+  },
+  {
+    "model": "areals/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 274,
+    "seed": 0,
+    "out": "pressure/areals/seed29/n274/seed0"
+  },
+  {
+    "model": "areals/seed17",
+    "pretraining_seed": 17,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed17/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 18,
+    "seed": 0,
+    "out": "pressure/areals/seed17/n18/seed0"
+  },
+  {
+    "model": "areals/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 18,
+    "seed": 0,
+    "out": "pressure/areals/seed29/n18/seed0"
+  },
+  {
+    "model": "areals/seed17",
+    "pretraining_seed": 17,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed17/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 35,
+    "seed": 0,
+    "out": "pressure/areals/seed17/n35/seed0"
+  },
+  {
+    "model": "areals/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 35,
+    "seed": 0,
+    "out": "pressure/areals/seed29/n35/seed0"
+  },
+  {
+    "model": "areals/seed17",
+    "pretraining_seed": 17,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed17/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 69,
+    "seed": 0,
+    "out": "pressure/areals/seed17/n69/seed0"
+  },
+  {
+    "model": "areals/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 69,
+    "seed": 0,
+    "out": "pressure/areals/seed29/n69/seed0"
+  },
+  {
+    "model": "areals/seed17",
+    "pretraining_seed": 17,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed17/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 137,
+    "seed": 0,
+    "out": "pressure/areals/seed17/n137/seed0"
+  },
+  {
+    "model": "areals/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.0,
+    "roles": [
+      "areals"
+    ],
+    "checkpoint": "pretraining/areals/seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 137,
+    "seed": 0,
+    "out": "pressure/areals/seed29/n137/seed0"
+  }
+]

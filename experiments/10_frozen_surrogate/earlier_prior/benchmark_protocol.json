@@ -1,0 +1,11 @@
+{
+  "validation_shapes": 1844,
+  "test_shapes": 1825,
+  "seed": 17,
+  "test_masks": [
+    0.0,
+    0.6
+  ],
+  "validation_mask": 0.6,
+  "normal_region": "same original valid-normal mask"
+}

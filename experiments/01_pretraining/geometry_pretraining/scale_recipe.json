@@ -1,0 +1,40 @@
+{
+  "initialization": "random native GeometryAutoencoder constructor",
+  "source_checkpoint": null,
+  "epochs": 15,
+  "gpus": 6,
+  "global_batch_size": 64,
+  "rank_batch_sizes": [
+    11,
+    11,
+    11,
+    11,
+    10,
+    10
+  ],
+  "final_rank_batch_sizes": [
+    11,
+    11,
+    10,
+    10,
+    10,
+    10
+  ],
+  "updates_per_epoch": 966,
+  "total_updates": 14490,
+  "train_geometries": 61822,
+  "validation_geometries": 1844,
+  "test_geometries": 1825,
+  "data_manifest": "/workspace/runs/objaverse_training_pool/versions/20260927T140652Z/manifest.json",
+  "learning_rate_policy": "Fresh native 15-epoch cosine, peak 3e-4, 200 warmup updates, minimum ratio 0.05",
+  "checkpoint_selection": "Lowest validation nRMSE; separate best_normal.pt and last.pt",
+  "training_linalg": "cusolver",
+  "validation_linalg": "magma",
+  "training_cudnn_sdpa": false,
+  "validation_cudnn_sdpa": true,
+  "package": "areal-tokens0.6.0",
+  "model_changes": {
+    "symmetry_prior": "maps",
+    "symmetry_maps": 16
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scored_rows": 50880,
+  "data_files_verified": 16236,
+  "study_and_test_locks_verified": true,
+  "paired_training_normalisation_identical": true,
+  "max_metric_difference": 3.2374453673433834e-09,
+  "metric_tolerance": 1e-06,
+  "gpu_checkpoint_replay": "pretrained_n406_seed0",
+  "gpu_score_difference": 0.0,
+  "gpu_replay_tolerance": 1e-05,
+  "gpu": "NVIDIA B200"
+}

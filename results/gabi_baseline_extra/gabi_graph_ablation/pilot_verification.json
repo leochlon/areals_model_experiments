@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "3a4bf2c8a23b6aae18dabd1373eb45bf1a1e2572d442b801cf7762328c4eb016",
+  "training_protocol_sha256": "165518e9b3fe2b31b2d98ae8076af039bdaf4c6e2a33feb58be484563c6e061d",
+  "verification_only_changed_files": [
+    "check_pilot.py"
+  ],
+  "paired_initial_weights": true,
+  "paired_example_orders": true,
+  "full_batch_size": 100,
+  "epochs_per_variant": 2,
+  "real_geometry_abc_parity": {
+    "euclidean": {
+      "author_abc_max_difference": 1.7881393432617188e-07,
+      "hidden_node_values_max_difference": 1.4305114737211966e-07
+    },
+    "surface": {
+      "author_abc_max_difference": 2.801418305109493e-07,
+      "hidden_node_values_max_difference": 2.264976501908933e-07
+    }
+  },
+  "torch": "2.11.0+cu128",
+  "torch_geometric": "2.8.1",
+  "numpy": "2.5.3",
+  "cuda": "12.8",
+  "gpu": "NVIDIA B200"
+}

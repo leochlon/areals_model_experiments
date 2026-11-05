@@ -1,0 +1,132 @@
+[
+  {
+    "model": "patch_query/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 274,
+    "seed": 0,
+    "out": "pressure/patch_query/seed29/n274/seed0"
+  },
+  {
+    "model": "patch_query/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 18,
+    "seed": 0,
+    "out": "pressure/patch_query/seed29/n18/seed0"
+  },
+  {
+    "model": "patch_query/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 35,
+    "seed": 0,
+    "out": "pressure/patch_query/seed29/n35/seed0"
+  },
+  {
+    "model": "patch_query/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 69,
+    "seed": 0,
+    "out": "pressure/patch_query/seed29/n69/seed0"
+  },
+  {
+    "model": "patch_query/seed29",
+    "pretraining_seed": 29,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed29/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 137,
+    "seed": 0,
+    "out": "pressure/patch_query/seed29/n137/seed0"
+  },
+  {
+    "model": "patch_query/seed43",
+    "pretraining_seed": 43,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed43/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 274,
+    "seed": 0,
+    "out": "pressure/patch_query/seed43/n274/seed0"
+  },
+  {
+    "model": "patch_query/seed43",
+    "pretraining_seed": 43,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed43/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 18,
+    "seed": 0,
+    "out": "pressure/patch_query/seed43/n18/seed0"
+  },
+  {
+    "model": "patch_query/seed43",
+    "pretraining_seed": 43,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed43/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 35,
+    "seed": 0,
+    "out": "pressure/patch_query/seed43/n35/seed0"
+  },
+  {
+    "model": "patch_query/seed43",
+    "pretraining_seed": 43,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed43/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 69,
+    "seed": 0,
+    "out": "pressure/patch_query/seed43/n69/seed0"
+  },
+  {
+    "model": "patch_query/seed43",
+    "pretraining_seed": 43,
+    "weight": 0.1,
+    "roles": [
+      "patch_query"
+    ],
+    "checkpoint": "/workspace/runs/shared_query_controlled_20261031/pretraining/operator_seed43/native_final.pt",
+    "initialization": "pretrained",
+    "budget": 137,
+    "seed": 0,
+    "out": "pressure/patch_query/seed43/n137/seed0"
+  }
+]

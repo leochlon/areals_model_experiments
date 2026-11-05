@@ -1,0 +1,286 @@
+{
+  "mean_nrmse": 0.3667039280473892,
+  "cars": [
+    {
+      "id": "WindsorML__run_11",
+      "nrmse": 0.4098246449202602,
+      "rmse": 0.18023124076329528,
+      "reference_std": 0.4397764824474208,
+      "encode_and_full_car_prediction_seconds": 0.05965805804589763,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_137",
+      "nrmse": 0.25715073200265237,
+      "rmse": 0.09576204410130044,
+      "reference_std": 0.37239654484169504,
+      "encode_and_full_car_prediction_seconds": 0.05956498300656676,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_149",
+      "nrmse": 0.4819099984028644,
+      "rmse": 0.20837448883332363,
+      "reference_std": 0.4323929562032616,
+      "encode_and_full_car_prediction_seconds": 0.05966200097464025,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_156",
+      "nrmse": 0.2882519903200917,
+      "rmse": 0.08196298275905184,
+      "reference_std": 0.28434489790698547,
+      "encode_and_full_car_prediction_seconds": 0.059579766006208956,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_168",
+      "nrmse": 0.4123136194392616,
+      "rmse": 0.11900357823215349,
+      "reference_std": 0.2886239324182306,
+      "encode_and_full_car_prediction_seconds": 0.05978953401790932,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_210",
+      "nrmse": 0.2578614679685651,
+      "rmse": 0.09507373829445989,
+      "reference_std": 0.36870083399218834,
+      "encode_and_full_car_prediction_seconds": 0.059633554017636925,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_222",
+      "nrmse": 0.26430079944888,
+      "rmse": 0.0894022056117568,
+      "reference_std": 0.3382593083266424,
+      "encode_and_full_car_prediction_seconds": 0.05959855002583936,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_236",
+      "nrmse": 0.42355649901084486,
+      "rmse": 0.14469019100394773,
+      "reference_std": 0.34160776978242763,
+      "encode_and_full_car_prediction_seconds": 0.05973678600275889,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_242",
+      "nrmse": 0.35309017103897433,
+      "rmse": 0.11685811090518938,
+      "reference_std": 0.3309582664431928,
+      "encode_and_full_car_prediction_seconds": 0.059746132988948375,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_244",
+      "nrmse": 0.5035089029560053,
+      "rmse": 0.18654974354504217,
+      "reference_std": 0.3704993942507153,
+      "encode_and_full_car_prediction_seconds": 0.06037461501546204,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_25",
+      "nrmse": 0.5391999017974987,
+      "rmse": 0.14287728347513778,
+      "reference_std": 0.2649801733992092,
+      "encode_and_full_car_prediction_seconds": 0.05983290198491886,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_250",
+      "nrmse": 0.2812964206152511,
+      "rmse": 0.09385852992927964,
+      "reference_std": 0.3336641458998746,
+      "encode_and_full_car_prediction_seconds": 0.05967389600118622,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_267",
+      "nrmse": 0.33383337840972493,
+      "rmse": 0.10282474234607603,
+      "reference_std": 0.30801216713529395,
+      "encode_and_full_car_prediction_seconds": 0.0596640880103223,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_27",
+      "nrmse": 0.4265271523751347,
+      "rmse": 0.16288676680060893,
+      "reference_std": 0.38189073284916797,
+      "encode_and_full_car_prediction_seconds": 0.05958053900394589,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_273",
+      "nrmse": 0.3187831856787744,
+      "rmse": 0.11866670941919578,
+      "reference_std": 0.3722489602659648,
+      "encode_and_full_car_prediction_seconds": 0.05969116999767721,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_274",
+      "nrmse": 0.3363210883253569,
+      "rmse": 0.1186399323975018,
+      "reference_std": 0.3527579343544749,
+      "encode_and_full_car_prediction_seconds": 0.05954856995958835,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_279",
+      "nrmse": 0.49486790514371376,
+      "rmse": 0.15288746993420418,
+      "reference_std": 0.3089460204330778,
+      "encode_and_full_car_prediction_seconds": 0.05960833403514698,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_287",
+      "nrmse": 0.41713391244384135,
+      "rmse": 0.10915479482337728,
+      "reference_std": 0.2616780644466848,
+      "encode_and_full_car_prediction_seconds": 0.05960735696135089,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_300",
+      "nrmse": 0.30266335450105514,
+      "rmse": 0.11274843060491492,
+      "reference_std": 0.3725209178057988,
+      "encode_and_full_car_prediction_seconds": 0.05970440001692623,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_305",
+      "nrmse": 0.29198553108554853,
+      "rmse": 0.09514506321329613,
+      "reference_std": 0.3258554040659627,
+      "encode_and_full_car_prediction_seconds": 0.0596550420159474,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_317",
+      "nrmse": 0.3570437600334517,
+      "rmse": 0.11814089271884663,
+      "reference_std": 0.33088631126833845,
+      "encode_and_full_car_prediction_seconds": 0.05962712405016646,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_331",
+      "nrmse": 0.4035056762672268,
+      "rmse": 0.16965270147768483,
+      "reference_std": 0.420446877097536,
+      "encode_and_full_car_prediction_seconds": 0.05979924200801179,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_37",
+      "nrmse": 0.3421125773733015,
+      "rmse": 0.09288843843876864,
+      "reference_std": 0.2715142458425665,
+      "encode_and_full_car_prediction_seconds": 0.06019560800632462,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_43",
+      "nrmse": 0.3693665447680926,
+      "rmse": 0.11089197632876838,
+      "reference_std": 0.300222036617832,
+      "encode_and_full_car_prediction_seconds": 0.05964970501372591,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_44",
+      "nrmse": 0.29268136536292405,
+      "rmse": 0.10855424768747585,
+      "reference_std": 0.37089565833092547,
+      "encode_and_full_car_prediction_seconds": 0.06245570397004485,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_46",
+      "nrmse": 0.28344377771442836,
+      "rmse": 0.0866259267903292,
+      "reference_std": 0.3056194335569625,
+      "encode_and_full_car_prediction_seconds": 0.060034230002202094,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_50",
+      "nrmse": 0.36892703732680676,
+      "rmse": 0.105742867784273,
+      "reference_std": 0.28662271150000523,
+      "encode_and_full_car_prediction_seconds": 0.060190335963852704,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_51",
+      "nrmse": 0.4200891257095613,
+      "rmse": 0.17736910437655085,
+      "reference_std": 0.42221779503804446,
+      "encode_and_full_car_prediction_seconds": 0.059728666965384036,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_56",
+      "nrmse": 0.2604886079233507,
+      "rmse": 0.09339747759620161,
+      "reference_std": 0.3585472637010061,
+      "encode_and_full_car_prediction_seconds": 0.05955099605489522,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_57",
+      "nrmse": 0.5233809087744755,
+      "rmse": 0.13933843241060795,
+      "reference_std": 0.2662275793300836,
+      "encode_and_full_car_prediction_seconds": 0.05953076301375404,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_77",
+      "nrmse": 0.30599894661102367,
+      "rmse": 0.10454437319803797,
+      "reference_std": 0.3416494545353175,
+      "encode_and_full_car_prediction_seconds": 0.059581194014754146,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_8",
+      "nrmse": 0.4327508409866056,
+      "rmse": 0.14259704424318612,
+      "reference_std": 0.32951303784433256,
+      "encode_and_full_car_prediction_seconds": 0.05957274296088144,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_83",
+      "nrmse": 0.30821947008223693,
+      "rmse": 0.08929941112799271,
+      "reference_std": 0.28972670384569305,
+      "encode_and_full_car_prediction_seconds": 0.060213733988348395,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_94",
+      "nrmse": 0.44154522156021786,
+      "rmse": 0.181207943440333,
+      "reference_std": 0.41039498242111516,
+      "encode_and_full_car_prediction_seconds": 0.05977576901204884,
+      "queries": 32000
+    },
+    {
+      "id": "WindsorML__run_99",
+      "nrmse": 0.33070296528061865,
+      "rmse": 0.11664275917233383,
+      "reference_std": 0.3527115611840867,
+      "encode_and_full_car_prediction_seconds": 0.05968783202115446,
+      "queries": 32000
+    }
+  ],
+  "step": 7500
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "areals",
+    "registered_backbone_parameters": 2274432,
+    "parameter_tensors": 85,
+    "name_prefixes": [
+      "blocks",
+      "embed",
+      "latent_token",
+      "read"
+    ],
+    "coordinate_inputs": false,
+    "normals_inputs": true,
+    "input_point_cap": 4096,
+    "tokens": 256
+  },
+  {
+    "arm": "pointmae",
+    "registered_backbone_parameters": 21825024,
+    "parameter_tensors": 150,
+    "name_prefixes": [
+      "blocks",
+      "encoder",
+      "norm",
+      "pos_embed"
+    ],
+    "coordinate_inputs": true,
+    "normals_inputs": false,
+    "input_point_cap": 4096,
+    "tokens": 256
+  }
+]

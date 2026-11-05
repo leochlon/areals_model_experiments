@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "datasets": {
+    "doubledelta": {
+      "test_geometries": 16,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "settings": {
+        "sensors-100": {
+          "masked_nrmse": 0.17824672468714775,
+          "unmasked_nrmse": 0.18007661728372734,
+          "masked_minus_unmasked": -0.0018298925965795877,
+          "joint_seed_and_geometry_interval": [
+            -0.011741650494915821,
+            0.007245199146690298
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.17188412580281726,
+              0.1793492852077633,
+              0.18350676305086266
+            ],
+            "unmasked": [
+              0.17220325326728236,
+              0.1875333563114957,
+              0.1804932422724039
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-20": {
+          "masked_nrmse": 0.20813302508864803,
+          "unmasked_nrmse": 0.20567277832506767,
+          "masked_minus_unmasked": 0.002460246763580391,
+          "joint_seed_and_geometry_interval": [
+            -0.008587379463403785,
+            0.013923983529113842
+          ],
+          "interval_level": 0.975,
+          "per_seed": {
+            "masked": [
+              0.20494652597399426,
+              0.21101869792923067,
+              0.20843385136271908
+            ],
+            "unmasked": [
+              0.20154305625782354,
+              0.21234512548190526,
+              0.20313015323547404
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-5": {
+          "masked_nrmse": 0.3118634163322454,
+          "unmasked_nrmse": 0.3036128427454582,
+          "masked_minus_unmasked": 0.008250573586787194,
+          "joint_seed_and_geometry_interval": [
+            -0.0059216198310800845,
+            0.02230680939708159
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.30940498190061533,
+              0.3162137198147164,
+              0.3099715472814045
+            ],
+            "unmasked": [
+              0.3122369494662191,
+              0.29735745355451937,
+              0.30124412521563615
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-500": {
+          "masked_nrmse": 0.1866973978540786,
+          "unmasked_nrmse": 0.18472152063285482,
+          "masked_minus_unmasked": 0.0019758772212237824,
+          "joint_seed_and_geometry_interval": [
+            -0.01304253543749385,
+            0.01555969913927475
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.17696281728077723,
+              0.18236895676900028,
+              0.20076041951245824
+            ],
+            "unmasked": [
+              0.17362119346488833,
+              0.19467563041130875,
+              0.18586773802236733
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "unobserved": {
+          "masked_nrmse": 0.43058067289131513,
+          "unmasked_nrmse": 0.42107007571884436,
+          "masked_minus_unmasked": 0.009510597172470782,
+          "joint_seed_and_geometry_interval": [
+            -0.004302018623491003,
+            0.027652184835293508
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.4343673079987485,
+              0.4349671862178668,
+              0.42240752445733015
+            ],
+            "unmasked": [
+              0.4358097889820921,
+              0.40596031024296764,
+              0.4214401279314734
+            ]
+          },
+          "verdict": "unresolved"
+        }
+      }
+    },
+    "drivaerml": {
+      "test_geometries": 50,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "settings": {
+        "sensors-100": {
+          "masked_nrmse": 0.24182259868632977,
+          "unmasked_nrmse": 0.24281983438709556,
+          "masked_minus_unmasked": -0.000997235700765744,
+          "joint_seed_and_geometry_interval": [
+            -0.004182952050649431,
+            0.002737619142697951
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.2400227769020693,
+              0.2431578055136864,
+              0.2422872136432338
+            ],
+            "unmasked": [
+              0.24337926793779663,
+              0.2401753243605903,
+              0.24490491086289976
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-20": {
+          "masked_nrmse": 0.24059560924350773,
+          "unmasked_nrmse": 0.2415238976088968,
+          "masked_minus_unmasked": -0.0009282883653890643,
+          "joint_seed_and_geometry_interval": [
+            -0.004374671995984681,
+            0.0034336380906025213
+          ],
+          "interval_level": 0.975,
+          "per_seed": {
+            "masked": [
+              0.23876158489810195,
+              0.24192388936732112,
+              0.24110135346510014
+            ],
+            "unmasked": [
+              0.24207593115760007,
+              0.23887218014753167,
+              0.24362358152155872
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-5": {
+          "masked_nrmse": 0.240344893496793,
+          "unmasked_nrmse": 0.24130744848365254,
+          "masked_minus_unmasked": -0.0009625549868594287,
+          "joint_seed_and_geometry_interval": [
+            -0.004160649557347452,
+            0.0027928526386332996
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.23851705254560585,
+              0.2416767188809653,
+              0.24084090906380806
+            ],
+            "unmasked": [
+              0.24186479964919386,
+              0.23864188670909212,
+              0.2434156590926715
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "sensors-500": {
+          "masked_nrmse": 0.2476865214703073,
+          "unmasked_nrmse": 0.24871027688571806,
+          "masked_minus_unmasked": -0.001023755415410787,
+          "joint_seed_and_geometry_interval": [
+            -0.004210524967308156,
+            0.0026809886530255833
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.24585503123695088,
+              0.24895112771144617,
+              0.24825340546252472
+            ],
+            "unmasked": [
+              0.2493020543218281,
+              0.24603261860830083,
+              0.25079615772702524
+            ]
+          },
+          "verdict": "unresolved"
+        },
+        "unobserved": {
+          "masked_nrmse": 0.24030164372007073,
+          "unmasked_nrmse": 0.24123805885346325,
+          "masked_minus_unmasked": -0.0009364151333925356,
+          "joint_seed_and_geometry_interval": [
+            -0.004127471189899951,
+            0.002807183349766726
+          ],
+          "interval_level": 0.95,
+          "per_seed": {
+            "masked": [
+              0.2384826514047675,
+              0.2416144113673446,
+              0.24080786838810006
+            ],
+            "unmasked": [
+              0.24179063873776896,
+              0.23856153206995379,
+              0.24336200575266695
+            ]
+          },
+          "verdict": "unresolved"
+        }
+      }
+    }
+  },
+  "primary_setting": "sensors-20"
+}

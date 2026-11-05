@@ -1,0 +1,67 @@
+{
+  "arms": [
+    "patch",
+    "areals",
+    "hessian"
+  ],
+  "cohort": {
+    "counts": {
+      "test": 92,
+      "train": 1668,
+      "val": 85
+    },
+    "processed": 5287,
+    "patch_ok": 2123,
+    "query_ok": 4529,
+    "rule": "All patch-ok AND query-ok objects reported at snapshot time, preserving original splits and ordering."
+  },
+  "pretraining": {
+    "complete_inputs": true,
+    "exposures": 680064,
+    "fresh_optimizer": true,
+    "fresh_weights": true,
+    "gpus_per_arm": 4,
+    "object_batch": 64,
+    "seed": 17,
+    "steps": 10626
+  },
+  "windsor": {
+    "budgets": [
+      18,
+      35,
+      69,
+      137,
+      274
+    ],
+    "cars_per_step": 8,
+    "decoder_lr": 0.0002,
+    "early_stopping": false,
+    "encoder_lr_grid": [
+      2e-05,
+      0.0002,
+      0.001
+    ],
+    "initializations": [
+      "pretrained",
+      "scratch"
+    ],
+    "metric": "Mean over held-out cars of area-weighted RMSE(Cp) / area-weighted std(Cp).",
+    "optimizer": "AdamW",
+    "precision": "FP32",
+    "queries_per_car": 2048,
+    "schedule": "constant",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "selection": "Independent best validation checkpoint/LR for every architecture, initialization and budget on seed 0; repeat chosen LR on seeds 1,2.",
+    "splits": "Original Figure 2 nested car subsets; no new split or pressure interpolation.",
+    "steps": 8000,
+    "test": 35,
+    "train": 274,
+    "val": 35,
+    "validation_every": 250,
+    "weight_decay": 0
+  }
+}

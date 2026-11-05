@@ -1,0 +1,170 @@
+[
+  {
+    "name": "areals/seed17",
+    "out": "pretraining/areals/seed17",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 17
+  },
+  {
+    "name": "hessian_w0p1/seed17",
+    "out": "pretraining/hessian_w0p1/seed17",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 17
+  },
+  {
+    "name": "hessian_w0p01/seed17",
+    "out": "pretraining/hessian_w0p01/seed17",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 17
+  },
+  {
+    "name": "hessian_w0p001/seed17",
+    "out": "pretraining/hessian_w0p001/seed17",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 17
+  },
+  {
+    "name": "areals/seed29",
+    "out": "pretraining/areals/seed29",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 29
+  },
+  {
+    "name": "hessian_w0p1/seed29",
+    "out": "pretraining/hessian_w0p1/seed29",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 29
+  },
+  {
+    "name": "hessian_w0p01/seed29",
+    "out": "pretraining/hessian_w0p01/seed29",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 29
+  },
+  {
+    "name": "hessian_w0p001/seed29",
+    "out": "pretraining/hessian_w0p001/seed29",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 29
+  },
+  {
+    "name": "areals/seed43",
+    "out": "pretraining/areals/seed43",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 43
+  },
+  {
+    "name": "hessian_w0p1/seed43",
+    "out": "pretraining/hessian_w0p1/seed43",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 43
+  },
+  {
+    "name": "hessian_w0p01/seed43",
+    "out": "pretraining/hessian_w0p01/seed43",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 43
+  },
+  {
+    "name": "hessian_w0p001/seed43",
+    "out": "pretraining/hessian_w0p001/seed43",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 43
+  },
+  {
+    "name": "areals/seed71",
+    "out": "pretraining/areals/seed71",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 71
+  },
+  {
+    "name": "hessian_w0p1/seed71",
+    "out": "pretraining/hessian_w0p1/seed71",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 71
+  },
+  {
+    "name": "hessian_w0p01/seed71",
+    "out": "pretraining/hessian_w0p01/seed71",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 71
+  },
+  {
+    "name": "hessian_w0p001/seed71",
+    "out": "pretraining/hessian_w0p001/seed71",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 71
+  },
+  {
+    "name": "areals/seed101",
+    "out": "pretraining/areals/seed101",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 101
+  },
+  {
+    "name": "hessian_w0p1/seed101",
+    "out": "pretraining/hessian_w0p1/seed101",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 101
+  },
+  {
+    "name": "hessian_w0p01/seed101",
+    "out": "pretraining/hessian_w0p01/seed101",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 101
+  },
+  {
+    "name": "hessian_w0p001/seed101",
+    "out": "pretraining/hessian_w0p001/seed101",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 101
+  },
+  {
+    "name": "areals/seed137",
+    "out": "pretraining/areals/seed137",
+    "mode": "baseline",
+    "weight": 0.0,
+    "seed": 137
+  },
+  {
+    "name": "hessian_w0p1/seed137",
+    "out": "pretraining/hessian_w0p1/seed137",
+    "mode": "hessian",
+    "weight": 0.1,
+    "seed": 137
+  },
+  {
+    "name": "hessian_w0p01/seed137",
+    "out": "pretraining/hessian_w0p01/seed137",
+    "mode": "hessian",
+    "weight": 0.01,
+    "seed": 137
+  },
+  {
+    "name": "hessian_w0p001/seed137",
+    "out": "pretraining/hessian_w0p001/seed137",
+    "mode": "hessian",
+    "weight": 0.001,
+    "seed": 137
+  }
+]

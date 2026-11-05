@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-30T18:36:36.043944+00:00",
+  "scope": "385 Objaverse training meshes; one full-budget WindsorML comparison with one fine-tuning seed",
+  "geometry": {
+    "from_scratch": true,
+    "training_meshes": 385,
+    "validation_meshes": 12,
+    "test_meshes": 16,
+    "steps": 10626,
+    "global_object_batch": 64,
+    "object_exposures": 680064,
+    "patches_per_object": 8,
+    "queries_per_patch": 64,
+    "seed": 17,
+    "gpus": 4,
+    "peak_learning_rate": 0.0001,
+    "complete_inputs": true,
+    "checkpoint": "fixed final update"
+  },
+  "pressure": {
+    "training_cars": 274,
+    "validation_cars": 35,
+    "test_cars": 35,
+    "seed": 0,
+    "maximum_steps": 8000,
+    "cars_per_step": 8,
+    "queries_per_car": 2048,
+    "encoder_rates": [
+      2e-05,
+      0.0002,
+      0.001
+    ],
+    "decoder_rate": 0.0002,
+    "initializations": [
+      "pretrained",
+      "scratch"
+    ],
+    "validation_interval": 250,
+    "patience": 20,
+    "selection": "separate minimum validation area/std nRMSE per initialization; first grid entry breaks ties",
+    "metric": "mean per-car area-weighted RMSE divided by area-weighted reference standard deviation"
+  }
+}

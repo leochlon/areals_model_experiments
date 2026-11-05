@@ -1,0 +1,67 @@
+{
+  "cohort": {
+    "test": 632,
+    "train": 14304,
+    "val": 637
+  },
+  "pretraining": {
+    "seeds": [
+      17,
+      29,
+      43,
+      71,
+      101,
+      137
+    ],
+    "hessian_weights": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "fixed_weight": 0.1,
+    "modes": [
+      "baseline",
+      "hessian"
+    ],
+    "steps": 10626,
+    "global_batch": 64,
+    "peak_lr": 0.0003,
+    "weight_decay": 0.05,
+    "precision": "fp32",
+    "warmup_steps": 200,
+    "final_lr_ratio": 0.05,
+    "validation_every": 500,
+    "monitoring_objects": 128,
+    "hessian_queries": 256,
+    "native_queries": 1024,
+    "encoder_points": 4096
+  },
+  "pressure": {
+    "budgets": [
+      18,
+      35,
+      69,
+      137,
+      274
+    ],
+    "seeds": [
+      0
+    ],
+    "rates": [
+      2e-05,
+      0.0002,
+      0.001
+    ],
+    "new_head_lr": 0.0002,
+    "steps": 8000,
+    "global_batch": 8,
+    "queries_per_car": 2048,
+    "validation_every": 250,
+    "full_validation_cars": 35,
+    "test_cars": 35,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0,
+    "schedule": "constant",
+    "precision": "fp32"
+  }
+}

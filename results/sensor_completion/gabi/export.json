@@ -1,0 +1,17 @@
+{
+  "bench": "/workspace/runs/gabi_doubledelta_20261023/bench",
+  "graph": "8-nearest-neighbour",
+  "neighbours": 8,
+  "cars": {
+    "train": 2160,
+    "val": 144
+  },
+  "nodes_per_car": {
+    "mean": 32000.0,
+    "max": 32000
+  },
+  "iterations": 10010,
+  "epochs": 455,
+  "note": "GABI's training script decays the learning rate exponentially, once per epoch; the paper used a cosine decay over the same range",
+  "created": "2026-10-23T19:51:13Z"
+}

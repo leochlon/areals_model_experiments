@@ -1,0 +1,70 @@
+{
+  "objects": 32,
+  "settings": {
+    "256": {
+      "independent_resample": {
+        "distance_nmse": 0.0004533691817679577,
+        "output_change": 0.013161633258278016,
+        "learned_head_change": 0.008478433352138381
+      },
+      "point_order_permutation": {
+        "distance_nmse": 0.00036234792159961157,
+        "output_change": 2.2730200138765255e-08,
+        "learned_head_change": 2.6120078877589492e-08
+      },
+      "reference": {
+        "distance_nmse": 0.00036234790021008525,
+        "output_change": 0.0,
+        "learned_head_change": 0.0
+      },
+      "resample_fixed_anchors_frame_surfels": {
+        "distance_nmse": 0.00039322393479640657,
+        "output_change": 0.004667389468522742,
+        "learned_head_change": 0.005111985024996102
+      },
+      "subdivision_coupled": {
+        "distance_nmse": 0.00036234791350900277,
+        "output_change": 6.595556462096752e-09,
+        "learned_head_change": 8.078323232574292e-09
+      }
+    },
+    "1024": {
+      "independent_resample": {
+        "distance_nmse": 0.0002831974534332407,
+        "output_change": 0.009212138029397465,
+        "learned_head_change": 0.0057130809655063786
+      },
+      "point_order_permutation": {
+        "distance_nmse": 0.00028827797812008317,
+        "output_change": 1.5799661759463568e-08,
+        "learned_head_change": 2.3370810842138212e-08
+      },
+      "reference": {
+        "distance_nmse": 0.0002882779664378637,
+        "output_change": 0.0,
+        "learned_head_change": 0.0
+      },
+      "resample_fixed_anchors_frame_surfels": {
+        "distance_nmse": 0.0002928525700355814,
+        "output_change": 0.0021673390237992862,
+        "learned_head_change": 0.003642041183411493
+      },
+      "subdivision_coupled": {
+        "distance_nmse": 0.00028827796081729956,
+        "output_change": 5.195825977799551e-09,
+        "learned_head_change": 8.040044463530904e-09
+      }
+    }
+  },
+  "attention": {
+    "area": {
+      "max_abs": 7.450580596923828e-08,
+      "rms": 1.485776124354743e-08
+    },
+    "ordinary": {
+      "max_abs": 0.10731461644172668,
+      "rms": 0.03192044422030449
+    }
+  },
+  "scope": "FP32 fixed pretrained weights; complete-shape surfel decode, no symmetry-candidate generation. Coupled exact subdivision is not arbitrary remeshing."
+}

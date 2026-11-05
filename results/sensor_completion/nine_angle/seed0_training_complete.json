@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source": "Retained original seed-0 run",
+  "seed": 0,
+  "epochs": 40,
+  "updates": 10800,
+  "selected_epoch": 38,
+  "checkpoint_sha256": "950218679a4788a11317e50fbadc97263a52074e402dd13b73754f88a32d490e",
+  "protocol_sha256": "468feec417fc5e364e04d3ad93afb66bd601c6454f93168498394589e20eb248"
+}

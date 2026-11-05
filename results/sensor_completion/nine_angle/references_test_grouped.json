@@ -1,0 +1,402 @@
+{
+  "split": "test",
+  "physical_geometry_groups": 16,
+  "pressure_field": "Cp, on the exact common surface grid",
+  "interval_unit": "physical geometry, retaining all its conditions and aliases",
+  "primary": "Fraction of normalized MSE gap to true-condition reference closed",
+  "reference": "Condition-informed matched AREALS surrogate; not a universal ceiling.",
+  "settings": [
+    {
+      "setting": "patch-64-0.25",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.294664031552193,
+          "low": 0.26499150321648424,
+          "high": 0.32502782897599974
+        },
+        "measurements": {
+          "mean": 0.13451423014054265,
+          "low": 0.12337021666449922,
+          "high": 0.14671736913870817
+        },
+        "conditioned": {
+          "mean": 0.1369454637648987,
+          "low": 0.12457665318388852,
+          "high": 0.15029114080361697
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.2791421186593494,
+          "low": 0.25340512782124924,
+          "high": 0.3035394130605417
+        },
+        "measurements": {
+          "mean": 0.1277375649855188,
+          "low": 0.11742293459918952,
+          "high": 0.1374474196615697
+        },
+        "conditioned": {
+          "mean": 0.12990409374323275,
+          "low": 0.11782312173381743,
+          "high": 0.14267125054510843
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10024056757620627,
+        "measurements": 0.01911197348364007,
+        "conditioned": 0.021464763547591026
+      },
+      "fraction_gap_closed": 1.0298669127273687,
+      "fraction_gap_closed_95": [
+        0.9804159587804838,
+        1.1090414266777098
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "patch-64-0.60",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.2931953349159968,
+          "low": 0.2612697768338443,
+          "high": 0.3233320804797329
+        },
+        "measurements": {
+          "mean": 0.12738546500959913,
+          "low": 0.11752586039340152,
+          "high": 0.13698654111231934
+        },
+        "conditioned": {
+          "mean": 0.12598361492262367,
+          "low": 0.1134333820782804,
+          "high": 0.14129297779128408
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28201590981286,
+          "low": 0.25420997648481586,
+          "high": 0.3081961771634023
+        },
+        "measurements": {
+          "mean": 0.12304658409950904,
+          "low": 0.11365228284360003,
+          "high": 0.1324288641577386
+        },
+        "conditioned": {
+          "mean": 0.12109018547709603,
+          "low": 0.11043229305356993,
+          "high": 0.1341103268834558
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.099251309716552,
+        "measurements": 0.017030380292777435,
+        "conditioned": 0.018365976308646653
+      },
+      "fraction_gap_closed": 1.0165122150036001,
+      "fraction_gap_closed_95": [
+        0.9756924353632123,
+        1.0856952506030184
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "patch-64-0.90",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30198849396878025,
+          "low": 0.2742140195097225,
+          "high": 0.3273819606024883
+        },
+        "measurements": {
+          "mean": 0.15578263960971522,
+          "low": 0.14313766833721542,
+          "high": 0.16926392688916642
+        },
+        "conditioned": {
+          "mean": 0.13814819075104456,
+          "low": 0.1239478897256943,
+          "high": 0.1544006150992462
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.2835920708778643,
+          "low": 0.2562931332409833,
+          "high": 0.30896591342498775
+        },
+        "measurements": {
+          "mean": 0.1460495494131153,
+          "low": 0.13380194609203028,
+          "high": 0.15878126145601928
+        },
+        "conditioned": {
+          "mean": 0.1292162193779225,
+          "low": 0.11604947706165815,
+          "high": 0.14393227275158116
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10270029507153736,
+        "measurements": 0.02613446441034737,
+        "conditioned": 0.021712838931803955
+      },
+      "fraction_gap_closed": 0.9454035761919171,
+      "fraction_gap_closed_95": [
+        0.9005705486437383,
+        0.9996538258159452
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "sensors-5",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.302118364994603,
+          "low": 0.27406799652546493,
+          "high": 0.32798804774523393
+        },
+        "measurements": {
+          "mean": 0.21294836702484726,
+          "low": 0.18530625134502599,
+          "high": 0.2429751144426746
+        },
+        "conditioned": {
+          "mean": 0.1372783877701464,
+          "low": 0.12360590222082857,
+          "high": 0.15284374148612942
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28371150987036675,
+          "low": 0.256082094762153,
+          "high": 0.30931930647047756
+        },
+        "measurements": {
+          "mean": 0.19975528824445973,
+          "low": 0.17334378816614424,
+          "high": 0.22844274308162546
+        },
+        "conditioned": {
+          "mean": 0.12852467092749212,
+          "low": 0.11568575062521048,
+          "high": 0.14289069935913815
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10296328384515184,
+        "measurements": 0.05494081167986272,
+        "conditioned": 0.02138713349813435
+      },
+      "fraction_gap_closed": 0.5886827456432537,
+      "fraction_gap_closed_95": [
+        0.39305396447260904,
+        0.7629212255088799
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "sensors-20",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30229305563453557,
+          "low": 0.2742394096956883,
+          "high": 0.3282111252106051
+        },
+        "measurements": {
+          "mean": 0.16315916671215466,
+          "low": 0.14893336069488003,
+          "high": 0.17797174415693526
+        },
+        "conditioned": {
+          "mean": 0.13741612030640304,
+          "low": 0.12373232407793594,
+          "high": 0.15296794105971395
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28370916633314025,
+          "low": 0.25604724307563737,
+          "high": 0.3093338287121263
+        },
+        "measurements": {
+          "mean": 0.15288734881914928,
+          "low": 0.1392317851658253,
+          "high": 0.16708366055794294
+        },
+        "conditioned": {
+          "mean": 0.1285845545694031,
+          "low": 0.11575550976743182,
+          "high": 0.14295515247605128
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10308221049834182,
+        "measurements": 0.029034005162015427,
+        "conditioned": 0.021428095224624612
+      },
+      "fraction_gap_closed": 0.9068520929790906,
+      "fraction_gap_closed_95": [
+        0.8435531127688336,
+        0.9691442303715382
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "sensors-100",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.3035842547857952,
+          "low": 0.2753152089272023,
+          "high": 0.3298235560730322
+        },
+        "measurements": {
+          "mean": 0.1442324849633158,
+          "low": 0.13262551741381123,
+          "high": 0.15615266930346874
+        },
+        "conditioned": {
+          "mean": 0.13828519868573996,
+          "low": 0.12452735855542561,
+          "high": 0.15389625884619085
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28382206945797517,
+          "low": 0.25603433968963835,
+          "high": 0.3095502755508079
+        },
+        "measurements": {
+          "mean": 0.13468038250863515,
+          "low": 0.12347611529273228,
+          "high": 0.14612580201967057
+        },
+        "conditioned": {
+          "mean": 0.1289161932956017,
+          "low": 0.11603665531057752,
+          "high": 0.14334898032151563
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10397261693238063,
+        "measurements": 0.021999551919098966,
+        "conditioned": 0.021692185038772557
+      },
+      "fraction_gap_closed": 0.9962643987974704,
+      "fraction_gap_closed_95": [
+        0.9498832967032498,
+        1.062664424673138
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "sensors-500",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.31006213031611984,
+          "low": 0.28026570477267493,
+          "high": 0.3375983988995052
+        },
+        "measurements": {
+          "mean": 0.14346657099705734,
+          "low": 0.1310393793139365,
+          "high": 0.15668291265123052
+        },
+        "conditioned": {
+          "mean": 0.14257450486037063,
+          "low": 0.12844580661878094,
+          "high": 0.15844951778529495
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28426636217553436,
+          "low": 0.2562849416841468,
+          "high": 0.3099199453538793
+        },
+        "measurements": {
+          "mean": 0.13141429587372777,
+          "low": 0.11994796018974338,
+          "high": 0.1435665386936564
+        },
+        "conditioned": {
+          "mean": 0.13051527950770817,
+          "low": 0.11760525221227104,
+          "high": 0.1450525238730549
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.1085228322035442,
+        "measurements": 0.02175420887256764,
+        "conditioned": 0.022995202656007095
+      },
+      "fraction_gap_closed": 1.0145098582762626,
+      "fraction_gap_closed_95": [
+        0.9777390676444986,
+        1.069079553694577
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    },
+    {
+      "setting": "unobserved",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30203355985316027,
+          "low": 0.27401514242388814,
+          "high": 0.32787783832545697
+        },
+        "measurements": {
+          "mean": 0.2995024221458187,
+          "low": 0.2706878833540821,
+          "high": 0.3259427730540245
+        },
+        "conditioned": {
+          "mean": 0.13722222242209423,
+          "low": 0.12355753017239425,
+          "high": 0.15277315433514818
+        }
+      },
+      "relative_l2": {
+        "geometry": {
+          "mean": 0.28370980218884234,
+          "low": 0.25609456441424744,
+          "high": 0.30931384553309044
+        },
+        "measurements": {
+          "mean": 0.28137181813676515,
+          "low": 0.25293741893718824,
+          "high": 0.30738369931099474
+        },
+        "conditioned": {
+          "mean": 0.1285071840627645,
+          "low": 0.11566487394988403,
+          "high": 0.14287405641448236
+        }
+      },
+      "normalized_mse": {
+        "geometry": 0.10290694901616516,
+        "measurements": 0.10296718565336643,
+        "conditioned": 0.021370557035955876
+      },
+      "fraction_gap_closed": -0.0007387699619562506,
+      "fraction_gap_closed_95": [
+        -0.020914691414370645,
+        0.022348684041306067
+      ],
+      "reference_gap_stable": true,
+      "bootstrap_positive_reference_gap_fraction": 1.0
+    }
+  ]
+}

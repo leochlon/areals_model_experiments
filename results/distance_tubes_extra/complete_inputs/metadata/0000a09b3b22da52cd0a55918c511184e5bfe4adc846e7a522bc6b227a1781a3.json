@@ -1,0 +1,46 @@
+{
+  "id": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+  "family": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+  "split": "test",
+  "path": "/workspace/runs/objaverse_base_030_20260924T172527Z/prepared/shape_0000002.npz",
+  "source_url": "https://sketchfab.com/3d-models/4f7f22ac72a9470b9b4f5bd1e202e598",
+  "source_mesh": "/workspace/data/objaverse_xl/raw/hf-objaverse-v1/glbs/000-016/4f7f22ac72a9470b9b4f5bd1e202e598.glb",
+  "group": "heldout",
+  "source_mesh_sha256": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+  "triangles": 7969,
+  "vertices": 6272,
+  "watertight": false,
+  "center": [
+    1.5404108762741089,
+    2.067089080810547,
+    0.260021835565567
+  ],
+  "scale": 5.396185874938965,
+  "surface_area": 43.38362488908365,
+  "grid_n": 97,
+  "h": 0.043959401817002454,
+  "query_count": 978215,
+  "epsilon_grid": 0.39933394686730367,
+  "epsilon_probes": 0.34064005569453903,
+  "epsilon_measured": 0.39933394686730367,
+  "grid_witness": {
+    "query": [
+      -1.469795631116452,
+      -0.2168746859695172,
+      0.4793265951632528
+    ],
+    "true": 0.02233669860808389,
+    "predicted": 0.4216706454753876
+  },
+  "independent_witness": {
+    "query": [
+      1.87211394484335,
+      -0.11795756330696783,
+      -0.5792738093272858
+    ],
+    "true": 0.6356299097919054,
+    "predicted": 0.29498985409736633
+  },
+  "valid_symmetry_maps": 0,
+  "duration_seconds": 31.89649436669424
+}

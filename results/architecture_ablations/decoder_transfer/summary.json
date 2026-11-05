@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "models": 24,
+  "test_cars": 40,
+  "train_cars": 380,
+  "validation_cars": 16,
+  "means": {
+    "constant_oriented_normal_target": {
+      "mean": 0.24784699423634585,
+      "per_seed": [
+        0.24688541663949434,
+        0.24875506290171684,
+        0.24790050316782644
+      ]
+    },
+    "fresh_decoder_areals": {
+      "mean": 0.27080434779219625,
+      "per_seed": [
+        0.266673168214539,
+        0.2869035363233826,
+        0.25883633883866725
+      ]
+    },
+    "fresh_decoder_pointmae": {
+      "mean": 0.2556175980163149,
+      "per_seed": [
+        0.2500280018821195,
+        0.26008881878698736,
+        0.25673597337983783
+      ]
+    },
+    "isotropic_ordinary_attention": {
+      "mean": 0.23748554537874825,
+      "per_seed": [
+        0.24313809481351728,
+        0.23473694476847023,
+        0.23458159655425717
+      ]
+    },
+    "isotropic_reference": {
+      "mean": 0.23992556821104538,
+      "per_seed": [
+        0.24282019877588173,
+        0.236909251778559,
+        0.24004725407869537
+      ]
+    },
+    "original_ordinary_attention": {
+      "mean": 0.254032107043445,
+      "per_seed": [
+        0.2560766131626333,
+        0.25221192459671765,
+        0.253807783370984
+      ]
+    },
+    "original_oriented_normal_target": {
+      "mean": 0.24602343272778338,
+      "per_seed": [
+        0.24610623490342162,
+        0.25221673971401165,
+        0.23974732356591683
+      ]
+    },
+    "original_reference": {
+      "mean": 0.2564338415123272,
+      "per_seed": [
+        0.26636760730238856,
+        0.25034566315019,
+        0.252588254084403
+      ]
+    }
+  },
+  "six_contrasts": [
+    {
+      "first": "isotropic_reference",
+      "second": "isotropic_ordinary_attention",
+      "means": [
+        0.23992556821104538,
+        0.23748554537874825
+      ],
+      "mean_difference": 0.0024400228322971557,
+      "bonferroni_all6_interval": [
+        0.0006696325647237884,
+        0.004088931860554667
+      ],
+      "per_seed_differences": [
+        -0.00031789603763550113,
+        0.002172307010088778,
+        0.005465657524438191
+      ],
+      "first_lower_each_seed": false,
+      "interval_upper_below_zero": false,
+      "relative_mean_error_reduction": -0.010274405662903385
+    },
+    {
+      "first": "isotropic_reference",
+      "second": "constant_oriented_normal_target",
+      "means": [
+        0.23992556821104538,
+        0.24784699423634585
+      ],
+      "mean_difference": -0.007921426025300477,
+      "bonferroni_all6_interval": [
+        -0.010014290942413327,
+        -0.005895278597765877
+      ],
+      "per_seed_differences": [
+        -0.004065217863612589,
+        -0.011845811123157822,
+        -0.00785324908913102
+      ],
+      "first_lower_each_seed": true,
+      "interval_upper_below_zero": true,
+      "relative_mean_error_reduction": 0.031960952561509104
+    },
+    {
+      "first": "isotropic_reference",
+      "second": "original_reference",
+      "means": [
+        0.23992556821104538,
+        0.2564338415123272
+      ],
+      "mean_difference": -0.016508273301281802,
+      "bonferroni_all6_interval": [
+        -0.019604479344151413,
+        -0.013775255225000994
+      ],
+      "per_seed_differences": [
+        -0.023547408526506837,
+        -0.013436411371630977,
+        -0.012541000005707601
+      ],
+      "first_lower_each_seed": true,
+      "interval_upper_below_zero": true,
+      "relative_mean_error_reduction": 0.06437634441664841
+    },
+    {
+      "first": "constant_oriented_normal_target",
+      "second": "original_oriented_normal_target",
+      "means": [
+        0.24784699423634585,
+        0.24602343272778338
+      ],
+      "mean_difference": 0.0018235615085624899,
+      "bonferroni_all6_interval": [
+        -0.00012957062979770514,
+        0.0035735604011174673
+      ],
+      "per_seed_differences": [
+        0.0007791817360727302,
+        -0.0034616768122948,
+        0.00815317960190954
+      ],
+      "first_lower_each_seed": false,
+      "interval_upper_below_zero": false,
+      "relative_mean_error_reduction": -0.0074121456169591315
+    },
+    {
+      "first": "isotropic_reference",
+      "second": "fresh_decoder_pointmae",
+      "means": [
+        0.23992556821104538,
+        0.2556175980163149
+      ],
+      "mean_difference": -0.015692029805269524,
+      "bonferroni_all6_interval": [
+        -0.018627025099104858,
+        -0.012785585762719385
+      ],
+      "per_seed_differences": [
+        -0.007207803106237742,
+        -0.02317956700842836,
+        -0.01668871930114248
+      ],
+      "first_lower_each_seed": true,
+      "interval_upper_below_zero": true,
+      "relative_mean_error_reduction": 0.06138869126009061
+    },
+    {
+      "first": "isotropic_reference",
+      "second": "fresh_decoder_areals",
+      "means": [
+        0.23992556821104538,
+        0.27080434779219625
+      ],
+      "mean_difference": -0.030878779581150928,
+      "bonferroni_all6_interval": [
+        -0.0360175690763446,
+        -0.026284902744223772
+      ],
+      "per_seed_differences": [
+        -0.023852969438657282,
+        -0.049994284544823624,
+        -0.01878908475997188
+      ],
+      "first_lower_each_seed": true,
+      "interval_upper_below_zero": true,
+      "relative_mean_error_reduction": 0.11402615885933243
+    }
+  ],
+  "hidden_pressure_checks": 96,
+  "native_metric_max_disagreement": 1.942890293094024e-16,
+  "extra_checks": [
+    {
+      "model": "fresh_decoder_pointmae_seed0",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "encoder.first_conv.0.weight",
+        "gradient_norm": 0.13109038770198822,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "1a182af563f731dee4d11b7f23fb646fb605a1c4ae4973e304b9345b43a499a8"
+    },
+    {
+      "model": "fresh_decoder_areals_seed0",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "latent_token",
+        "gradient_norm": 0.28961971402168274,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "1debe3239f7609ce8ccbac2b90d5a85934d05e06aa7e4c1d3531cc16f7029b53"
+    },
+    {
+      "model": "fresh_decoder_pointmae_seed1",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "encoder.first_conv.0.weight",
+        "gradient_norm": 0.7082586288452148,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "d2add604a6fd091de305b65876a8853d041c703e6e0fd462109e5b5b64e37735"
+    },
+    {
+      "model": "fresh_decoder_areals_seed1",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "latent_token",
+        "gradient_norm": 0.7252938747406006,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "7ccf7ccb83f78b9cec2342cf2fcd32073485d1c997e53b71c295d5911b6a8fd4"
+    },
+    {
+      "model": "fresh_decoder_pointmae_seed2",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "encoder.first_conv.0.weight",
+        "gradient_norm": 0.3855064809322357,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "4bbdcda5aadba6a6f13b629a323bd64f5fb241d6222fb36e34cceb2e02218165"
+    },
+    {
+      "model": "fresh_decoder_areals_seed2",
+      "passed": 4,
+      "failed": 0,
+      "encoder_gradient": {
+        "parameter": "latent_token",
+        "gradient_norm": 1.2039105892181396,
+        "finite": true,
+        "requires_grad": true
+      },
+      "predictions_sha256": "df996dbd31d4cf3ee6396adb20d757a3a718115af59623dff4791829fc48d5e9"
+    }
+  ],
+  "primary_protocol_sha256": "10d27381640c36fe0de534e71e85e24a888e3dea6a0bb9a9180af645235967e1",
+  "decoder_protocol_sha256": "606f29819c63c6b6a3f5d740c57a6f086977b364111fd785f6e930f960120562",
+  "claim_scope": "Forty cars withheld from every newly trained downstream model; they were training cars in older studies. Same geometry-only pressure task, matched downstream examples and update budgets; upstream corpora, encoder capacity and decoder pretraining differ for Point-MAE. No general superiority, no arbitrary-physics inference, no isolated encoder attribution from a full-stack result."
+}

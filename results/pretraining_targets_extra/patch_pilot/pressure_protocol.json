@@ -1,0 +1,56 @@
+{
+  "version": "patch-pressure-tuning-v1",
+  "grid": [
+    {
+      "encoder_lr": 2e-05,
+      "lr": 0.0002
+    },
+    {
+      "encoder_lr": 0.0002,
+      "lr": 0.0002
+    },
+    {
+      "encoder_lr": 0.001,
+      "lr": 0.0002
+    }
+  ],
+  "seeds": [
+    0
+  ],
+  "selection_rule": "minimum mean validation selection_score across seeds; tie -> first registered grid entry",
+  "training_settings": {
+    "command": "train",
+    "manifest": "/workspace/runs/patch385_windsor_20261030/windsor/cases.json",
+    "geometry_checkpoint": "/workspace/runs/patch385_windsor_20261030/pretraining/geometry_for_pressure.pt",
+    "encoder_mode": "finetune",
+    "steps": 8000,
+    "queries": 2048,
+    "cases_per_step": 8,
+    "weight_decay": 0.0,
+    "clip_grad": 1.0,
+    "width": 128,
+    "heads": 4,
+    "global_tokens": 32,
+    "global_depth": 2,
+    "neighbors": 8,
+    "encoder_chunk": 1024,
+    "validate_every": 250,
+    "validation_queries": 0,
+    "patience": 20,
+    "min_steps": 1000,
+    "min_delta": 0.0,
+    "no_gradient_checkpointing": true,
+    "allow_nondeterministic": false,
+    "weighting": "area",
+    "selection_metric": "nrmse_std",
+    "evaluate_test": false,
+    "device": "cuda",
+    "threads": 1,
+    "query_chunk": 2048
+  },
+  "data_fingerprint": "71e3b4c2104327b66c4b0fb15a62322012b9fd2bec084032d1ecaf89b6fb3477",
+  "scope": "held_out_cars",
+  "geometry_checkpoint_sha256": "b97ad50247d1b1955808a1fd5b4bf3004651a6236672ac06ed348777c0f0059d",
+  "geometry_checkpoint_step": 10626,
+  "model_family": "polynomial_patch_encoder"
+}

@@ -1,0 +1,32 @@
+{
+  "version": "patch-pressure-data-v1",
+  "evaluation_scope": "held_out_cars",
+  "condition_names": ["U_x", "U_y", "U_z", "density", "kinematic_viscosity"],
+  "cases": [
+    {
+      "id": "train_example_REPLACE_WITH_REAL_CASE",
+      "car_id": "train_car",
+      "split": "train",
+      "geometry": "geometry/train_car.npz",
+      "mesh_index": 0,
+      "field": "fields/train_car.npz",
+      "conditions": [30.0, 0.0, 0.0, 1.225, 0.000015]
+    },
+    {
+      "id": "val_example_REPLACE_WITH_REAL_CASE",
+      "car_id": "val_car",
+      "split": "val",
+      "geometry": "geometry/val_car.npz",
+      "field": "fields/val_car.npz",
+      "conditions": [30.0, 0.0, 0.0, 1.225, 0.000015]
+    },
+    {
+      "id": "test_example_REPLACE_WITH_REAL_CASE",
+      "car_id": "test_car",
+      "split": "test",
+      "geometry": "geometry/test_car.npz",
+      "field": "fields/test_car.npz",
+      "conditions": [30.0, 0.0, 0.0, 1.225, 0.000015]
+    }
+  ]
+}

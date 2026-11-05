@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "task": 7,
+  "arm": "reference",
+  "seed": 1,
+  "group": "original_reference",
+  "pretrained": "/workspace/runs/areals_architecture_controls_20261024/results/architecture/reference/seed1/best.pt",
+  "pretrained_sha256": "6cfb6b0886f702e1e6efd62c4967d8134eacdc465e97ccb0da14b323bcf2ba9d",
+  "retrain_geometry": false,
+  "name": "original_reference_seed1",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/original_reference_seed1/field_best.pt",
+  "checkpoint_sha256": "6fa88f3828dae5f2bca480cbb9d8f8ee2ba500f0c0e50067f729883dfe411565",
+  "base_sha256": "6cfb6b0886f702e1e6efd62c4967d8134eacdc465e97ccb0da14b323bcf2ba9d",
+  "checkpoint_unchanged": true,
+  "true_downstream_seed": 1,
+  "train_cars": 380,
+  "selection_epoch": 40,
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

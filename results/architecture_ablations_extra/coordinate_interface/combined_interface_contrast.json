@@ -1,0 +1,406 @@
+{
+  "passed": true,
+  "analysis_type": "Post-hoc analysis of already saved predictions, not a new independent experiment.",
+  "cars": 48,
+  "groups": 7,
+  "all21_pairs": [
+    {
+      "first": "anchored_no_rotary",
+      "second": "ordinary_attention",
+      "means": [
+        0.42416060214199425,
+        0.24330753152649148
+      ],
+      "mean_difference": 0.1808530706155027,
+      "per_seed_differences": [
+        0.16750697539686935,
+        0.2086271857597549,
+        0.16642505068988395
+      ],
+      "bonferroni_all21_interval": [
+        0.17107296692605553,
+        0.19133065477290423
+      ]
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "oriented_normal_target",
+      "means": [
+        0.42416060214199425,
+        0.24033020287806967
+      ],
+      "mean_difference": 0.18383039926392455,
+      "per_seed_differences": [
+        0.17977660081422528,
+        0.20512554912930017,
+        0.1665890478482483
+      ],
+      "bonferroni_all21_interval": [
+        0.17367845619303413,
+        0.19476467011769968
+      ]
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "reference",
+      "means": [
+        0.42416060214199425,
+        0.24690498765633054
+      ],
+      "mean_difference": 0.17725561448566363,
+      "per_seed_differences": [
+        0.16263486816567208,
+        0.20902804377666684,
+        0.160103931514652
+      ],
+      "bonferroni_all21_interval": [
+        0.1672863996531205,
+        0.18808747768301026
+      ]
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "unanchored_latents",
+      "means": [
+        0.42416060214199425,
+        0.3316603333681383
+      ],
+      "mean_difference": 0.09250026877385588,
+      "per_seed_differences": [
+        0.0852043634792331,
+        0.09921165656918414,
+        0.09308478627315044
+      ],
+      "bonferroni_all21_interval": [
+        0.08560479509654272,
+        0.09966220116366341
+      ]
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "unanchored_no_rotary",
+      "means": [
+        0.42416060214199425,
+        0.38981168742860905
+      ],
+      "mean_difference": 0.03434891471338512,
+      "per_seed_differences": [
+        0.028833913826693158,
+        0.08032887222050471,
+        -0.006116041907042492
+      ],
+      "bonferroni_all21_interval": [
+        0.029251227423643986,
+        0.03924112741702384
+      ]
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.42416060214199425,
+        0.2954992774010023
+      ],
+      "mean_difference": 0.1286613247409919,
+      "per_seed_differences": [
+        0.11965948224524432,
+        0.1617560593756096,
+        0.10456843260212179
+      ],
+      "bonferroni_all21_interval": [
+        0.12016235912722918,
+        0.137961063563955
+      ]
+    },
+    {
+      "first": "ordinary_attention",
+      "second": "oriented_normal_target",
+      "means": [
+        0.24330753152649148,
+        0.24033020287806967
+      ],
+      "mean_difference": 0.002977328648421852,
+      "per_seed_differences": [
+        0.012269625417355915,
+        -0.003501636630454689,
+        0.00016399715836433056
+      ],
+      "bonferroni_all21_interval": [
+        0.0003572848411301415,
+        0.00612941549419067
+      ]
+    },
+    {
+      "first": "ordinary_attention",
+      "second": "reference",
+      "means": [
+        0.24330753152649148,
+        0.24690498765633054
+      ],
+      "mean_difference": -0.0035974561298390967,
+      "per_seed_differences": [
+        -0.004872107231197261,
+        0.0004008580169119399,
+        -0.006321119175231968
+      ],
+      "bonferroni_all21_interval": [
+        -0.005351323212882618,
+        -0.0016268430061536663
+      ]
+    },
+    {
+      "first": "ordinary_attention",
+      "second": "unanchored_latents",
+      "means": [
+        0.24330753152649148,
+        0.3316603333681383
+      ],
+      "mean_difference": -0.08835280184164684,
+      "per_seed_differences": [
+        -0.08230261191763627,
+        -0.10941552919057072,
+        -0.07334026441673351
+      ],
+      "bonferroni_all21_interval": [
+        -0.09857274837284995,
+        -0.07916946845035507
+      ]
+    },
+    {
+      "first": "ordinary_attention",
+      "second": "unanchored_no_rotary",
+      "means": [
+        0.24330753152649148,
+        0.38981168742860905
+      ],
+      "mean_difference": -0.1465041559021176,
+      "per_seed_differences": [
+        -0.1386730615701762,
+        -0.12829831353925017,
+        -0.17254109259692643
+      ],
+      "bonferroni_all21_interval": [
+        -0.1560494332222134,
+        -0.13678447146783446
+      ]
+    },
+    {
+      "first": "ordinary_attention",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.24330753152649148,
+        0.2954992774010023
+      ],
+      "mean_difference": -0.05219174587451083,
+      "per_seed_differences": [
+        -0.04784749315162503,
+        -0.04687112638414528,
+        -0.06185661808776218
+      ],
+      "bonferroni_all21_interval": [
+        -0.05805941572102444,
+        -0.04699767538096323
+      ]
+    },
+    {
+      "first": "oriented_normal_target",
+      "second": "reference",
+      "means": [
+        0.24033020287806967,
+        0.24690498765633054
+      ],
+      "mean_difference": -0.006574784778260949,
+      "per_seed_differences": [
+        -0.017141732648553176,
+        0.003902494647366629,
+        -0.006485116333596298
+      ],
+      "bonferroni_all21_interval": [
+        -0.009997358951847347,
+        -0.00378817922398556
+      ]
+    },
+    {
+      "first": "oriented_normal_target",
+      "second": "unanchored_latents",
+      "means": [
+        0.24033020287806967,
+        0.3316603333681383
+      ],
+      "mean_difference": -0.0913301304900687,
+      "per_seed_differences": [
+        -0.09457223733499219,
+        -0.10591389256011603,
+        -0.07350426157509786
+      ],
+      "bonferroni_all21_interval": [
+        -0.10201790534773907,
+        -0.0817303935678092
+      ]
+    },
+    {
+      "first": "oriented_normal_target",
+      "second": "unanchored_no_rotary",
+      "means": [
+        0.24033020287806967,
+        0.38981168742860905
+      ],
+      "mean_difference": -0.14948148455053947,
+      "per_seed_differences": [
+        -0.1509426869875321,
+        -0.12479667690879548,
+        -0.17270508975529078
+      ],
+      "bonferroni_all21_interval": [
+        -0.1598092163765671,
+        -0.13945850888674471
+      ]
+    },
+    {
+      "first": "oriented_normal_target",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.24033020287806967,
+        0.2954992774010023
+      ],
+      "mean_difference": -0.05516907452293268,
+      "per_seed_differences": [
+        -0.060117118568980936,
+        -0.04336948975369057,
+        -0.062020615246126516
+      ],
+      "bonferroni_all21_interval": [
+        -0.061149162261300904,
+        -0.049999404117810196
+      ]
+    },
+    {
+      "first": "reference",
+      "second": "unanchored_latents",
+      "means": [
+        0.24690498765633054,
+        0.3316603333681383
+      ],
+      "mean_difference": -0.08475534571180772,
+      "per_seed_differences": [
+        -0.077430504686439,
+        -0.10981638720748266,
+        -0.06701914524150154
+      ],
+      "bonferroni_all21_interval": [
+        -0.09534403703486016,
+        -0.07516766563730286
+      ]
+    },
+    {
+      "first": "reference",
+      "second": "unanchored_no_rotary",
+      "means": [
+        0.24690498765633054,
+        0.38981168742860905
+      ],
+      "mean_difference": -0.14290669977227852,
+      "per_seed_differences": [
+        -0.13380095433897896,
+        -0.12869917155616212,
+        -0.1662199734216945
+      ],
+      "bonferroni_all21_interval": [
+        -0.15250374079536375,
+        -0.13309827103748026
+      ]
+    },
+    {
+      "first": "reference",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.24690498765633054,
+        0.2954992774010023
+      ],
+      "mean_difference": -0.048594289744671726,
+      "per_seed_differences": [
+        -0.04297538592042776,
+        -0.04727198440105721,
+        -0.055535498912530214
+      ],
+      "bonferroni_all21_interval": [
+        -0.05433813761916684,
+        -0.04303107534688683
+      ]
+    },
+    {
+      "first": "unanchored_latents",
+      "second": "unanchored_no_rotary",
+      "means": [
+        0.3316603333681383,
+        0.38981168742860905
+      ],
+      "mean_difference": -0.05815135406047076,
+      "per_seed_differences": [
+        -0.05637044965253992,
+        -0.01888278434867945,
+        -0.09920082818019293
+      ],
+      "bonferroni_all21_interval": [
+        -0.0646055806672229,
+        -0.051544512251098795
+      ]
+    },
+    {
+      "first": "unanchored_latents",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.3316603333681383,
+        0.2954992774010023
+      ],
+      "mean_difference": 0.03616105596713601,
+      "per_seed_differences": [
+        0.03445511876601124,
+        0.06254440280642547,
+        0.011483646328971331
+      ],
+      "bonferroni_all21_interval": [
+        0.027069966907382084,
+        0.046485941257562134
+      ]
+    },
+    {
+      "first": "unanchored_no_rotary",
+      "second": "unoriented_vector_target",
+      "means": [
+        0.38981168742860905,
+        0.2954992774010023
+      ],
+      "mean_difference": 0.09431241002760678,
+      "per_seed_differences": [
+        0.09082556841855116,
+        0.0814271871551049,
+        0.11068447450916426
+      ],
+      "bonferroni_all21_interval": [
+        0.08576946882325671,
+        0.10253776020778282
+      ]
+    }
+  ],
+  "combined_interface_comparison": {
+    "reference_mean": 0.24690498765633054,
+    "unanchored_no_rotary_mean": 0.38981168742860905,
+    "relative_mean_error_reduction": 0.3666044512799549,
+    "relative_reduction_all21_bonferroni_interval": [
+      0.3501467783246552,
+      0.380939767481073
+    ],
+    "mean_difference": -0.14290669977227852,
+    "difference_all21_bonferroni_interval": [
+      -0.15250374079536375,
+      -0.13309827103748026
+    ],
+    "per_seed_differences": [
+      -0.13380095433897896,
+      -0.12869917155616212,
+      -0.1662199734216945
+    ]
+  },
+  "scope": "This compares the complete anchored-plus-rotary interface with an unanchored/no-rotary interface, both on the short4epoch screen and same field training budget. It cannot isolate anchoring, rotary positioning, log-area weights or sign-free pretraining. Replicas vary upstream/head seeds but share downstream data-sampling seed0. Bootstrap approximations are car-grouped and all21 pairwise architecture comparisons are included; results remain exploratory. No superiority over Point-MAE or all architectures follows."
+}

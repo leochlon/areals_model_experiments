@@ -1,0 +1,213 @@
+{
+  "complete": true,
+  "metric": "Mean per-car area-weighted pressure RMSE / reference standard deviation",
+  "test_cars": 35,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry_updates_each": 10626,
+  "matched_windsor_splits_and_subsets": true,
+  "limitations": [
+    "Different model families, decoders and geometry pretraining cohorts.",
+    "Shared-query retunes all three seeds; previous patch reused seed-0 rates for seeds 1 and 2.",
+    "A comparison of complete systems; not an isolated causal encoder comparison."
+  ],
+  "sources": {
+    "/workspace/runs/matched_priors_windsor_20261030/results/comparison.json": "1bbc6c5f7eae9e0986a89fb6b1d44e2578a67c61fdff8569ab138fa6f0bcd791",
+    "/workspace/runs/shared_query_controlled_20261031/results/operator32_comparison.json": "5757726f7c5bdd8d073896764fc17fbcac2c728e7a01fdd8d883c4d44c8eddee"
+  },
+  "results": [
+    {
+      "training_cars": 18,
+      "shared_query_pretrained_mean": 0.2789435524238379,
+      "shared_query_scratch_mean": 0.4358806673265909,
+      "previous_patch_pretrained_mean": 0.45746171177115014,
+      "previous_patch_scratch_mean": 0.4419200274928958,
+      "pretrained_relative_change": -0.390236285909361,
+      "shared_query_seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.267682810759726,
+          "scratch": 0.44544522957909927,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.27537803769091623,
+          "scratch": 0.4238400817791474,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.2937698088208714,
+          "scratch": 0.43835669062152605,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed2/test_metrics.json"
+        }
+      ],
+      "previous_patch_pretrained_seeds": [
+        0.4303446143589153,
+        0.43466041555098534,
+        0.5073801054035502
+      ],
+      "previous_patch_scratch_seeds": [
+        0.4339427064134973,
+        0.44824842883613875,
+        0.4435689472290512
+      ]
+    },
+    {
+      "training_cars": 35,
+      "shared_query_pretrained_mean": 0.23042708853828311,
+      "shared_query_scratch_mean": 0.3728667995140795,
+      "previous_patch_pretrained_mean": 0.38378626905957186,
+      "previous_patch_scratch_mean": 0.378915650197696,
+      "pretrained_relative_change": -0.39959527707199993,
+      "shared_query_seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.22415901618633727,
+          "scratch": 0.37547643732843394,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.23243976901009716,
+          "scratch": 0.3715261422884708,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.23468248041841488,
+          "scratch": 0.3715978189253339,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed2/test_metrics.json"
+        }
+      ],
+      "previous_patch_pretrained_seeds": [
+        0.3716954542454565,
+        0.35405411859031105,
+        0.4256092343429479
+      ],
+      "previous_patch_scratch_seeds": [
+        0.36421497427007327,
+        0.4012447979131934,
+        0.3712871784098211
+      ]
+    },
+    {
+      "training_cars": 69,
+      "shared_query_pretrained_mean": 0.18958258436756711,
+      "shared_query_scratch_mean": 0.26489389714488154,
+      "previous_patch_pretrained_mean": 0.30677264021281003,
+      "previous_patch_scratch_mean": 0.2730347385831444,
+      "pretrained_relative_change": -0.3820094769988206,
+      "shared_query_seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.18623502517354026,
+          "scratch": 0.2609756338404661,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1886780612292124,
+          "scratch": 0.2530813040547591,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.19383466669994864,
+          "scratch": 0.28062475353941935,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed2/test_metrics.json"
+        }
+      ],
+      "previous_patch_pretrained_seeds": [
+        0.3121723091691014,
+        0.2944399104040146,
+        0.31370570106531404
+      ],
+      "previous_patch_scratch_seeds": [
+        0.27904812981351007,
+        0.27558126705377217,
+        0.26447481888215085
+      ]
+    },
+    {
+      "training_cars": 137,
+      "shared_query_pretrained_mean": 0.16896176123616247,
+      "shared_query_scratch_mean": 0.22787788121943423,
+      "previous_patch_pretrained_mean": 0.2567948367575513,
+      "previous_patch_scratch_mean": 0.2233161623204645,
+      "pretrained_relative_change": -0.3420359872901768,
+      "shared_query_seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.17784022582023828,
+          "scratch": 0.24479262098880997,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1685329949427007,
+          "scratch": 0.22035343497779683,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.1605120629455484,
+          "scratch": 0.2184875876916959,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed2/test_metrics.json"
+        }
+      ],
+      "previous_patch_pretrained_seeds": [
+        0.2638054928283969,
+        0.254636721334854,
+        0.25194229610940305
+      ],
+      "previous_patch_scratch_seeds": [
+        0.21971207166317616,
+        0.2377563483449764,
+        0.2124800669532409
+      ]
+    },
+    {
+      "training_cars": 274,
+      "shared_query_pretrained_mean": 0.15645241052668743,
+      "shared_query_scratch_mean": 0.19147476350621387,
+      "previous_patch_pretrained_mean": 0.2212470831339136,
+      "previous_patch_scratch_mean": 0.19561343773150555,
+      "pretrained_relative_change": -0.2928611382777331,
+      "shared_query_seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.16096735116518385,
+          "scratch": 0.1975807704830538,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1513066680982957,
+          "scratch": 0.18061538616575726,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.1570832123165827,
+          "scratch": 0.19622813386983054,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed2/test_metrics.json"
+        }
+      ],
+      "previous_patch_pretrained_seeds": [
+        0.20814342465482175,
+        0.2178267187991243,
+        0.2377711059477948
+      ],
+      "previous_patch_scratch_seeds": [
+        0.1970754055506456,
+        0.19044401778640038,
+        0.19932088985747073
+      ]
+    }
+  ]
+}

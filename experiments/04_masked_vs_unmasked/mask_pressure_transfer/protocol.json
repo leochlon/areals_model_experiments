@@ -1,0 +1,12 @@
+{
+  "contrast": "Masked versus unmasked geometry pretraining, transferred to CFD pressure",
+  "geometry_checkpoints": "epoch_11.pt of masked_native and unmasked_native, geometry seeds 17, 18 and 19, 10626 updates each",
+  "data": ["Existing DoubleDelta train11-16/val17/test18-19 with geometry families separated", "Existing official DrivAerML train400/val34/test50"],
+  "field_seeds": [0, 1, 2],
+  "geometry_seed_pairing": "field_seed+17 for both arms",
+  "field_training": {"epochs":40,"batch_size":8,"lr":0.001,"new_lr":0.001,"queries":2048,"mix_unobserved":0.1,"mix_sensors":0.9,"normalise":"dataset","train_geometry_encoder":true},
+  "paired_controls": "Within a seed both arms use the same trainer, inputs, loss, examples, ordering seed, observation draws, field-head initialization, update count and validation selection.",
+  "primary_endpoints": ["DoubleDelta hidden-field nRMSE at 20 sensors", "DrivAerML hidden-field nRMSE at 20 sensors"],
+  "secondary_endpoints": ["5/100/500 sensors", "Unobserved (shape-only) performance"],
+  "uncertainty": "Paired differences; 5000 bootstrap draws resampling seeds and geometry families jointly. The two primary endpoints use 97.5% intervals."
+}

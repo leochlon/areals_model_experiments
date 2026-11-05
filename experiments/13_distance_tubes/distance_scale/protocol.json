@@ -1,0 +1,33 @@
+{
+  "checkpoint": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_finetune/geometry_epoch11.pt",
+  "manifest": "/workspace/runs/objaverse_training_pool/versions/20260927T140652Z/manifest.json",
+  "controls": [
+    "sphere_radius_1",
+    "torus_major_1_minor_0.35",
+    "two_spheres_radius_0.55_gap_0.20"
+  ],
+  "seed": 20261026,
+  "surface_samples": 16384,
+  "encoder_points": 4096,
+  "surfels": 2048,
+  "symmetry_maps": 16,
+  "input_condition": "complete",
+  "grid_n": 97,
+  "coarse_stride": 2,
+  "radii": [
+    0.025,
+    0.035,
+    0.05,
+    0.07,
+    0.1,
+    0.14,
+    0.2,
+    0.28,
+    0.4
+  ],
+  "additional_queries": {
+    "uniform": 32768,
+    "near_surface": 32768,
+    "near_sigma_normalised": 0.03
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "sequence": [
+    {
+      "phase": "original",
+      "encoder_normal_gradient_norm": 154.993408203125,
+      "normal_head_gradient_norm": 53.26198959350586,
+      "normal_loss": 3.0323684215545654,
+      "shared_parameters_sha256": "d0233e5dd73770f401a40b8d555106bcd78716d9d7e8fb284a8b27c318f9b6f3"
+    },
+    {
+      "phase": "isotropic",
+      "encoder_normal_gradient_norm": 0.0,
+      "normal_head_gradient_norm": 2.169506072998047,
+      "normal_loss": 0.6666666269302368,
+      "shared_parameters_sha256": "d0233e5dd73770f401a40b8d555106bcd78716d9d7e8fb284a8b27c318f9b6f3"
+    },
+    {
+      "phase": "restored_original",
+      "encoder_normal_gradient_norm": 154.993408203125,
+      "normal_head_gradient_norm": 53.26198959350586,
+      "normal_loss": 3.0323684215545654,
+      "shared_parameters_sha256": "d0233e5dd73770f401a40b8d555106bcd78716d9d7e8fb284a8b27c318f9b6f3"
+    }
+  ],
+  "same_model_and_same_batch": true,
+  "restored_gradient_max_difference": 0.0,
+  "initial_distance_predictions_exactly_identical": true,
+  "seconds": 3.6814894513227046,
+  "scope": "A-B-A intervention on normal-head initialisation, one fixed training batch and seed, CPUFP32. Proves this head controls the measured initial gradient injection; does not by itself prove a cause of downstream pressure errors or broad architectural superiority."
+}

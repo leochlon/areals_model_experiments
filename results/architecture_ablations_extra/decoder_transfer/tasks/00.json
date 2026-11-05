@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "task": 0,
+  "arm": "reference",
+  "seed": 0,
+  "group": "isotropic_reference",
+  "pretrained": "/workspace/runs/areals_decoder_transfer_20261024/results/architecture/reference/seed0/best.pt",
+  "retrain_geometry": true,
+  "name": "isotropic_reference_seed0",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/isotropic_reference_seed0/field_best.pt",
+  "checkpoint_sha256": "79c74e1cee6ff4c258b7360bf5e74f895cc95c80449a9c063764879f08042212",
+  "base_sha256": "ee40e0f57c3a67429497545e9248fb8ee367c45c4ae2afcc5b081c321c8c74d1",
+  "checkpoint_unchanged": true,
+  "true_downstream_seed": 0,
+  "train_cars": 380,
+  "selection_epoch": 40,
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

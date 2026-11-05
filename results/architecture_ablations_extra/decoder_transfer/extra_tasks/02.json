@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "task": 2,
+  "backbone": "pointmae",
+  "seed": 1,
+  "group": "fresh_decoder_pointmae",
+  "name": "fresh_decoder_pointmae_seed1",
+  "checkpoint_source": "/workspace/runs/areals_decoder_transfer_20261024/results/architecture/reference/seed1/best.pt",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/fresh_decoder_pointmae_seed1/field_best.pt",
+  "checkpoint_sha256": "1b063ca6e341b725bccbe63dfc6b895e570ea5c54182e413993f6e622ff826ac",
+  "true_downstream_seed": 1,
+  "base_sha256": "23247321b8cdd692bfc2674d312e3abbbdb5c6a4f3acc1a701c8d037fe25911f",
+  "encoder_gradient": {
+    "parameter": "encoder.first_conv.0.weight",
+    "gradient_norm": 0.7082586288452148,
+    "finite": true,
+    "requires_grad": true
+  },
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

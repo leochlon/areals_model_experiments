@@ -1,0 +1,133 @@
+{
+ "version": 1,
+ "created": "2026-10-25",
+ "experiments": {
+  "doubledelta": {
+   "train_angles": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "val_angles": [
+    17
+   ],
+   "test_angles": [
+    18,
+    19
+   ],
+   "geometry_families": [
+    228,
+    16,
+    16
+   ],
+   "alias_policy": "one source grid per physical family"
+  },
+  "blendednet": {
+   "owned_cases": 12480,
+   "condition_bands": "Mach quantiles 0.70 and 0.85, frozen from metadata before field export or training",
+   "train": "geometry hash fold <80 and Mach <= q70",
+   "val": "geometry hash fold 80..89 and q70 < Mach <= q85",
+   "test": "geometry hash fold >=90 and Mach > q85",
+   "min_val_families": 30,
+   "min_test_families": 30
+  },
+  "drivaerml": {
+   "official_split": [
+    400,
+    34,
+    50
+   ],
+   "fresh_field_fits": true
+  },
+  "drivaernet": {
+   "geometry_hash_folds": [
+    80,
+    10,
+    10
+   ],
+   "deduplicate_before_splitting": true
+  },
+  "pretraining": {
+   "target_train_meshes": 150000,
+   "baseline_train_meshes": 61822,
+   "seeds": [
+    17,
+    18,
+    19
+   ],
+   "architecture": "unchanged production",
+   "objective": "native sign-free masked completion",
+   "global_batch": 64,
+   "gpus_per_fit": 4,
+   "updates": 10626,
+   "schedule_reference_steps_per_epoch": 966,
+   "schedule_horizon_epochs": 15,
+   "downstream": [
+    "doubledelta",
+    "drivaerml"
+   ]
+  }
+ },
+ "field_training": {
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "epochs": 40,
+  "batch_size": 8,
+  "queries": 2048,
+  "lr": 0.001,
+  "new_lr": 0.001,
+  "weight_decay": 0.05,
+  "amp": "bf16",
+  "geometry_tokens": 256,
+  "encoder_points": 4096,
+  "normalisation": "training records only",
+  "primary": "pretrained vs same architecture scratch; matched examples/order/updates/LR",
+  "references": [
+   "shape-only",
+   "given true conditions"
+  ],
+  "reference_condition_input": "normalised condition vector through a zero-output-initialised MLP added to geometry token states; no sensor readings",
+  "selection": "mean validation nRMSE on all four fixed sensor counts, max 64 fixed dev cases",
+  "sensor_training_mix": {
+   "nothing_observed": 0.1,
+   "scattered_sensors": 0.9
+  },
+  "inference_sensors": [
+   5,
+   20,
+   100,
+   500
+  ],
+  "sensor_locations": "fixed independent of pressure labels and identical across methods",
+  "field_points": 32000,
+  "geometry_samples": 16384,
+  "fields": "Native preprocessed nondimensional pressure coefficient; no repeat unit conversions",
+  "query_rule": "fixed uniform without replacement subset of native surface vertices with original lumped area weights",
+  "primary_metrics": [
+   "hidden-area nRMSE",
+   "hidden-area relative L2"
+  ],
+  "uncertainty": "paired bootstrap over physical geometry families, mean over seeds",
+  "test_policy": "fixed configuration, best validation checkpoint only; no test-driven retries"
+ },
+ "resource_policy": "CPU preparation independently; one GPU per field fit; four GPUs per pretraining fit; Slurm resources and afterok dependencies",
+ "baseline": {
+  "path": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/run/best_normal.pt",
+  "sha256": "10692310919ceb8c9937a663f27bfa3c6a8ddc09540b6cac5ee0a106c0c63172"
+ },
+ "gates": [
+  "no cross-split physical geometry",
+  "no held-out conditions in training",
+  "finite aligned arrays with outward normals and positive mass",
+  "training-only normalisation",
+  "hidden-target mutation cannot change inputs or predictions",
+  "native checkpoint weights preserved when adding field channels",
+  "finite loss and gradients in GPU preflight"
+ ]
+}

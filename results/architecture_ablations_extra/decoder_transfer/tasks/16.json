@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "task": 16,
+  "arm": "oriented_normal_target",
+  "seed": 1,
+  "group": "constant_oriented_normal_target",
+  "name": "constant_oriented_normal_target_seed1",
+  "pretrained": "/workspace/runs/areals_decoder_transfer_20261024/results/architecture/oriented_normal_target/seed1/best.pt",
+  "retrain_geometry": true,
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/constant_oriented_normal_target_seed1/field_best.pt",
+  "checkpoint_sha256": "4fe56c22e1a8c3b5f0d2bed36b64f0e76469af16881cb422bee0d99ce6c22958",
+  "base_sha256": "4e14dcf7bb3e20bbcbeffab37cb60bb5542b5adab50a97ec30fb4997542ef8bd",
+  "checkpoint_unchanged": true,
+  "true_downstream_seed": 1,
+  "train_cars": 380,
+  "selection_epoch": 39,
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

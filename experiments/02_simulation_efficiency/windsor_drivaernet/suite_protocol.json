@@ -1,0 +1,51 @@
+{
+  "study": "AREALS simulation efficiency across existing CFD datasets",
+  "datasets": [
+    "windsor",
+    "drivaernet"
+  ],
+  "arms": [
+    "pretrained",
+    "scratch"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "budget_rule": "ceil(T/16), ceil(T/8), ceil(T/4), ceil(T/2), T simulations, where T is the frozen number of eligible training simulations. Identical nested hashed case prefixes for both arms, independently per seed.",
+  "target_nrmse": 0.25,
+  "secondary_targets": [
+    0.2,
+    0.3
+  ],
+  "sensor_endpoints": [
+    0,
+    20
+  ],
+  "selection": "Each training fit selects a separate checkpoint for each sensor endpoint by its matching mean validation nRMSE, every 500 updates; no test-driven checkpoint selection.",
+  "training": {
+    "updates": 8000,
+    "batch_size": 8,
+    "queries": 2048,
+    "learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "schedule": "OneCycleLR cosine, pct_start=0.1",
+    "gradient_clip": 1.0,
+    "amp": "bf16",
+    "validation_every": 500,
+    "sensor_mix": {
+      "unobserved": 0.1,
+      "sensors": 0.9
+    },
+    "sensor_range": [
+      5,
+      500
+    ],
+    "visible_loss_weight": 0.25
+  },
+  "normalisation": "Area-weighted training-only mean and standard deviation fitted separately for each selected subset; test target variance used only in scoring.",
+  "case_metric": "Hidden-region area-weighted pressure RMSE divided by whole-case area-weighted pressure standard deviation; mean over test simulation cases.",
+  "uncertainty": "5,000 paired bootstrap draws over downstream seeds and physical test geometry groups. All conditions in a sampled geometry group stay together. Report pointwise intervals and three seed means.",
+  "threshold_estimator": "Smallest measured budget crossing the fixed target. No interpolation or extrapolation; right-censor missing crossings at the maximum tested budget."
+}

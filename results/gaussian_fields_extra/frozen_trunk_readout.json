@@ -1,0 +1,30 @@
+{
+  "metric": "Share of known posterior-reference improvement recovered; higher is better; equal mean across five observation settings",
+  "geometry_families": 16,
+  "fresh_fields_per_geometry": 8,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry_trunk": "frozen during matched field adaptation",
+  "field_adaptation_updates": 9120,
+  "efficiency_percent": {
+    "masked_native_frozen": 30.357256388839488,
+    "unmasked_native_frozen": 34.596304078887144,
+    "random_frozen": 4.664826517174377
+  },
+  "masked_minus_unmasked_percentage_points": -4.239047690047659,
+  "joint_seed_geometry_95_interval_percentage_points": [
+    -12.043146043836014,
+    1.55844252367593
+  ],
+  "per_seed_difference_percentage_points": [
+    -12.578289724790558,
+    1.454008962941079,
+    -1.5928623082935374
+  ],
+  "predeclared_verdict": "unresolved",
+  "field_and_checkpoint_hashes_verified": true,
+  "additional_frame_decoder_and_full_tuning_controls_pending": true
+}

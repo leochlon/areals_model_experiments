@@ -1,0 +1,5 @@
+{
+  "model": {"width": 384, "heads": 8, "latents": 1024, "encoder_depth": 6, "decoder_depth": 2, "ff_multiplier": 4, "fourier_bands": 10, "min_wavelength": 0.02, "max_wavelength": 4.0, "query_chunk": 256},
+  "data": {"encoder_points": 8192, "queries": 2048, "mask_fraction": 0.6, "mask_patches": 64, "target_mode": "provided"},
+  "train": {"epochs": 200, "batch_size": 2, "accumulation": 8, "learning_rate": 0.0002, "warmup_epochs": 10, "weight_decay": 0.05, "gradient_clip": 1.0, "normal_weight": 0.1, "workers": 4, "amp": "bf16", "seed": 17}
+}

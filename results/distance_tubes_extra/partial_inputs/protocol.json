@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "baseline_bundle": "/workspace/local/areals-distance-scale-evidence-20261026",
+  "remote_baseline": "/workspace/runs/areals-distance-scale-evidence-20261026",
+  "checkpoint": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_finetune/geometry_epoch11.pt",
+  "checkpoint_sha256": "10692310919ceb8c9937a663f27bfa3c6a8ddc09540b6cac5ee0a106c0c63172",
+  "input_archive_sha256": "5b19231887705c89c777541463721f1dde214c7e80f850181926320405b4bec4",
+  "seed": 20261026,
+  "cohort": "Same eight fixed held-out meshes plus sphere, torus, two spheres; no resampling of cases.",
+  "complete_policy": "For distance_prior != none, complete=1 or legacy None selects the native direct surfel distance. Explicit complete=0 retains the original learned distance. Normal outputs and state-dict keys remain unchanged.",
+  "mask": {
+    "requested_fraction": 0.6,
+    "patches": 32,
+    "selected_patches": 19,
+    "procedure": "Native visible_mask with stable_seed(seed, id + :mask, 0). One fixed mask per shape. The realised area fraction is recorded.",
+    "encoder_points": 4096,
+    "surfels": 2048,
+    "frame": "Visible surface only; output distances are converted to the original complete-input RMS radius for comparison.",
+    "symmetries": "Recomputed from visible input only; never reuse complete-input maps."
+  },
+  "evaluation": {
+    "grids": [
+      97,
+      49
+    ],
+    "radii": [
+      0.025,
+      0.035,
+      0.05,
+      0.07,
+      0.1,
+      0.14,
+      0.2,
+      0.28,
+      0.4
+    ],
+    "truth": "Same saved exact-distance field and grid; same corrected landmarks and 26-neighbour tube paths.",
+    "distance": "Maximum absolute error on saved grids, original independent probes, and separately the visible and hidden original surface samples. Finite sampled maxima, not certified continuous bounds.",
+    "derived": "Same-radius tube-volume area estimator, Betti numbers, tube path errors including lost paths, and full/capped persistence diagrams.",
+    "persistence_cap": 0.4,
+    "precision": "float32 inference, no autocast, TF32 off"
+  },
+  "scope": "No retraining or fitted calibration. One masking seed; exploratory evidence rather than a population or continuum guarantee.",
+  "expectation": "Complete routing must equal the native disks. Under masking, report whether learned distance and derived metrics beat the visible disks; retain negative outcomes.",
+  "execution": "Complete routing regression on every saved packet; masked original/fixed parity; native independent disk formula cross-check; saved masks and prepared packets."
+}

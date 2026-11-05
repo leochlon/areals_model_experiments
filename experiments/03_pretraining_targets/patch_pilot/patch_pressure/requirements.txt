@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+torch>=2.1
+# Optional for VTK (.vtu/.vtp/.vtk/.vtm) CFD import:
+# vtk>=9.2
+# Optional for preparing NEW geometry caches with the bundled geometry script:
+# trimesh>=4

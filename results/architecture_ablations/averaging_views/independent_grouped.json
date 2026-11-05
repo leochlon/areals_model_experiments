@@ -1,0 +1,349 @@
+{
+  "passed": true,
+  "raw_prediction_files": 256,
+  "meshes": 32,
+  "rows": 192,
+  "maximum_metric_disagreement": {
+    "nmse": 2.361710670778505e-09,
+    "normal_degrees": 4.016235493686793e-05
+  },
+  "settings": [
+    {
+      "mask": 0.0,
+      "nuisance": "resample",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.017477692954166842,
+            "low": 0.014791353856127839,
+            "high": 0.020493303180266632,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 0.0002516704846118866,
+            "low": -0.0003456073644979367,
+            "high": 0.0008028507941868961,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.001603053650932489,
+            "low": -0.0024204884056368216,
+            "high": -0.0008961674696329306,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 13.584130018688263,
+            "low": 11.294929928359066,
+            "high": 16.01787480391671,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -0.0050317990035555205,
+            "low": -0.1771227081339628,
+            "high": 0.15865362672045757,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -1.0961802874982562,
+            "low": -1.368981945524931,
+            "high": -0.8349541683911306,
+            "objects": 32
+          }
+        }
+      }
+    },
+    {
+      "mask": 0.0,
+      "nuisance": "rotation",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.017477692954166842,
+            "low": 0.014791353856127839,
+            "high": 0.020493303180266632,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -1.7869111107525742e-05,
+            "low": -0.0019843904776513555,
+            "high": 0.0016274165176645393,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.0011867404174569667,
+            "low": -0.003180076120727764,
+            "high": 0.00044250417690839557,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 13.584130018688263,
+            "low": 11.294929928359066,
+            "high": 16.01787480391671,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 0.12633827416630874,
+            "low": -0.019236835309558192,
+            "high": 0.3046619347766948,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.18964927704457268,
+            "low": -0.328287097740523,
+            "high": -0.03370455709713125,
+            "objects": 32
+          }
+        }
+      }
+    },
+    {
+      "mask": 0.0,
+      "nuisance": "sign",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.017477692954166842,
+            "low": 0.014791353856127839,
+            "high": 0.020493303180266632,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -0.0081248968037586,
+            "low": -0.011200114214637109,
+            "high": -0.005372355175077939,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.008248862084394605,
+            "low": -0.01132989825947934,
+            "high": -0.005494986297927386,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 13.584130018688263,
+            "low": 11.294929928359066,
+            "high": 16.01787480391671,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -0.5032596205149837,
+            "low": -0.6588391150405511,
+            "high": -0.34960417066117366,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.5814937892331886,
+            "low": -0.7387910706414379,
+            "high": -0.42812847109431473,
+            "objects": 32
+          }
+        }
+      }
+    },
+    {
+      "mask": 0.6,
+      "nuisance": "resample",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.07934911846337707,
+            "low": 0.06723651982795256,
+            "high": 0.09192812167965415,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 0.0013182007526097292,
+            "low": -0.0007173366831085016,
+            "high": 0.003282593425080118,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.0015556310070527586,
+            "low": -0.003561889021370334,
+            "high": 0.0003238978426610598,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 19.055703037366314,
+            "low": 16.381482428246006,
+            "high": 21.873530644488,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 1.658919061869879e-06,
+            "low": -0.14597434612581392,
+            "high": 0.1512375587982637,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.5229852146139142,
+            "low": -0.7075362289716867,
+            "high": -0.3416057628258603,
+            "objects": 32
+          }
+        },
+        "normal_hidden": {
+          "baseline": {
+            "mean": 24.716620373154345,
+            "low": 21.406806826015874,
+            "high": 28.171206325020208,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -0.05470593676261326,
+            "low": -0.2843669684345381,
+            "high": 0.18775177324865028,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.45578790885602316,
+            "low": -0.7202595914267803,
+            "high": -0.1966304035043772,
+            "objects": 32
+          }
+        }
+      }
+    },
+    {
+      "mask": 0.6,
+      "nuisance": "rotation",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.07934911846337707,
+            "low": 0.06723651982795256,
+            "high": 0.09192812167965415,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 7.340987755542067e-05,
+            "low": -0.005695317843637359,
+            "high": 0.005273601626279416,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.007004099347990254,
+            "low": -0.01350834730643047,
+            "high": -0.0015360983350028456,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 19.055703037366314,
+            "low": 16.381482428246006,
+            "high": 21.873530644488,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 0.6295585544321302,
+            "low": 0.24740526182960748,
+            "high": 1.1021230389167553,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.05878166126683432,
+            "low": -0.45010422399666544,
+            "high": 0.4081365274985727,
+            "objects": 32
+          }
+        },
+        "normal_hidden": {
+          "baseline": {
+            "mean": 24.716620373154345,
+            "low": 21.406806826015874,
+            "high": 28.171206325020208,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": 1.111393161454433,
+            "low": 0.4690611314475293,
+            "high": 1.8662934084738048,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": 0.1407434447904854,
+            "low": -0.5119291381943011,
+            "high": 0.8877469433679812,
+            "objects": 32
+          }
+        }
+      }
+    },
+    {
+      "mask": 0.6,
+      "nuisance": "sign",
+      "metrics": {
+        "normalized_rmse": {
+          "baseline": {
+            "mean": 0.07934911846337707,
+            "low": 0.06723651982795256,
+            "high": 0.09192812167965415,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -0.025286050785846045,
+            "low": -0.03680994056232065,
+            "high": -0.015490165291663974,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -0.026164035914710053,
+            "low": -0.03759803396318562,
+            "high": -0.01640661086942728,
+            "objects": 32
+          }
+        },
+        "normal_all": {
+          "baseline": {
+            "mean": 19.055703037366314,
+            "low": 16.381482428246006,
+            "high": 21.873530644488,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -1.424666321721033,
+            "low": -1.8607103760330075,
+            "high": -0.9924632939491163,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -1.521960798774669,
+            "low": -1.9667976568134347,
+            "high": -1.0848217819857362,
+            "objects": 32
+          }
+        },
+        "normal_hidden": {
+          "baseline": {
+            "mean": 24.716620373154345,
+            "low": 21.406806826015874,
+            "high": 28.171206325020208,
+            "objects": 32
+          },
+          "view_minus_baseline": {
+            "mean": -1.9177701785340484,
+            "low": -2.6407456323248995,
+            "high": -1.2200195905532438,
+            "objects": 32
+          },
+          "orbit_minus_baseline": {
+            "mean": -2.056626268693249,
+            "low": -2.7995371927646584,
+            "high": -1.343924293316254,
+            "objects": 32
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Fixed production checkpoint; four nuisance draws; full and 60%-masked inputs; unchanged query targets independently matched to source identities. Orbit normal estimates average projectors. This tests finite approximate robustness, not exact invariance. Structurally absent hidden normals at mask 0 are excluded only from that metric."
+}

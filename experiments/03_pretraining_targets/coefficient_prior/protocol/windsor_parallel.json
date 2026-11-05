@@ -1,0 +1,32 @@
+{
+  "interim": {
+    "checkpoint": "pretraining/interim_step3000/native.pt",
+    "geometry_step": 3000,
+    "budgets": [
+      274
+    ],
+    "seeds": [
+      0
+    ],
+    "fits": 6,
+    "concurrent_gpus": 6
+  },
+  "final": {
+    "checkpoint": "pretraining/operator32/native_final.pt",
+    "geometry_step": 10626,
+    "budgets": [
+      18,
+      35,
+      69,
+      137,
+      274
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "fits": 90,
+    "concurrent_gpus": 32
+  }
+}

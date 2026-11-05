@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "metric": "Saved native geometry-test UDFnormalized MSE,128objects perseed; per-object rows independently reaggregated, no new forward passes.",
+  "rows": [
+    {
+      "arm": "reference",
+      "seed": 0,
+      "old_mse": 0.012578191914144554,
+      "new_mse": 0.008355202616257884,
+      "old_angle": 25.334509078413248,
+      "new_angle": 24.90042946487665
+    },
+    {
+      "arm": "reference",
+      "seed": 1,
+      "old_mse": 0.011269962951701018,
+      "new_mse": 0.008375986084502074,
+      "old_angle": 25.324460085481405,
+      "new_angle": 24.75455841049552
+    },
+    {
+      "arm": "reference",
+      "seed": 2,
+      "old_mse": 0.01116076514335873,
+      "new_mse": 0.008879699208591774,
+      "old_angle": 25.358681581914425,
+      "new_angle": 24.964230969548225
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 0,
+      "old_mse": 0.011777712279581465,
+      "new_mse": 0.007961009800055763,
+      "old_angle": 25.312088325619698,
+      "new_angle": 24.96123844757676
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 1,
+      "old_mse": 0.011080685282649938,
+      "new_mse": 0.008977696818874392,
+      "old_angle": 25.14851063862443,
+      "new_angle": 24.651414711028337
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 2,
+      "old_mse": 0.010642025150445988,
+      "new_mse": 0.008771705387516704,
+      "old_angle": 25.24452605471015,
+      "new_angle": 24.688238501548767
+    }
+  ],
+  "summary": {
+    "reference": {
+      "old_mse": 0.011669640003068102,
+      "new_mse": 0.008536962636450577
+    },
+    "ordinary_attention": {
+      "old_mse": 0.011166807570892464,
+      "new_mse": 0.008570137335482286
+    }
+  },
+  "scope": "Head initialisation repair under the four-epoch geometry screen only; no pressure-field accuracy conclusion."
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "shared_non_decoder_tensors": 102,
+  "all_non_decoder_tensors_exactly_identical": true,
+  "scalar_head_sha256": "1430c67a78f09e6bcb94604ed1aaf103b7eff4b6dd03dd9f6a71f637c3ec7395",
+  "full_decoder_sha256": "403881383ea0f9858f8e49617b9261f4b47e230b1f052629ec2e0bf856636a8e",
+  "fresh_decoder_sha256": "e7012d3cae6efe4fa20a99173efe95546bdc037def45383ff9d414da28d4c297",
+  "scope": "Actual source constructors at seed0; no training and no pressure data. Confirms that full-vs-fresh-AREALS decoder comparison initially changes only decoder tensors. Parameter-name equality and encoder inputs are preserved."
+}

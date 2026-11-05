@@ -1,0 +1,8 @@
+{
+  "bottleneck_additive_tolerance": 1e-6,
+  "secondary_filtration_cap": 0.4,
+  "cap_meaning": "Also compare min(field,0.4), so every cube enters by 0.4. This is a common terminal cap, not a statement that every feature truly dies at 0.4. Ordinary essential H0 deaths remain infinite. Full untruncated diagrams remain the primary persistence result.",
+  "cap_checks": "Validate diagram clipping against direct persistence of a capped field. Check stability against the sup difference of the capped arrays separately.",
+  "same_radius_betti": "Retain as a diagnostic, not as the persistence theorem's acceptance criterion.",
+  "recorded_before_persistence_computation": true
+}

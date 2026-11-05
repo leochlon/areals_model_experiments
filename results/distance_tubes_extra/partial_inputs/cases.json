@@ -1,0 +1,288 @@
+[
+  {
+    "id": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.6173095703125,
+    "visible_points": 6270,
+    "hidden_points": 10114,
+    "encoder_points": 2997,
+    "disk_centres": 2048,
+    "visible_center": [
+      2.607701301574707,
+      2.6338014602661133,
+      0.038395773619413376
+    ],
+    "visible_scale": 5.285118103027344,
+    "evaluation_center": [
+      1.5404108762741089,
+      2.067089080810547,
+      0.260021835565567
+    ],
+    "evaluation_scale": 5.396185874938965,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.2629123359597455e-07,
+    "seconds": 30.10214913217351,
+    "source_fields_sha256": "5328283eb0bbb86f2e8af38f6cafff46c6f1d7bccec37b105bac6283576a4688",
+    "source_prepared_sha256": "f6d1eb4e793bb462981e8fd97fddba91a2ddc47b74a79d4d0cca83ba6ece2184"
+  },
+  {
+    "id": "000223fb1496e6885cc20ed47db02763a282c71e91e7a5ca2d3367b72a6c1067",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.56158447265625,
+    "visible_points": 7183,
+    "hidden_points": 9201,
+    "encoder_points": 3143,
+    "disk_centres": 2048,
+    "visible_center": [
+      0.3269907832145691,
+      0.7231049537658691,
+      -0.533781111240387
+    ],
+    "visible_scale": 0.36721742153167725,
+    "evaluation_center": [
+      0.34689441323280334,
+      0.718217670917511,
+      -0.5378137826919556
+    ],
+    "evaluation_scale": 0.3993736207485199,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.4538433497589537e-07,
+    "seconds": 30.542220732197165,
+    "source_fields_sha256": "b6791418a5dd7eddf877e82d8f6b4c928fee5901a2d9453c89425019b245791d",
+    "source_prepared_sha256": "57e465cb3fea7c1525933c53697ca1c6057b329c2ea168db6b78b953f0d91d82"
+  },
+  {
+    "id": "00052f6245a219734ba2b1c0721726db84588cf1caaa9202e080c9576ba6afcf",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.6566162109375,
+    "visible_points": 5626,
+    "hidden_points": 10758,
+    "encoder_points": 2925,
+    "disk_centres": 2048,
+    "visible_center": [
+      0.01443934440612793,
+      3.031864643096924,
+      0.29211512207984924
+    ],
+    "visible_scale": 4.5319647789001465,
+    "evaluation_center": [
+      0.9671919345855713,
+      3.1870598793029785,
+      0.010137584060430527
+    ],
+    "evaluation_scale": 4.801731109619141,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 6.855454877141727e-08,
+    "seconds": 28.599290098063648,
+    "source_fields_sha256": "c142b15690c800f9e3e7d2e25c4aa9e8939e30e683957e09ed0dda52569e96a0",
+    "source_prepared_sha256": "7960d171391f91bfe50d38edc270ce913adb4df9393165e2839c9165ac00406b"
+  },
+  {
+    "id": "00096fd5ab994d62e44faf96c086e0ecdc1aae2a73a0efcbeedfbdf700375ec7",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.61920166015625,
+    "visible_points": 6239,
+    "hidden_points": 10145,
+    "encoder_points": 3002,
+    "disk_centres": 2048,
+    "visible_center": [
+      3.6981770992279053,
+      7.550998210906982,
+      0.8919712901115417
+    ],
+    "visible_scale": 36.18653869628906,
+    "evaluation_center": [
+      0.10739193856716156,
+      6.881299018859863,
+      1.1980971097946167
+    ],
+    "evaluation_scale": 37.389129638671875,
+    "valid_symmetry_maps": 1,
+    "disk_centre_to_visible_sample_max_error": 1.1636984288157527e-07,
+    "seconds": 30.688555805943906,
+    "source_fields_sha256": "25136a5b5b4611ca9bacaebe2585bcfac9cfe127bf058a6bea677edea275c421",
+    "source_prepared_sha256": "d05b393693211675fc05fa2842860e4aff34f7c77d1787c0a6fad60591c9db77"
+  },
+  {
+    "id": "000c12eacea5fe10903d8b5e7df27eca1d439798b207b74db8467c4f42c8e718",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.60040283203125,
+    "visible_points": 6547,
+    "hidden_points": 9837,
+    "encoder_points": 3079,
+    "disk_centres": 2048,
+    "visible_center": [
+      -1.8027667999267578,
+      8.816874504089355,
+      -14.474225044250488
+    ],
+    "visible_scale": 17.645368576049805,
+    "evaluation_center": [
+      -1.1704014539718628,
+      9.339587211608887,
+      -8.303260803222656
+    ],
+    "evaluation_scale": 18.231260299682617,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.3071945419537916e-07,
+    "seconds": 28.971405300777406,
+    "source_fields_sha256": "d9b6996bde5e9d42e21a3e4cc5891c335af7581e90fd47d93e07713978468f8d",
+    "source_prepared_sha256": "90bc4c48b72fb43b6388cea7b3569c92c09a370e43339271e868a725131ecd8b"
+  },
+  {
+    "id": "001c67ba31809963e1251cd9ac6fc36888956db535f955d5e485fcb7f71a4608",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.60101318359375,
+    "visible_points": 6537,
+    "hidden_points": 9847,
+    "encoder_points": 3049,
+    "disk_centres": 2048,
+    "visible_center": [
+      -4.608259201049805,
+      25.941801071166992,
+      0.12233380228281021
+    ],
+    "visible_scale": 17.00937271118164,
+    "evaluation_center": [
+      -0.08806881308555603,
+      23.70090103149414,
+      -0.2959948480129242
+    ],
+    "evaluation_scale": 17.941530227661133,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.4740531448888088e-07,
+    "seconds": 28.859459433238953,
+    "source_fields_sha256": "2557af306233eaab57d6292d413e409452c818b70afe9aa86ff627be7f8cd133",
+    "source_prepared_sha256": "232208b67f2a388868cded2f073fd0fbadda5d32d3c4f56bc783ecfc2f9b8954"
+  },
+  {
+    "id": "00274992f13a0cb5c0061bb48895610b21ec8d6b13f7366ceaa74b231bdbf600",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.62432861328125,
+    "visible_points": 6155,
+    "hidden_points": 10229,
+    "encoder_points": 2996,
+    "disk_centres": 2048,
+    "visible_center": [
+      231.03065490722656,
+      4692.46142578125,
+      -232.7072296142578
+    ],
+    "visible_scale": 3026.558349609375,
+    "evaluation_center": [
+      -19.501819610595703,
+      5453.68701171875,
+      -170.7316436767578
+    ],
+    "evaluation_scale": 3185.252685546875,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.0894644650990193e-07,
+    "seconds": 29.368119745980948,
+    "source_fields_sha256": "b4c00962f1cce3780959af7a67cb7100f4c60aefa8121769354f733d5306948b",
+    "source_prepared_sha256": "38b2cab7364cafda229de4d368ee13be2b4a5cc466356d91fb659dc49746c0b8"
+  },
+  {
+    "id": "0031d8b8002f6606c2945060313666cd227ba6a598458835ba28f2b212d1a059",
+    "group": "heldout",
+    "actual_hidden_area_fraction": 0.538330078125,
+    "visible_points": 7564,
+    "hidden_points": 8820,
+    "encoder_points": 3171,
+    "disk_centres": 2048,
+    "visible_center": [
+      15.158342361450195,
+      180.92832946777344,
+      -218.88552856445312
+    ],
+    "visible_scale": 411.7923889160156,
+    "evaluation_center": [
+      33.123939514160156,
+      212.67507934570312,
+      -164.21591186523438
+    ],
+    "evaluation_scale": 388.4105224609375,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.1134463685853429e-07,
+    "seconds": 29.68847476877272,
+    "source_fields_sha256": "941e7cdef0923b7523b8e8e8e078cfa3e7d05400c2ba9581d3194e1bc63fa2bd",
+    "source_prepared_sha256": "03f2724d63cb73135929116b0e5ee5e81d680e7bd7c1d863104e0a63c6c676a7"
+  },
+  {
+    "id": "sphere",
+    "group": "control",
+    "actual_hidden_area_fraction": 0.599609375,
+    "visible_points": 6560,
+    "hidden_points": 9824,
+    "encoder_points": 3072,
+    "disk_centres": 2048,
+    "visible_center": [
+      -0.0017864673864096403,
+      0.21459880471229553,
+      0.20923949778079987
+    ],
+    "visible_scale": 0.954024612903595,
+    "evaluation_center": [
+      -0.0025172338355332613,
+      -0.0047280737198889256,
+      0.01010802574455738
+    ],
+    "evaluation_scale": 0.9999345541000366,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 7.76324517717569e-08,
+    "seconds": 28.852957792580128,
+    "source_fields_sha256": "d35db4206979883fbd28a64b39d3b2809a2b2ff4c608308a4682fa1b5732ccb9",
+    "source_prepared_sha256": "36e6fdfc573ee9d88307181c6c967b7d97063b5f95fea89ec4d2a593c0b4c156"
+  },
+  {
+    "id": "torus",
+    "group": "control",
+    "actual_hidden_area_fraction": 0.59295654296875,
+    "visible_points": 6669,
+    "hidden_points": 9715,
+    "encoder_points": 3085,
+    "disk_centres": 2048,
+    "visible_center": [
+      0.26013585925102234,
+      -0.11337445676326752,
+      0.009959531016647816
+    ],
+    "visible_scale": 1.0835598707199097,
+    "evaluation_center": [
+      0.00308694364503026,
+      0.0019162490498274565,
+      -0.004249280784279108
+    ],
+    "evaluation_scale": 1.1175200939178467,
+    "valid_symmetry_maps": 16,
+    "disk_centre_to_visible_sample_max_error": 1.2537731911055338e-07,
+    "seconds": 29.268603216856718,
+    "source_fields_sha256": "15739e012ea5090d646809295cea17b750283db9423c4c1466a604e6a859653d",
+    "source_prepared_sha256": "c50bf0c97826125102a20f652de476cd3a5a1002a60e5560965659e4a44ea44d"
+  },
+  {
+    "id": "two_spheres",
+    "group": "control",
+    "actual_hidden_area_fraction": 0.594970703125,
+    "visible_points": 6636,
+    "hidden_points": 9748,
+    "encoder_points": 3052,
+    "disk_centres": 2048,
+    "visible_center": [
+      -0.12616698443889618,
+      -0.021240873262286186,
+      0.013105099089443684
+    ],
+    "visible_scale": 0.721373438835144,
+    "evaluation_center": [
+      -0.0009945739293470979,
+      0.003993374295532703,
+      -0.003840922610834241
+    ],
+    "evaluation_scale": 0.8525603413581848,
+    "valid_symmetry_maps": 0,
+    "disk_centre_to_visible_sample_max_error": 1.0333160433018135e-07,
+    "seconds": 28.65266266092658,
+    "source_fields_sha256": "cbd6ce0dc9d09b8315894ba52cd3241bb7712d5aee58daf2f25f6beee1c494e2",
+    "source_prepared_sha256": "5e4be495a4a7ec6cc99943ff52797dbbea5f25d3d3ce599a4374881a834a093f"
+  }
+]

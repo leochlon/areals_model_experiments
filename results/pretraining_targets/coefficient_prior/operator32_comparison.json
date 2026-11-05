@@ -1,0 +1,173 @@
+{
+  "complete": true,
+  "metric": "Mean per-car area-weighted pressure RMSE / reference standard deviation",
+  "test_cars": 35,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry_cohort": {
+    "test": 632,
+    "train": 14304,
+    "val": 637
+  },
+  "scope": "Patch-supervised shared-query model versus scratch; baseline pretraining arm cancelled. Encoder resumed from four to 32 GPUs at step 500 and from 32 to eight GPUs at step 4000, preserving the global batch and update budget.",
+  "tuning": "Independent three-rate search for every objective, initialization, car budget and seed.",
+  "results": [
+    {
+      "mode": "operator",
+      "training_cars": 18,
+      "pretrained_mean_nrmse": 0.2789435524238379,
+      "scratch_mean_nrmse": 0.4358806673265909,
+      "relative_error_change": -0.36004605541535806,
+      "seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.267682810759726,
+          "scratch": 0.44544522957909927,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.27537803769091623,
+          "scratch": 0.4238400817791474,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.2937698088208714,
+          "scratch": 0.43835669062152605,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed2/test_metrics.json"
+        }
+      ]
+    },
+    {
+      "mode": "operator",
+      "training_cars": 35,
+      "pretrained_mean_nrmse": 0.23042708853828311,
+      "scratch_mean_nrmse": 0.3728667995140795,
+      "relative_error_change": -0.38201231957745774,
+      "seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.22415901618633727,
+          "scratch": 0.37547643732843394,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.23243976901009716,
+          "scratch": 0.3715261422884708,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.23468248041841488,
+          "scratch": 0.3715978189253339,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed2/test_metrics.json"
+        }
+      ]
+    },
+    {
+      "mode": "operator",
+      "training_cars": 69,
+      "pretrained_mean_nrmse": 0.18958258436756711,
+      "scratch_mean_nrmse": 0.26489389714488154,
+      "relative_error_change": -0.2843074664574984,
+      "seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.18623502517354026,
+          "scratch": 0.2609756338404661,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1886780612292124,
+          "scratch": 0.2530813040547591,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.19383466669994864,
+          "scratch": 0.28062475353941935,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed2/test_metrics.json"
+        }
+      ]
+    },
+    {
+      "mode": "operator",
+      "training_cars": 137,
+      "pretrained_mean_nrmse": 0.16896176123616247,
+      "scratch_mean_nrmse": 0.22787788121943423,
+      "relative_error_change": -0.2585425126299936,
+      "seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.17784022582023828,
+          "scratch": 0.24479262098880997,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1685329949427007,
+          "scratch": 0.22035343497779683,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.1605120629455484,
+          "scratch": 0.2184875876916959,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed2/test_metrics.json"
+        }
+      ]
+    },
+    {
+      "mode": "operator",
+      "training_cars": 274,
+      "pretrained_mean_nrmse": 0.15645241052668743,
+      "scratch_mean_nrmse": 0.19147476350621387,
+      "relative_error_change": -0.18290845403441314,
+      "seeds": [
+        {
+          "seed": 0,
+          "pretrained": 0.16096735116518385,
+          "scratch": 0.1975807704830538,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed0/test_metrics.json"
+        },
+        {
+          "seed": 1,
+          "pretrained": 0.1513066680982957,
+          "scratch": 0.18061538616575726,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed1/test_metrics.json"
+        },
+        {
+          "seed": 2,
+          "pretrained": 0.1570832123165827,
+          "scratch": 0.19622813386983054,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed2/test_metrics.json"
+        }
+      ]
+    }
+  ],
+  "protocol_revision": "protocol/revision32.json",
+  "geometry_allocation_history": [
+    {
+      "gpus": 4,
+      "from_step": 0,
+      "through_step": 500
+    },
+    {
+      "gpus": 32,
+      "from_step": 501,
+      "through_step": 4000
+    },
+    {
+      "gpus": 8,
+      "from_step": 4001,
+      "through_step": 10626
+    }
+  ],
+  "geometry_protocol_revision": "protocol/revision8.json"
+}

@@ -1,0 +1,39 @@
+# Example configuration for GCN model on Wind Terrain dataset
+
+# Settings for executing the run
+run_settings:
+  validate: True  # Whether to run validation during training
+  num_t_workers: 6  # Number of workers for training data loading
+  num_v_workers: 6  # Number of workers for validation data loading
+
+# Settings that handle the IO
+io_settings:
+  train_dataset_path: 'data/windseer/train.hdf5'
+  valid_dataset_path: 'data/windseer/validation_resampled.hdf5'
+  run_dir: './runs'  # Directory to save trained models and logs
+  save_epochs: 10  # Save model checkpoint every N epochs
+  pretrained_model: ''  # Path to pretrained model (empty for training from scratch)
+
+# training hyperparameters
+hyperparameters:
+  batch_size: 40
+  epochs: 500
+  start_lr: 1e-3
+  lr_decay: 0.99996  # learning rate decay factor
+  weight_decay: 1e-4
+
+# data settings
+data_settings:
+  dataset_type: 'WindTerrain'  # Dataset type: WindTerrain, HeatRectangle, HelmholtzCar, Airfoil
+  transform: '' # specify 'Cartesian' or 'Distance' transforms here for edge features
+  channels: ['ux', 'uy', 'uz', 'p']
+  max_cells_above_terrain: 8
+
+# model architecture settings
+model_settings:
+  model_type: 'GCN'  # Model type: GCN, GEN, Transformer
+  n_layers: 6  # Number of encoding and decoding layers
+  latent_dim: 64
+  z_dim: 16
+  use_boundary_encoding: True  # whether to use boundary encoding in the node input features
+  use_pos: True  # whether to use node positions in the node input features

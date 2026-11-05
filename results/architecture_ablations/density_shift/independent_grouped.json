@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "predictions": 1344,
+  "models": 6,
+  "meshes": 32,
+  "maximum_metric_disagreement": 0.0,
+  "summaries": {
+    "reference": {
+      "uniform": {
+        "normalized_mse": {
+          "mean": 0.007415288749890635,
+          "low": 0.0064343833273545585,
+          "high": 0.008428812613887593,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "objects": 32
+        }
+      },
+      "biased_fixed_anchors_frame": {
+        "normalized_mse": {
+          "mean": 0.007441069228570895,
+          "low": 0.006460943296873154,
+          "high": 0.008452502113879023,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.0025353756930808023,
+          "low": 0.0023360442631743085,
+          "high": 0.0027174049048645467,
+          "objects": 32
+        }
+      },
+      "biased_reanchor": {
+        "normalized_mse": {
+          "mean": 0.007193749293834366,
+          "low": 0.006277398778890397,
+          "high": 0.008150476243460941,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.03707044810438037,
+          "low": 0.0337041121458133,
+          "high": 0.040409787312161834,
+          "objects": 32
+        }
+      }
+    },
+    "ordinary_attention": {
+      "uniform": {
+        "normalized_mse": {
+          "mean": 0.006779904105640923,
+          "low": 0.005964285516496118,
+          "high": 0.007628843244319791,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "objects": 32
+        }
+      },
+      "biased_fixed_anchors_frame": {
+        "normalized_mse": {
+          "mean": 0.007362027068835539,
+          "low": 0.006433625159226959,
+          "high": 0.008322465017929843,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.013706074927646732,
+          "low": 0.012066292894019824,
+          "high": 0.01535779942307871,
+          "objects": 32
+        }
+      },
+      "biased_reanchor": {
+        "normalized_mse": {
+          "mean": 0.007120621847615527,
+          "low": 0.006231975549366939,
+          "high": 0.008046359410188208,
+          "objects": 32
+        },
+        "prediction_change": {
+          "mean": 0.03727547536005434,
+          "low": 0.03431830925215285,
+          "high": 0.04023792500307692,
+          "objects": 32
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "biased_fixed_anchors_frame": {
+      "normalized_mse_reference_minus_ordinary": {
+        "mean": 7.904215973535544e-05,
+        "low": -0.0002868900931844954,
+        "high": 0.00041688711993895824,
+        "objects": 32
+      },
+      "prediction_change_reference_minus_ordinary": {
+        "mean": -0.011170699234565928,
+        "low": -0.012692038282077052,
+        "high": -0.00968981820114516,
+        "objects": 32
+      },
+      "reference_mse_change_from_uniform": {
+        "mean": 2.578047868025944e-05,
+        "low": 8.987799419128014e-06,
+        "high": 4.506192811303594e-05,
+        "objects": 32
+      },
+      "ordinary_attention_mse_change_from_uniform": {
+        "mean": 0.0005821229631946169,
+        "low": 0.0003720018282782505,
+        "high": 0.0008404134773567559,
+        "objects": 32
+      }
+    },
+    "biased_reanchor": {
+      "normalized_mse_reference_minus_ordinary": {
+        "mean": 7.312744621883964e-05,
+        "low": -0.00022037039862334243,
+        "high": 0.00037857603868970724,
+        "objects": 32
+      },
+      "prediction_change_reference_minus_ordinary": {
+        "mean": -0.00020502725567397493,
+        "low": -0.0014721038297584275,
+        "high": 0.00101101122873588,
+        "objects": 32
+      },
+      "reference_mse_change_from_uniform": {
+        "mean": -0.00022153945605626944,
+        "low": -0.0005110790839182345,
+        "high": 4.2212753661627296e-05,
+        "objects": 32
+      },
+      "ordinary_attention_mse_change_from_uniform": {
+        "mean": 0.00034071774197460376,
+        "low": 0.00010087596207203207,
+        "high": 0.0005936093836357538,
+        "objects": 32
+      }
+    }
+  },
+  "scope": "Exploratory density-shift stress registered after the adverse uniform-sampling result, before density outcomes. Three seeds and three draws retained within each resampled object. Smaller drift is not synonymous with better absolute accuracy; fixed-anchor and recomputed-anchor results are both reported. Not arbitrary remeshing or production-scale pretraining."
+}

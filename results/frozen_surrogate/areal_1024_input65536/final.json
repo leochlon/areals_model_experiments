@@ -1,0 +1,10 @@
+{
+  "arm": "areal",
+  "completed_epochs": 20,
+  "best_ema_rl2": 0.5978294163942337,
+  "best_epoch": 20,
+  "final_ema_rl2": 0.5978294163942337,
+  "final_live_rl2": 0.31983761116862297,
+  "elapsed_seconds": 256.99488735198975,
+  "frozen_prior_unchanged": true
+}

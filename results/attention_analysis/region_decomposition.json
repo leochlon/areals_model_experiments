@@ -1,0 +1,3142 @@
+{
+  "cases": 144,
+  "wings": 16,
+  "angles_per_wing": 9,
+  "variants": {
+    "original": {
+      "regions": {
+        "all": {
+          "mean": 0.17995161863564646,
+          "ci95": [
+            0.13430358621853059,
+            0.22559965105276233
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.18825074668298558,
+          "minimum_wing_area_share": 1.0,
+          "mean_wing_area_share": 1.0,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6566326035260911,
+            "ci95": [
+              0.5875906193038818,
+              0.7256745877483004
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7942129687075352,
+            "ci95": [
+              0.7471001865562855,
+              0.8413257508587849
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "local": {
+          "mean": 0.3025016518111773,
+          "ci95": [
+            0.2089505270340186,
+            0.39605277658833593
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.36423531454158187,
+          "minimum_wing_area_share": 0.10057371072503381,
+          "mean_wing_area_share": 0.15400725038685387,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.271449074062175,
+            "ci95": [
+              0.1913812228857677,
+              0.3515169252385823
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.36841516057807716,
+            "ci95": [
+              0.2703173435086501,
+              0.4665129776475042
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "global": {
+          "mean": 0.10076786797343705,
+          "ci95": [
+            0.05997402525041219,
+            0.1415617106964619
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.09758190602291317,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6224778830297197,
+            "ci95": [
+              0.5463822040934779,
+              0.6985735619659615
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6923327176220544,
+            "ci95": [
+              0.6165506385635494,
+              0.7681147966805594
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_0": {
+          "mean": 0.08484912950690737,
+          "ci95": [
+            0.04571478272406788,
+            0.12398347628974687
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.08704030779712768,
+          "minimum_wing_area_share": 0.33318420281832867,
+          "mean_wing_area_share": 0.3333227106826989,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.80805955162248,
+            "ci95": [
+              0.7455995165181973,
+              0.8705195867267627
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8810602428597318,
+            "ci95": [
+              0.8314152826357971,
+              0.9307052030836666
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_0": {
+          "mean": 0.04040076470677479,
+          "ci95": [
+            -0.020047038662667882,
+            0.10084856807621746
+          ],
+          "positive_wings": 12,
+          "wings": 16,
+          "pooled_gain": 0.057504271114625416,
+          "minimum_wing_area_share": 0.08412902155463126,
+          "mean_wing_area_share": 0.10757686776786868,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.37592873120843395,
+            "ci95": [
+              0.30102301718128643,
+              0.45083444523558147
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3951401696354693,
+            "ci95": [
+              0.31409953422966963,
+              0.4761808050412689
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_1": {
+          "mean": 0.05113166351631438,
+          "ci95": [
+            -0.03214072618655021,
+            0.13440405321917898
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "pooled_gain": 0.07846490247819049,
+          "minimum_wing_area_share": 0.12322877745818081,
+          "mean_wing_area_share": 0.1637290890814595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.46569804567783224,
+            "ci95": [
+              0.37711509450112923,
+              0.5542809968545352
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.49006770051227777,
+            "ci95": [
+              0.4078503536307816,
+              0.572285047393774
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_2": {
+          "mean": 0.10076786797343705,
+          "ci95": [
+            0.05997402525041219,
+            0.1415617106964619
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.09758190602291317,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6224778830297197,
+            "ci95": [
+              0.5463822040934779,
+              0.6985735619659615
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6923327176220544,
+            "ci95": [
+              0.6165506385635494,
+              0.7681147966805594
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_1": {
+          "mean": 0.11509708642534044,
+          "ci95": [
+            0.06936822784586383,
+            0.16082594500481706
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.1137653241494091,
+          "minimum_wing_area_share": 0.33311165240429497,
+          "mean_wing_area_share": 0.33330773145292175,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7625338300520216,
+            "ci95": [
+              0.692992479899586,
+              0.8320751802044571
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8569464178052146,
+            "ci95": [
+              0.8096046967780135,
+              0.9042881388324158
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_0": {
+          "mean": 0.14602216310063104,
+          "ci95": [
+            0.07324503154591853,
+            0.21879929465534353
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.13024640639386986,
+          "minimum_wing_area_share": 0.09838132810250415,
+          "mean_wing_area_share": 0.12989324387313483,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.4180789857422782,
+            "ci95": [
+              0.3223536349306122,
+              0.5138043365539442
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.48644332784913946,
+            "ci95": [
+              0.39415379645534254,
+              0.5787328592429364
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_1": {
+          "mean": 0.08073968168431712,
+          "ci95": [
+            -0.021711888857385828,
+            0.18319125222602006
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "pooled_gain": 0.10064683324614732,
+          "minimum_wing_area_share": 0.0903946559587509,
+          "mean_wing_area_share": 0.11145506730324944,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3972834646393545,
+            "ci95": [
+              0.32076057480733694,
+              0.47380635447137204
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.43168852082004994,
+            "ci95": [
+              0.3664140595922496,
+              0.4969629820478503
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_2": {
+          "mean": 0.1151871917252921,
+          "ci95": [
+            0.07311510729501927,
+            0.15725927615556493
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.11540979236922577,
+          "minimum_wing_area_share": 0.06951894168095808,
+          "mean_wing_area_share": 0.09195942027653749,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.694423343858071,
+            "ci95": [
+              0.6230980753689488,
+              0.7657486123471933
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7811323654795355,
+            "ci95": [
+              0.7233045311392973,
+              0.8389601998197737
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_2": {
+          "mean": 0.21838762557761593,
+          "ci95": [
+            0.16524514697521187,
+            0.27153010418002
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.22512780691328282,
+          "minimum_wing_area_share": 0.33327346720970197,
+          "mean_wing_area_share": 0.33336955786437933,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5880154023196177,
+            "ci95": [
+              0.5123081896720962,
+              0.6637226149671391
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7435928345316201,
+            "ci95": [
+              0.6891700410078146,
+              0.7980156280554255
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_0": {
+          "mean": 0.28319653090377855,
+          "ci95": [
+            0.19237911651142714,
+            0.37401394529612997
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.31782243008739997,
+          "minimum_wing_area_share": 0.06399102453602191,
+          "mean_wing_area_share": 0.09586611988256324,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.26812952739423057,
+            "ci95": [
+              0.16739662134262495,
+              0.3688624334458362
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3451342099664124,
+            "ci95": [
+              0.22949719022891862,
+              0.4607712297039062
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_1": {
+          "mean": 0.30929943850706854,
+          "ci95": [
+            0.19560538433624886,
+            0.4229934926778882
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.39757384814835084,
+          "minimum_wing_area_share": 0.0365826861890119,
+          "mean_wing_area_share": 0.058141130504290595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.13325397512494525,
+            "ci95": [
+              0.0948251702249249,
+              0.1716827800249656
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.19018502455393382,
+            "ci95": [
+              0.14055042136136733,
+              0.2398196277465003
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_2": {
+          "mean": 0.20789565790146672,
+          "ci95": [
+            0.15147600127560668,
+            0.26431531452732676
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.2055434926683012,
+          "minimum_wing_area_share": 0.12626334170203982,
+          "mean_wing_area_share": 0.17936230747752546,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5950423687064679,
+            "ci95": [
+              0.5133950075151926,
+              0.6766897298977431
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7410908706841774,
+            "ci95": [
+              0.6829154132832493,
+              0.7992663280851056
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_0": {
+          "mean": 0.21520876347158907,
+          "ci95": [
+            0.1419789718406509,
+            0.28843855510252725
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.22327176776416124,
+          "minimum_wing_area_share": 0.33330540783931717,
+          "mean_wing_area_share": 0.33333623152356673,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.30708789402039477,
+            "ci95": [
+              0.21190170739361625,
+              0.4022740806471733
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3713284663653732,
+            "ci95": [
+              0.2760354202805798,
+              0.4666215124501666
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_1": {
+          "mean": 0.16863065559649626,
+          "ci95": [
+            0.07420816420558181,
+            0.2630531469874107
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.20730795657797918,
+          "minimum_wing_area_share": 0.3332813612241844,
+          "mean_wing_area_share": 0.33332528688899954,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3158868348840369,
+            "ci95": [
+              0.2495624438677902,
+              0.3822112259002836
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3701787085838776,
+            "ci95": [
+              0.31280139380061944,
+              0.4275560233671357
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_2": {
+          "mean": 0.18386345901961354,
+          "ci95": [
+            0.13553732212553318,
+            0.2321895959136939
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.18242758489533495,
+          "minimum_wing_area_share": 0.3333112273676417,
+          "mean_wing_area_share": 0.3333384815874337,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6148629125627628,
+            "ci95": [
+              0.53817678351047,
+              0.6915490416150556
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7449495484330542,
+            "ci95": [
+              0.6887739543519402,
+              0.8011251425141681
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        }
+      },
+      "contrasts": {
+        "local_minus_global": {
+          "mean": 0.20173378383774024,
+          "ci95": [
+            0.10175308569987146,
+            0.301714481975609
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "p_one_sided": 0.0004730224609375
+        },
+        "curved_minus_flat_all_pressures": {
+          "mean": 0.13353849607070858,
+          "ci95": [
+            0.08269187169643932,
+            0.18438512044497785
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 3.0517578125e-05
+        },
+        "curved_minus_flat_extremity_0": {
+          "mean": 0.24279576619700374,
+          "ci95": [
+            0.13466640724244155,
+            0.35092512515156593
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 6.103515625e-05
+        },
+        "curved_minus_flat_extremity_1": {
+          "mean": 0.25816777499075416,
+          "ci95": [
+            0.12365970557143294,
+            0.3926758444100754
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "p_one_sided": 0.0005340576171875
+        },
+        "curved_minus_flat_extremity_2": {
+          "mean": 0.10712778992802968,
+          "ci95": [
+            0.046816555717135964,
+            0.1674390241389234
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "p_one_sided": 0.0004425048828125
+        },
+        "extreme_minus_mild_curvature_0": {
+          "mean": 0.06036710326666226,
+          "ci95": [
+            -0.008773005096486673,
+            0.1295072116298112
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "p_one_sided": 0.0350341796875
+        },
+        "extreme_minus_mild_curvature_1": {
+          "mean": -0.03083497137533893,
+          "ci95": [
+            -0.1062913861269103,
+            0.044621443376232445
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.8017425537109375
+        },
+        "extreme_minus_mild_curvature_2": {
+          "mean": -0.07530087300231178,
+          "ci95": [
+            -0.17281523088777523,
+            0.02221348488315167
+          ],
+          "positive_wings": 5,
+          "wings": 16,
+          "p_one_sided": 0.9380035400390625
+        }
+      },
+      "local_global_coverage_all_wings": true
+    },
+    "original_exact_bias": {
+      "regions": {
+        "all": {
+          "mean": 0.5107224807547055,
+          "ci95": [
+            0.45210621230081194,
+            0.5693387492085991
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5409931816348642,
+          "minimum_wing_area_share": 1.0,
+          "mean_wing_area_share": 1.0,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6566326035260911,
+            "ci95": [
+              0.5875906193038818,
+              0.7256745877483004
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7942129687075352,
+            "ci95": [
+              0.7471001865562855,
+              0.8413257508587849
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "local": {
+          "mean": 0.4011168156046183,
+          "ci95": [
+            0.29901036771718775,
+            0.5032232634920488
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.4655914227243094,
+          "minimum_wing_area_share": 0.10057371072503381,
+          "mean_wing_area_share": 0.15400725038685387,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.271449074062175,
+            "ci95": [
+              0.1913812228857677,
+              0.3515169252385823
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.36841516057807716,
+            "ci95": [
+              0.2703173435086501,
+              0.4665129776475042
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "global": {
+          "mean": 0.2620401821573233,
+          "ci95": [
+            0.1647356514072865,
+            0.35934471290736003
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.2763819841163412,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6224778830297197,
+            "ci95": [
+              0.5463822040934779,
+              0.6985735619659615
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6923327176220544,
+            "ci95": [
+              0.6165506385635494,
+              0.7681147966805594
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_0": {
+          "mean": 0.44643707909734487,
+          "ci95": [
+            0.3262157542491675,
+            0.5666584039455222
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.4779315821143558,
+          "minimum_wing_area_share": 0.33318420281832867,
+          "mean_wing_area_share": 0.3333227106826989,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.80805955162248,
+            "ci95": [
+              0.7455995165181973,
+              0.8705195867267627
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8810602428597318,
+            "ci95": [
+              0.8314152826357971,
+              0.9307052030836666
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_0": {
+          "mean": 0.06740950520945532,
+          "ci95": [
+            -0.02572190717058606,
+            0.1605409175894967
+          ],
+          "positive_wings": 12,
+          "wings": 16,
+          "pooled_gain": 0.0869013643263078,
+          "minimum_wing_area_share": 0.08412902155463126,
+          "mean_wing_area_share": 0.10757686776786868,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.37592873120843395,
+            "ci95": [
+              0.30102301718128643,
+              0.45083444523558147
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3951401696354693,
+            "ci95": [
+              0.31409953422966963,
+              0.4761808050412689
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_1": {
+          "mean": 0.06874286078149007,
+          "ci95": [
+            -0.053440726464260735,
+            0.19092644802724087
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "pooled_gain": 0.14389002630602288,
+          "minimum_wing_area_share": 0.12322877745818081,
+          "mean_wing_area_share": 0.1637290890814595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.46569804567783224,
+            "ci95": [
+              0.37711509450112923,
+              0.5542809968545352
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.49006770051227777,
+            "ci95": [
+              0.4078503536307816,
+              0.572285047393774
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_2": {
+          "mean": 0.2620401821573233,
+          "ci95": [
+            0.1647356514072865,
+            0.35934471290736003
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.2763819841163412,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6224778830297197,
+            "ci95": [
+              0.5463822040934779,
+              0.6985735619659615
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6923327176220544,
+            "ci95": [
+              0.6165506385635494,
+              0.7681147966805594
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_1": {
+          "mean": 0.4622967792483947,
+          "ci95": [
+            0.36828981510084613,
+            0.5563037433959432
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5085794247397771,
+          "minimum_wing_area_share": 0.33311165240429497,
+          "mean_wing_area_share": 0.33330773145292175,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7625338300520216,
+            "ci95": [
+              0.692992479899586,
+              0.8320751802044571
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8569464178052146,
+            "ci95": [
+              0.8096046967780135,
+              0.9042881388324158
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_0": {
+          "mean": 0.24005993106977763,
+          "ci95": [
+            0.14327803373441175,
+            0.33684182840514354
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.24867423226146923,
+          "minimum_wing_area_share": 0.09838132810250415,
+          "mean_wing_area_share": 0.12989324387313483,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.4180789857422782,
+            "ci95": [
+              0.3223536349306122,
+              0.5138043365539442
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.48644332784913946,
+            "ci95": [
+              0.39415379645534254,
+              0.5787328592429364
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_1": {
+          "mean": 0.10380920279046382,
+          "ci95": [
+            -0.041829203845679314,
+            0.24944760942660696
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "pooled_gain": 0.1636162315920583,
+          "minimum_wing_area_share": 0.0903946559587509,
+          "mean_wing_area_share": 0.11145506730324944,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3972834646393545,
+            "ci95": [
+              0.32076057480733694,
+              0.47380635447137204
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.43168852082004994,
+            "ci95": [
+              0.3664140595922496,
+              0.4969629820478503
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_2": {
+          "mean": 0.3538677935203532,
+          "ci95": [
+            0.2681085096452701,
+            0.43962707739543627
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.4131866306107773,
+          "minimum_wing_area_share": 0.06951894168095808,
+          "mean_wing_area_share": 0.09195942027653749,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.694423343858071,
+            "ci95": [
+              0.6230980753689488,
+              0.7657486123471933
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7811323654795355,
+            "ci95": [
+              0.7233045311392973,
+              0.8389601998197737
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_2": {
+          "mean": 0.514512025997705,
+          "ci95": [
+            0.4505547461670538,
+            0.5784693058283561
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5505224850411816,
+          "minimum_wing_area_share": 0.33327346720970197,
+          "mean_wing_area_share": 0.33336955786437933,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5880154023196177,
+            "ci95": [
+              0.5123081896720962,
+              0.6637226149671391
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7435928345316201,
+            "ci95": [
+              0.6891700410078146,
+              0.7980156280554255
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_0": {
+          "mean": 0.3708319920419271,
+          "ci95": [
+            0.2801321428440557,
+            0.46153184123979857
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.422380225536231,
+          "minimum_wing_area_share": 0.06399102453602191,
+          "mean_wing_area_share": 0.09586611988256324,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.26812952739423057,
+            "ci95": [
+              0.16739662134262495,
+              0.3688624334458362
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3451342099664124,
+            "ci95": [
+              0.22949719022891862,
+              0.4607712297039062
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_1": {
+          "mean": 0.3508652934799232,
+          "ci95": [
+            0.2312622434423115,
+            0.47046834351753486
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "pooled_gain": 0.4416692045015901,
+          "minimum_wing_area_share": 0.0365826861890119,
+          "mean_wing_area_share": 0.058141130504290595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.13325397512494525,
+            "ci95": [
+              0.0948251702249249,
+              0.1716827800249656
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.19018502455393382,
+            "ci95": [
+              0.14055042136136733,
+              0.2398196277465003
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_2": {
+          "mean": 0.49024435264681687,
+          "ci95": [
+            0.4187500661828718,
+            0.5617386391107619
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5283657131075445,
+          "minimum_wing_area_share": 0.12626334170203982,
+          "mean_wing_area_share": 0.17936230747752546,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5950423687064679,
+            "ci95": [
+              0.5133950075151926,
+              0.6766897298977431
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7410908706841774,
+            "ci95": [
+              0.6829154132832493,
+              0.7992663280851056
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_0": {
+          "mean": 0.29266197571768937,
+          "ci95": [
+            0.22334294130422144,
+            0.3619810101311573
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.3275272428652972,
+          "minimum_wing_area_share": 0.33330540783931717,
+          "mean_wing_area_share": 0.33333623152356673,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.30708789402039477,
+            "ci95": [
+              0.21190170739361625,
+              0.4022740806471733
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3713284663653732,
+            "ci95": [
+              0.2760354202805798,
+              0.4666215124501666
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_1": {
+          "mean": 0.22337663229095087,
+          "ci95": [
+            0.11266830488349457,
+            0.3340849596984072
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.29609010363164445,
+          "minimum_wing_area_share": 0.3332813612241844,
+          "mean_wing_area_share": 0.33332528688899954,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3158868348840369,
+            "ci95": [
+              0.2495624438677902,
+              0.3822112259002836
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.3701787085838776,
+            "ci95": [
+              0.31280139380061944,
+              0.4275560233671357
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_2": {
+          "mean": 0.456618488053852,
+          "ci95": [
+            0.39379094056211283,
+            0.5194460355455912
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.4937292576376029,
+          "minimum_wing_area_share": 0.3333112273676417,
+          "mean_wing_area_share": 0.3333384815874337,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6148629125627628,
+            "ci95": [
+              0.53817678351047,
+              0.6915490416150556
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7449495484330542,
+            "ci95": [
+              0.6887739543519402,
+              0.8011251425141681
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        }
+      },
+      "contrasts": {
+        "local_minus_global": {
+          "mean": 0.13907663344729504,
+          "ci95": [
+            0.02495895660004091,
+            0.2531943102945492
+          ],
+          "positive_wings": 11,
+          "wings": 16,
+          "p_one_sided": 0.010986328125
+        },
+        "curved_minus_flat_all_pressures": {
+          "mean": 0.06807494690036009,
+          "ci95": [
+            -0.05802835295493622,
+            0.1941782467556564
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.1326141357421875
+        },
+        "curved_minus_flat_extremity_0": {
+          "mean": 0.3034224868324718,
+          "ci95": [
+            0.17379315351006358,
+            0.43305182015488003
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 0.0001678466796875
+        },
+        "curved_minus_flat_extremity_1": {
+          "mean": 0.28212243269843307,
+          "ci95": [
+            0.11527464617517613,
+            0.44897021922169
+          ],
+          "positive_wings": 12,
+          "wings": 16,
+          "p_one_sided": 0.0016021728515625
+        },
+        "curved_minus_flat_extremity_2": {
+          "mean": 0.22820417048949354,
+          "ci95": [
+            0.11601855181516925,
+            0.34038978916381785
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 0.0001220703125
+        },
+        "extreme_minus_mild_curvature_0": {
+          "mean": 0.19463067694786795,
+          "ci95": [
+            0.06730913829624613,
+            0.3219522155994898
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "p_one_sided": 0.001556396484375
+        },
+        "extreme_minus_mild_curvature_1": {
+          "mean": 0.11380786245057561,
+          "ci95": [
+            -0.0072185069542532315,
+            0.23483423185540447
+          ],
+          "positive_wings": 10,
+          "wings": 16,
+          "p_one_sided": 0.0307769775390625
+        },
+        "extreme_minus_mild_curvature_2": {
+          "mean": 0.11941236060488969,
+          "ci95": [
+            0.01145014069081661,
+            0.22737458051896275
+          ],
+          "positive_wings": 12,
+          "wings": 16,
+          "p_one_sided": 0.0163116455078125
+        }
+      },
+      "local_global_coverage_all_wings": true
+    },
+    "nine_angle_mean_original_masks": {
+      "regions": {
+        "all": {
+          "mean": 0.5875169578945352,
+          "ci95": [
+            0.5366778329024745,
+            0.6383560828865958
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6225570631037586,
+          "minimum_wing_area_share": 1.0,
+          "mean_wing_area_share": 1.0,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.686131438739285,
+            "ci95": [
+              0.6228141505458685,
+              0.7494487269327014
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8323713449659386,
+            "ci95": [
+              0.7910015352493455,
+              0.8737411546825317
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "local": {
+          "mean": 0.5637468485354402,
+          "ci95": [
+            0.47113454585453207,
+            0.6563591512163484
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6496443042787565,
+          "minimum_wing_area_share": 0.10057371072503381,
+          "mean_wing_area_share": 0.15400725038685387,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.4706144404726572,
+            "ci95": [
+              0.39383075446097127,
+              0.5473981264843432
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6686491129106531,
+            "ci95": [
+              0.6121546701590694,
+              0.7251435556622368
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "global": {
+          "mean": 0.6192015507779891,
+          "ci95": [
+            0.521364229451062,
+            0.7170388721049162
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6284589648958208,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8038055734741403,
+            "ci95": [
+              0.7456373819859691,
+              0.8619737649623115
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8928286061770438,
+            "ci95": [
+              0.8494399438108959,
+              0.9362172685431918
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_0": {
+          "mean": 0.5716148249521883,
+          "ci95": [
+            0.47140040943293926,
+            0.6718292404714373
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.578605446669618,
+          "minimum_wing_area_share": 0.33318420281832867,
+          "mean_wing_area_share": 0.3333227106826989,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8453515803685956,
+            "ci95": [
+              0.7956287516540147,
+              0.8950744090831765
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9233402207483035,
+            "ci95": [
+              0.8889692294731748,
+              0.9577112120234321
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_0": {
+          "mean": 0.3967592682336211,
+          "ci95": [
+            0.14496875329799436,
+            0.6485497831692479
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.4609383676522756,
+          "minimum_wing_area_share": 0.08412902155463126,
+          "mean_wing_area_share": 0.10757686776786868,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8336352943968945,
+            "ci95": [
+              0.7635973611506962,
+              0.9036732276430929
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8825779068350807,
+            "ci95": [
+              0.7893419353829837,
+              0.9758138782871778
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_1": {
+          "mean": 0.4376511787630386,
+          "ci95": [
+            0.2869711326988789,
+            0.5883312248271984
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.5113539140823111,
+          "minimum_wing_area_share": 0.12322877745818081,
+          "mean_wing_area_share": 0.1637290890814595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.9214798638064405,
+            "ci95": [
+              0.8087212643533175,
+              1.0342384632595636
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9669695299412977,
+            "ci95": [
+              0.8947546678458502,
+              1.0391843920367452
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_2": {
+          "mean": 0.6192015507779891,
+          "ci95": [
+            0.521364229451062,
+            0.7170388721049162
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6284589648958208,
+          "minimum_wing_area_share": 0.03106514905832176,
+          "mean_wing_area_share": 0.06201675383337073,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8038055734741403,
+            "ci95": [
+              0.7456373819859691,
+              0.8619737649623115
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8928286061770438,
+            "ci95": [
+              0.8494399438108959,
+              0.9362172685431918
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_1": {
+          "mean": 0.5881319652704595,
+          "ci95": [
+            0.509556068403462,
+            0.666707862137457
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6148812049652556,
+          "minimum_wing_area_share": 0.33311165240429497,
+          "mean_wing_area_share": 0.33330773145292175,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7961377385200841,
+            "ci95": [
+              0.7369842909436092,
+              0.855291186096559
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8975591313757286,
+            "ci95": [
+              0.8623236545385824,
+              0.9327946082128749
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_0": {
+          "mean": 0.5474176632903366,
+          "ci95": [
+            0.4236106178413105,
+            0.6712247087393627
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5537213878440911,
+          "minimum_wing_area_share": 0.09838132810250415,
+          "mean_wing_area_share": 0.12989324387313483,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7193965946440235,
+            "ci95": [
+              0.6110258402334202,
+              0.8277673490546268
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8442396711308889,
+            "ci95": [
+              0.7388882829641458,
+              0.9495910592976321
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_1": {
+          "mean": 0.5423338106806139,
+          "ci95": [
+            0.4473513492776529,
+            0.6373162720835749
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6098110261204845,
+          "minimum_wing_area_share": 0.0903946559587509,
+          "mean_wing_area_share": 0.11145506730324944,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8411103300580646,
+            "ci95": [
+              0.7240351406254769,
+              0.9581855194906522
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9086135979364407,
+            "ci95": [
+              0.8429534954681386,
+              0.9742737004047428
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_2": {
+          "mean": 0.5909440989345723,
+          "ci95": [
+            0.5075633684468459,
+            0.6743248294222988
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6251010215439653,
+          "minimum_wing_area_share": 0.06951894168095808,
+          "mean_wing_area_share": 0.09195942027653749,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7889965220071036,
+            "ci95": [
+              0.7284436382697252,
+              0.8495494057444819
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8899723918272427,
+            "ci95": [
+              0.8462489593770356,
+              0.9336958242774499
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_2": {
+          "mean": 0.582597620929582,
+          "ci95": [
+            0.5278690548155153,
+            0.6373261870436487
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6264312956743514,
+          "minimum_wing_area_share": 0.33327346720970197,
+          "mean_wing_area_share": 0.33336955786437933,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6152898459884739,
+            "ci95": [
+              0.5410986857876903,
+              0.6894810061892576
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7801422797562293,
+            "ci95": [
+              0.7250897670822405,
+              0.8351947924302181
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_0": {
+          "mean": 0.5583609417941886,
+          "ci95": [
+            0.46563774008361214,
+            0.6510841435047651
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6197129258031199,
+          "minimum_wing_area_share": 0.06399102453602191,
+          "mean_wing_area_share": 0.09586611988256324,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.48360207876212785,
+            "ci95": [
+              0.39527624301348,
+              0.5719279145107757
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6637978094092344,
+            "ci95": [
+              0.5971019510631597,
+              0.7304936677553091
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_1": {
+          "mean": 0.5586384245191358,
+          "ci95": [
+            0.4598316317232462,
+            0.6574452173150255
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6708135890188407,
+          "minimum_wing_area_share": 0.0365826861890119,
+          "mean_wing_area_share": 0.058141130504290595,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.4588075682993373,
+            "ci95": [
+              0.37765956909166337,
+              0.5399555675070111
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.663002869458207,
+            "ci95": [
+              0.6047269190362871,
+              0.7212788198801269
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_2": {
+          "mean": 0.5813700837424414,
+          "ci95": [
+            0.5278399856609326,
+            0.6349001818239501
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6205752211463511,
+          "minimum_wing_area_share": 0.12626334170203982,
+          "mean_wing_area_share": 0.17936230747752546,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6333840984528646,
+            "ci95": [
+              0.551722045796751,
+              0.7150461511089782
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7906907410164501,
+            "ci95": [
+              0.7317199967769106,
+              0.8496614852559896
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_0": {
+          "mean": 0.5609842198566628,
+          "ci95": [
+            0.4797233564051529,
+            0.6422450833081728
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6021832621653231,
+          "minimum_wing_area_share": 0.33330540783931717,
+          "mean_wing_area_share": 0.33333623152356673,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6118538758343398,
+            "ci95": [
+              0.515768403332351,
+              0.7079393483363287
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7675768640019214,
+            "ci95": [
+              0.6904176877988623,
+              0.8447360402049805
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_1": {
+          "mean": 0.5549223447742486,
+          "ci95": [
+            0.4649971967857914,
+            0.6448474927627059
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6430748029944706,
+          "minimum_wing_area_share": 0.3332813612241844,
+          "mean_wing_area_share": 0.33332528688899954,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7285437940990205,
+            "ci95": [
+              0.6170074474784273,
+              0.8400801407196137
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8612492622044272,
+            "ci95": [
+              0.7968821120027532,
+              0.9256164124061013
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_2": {
+          "mean": 0.588419784225573,
+          "ci95": [
+            0.5388517055078997,
+            0.6379878629432462
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6213406407867244,
+          "minimum_wing_area_share": 0.3333112273676417,
+          "mean_wing_area_share": 0.3333384815874337,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6751064013445184,
+            "ci95": [
+              0.6020296289823237,
+              0.7481831737067131
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8209322760331297,
+            "ci95": [
+              0.7689283651564212,
+              0.8729361869098382
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        }
+      },
+      "contrasts": {
+        "local_minus_global": {
+          "mean": -0.0554547022425489,
+          "ci95": [
+            -0.15784590853604902,
+            0.046936504050951226
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.86492919921875
+        },
+        "curved_minus_flat_all_pressures": {
+          "mean": 0.010982795977393663,
+          "ci95": [
+            -0.09948503727633667,
+            0.12145062923112399
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.416351318359375
+        },
+        "curved_minus_flat_extremity_0": {
+          "mean": 0.16160167356056743,
+          "ci95": [
+            -0.108457279815377,
+            0.43166062693651186
+          ],
+          "positive_wings": 7,
+          "wings": 16,
+          "p_one_sided": 0.115234375
+        },
+        "curved_minus_flat_extremity_1": {
+          "mean": 0.12098724575609712,
+          "ci95": [
+            -0.034716267374027415,
+            0.27669075888622163
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.059356689453125
+        },
+        "curved_minus_flat_extremity_2": {
+          "mean": -0.03783146703554781,
+          "ci95": [
+            -0.14529189606558357,
+            0.06962896199448794
+          ],
+          "positive_wings": 7,
+          "wings": 16,
+          "p_one_sided": 0.7691192626953125
+        },
+        "extreme_minus_mild_curvature_0": {
+          "mean": 0.22244228254436804,
+          "ci95": [
+            -0.029346832721054428,
+            0.4742313978097905
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "p_one_sided": 0.0410919189453125
+        },
+        "extreme_minus_mild_curvature_1": {
+          "mean": 0.043526435644235785,
+          "ci95": [
+            -0.09266501434134128,
+            0.17971788562981283
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.251922607421875
+        },
+        "extreme_minus_mild_curvature_2": {
+          "mean": 0.02300914194825282,
+          "ci95": [
+            -0.05959730030536679,
+            0.10561558420187243
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "p_one_sided": 0.2821044921875
+        }
+      },
+      "local_global_coverage_all_wings": true
+    },
+    "fixed_masks_total": {
+      "regions": {
+        "all": {
+          "mean": 0.1908144076630167,
+          "ci95": [
+            0.14988759751439729,
+            0.2317412178116361
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.19097203466811918,
+          "minimum_wing_area_share": 1.0,
+          "mean_wing_area_share": 1.0,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6770536278449272,
+            "ci95": [
+              0.6139342326295736,
+              0.7401730230602808
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8319948835420004,
+            "ci95": [
+              0.7869338713554188,
+              0.8770558957285819
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "local": {
+          "mean": 0.36702188958241033,
+          "ci95": [
+            0.2590968963744279,
+            0.47494688279039277
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.4336442625246715,
+          "minimum_wing_area_share": 0.10086401085911763,
+          "mean_wing_area_share": 0.1546946939886117,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3820907287911818,
+            "ci95": [
+              0.29386724823605903,
+              0.4703142093463045
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5792326007075426,
+            "ci95": [
+              0.5091830276739807,
+              0.6492821737411044
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "global": {
+          "mean": 0.0938600169879728,
+          "ci95": [
+            0.06423755208495086,
+            0.12348248189099476
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.08935708038961399,
+          "minimum_wing_area_share": 0.03297745963141057,
+          "mean_wing_area_share": 0.06409369328878003,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8351034299663928,
+            "ci95": [
+              0.781130336562318,
+              0.8890765233704675
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9203668543718164,
+            "ci95": [
+              0.8754404533332718,
+              0.965293255410361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_0": {
+          "mean": 0.08172873497825456,
+          "ci95": [
+            0.06270499421884222,
+            0.1007524757376669
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.07950297021479003,
+          "minimum_wing_area_share": 0.33318420281832867,
+          "mean_wing_area_share": 0.3333227106826989,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8555954677306504,
+            "ci95": [
+              0.8281799539510314,
+              0.8830109815102695
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9318088370414259,
+            "ci95": [
+              0.9087565136762938,
+              0.954861160406558
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_0": {
+          "mean": 0.09782211853805949,
+          "ci95": [
+            0.029436736503687944,
+            0.16620750057243103
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.0896156631975219,
+          "minimum_wing_area_share": 0.08150847992256409,
+          "mean_wing_area_share": 0.10449843075837084,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7892743452931823,
+            "ci95": [
+              0.7388654610544786,
+              0.839683229531886
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.884525174740941,
+            "ci95": [
+              0.827507747229077,
+              0.9415426022528048
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_1": {
+          "mean": 0.054716174660349344,
+          "ci95": [
+            0.019023990409626435,
+            0.09040835891107225
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.056098033761878274,
+          "minimum_wing_area_share": 0.1264163638726062,
+          "mean_wing_area_share": 0.16473058663554804,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8858579313677113,
+            "ci95": [
+              0.8386834981543764,
+              0.9330323645810462
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9362937651127492,
+            "ci95": [
+              0.9072246918579792,
+              0.9653628383675192
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_2": {
+          "mean": 0.0938600169879728,
+          "ci95": [
+            0.06423755208495086,
+            0.12348248189099476
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.08935708038961399,
+          "minimum_wing_area_share": 0.03297745963141057,
+          "mean_wing_area_share": 0.06409369328878003,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8351034299663928,
+            "ci95": [
+              0.781130336562318,
+              0.8890765233704675
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9203668543718164,
+            "ci95": [
+              0.8754404533332718,
+              0.965293255410361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_1": {
+          "mean": 0.11589451493247316,
+          "ci95": [
+            0.08525123726058502,
+            0.14653779260436128
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.11024020793218692,
+          "minimum_wing_area_share": 0.33311165240429497,
+          "mean_wing_area_share": 0.33330773145292175,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8026724114796018,
+            "ci95": [
+              0.7546959370196372,
+              0.8506488859395663
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9062124573573367,
+            "ci95": [
+              0.8731892711008961,
+              0.9392356436137773
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_0": {
+          "mean": 0.17217769096060379,
+          "ci95": [
+            0.10208718434466882,
+            0.24226819757653875
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.13570566837121723,
+          "minimum_wing_area_share": 0.09612943251306064,
+          "mean_wing_area_share": 0.13069116747965834,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6948461826973753,
+            "ci95": [
+              0.6090499010462357,
+              0.7806424643485149
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8390542506013305,
+            "ci95": [
+              0.7673170026258783,
+              0.9107914985767828
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_1": {
+          "mean": 0.10896469116766883,
+          "ci95": [
+            0.04440174661205176,
+            0.1735276357232859
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.10047699559200518,
+          "minimum_wing_area_share": 0.08858526931312483,
+          "mean_wing_area_share": 0.11205792582749738,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8270047956516282,
+            "ci95": [
+              0.7504953578227401,
+              0.9035142334805163
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9219928362447511,
+            "ci95": [
+              0.8900964320965108,
+              0.9538892403929915
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_2": {
+          "mean": 0.11147096499487397,
+          "ci95": [
+            0.08328949342284386,
+            0.13965243656690407
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.10967218495170472,
+          "minimum_wing_area_share": 0.06782059662798202,
+          "mean_wing_area_share": 0.09055863814576603,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8023423668325498,
+            "ci95": [
+              0.7467550379845634,
+              0.8579296956805361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9008275305949603,
+            "ci95": [
+              0.8555290239770464,
+              0.9461260372128742
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_2": {
+          "mean": 0.2335138325141507,
+          "ci95": [
+            0.18354678799412327,
+            0.2834808770341781
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.23187198808859943,
+          "minimum_wing_area_share": 0.33327346720970197,
+          "mean_wing_area_share": 0.33336955786437933,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6025770760969211,
+            "ci95": [
+              0.5261485792635614,
+              0.6790055729302809
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7777116022189144,
+            "ci95": [
+              0.7178254667369067,
+              0.8375977377009222
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_0": {
+          "mean": 0.3505860223387529,
+          "ci95": [
+            0.24371946586753457,
+            0.45745257880997126
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.3694304653365731,
+          "minimum_wing_area_share": 0.06498913522409065,
+          "mean_wing_area_share": 0.09816336265937395,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3962825978262291,
+            "ci95": [
+              0.3000622059422839,
+              0.4925029897101743
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5863071959455786,
+            "ci95": [
+              0.5046822089899282,
+              0.6679321829012289
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_1": {
+          "mean": 0.37352058745228833,
+          "ci95": [
+            0.26382055654474745,
+            0.4832206183598292
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.4896495125436804,
+          "minimum_wing_area_share": 0.03587487563502697,
+          "mean_wing_area_share": 0.05653133132923773,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3661750123085087,
+            "ci95": [
+              0.28767478719102796,
+              0.4446752374259894
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5649682397787434,
+            "ci95": [
+              0.5060835332610538,
+              0.6238529462964331
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_2": {
+          "mean": 0.21709211977008114,
+          "ci95": [
+            0.166725578350975,
+            0.26745866118918726
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.20585289001136242,
+          "minimum_wing_area_share": 0.12376130487702064,
+          "mean_wing_area_share": 0.17867486387576764,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6296488243411857,
+            "ci95": [
+              0.5485281636467083,
+              0.7107694850356632
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7944097673395203,
+            "ci95": [
+              0.7329024003921842,
+              0.8559171342868563
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_0": {
+          "mean": 0.28978900245286143,
+          "ci95": [
+            0.1984501281752229,
+            0.38112787673049997
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.275537001043042,
+          "minimum_wing_area_share": 0.33328262980762563,
+          "mean_wing_area_share": 0.3333529608974031,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5123628877378079,
+            "ci95": [
+              0.410974081958601,
+              0.6137516935170149
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6981005799682205,
+            "ci95": [
+              0.6230166096711258,
+              0.7731845502653152
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_1": {
+          "mean": 0.20704995191424283,
+          "ci95": [
+            0.11084412630060755,
+            0.30325577752787813
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.23518050417443948,
+          "minimum_wing_area_share": 0.3331349005341778,
+          "mean_wing_area_share": 0.3333198437922832,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6690284269637798,
+            "ci95": [
+              0.5661810361937825,
+              0.7718758177337772
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8251769938244125,
+            "ci95": [
+              0.7695042263098589,
+              0.880849761338966
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_2": {
+          "mean": 0.18628100058411412,
+          "ci95": [
+            0.144633534004335,
+            0.22792846716389323
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.17910355317107018,
+          "minimum_wing_area_share": 0.3332066030343928,
+          "mean_wing_area_share": 0.3333271953103137,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6818985040725833,
+            "ci95": [
+              0.6099767037568123,
+              0.7538203043883543
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8312979031143786,
+            "ci95": [
+              0.7767712327098935,
+              0.8858245735188637
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        }
+      },
+      "contrasts": {
+        "local_minus_global": {
+          "mean": 0.27316187259443747,
+          "ci95": [
+            0.1585604898784175,
+            0.3877632553104574
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "p_one_sided": 9.1552734375e-05
+        },
+        "curved_minus_flat_all_pressures": {
+          "mean": 0.1517850975358961,
+          "ci95": [
+            0.10444678672212179,
+            0.19912340834967043
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "p_one_sided": 1.52587890625e-05
+        },
+        "curved_minus_flat_extremity_0": {
+          "mean": 0.25276390380069347,
+          "ci95": [
+            0.1270725498586857,
+            0.3784552577427012
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 3.0517578125e-05
+        },
+        "curved_minus_flat_extremity_1": {
+          "mean": 0.31880441279193894,
+          "ci95": [
+            0.22729655055791503,
+            0.41031227502596285
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "p_one_sided": 3.0517578125e-05
+        },
+        "curved_minus_flat_extremity_2": {
+          "mean": 0.12323210278210833,
+          "ci95": [
+            0.07500692077801141,
+            0.17145728478620526
+          ],
+          "positive_wings": 14,
+          "wings": 16,
+          "p_one_sided": 7.62939453125e-05
+        },
+        "extreme_minus_mild_curvature_0": {
+          "mean": -0.00396210155008668,
+          "ci95": [
+            -0.07710778844406285,
+            0.06918358534388949
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.5463104248046875
+        },
+        "extreme_minus_mild_curvature_1": {
+          "mean": -0.060706725965729826,
+          "ci95": [
+            -0.1319081348395237,
+            0.010494682908064067
+          ],
+          "positive_wings": 6,
+          "wings": 16,
+          "p_one_sided": 0.9564971923828125
+        },
+        "extreme_minus_mild_curvature_2": {
+          "mean": -0.13349390256867183,
+          "ci95": [
+            -0.24416261447322168,
+            -0.02282519066412199
+          ],
+          "positive_wings": 4,
+          "wings": 16,
+          "p_one_sided": 0.9900360107421875
+        }
+      },
+      "local_global_coverage_all_wings": true
+    },
+    "nine_angle_mean_fixed_masks": {
+      "regions": {
+        "all": {
+          "mean": 0.5875169578945352,
+          "ci95": [
+            0.5366778329024745,
+            0.6383560828865958
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6181549215790005,
+          "minimum_wing_area_share": 1.0,
+          "mean_wing_area_share": 1.0,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6770536278449272,
+            "ci95": [
+              0.6139342326295736,
+              0.7401730230602808
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8319948835420004,
+            "ci95": [
+              0.7869338713554188,
+              0.8770558957285819
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "local": {
+          "mean": 0.5564091721708218,
+          "ci95": [
+            0.45271294058006983,
+            0.6601054037615737
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6499825728971662,
+          "minimum_wing_area_share": 0.10086401085911763,
+          "mean_wing_area_share": 0.1546946939886117,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3820907287911818,
+            "ci95": [
+              0.29386724823605903,
+              0.4703142093463045
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5792326007075426,
+            "ci95": [
+              0.5091830276739807,
+              0.6492821737411044
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "global": {
+          "mean": 0.6140359714062034,
+          "ci95": [
+            0.5122215873500835,
+            0.7158503554623232
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6152780990640342,
+          "minimum_wing_area_share": 0.03297745963141057,
+          "mean_wing_area_share": 0.06409369328878003,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8351034299663928,
+            "ci95": [
+              0.781130336562318,
+              0.8890765233704675
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9203668543718164,
+            "ci95": [
+              0.8754404533332718,
+              0.965293255410361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_0": {
+          "mean": 0.5716148249521884,
+          "ci95": [
+            0.47140040943293937,
+            0.6718292404714374
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.5796574751490611,
+          "minimum_wing_area_share": 0.33318420281832867,
+          "mean_wing_area_share": 0.3333227106826989,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8555954677306504,
+            "ci95": [
+              0.8281799539510314,
+              0.8830109815102695
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9318088370414259,
+            "ci95": [
+              0.9087565136762938,
+              0.954861160406558
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_0": {
+          "mean": 0.435150900107339,
+          "ci95": [
+            0.17519328994125016,
+            0.6951085102734278
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.5087473387518179,
+          "minimum_wing_area_share": 0.08150847992256409,
+          "mean_wing_area_share": 0.10449843075837084,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.7892743452931823,
+            "ci95": [
+              0.7388654610544786,
+              0.839683229531886
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.884525174740941,
+            "ci95": [
+              0.827507747229077,
+              0.9415426022528048
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_1": {
+          "mean": 0.3925688880625231,
+          "ci95": [
+            0.23255089200424386,
+            0.5525868841208024
+          ],
+          "positive_wings": 13,
+          "wings": 16,
+          "pooled_gain": 0.5041155766201972,
+          "minimum_wing_area_share": 0.1264163638726062,
+          "mean_wing_area_share": 0.16473058663554804,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8858579313677113,
+            "ci95": [
+              0.8386834981543764,
+              0.9330323645810462
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9362937651127492,
+            "ci95": [
+              0.9072246918579792,
+              0.9653628383675192
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_0_2": {
+          "mean": 0.6140359714062034,
+          "ci95": [
+            0.5122215873500835,
+            0.7158503554623232
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6152780990640342,
+          "minimum_wing_area_share": 0.03297745963141057,
+          "mean_wing_area_share": 0.06409369328878003,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8351034299663928,
+            "ci95": [
+              0.781130336562318,
+              0.8890765233704675
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9203668543718164,
+            "ci95": [
+              0.8754404533332718,
+              0.965293255410361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_1": {
+          "mean": 0.5881319652704595,
+          "ci95": [
+            0.509556068403462,
+            0.666707862137457
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6137498673877215,
+          "minimum_wing_area_share": 0.33311165240429497,
+          "mean_wing_area_share": 0.33330773145292175,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8026724114796018,
+            "ci95": [
+              0.7546959370196372,
+              0.8506488859395663
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9062124573573367,
+            "ci95": [
+              0.8731892711008961,
+              0.9392356436137773
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_0": {
+          "mean": 0.5502162312678155,
+          "ci95": [
+            0.41455807493000135,
+            0.6858743876056297
+          ],
+          "positive_wings": 15,
+          "wings": 16,
+          "pooled_gain": 0.5650921583056516,
+          "minimum_wing_area_share": 0.09612943251306064,
+          "mean_wing_area_share": 0.13069116747965834,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6948461826973753,
+            "ci95": [
+              0.6090499010462357,
+              0.7806424643485149
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8390542506013305,
+            "ci95": [
+              0.7673170026258783,
+              0.9107914985767828
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_1": {
+          "mean": 0.5455446588640422,
+          "ci95": [
+            0.4477019002471027,
+            0.6433874174809818
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6158736914778691,
+          "minimum_wing_area_share": 0.08858526931312483,
+          "mean_wing_area_share": 0.11205792582749738,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8270047956516282,
+            "ci95": [
+              0.7504953578227401,
+              0.9035142334805163
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9219928362447511,
+            "ci95": [
+              0.8900964320965108,
+              0.9538892403929915
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_1_2": {
+          "mean": 0.5855765494528158,
+          "ci95": [
+            0.49773629247620077,
+            0.6734168064294308
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6202725678460013,
+          "minimum_wing_area_share": 0.06782059662798202,
+          "mean_wing_area_share": 0.09055863814576603,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.8023423668325498,
+            "ci95": [
+              0.7467550379845634,
+              0.8579296956805361
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.9008275305949603,
+            "ci95": [
+              0.8555290239770464,
+              0.9461260372128742
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "curvature_2": {
+          "mean": 0.582597620929582,
+          "ci95": [
+            0.5278690548155153,
+            0.6373261870436487
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6213850739389837,
+          "minimum_wing_area_share": 0.33327346720970197,
+          "mean_wing_area_share": 0.33336955786437933,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6025770760969211,
+            "ci95": [
+              0.5261485792635614,
+              0.6790055729302809
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7777116022189144,
+            "ci95": [
+              0.7178254667369067,
+              0.8375977377009222
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_0": {
+          "mean": 0.5439383006734559,
+          "ci95": [
+            0.436999363400466,
+            0.6508772379464458
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6073685403615696,
+          "minimum_wing_area_share": 0.06498913522409065,
+          "mean_wing_area_share": 0.09816336265937395,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3962825978262291,
+            "ci95": [
+              0.3000622059422839,
+              0.4925029897101743
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5863071959455786,
+            "ci95": [
+              0.5046822089899282,
+              0.6679321829012289
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_1": {
+          "mean": 0.5525342914390765,
+          "ci95": [
+            0.4457840960241998,
+            0.6592844868539531
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6814439895366564,
+          "minimum_wing_area_share": 0.03587487563502697,
+          "mean_wing_area_share": 0.05653133132923773,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.3661750123085087,
+            "ci95": [
+              0.28767478719102796,
+              0.4446752374259894
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.5649682397787434,
+            "ci95": [
+              0.5060835332610538,
+              0.6238529462964331
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "cell_2_2": {
+          "mean": 0.5811362776400706,
+          "ci95": [
+            0.5283422570190882,
+            0.633930298261053
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6140461107398401,
+          "minimum_wing_area_share": 0.12376130487702064,
+          "mean_wing_area_share": 0.17867486387576764,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6296488243411857,
+            "ci95": [
+              0.5485281636467083,
+              0.7107694850356632
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.7944097673395203,
+            "ci95": [
+              0.7329024003921842,
+              0.8559171342868563
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_0": {
+          "mean": 0.5514145147278131,
+          "ci95": [
+            0.4602522966646812,
+            0.642576732790945
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.596877507612679,
+          "minimum_wing_area_share": 0.33328262980762563,
+          "mean_wing_area_share": 0.3333529608974031,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.5123628877378079,
+            "ci95": [
+              0.410974081958601,
+              0.6137516935170149
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.6981005799682205,
+            "ci95": [
+              0.6230166096711258,
+              0.7731845502653152
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_1": {
+          "mean": 0.5557409685558455,
+          "ci95": [
+            0.46254699311903424,
+            0.6489349439926568
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6541187863243132,
+          "minimum_wing_area_share": 0.3331349005341778,
+          "mean_wing_area_share": 0.3333198437922832,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6690284269637798,
+            "ci95": [
+              0.5661810361937825,
+              0.7718758177337772
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8251769938244125,
+            "ci95": [
+              0.7695042263098589,
+              0.880849761338966
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        },
+        "extremity_2": {
+          "mean": 0.5876023466068871,
+          "ci95": [
+            0.539312599267005,
+            0.6358920939467693
+          ],
+          "positive_wings": 16,
+          "wings": 16,
+          "pooled_gain": 0.6146888895823117,
+          "minimum_wing_area_share": 0.3332066030343928,
+          "mean_wing_area_share": 0.3333271953103137,
+          "shared_angle_fraction_of_scratch_total": {
+            "mean": 0.6818985040725833,
+            "ci95": [
+              0.6099767037568123,
+              0.7538203043883543
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          },
+          "shared_angle_fraction_of_finetuned_total": {
+            "mean": 0.8312979031143786,
+            "ci95": [
+              0.7767712327098935,
+              0.8858245735188637
+            ],
+            "positive_wings": 16,
+            "wings": 16
+          }
+        }
+      },
+      "contrasts": {
+        "local_minus_global": {
+          "mean": -0.057626799235381554,
+          "ci95": [
+            -0.16372126607884357,
+            0.04846766760808045
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.8672027587890625
+        },
+        "curved_minus_flat_all_pressures": {
+          "mean": 0.010982795977393642,
+          "ci95": [
+            -0.09948503727633667,
+            0.12145062923112396
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.416351318359375
+        },
+        "curved_minus_flat_extremity_0": {
+          "mean": 0.10878740056611694,
+          "ci95": [
+            -0.17997408979402593,
+            0.3975488909262598
+          ],
+          "positive_wings": 6,
+          "wings": 16,
+          "p_one_sided": 0.2187957763671875
+        },
+        "curved_minus_flat_extremity_1": {
+          "mean": 0.15996540337655335,
+          "ci95": [
+            -0.010782907351830406,
+            0.3307137141049371
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "p_one_sided": 0.03314208984375
+        },
+        "curved_minus_flat_extremity_2": {
+          "mean": -0.03289969376613284,
+          "ci95": [
+            -0.14492935302387122,
+            0.07912996549160553
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.730865478515625
+        },
+        "extreme_minus_mild_curvature_0": {
+          "mean": 0.17888507129886433,
+          "ci95": [
+            -0.08565423749169859,
+            0.44342438008942725
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.0895843505859375
+        },
+        "extreme_minus_mild_curvature_1": {
+          "mean": 0.0353603181850003,
+          "ci95": [
+            -0.10745481698197465,
+            0.17817545335197524
+          ],
+          "positive_wings": 8,
+          "wings": 16,
+          "p_one_sided": 0.304168701171875
+        },
+        "extreme_minus_mild_curvature_2": {
+          "mean": 0.03719797696661454,
+          "ci95": [
+            -0.06051690834192646,
+            0.13491286227515553
+          ],
+          "positive_wings": 9,
+          "wings": 16,
+          "p_one_sided": 0.22430419921875
+        }
+      },
+      "local_global_coverage_all_wings": true
+    }
+  }
+}

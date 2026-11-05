@@ -1,0 +1,321 @@
+{
+  "scope": "held_out_cars",
+  "model_family": "polynomial_patch_encoder",
+  "selected_rates": {
+    "pretrained": {
+      "encoder_lr": 2e-05,
+      "lr": 0.0002
+    },
+    "scratch": {
+      "encoder_lr": 2e-05,
+      "lr": 0.0002
+    }
+  },
+  "selection_sha256": "e56595d103fce14c779124fedd14d352cc49a0b05260795c71d0ae4c34ac426c",
+  "equal_search_budget": true,
+  "per_seed": [
+    {
+      "scope": "held_out_cars",
+      "matched_data_architecture_and_seed": true,
+      "validation_tuning_verified": true,
+      "learning_rates": {
+        "pretrained": {
+          "lr": 0.0002,
+          "encoder_lr": 2e-05
+        },
+        "scratch": {
+          "lr": 0.0002,
+          "encoder_lr": 2e-05
+        }
+      },
+      "pretrained_case_mean_nrmse": 0.21763124963704758,
+      "scratch_case_mean_nrmse": 0.191695392649894,
+      "per_case": [
+        {
+          "id": "WindsorML__run_100",
+          "pretrained_rmse_cp": 0.0526547056166682,
+          "scratch_rmse_cp": 0.05118750864576541,
+          "pretrained_nrmse": 0.1848806599075096,
+          "scratch_nrmse": 0.17972905301847708,
+          "rmse_reduction_fraction": -0.028663183845423656
+        },
+        {
+          "id": "WindsorML__run_104",
+          "pretrained_rmse_cp": 0.05572550232700324,
+          "scratch_rmse_cp": 0.054918158264659726,
+          "pretrained_nrmse": 0.1811306970408789,
+          "scratch_nrmse": 0.17850649830497564,
+          "rmse_reduction_fraction": -0.014700858292675978
+        },
+        {
+          "id": "WindsorML__run_113",
+          "pretrained_rmse_cp": 0.09085074704751137,
+          "scratch_rmse_cp": 0.09676537568640767,
+          "pretrained_nrmse": 0.2603807032501271,
+          "scratch_nrmse": 0.2773321892258425,
+          "rmse_reduction_fraction": 0.061123398704761245
+        },
+        {
+          "id": "WindsorML__run_123",
+          "pretrained_rmse_cp": 0.07430436725330825,
+          "scratch_rmse_cp": 0.05393784284367826,
+          "pretrained_nrmse": 0.23142315008042808,
+          "scratch_nrmse": 0.16799100726978253,
+          "rmse_reduction_fraction": -0.37759249046455023
+        },
+        {
+          "id": "WindsorML__run_125",
+          "pretrained_rmse_cp": 0.10437250767336084,
+          "scratch_rmse_cp": 0.10120943814809868,
+          "pretrained_nrmse": 0.2697519895155565,
+          "scratch_nrmse": 0.2615769986445336,
+          "rmse_reduction_fraction": -0.03125271301905341
+        },
+        {
+          "id": "WindsorML__run_130",
+          "pretrained_rmse_cp": 0.09614128476312653,
+          "scratch_rmse_cp": 0.10078756179410693,
+          "pretrained_nrmse": 0.29416971589949004,
+          "scratch_nrmse": 0.30838623066275067,
+          "rmse_reduction_fraction": 0.04609970663316587
+        },
+        {
+          "id": "WindsorML__run_136",
+          "pretrained_rmse_cp": 0.07131903280926002,
+          "scratch_rmse_cp": 0.05966167309485205,
+          "pretrained_nrmse": 0.18738599797123162,
+          "scratch_nrmse": 0.15675706348138607,
+          "rmse_reduction_fraction": -0.19539109632200113
+        },
+        {
+          "id": "WindsorML__run_139",
+          "pretrained_rmse_cp": 0.1520393299629105,
+          "scratch_rmse_cp": 0.07480607686522271,
+          "pretrained_nrmse": 0.41823168625612706,
+          "scratch_nrmse": 0.20577748979280386,
+          "rmse_reduction_fraction": -1.0324462441311835
+        },
+        {
+          "id": "WindsorML__run_148",
+          "pretrained_rmse_cp": 0.06916029873285241,
+          "scratch_rmse_cp": 0.06139452004295859,
+          "pretrained_nrmse": 0.23926320106212534,
+          "scratch_nrmse": 0.21239713625142753,
+          "rmse_reduction_fraction": -0.12648976951786572
+        },
+        {
+          "id": "WindsorML__run_172",
+          "pretrained_rmse_cp": 0.05850337598096719,
+          "scratch_rmse_cp": 0.0533270680858579,
+          "pretrained_nrmse": 0.1723059424349522,
+          "scratch_nrmse": 0.15706052120506536,
+          "rmse_reduction_fraction": -0.09706717584351932
+        },
+        {
+          "id": "WindsorML__run_18",
+          "pretrained_rmse_cp": 0.09340254050908763,
+          "scratch_rmse_cp": 0.06182982358923477,
+          "pretrained_nrmse": 0.2361425900722923,
+          "scratch_nrmse": 0.15631967403128869,
+          "rmse_reduction_fraction": -0.5106389617024558
+        },
+        {
+          "id": "WindsorML__run_216",
+          "pretrained_rmse_cp": 0.040632784155454627,
+          "scratch_rmse_cp": 0.052828779910941634,
+          "pretrained_nrmse": 0.12337056115518794,
+          "scratch_nrmse": 0.16040043423610353,
+          "rmse_reduction_fraction": 0.23085893287800563
+        },
+        {
+          "id": "WindsorML__run_23",
+          "pretrained_rmse_cp": 0.05550029554613486,
+          "scratch_rmse_cp": 0.07308887359059187,
+          "pretrained_nrmse": 0.14801610277918067,
+          "scratch_nrmse": 0.19492383092639218,
+          "rmse_reduction_fraction": 0.24064645109978877
+        },
+        {
+          "id": "WindsorML__run_232",
+          "pretrained_rmse_cp": 0.08941897299899314,
+          "scratch_rmse_cp": 0.08313931034646106,
+          "pretrained_nrmse": 0.2499047748662776,
+          "scratch_nrmse": 0.23235461041253386,
+          "rmse_reduction_fraction": -0.07553181072062354
+        },
+        {
+          "id": "WindsorML__run_253",
+          "pretrained_rmse_cp": 0.05400551165944448,
+          "scratch_rmse_cp": 0.05786055925082097,
+          "pretrained_nrmse": 0.12487004960920386,
+          "scratch_nrmse": 0.13378358397244772,
+          "rmse_reduction_fraction": 0.06662651798205343
+        },
+        {
+          "id": "WindsorML__run_256",
+          "pretrained_rmse_cp": 0.06722127111190744,
+          "scratch_rmse_cp": 0.05682460261700727,
+          "pretrained_nrmse": 0.17103184357220141,
+          "scratch_nrmse": 0.14457948183789882,
+          "rmse_reduction_fraction": -0.18296068984367198
+        },
+        {
+          "id": "WindsorML__run_257",
+          "pretrained_rmse_cp": 0.08997241742492776,
+          "scratch_rmse_cp": 0.06715647101627617,
+          "pretrained_nrmse": 0.27619988032867554,
+          "scratch_nrmse": 0.20615884055208866,
+          "rmse_reduction_fraction": -0.33974308154342814
+        },
+        {
+          "id": "WindsorML__run_270",
+          "pretrained_rmse_cp": 0.08692710131553906,
+          "scratch_rmse_cp": 0.06526961792521178,
+          "pretrained_nrmse": 0.29767630964253106,
+          "scratch_nrmse": 0.22351164023321546,
+          "rmse_reduction_fraction": -0.3318156912630188
+        },
+        {
+          "id": "WindsorML__run_28",
+          "pretrained_rmse_cp": 0.04824691287258461,
+          "scratch_rmse_cp": 0.06641414271802429,
+          "pretrained_nrmse": 0.1570364420570781,
+          "scratch_nrmse": 0.21616804172015464,
+          "rmse_reduction_fraction": 0.2735445961046672
+        },
+        {
+          "id": "WindsorML__run_283",
+          "pretrained_rmse_cp": 0.07672833979018621,
+          "scratch_rmse_cp": 0.051335213221019846,
+          "pretrained_nrmse": 0.22547125228682494,
+          "scratch_nrmse": 0.15085188657809256,
+          "rmse_reduction_fraction": -0.49465318201442354
+        },
+        {
+          "id": "WindsorML__run_299",
+          "pretrained_rmse_cp": 0.05737597088000351,
+          "scratch_rmse_cp": 0.048048155541143604,
+          "pretrained_nrmse": 0.14499151765275134,
+          "scratch_nrmse": 0.12141973173570877,
+          "rmse_reduction_fraction": -0.19413472242181085
+        },
+        {
+          "id": "WindsorML__run_32",
+          "pretrained_rmse_cp": 0.06738439729862017,
+          "scratch_rmse_cp": 0.06886778281744199,
+          "pretrained_nrmse": 0.16757014401566783,
+          "scratch_nrmse": 0.17125899685081541,
+          "rmse_reduction_fraction": 0.02153961486975775
+        },
+        {
+          "id": "WindsorML__run_333",
+          "pretrained_rmse_cp": 0.06217106000247857,
+          "scratch_rmse_cp": 0.056371826172671634,
+          "pretrained_nrmse": 0.17912965899401764,
+          "scratch_nrmse": 0.1624206825294299,
+          "rmse_reduction_fraction": -0.10287468445750547
+        },
+        {
+          "id": "WindsorML__run_336",
+          "pretrained_rmse_cp": 0.060389162994571643,
+          "scratch_rmse_cp": 0.060043094683192536,
+          "pretrained_nrmse": 0.17312764765837013,
+          "scratch_nrmse": 0.17213551612835448,
+          "rmse_reduction_fraction": -0.005763665467362733
+        },
+        {
+          "id": "WindsorML__run_341",
+          "pretrained_rmse_cp": 0.07621518388040455,
+          "scratch_rmse_cp": 0.07506528769572098,
+          "pretrained_nrmse": 0.2617219102455268,
+          "scratch_nrmse": 0.25777318230554475,
+          "rmse_reduction_fraction": -0.01531861423544667
+        },
+        {
+          "id": "WindsorML__run_47",
+          "pretrained_rmse_cp": 0.05357705778955185,
+          "scratch_rmse_cp": 0.049894272959088416,
+          "pretrained_nrmse": 0.19665917043631545,
+          "scratch_nrmse": 0.18314119390801822,
+          "rmse_reduction_fraction": -0.0738117746195679
+        },
+        {
+          "id": "WindsorML__run_58",
+          "pretrained_rmse_cp": 0.0743398254089958,
+          "scratch_rmse_cp": 0.06756645327391371,
+          "pretrained_nrmse": 0.24330801374682495,
+          "scratch_nrmse": 0.22113933482556009,
+          "rmse_reduction_fraction": -0.10024756083648345
+        },
+        {
+          "id": "WindsorML__run_66",
+          "pretrained_rmse_cp": 0.13900090208020194,
+          "scratch_rmse_cp": 0.11486202082286347,
+          "pretrained_nrmse": 0.3357421764801293,
+          "scratch_nrmse": 0.27743722730463366,
+          "rmse_reduction_fraction": -0.21015546378523742
+        },
+        {
+          "id": "WindsorML__run_69",
+          "pretrained_rmse_cp": 0.09925028214017255,
+          "scratch_rmse_cp": 0.06654851898098123,
+          "pretrained_nrmse": 0.2900228159732673,
+          "scratch_nrmse": 0.19446381871696963,
+          "rmse_reduction_fraction": -0.4913973092103987
+        },
+        {
+          "id": "WindsorML__run_7",
+          "pretrained_rmse_cp": 0.05621108050997221,
+          "scratch_rmse_cp": 0.0571406655084439,
+          "pretrained_nrmse": 0.15860837172057762,
+          "scratch_nrmse": 0.16123134145618542,
+          "rmse_reduction_fraction": 0.01626836142351762
+        },
+        {
+          "id": "WindsorML__run_85",
+          "pretrained_rmse_cp": 0.07615898925680618,
+          "scratch_rmse_cp": 0.06342833604729557,
+          "pretrained_nrmse": 0.24763829472177742,
+          "scratch_nrmse": 0.20624334867191516,
+          "rmse_reduction_fraction": -0.20070924137152124
+        },
+        {
+          "id": "WindsorML__run_89",
+          "pretrained_rmse_cp": 0.06871760644621984,
+          "scratch_rmse_cp": 0.05818900222285436,
+          "pretrained_nrmse": 0.1772121388661866,
+          "scratch_nrmse": 0.15006048778010894,
+          "rmse_reduction_fraction": -0.18093804363653887
+        },
+        {
+          "id": "WindsorML__run_95",
+          "pretrained_rmse_cp": 0.06283670049608922,
+          "scratch_rmse_cp": 0.05033252867834493,
+          "pretrained_nrmse": 0.20064759274935856,
+          "scratch_nrmse": 0.1607197805831085,
+          "rmse_reduction_fraction": -0.2484312262086703
+        },
+        {
+          "id": "WindsorML__run_97",
+          "pretrained_rmse_cp": 0.0761050803590973,
+          "scratch_rmse_cp": 0.058904739099668944,
+          "pretrained_nrmse": 0.2542687377633364,
+          "scratch_nrmse": 0.19680202147452444,
+          "rmse_reduction_fraction": -0.2920026728295113
+        },
+        {
+          "id": "WindsorML__run_98",
+          "pretrained_rmse_cp": 0.052042832951252394,
+          "scratch_rmse_cp": 0.056092850876703314,
+          "pretrained_nrmse": 0.1378019964846778,
+          "scratch_nrmse": 0.14852586611815133,
+          "rmse_reduction_fraction": 0.07220203398741831
+        }
+      ],
+      "seed": 0
+    }
+  ],
+  "metric": "case_mean_area_weighted_reference_standard_deviation_nrmse",
+  "all_trials_stopped_by_validation_patience": false,
+  "original_areals_or_hessian_evaluated": false
+}

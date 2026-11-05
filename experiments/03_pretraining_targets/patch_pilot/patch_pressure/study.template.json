@@ -1,0 +1,10 @@
+{
+  "version": "patch-pressure-study-v1",
+  "geometry_checkpoint": "REPLACE_WITH_OBJAVERSE_PATCH_CHECKPOINT.pt",
+  "pretraining_cache": "REPLACE_WITH_ITS_GEOMETRY_TRAINING_CACHE.json",
+  "expected_training_source_meshes_sha256": null,
+  "runs": [],
+  "encoder_lrs": [0.00002, 0.0002, 0.001],
+  "decoder_lrs": [0.0002],
+  "training_options": ["--device", "cuda", "--steps", "20000", "--patience", "20"]
+}

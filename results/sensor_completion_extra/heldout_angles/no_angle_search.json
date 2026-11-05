@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "encoder_calls": 1,
+  "condition_input_calls": 0,
+  "forbidden_file_reads": 0,
+  "observed_sensors": 20,
+  "predicted_surface_points": 32000,
+  "checkpoint_sha256": "d874f8c4f2e1e28c0f2f2fc2dc96c7bea66ab559ac3dc51f34da5b505d449f48",
+  "scope": "An actual trained measurement-model prediction succeeded with angle sidecars/candidate artifacts blocked, exactly one encoder call and no condition-input construction. Decoder query chunks are not counted as angle searches."
+}

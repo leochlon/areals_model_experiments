@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "dataset": "doubledelta",
+      "setting": "sensors-20",
+      "domain": "training_support",
+      "areals_nrmse": {
+        "mean": 0.20601554607240327,
+        "sample_sd": 0.003490621727315996,
+        "per_seed": {
+          "0": 0.20684243635020966,
+          "1": 0.20218572428644216,
+          "2": 0.20901847758055792
+        },
+        "bootstrap95": [
+          0.18139432613291437,
+          0.22985462671811638
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "inference_nrmse": {
+        "mean": 0.29992768751654014,
+        "sample_sd": 0.0007124545743605442,
+        "per_seed": {
+          "0": 0.3006989840834575,
+          "1": 0.29978986523035245,
+          "2": 0.29929421323581046
+        },
+        "bootstrap95": [
+          0.263792623432328,
+          0.33551164025460495
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "plugin_nrmse": {
+        "mean": 0.2999259292670084,
+        "sample_sd": 0.0007129710883072141,
+        "per_seed": {
+          "0": 0.3006989840834575,
+          "1": 0.2997845904817572,
+          "2": 0.29929421323581046
+        },
+        "bootstrap95": [
+          0.2637857676526299,
+          0.3355115509365354
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "median_seconds": {
+        "areals": 0.12232705391943455,
+        "inference": 0.35633816896006465
+      },
+      "timing_samples": 36
+    },
+    {
+      "dataset": "doubledelta",
+      "setting": "sensors-100",
+      "domain": "training_support",
+      "areals_nrmse": {
+        "mean": 0.17749749517231542,
+        "sample_sd": 0.006138918951766021,
+        "per_seed": {
+          "0": 0.17973669452049143,
+          "1": 0.17055330833640228,
+          "2": 0.18220248266005254
+        },
+        "bootstrap95": [
+          0.15419007218721373,
+          0.2016269997196216
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "inference_nrmse": {
+        "mean": 0.29985870827506567,
+        "sample_sd": 0.0022938685116943637,
+        "per_seed": {
+          "0": 0.2972187960937613,
+          "1": 0.3009916336056979,
+          "2": 0.3013656951257377
+        },
+        "bootstrap95": [
+          0.26266545591932283,
+          0.33650213650305916
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "plugin_nrmse": {
+        "mean": 0.29985870470267045,
+        "sample_sd": 0.0022938649913025327,
+        "per_seed": {
+          "0": 0.2972187960937613,
+          "1": 0.3009916336056979,
+          "2": 0.30136568440855205
+        },
+        "bootstrap95": [
+          0.2626654280544753,
+          0.33650213650313193
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "median_seconds": {
+        "areals": 0.12298984546214342,
+        "inference": 0.3550060165580362
+      },
+      "timing_samples": 36
+    },
+    {
+      "dataset": "doubledelta",
+      "setting": "sensors-500",
+      "domain": "training_support",
+      "areals_nrmse": {
+        "mean": 0.1872318392887623,
+        "sample_sd": 0.008585137945342014,
+        "per_seed": {
+          "0": 0.18654564824391945,
+          "1": 0.17901038870949018,
+          "2": 0.1961394809128773
+        },
+        "bootstrap95": [
+          0.16344536009578592,
+          0.21115592927457583
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "inference_nrmse": {
+        "mean": 0.3066491313548037,
+        "sample_sd": 0.00024888769397780636,
+        "per_seed": {
+          "0": 0.3067374246349133,
+          "1": 0.3068418355258711,
+          "2": 0.3063681339036268
+        },
+        "bootstrap95": [
+          0.26800526646195716,
+          0.34538133227743295
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "plugin_nrmse": {
+        "mean": 0.3066491313548037,
+        "sample_sd": 0.00024888769397780636,
+        "per_seed": {
+          "0": 0.3067374246349133,
+          "1": 0.3068418355258711,
+          "2": 0.3063681339036268
+        },
+        "bootstrap95": [
+          0.26800526646195716,
+          0.34538133227743295
+        ],
+        "geometries": 16,
+        "seeds": 3
+      },
+      "median_seconds": {
+        "areals": 0.12318096589297056,
+        "inference": 0.354285771260038
+      },
+      "timing_samples": 36
+    }
+  ],
+  "filter": "Only completed three-seed configurations where AREALS mean nRMSE is lower than both plug-in and mixture. This is a filtered subset, not the full ranking.",
+  "baseline": "Validation-selected condition-inference mixture.",
+  "accuracy_scope": "Full original held-out sets; mean across three training seeds; FP32 for both methods.",
+  "timing_scope": "Median across three seeds, four validation geometries and three timed repeats. One warmup per case/setting excluded. Alternating method order. Same B200 class and FP32. Includes encoding, search and full-field prediction; excludes geometry preprocessing and checkpoint loading.",
+  "source_sha256": "4e9f6818f87e17fced1a11ed7291c41ca707d069c020a9d2b1931f2a662a9c16"
+}

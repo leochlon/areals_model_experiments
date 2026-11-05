@@ -1,0 +1,5 @@
+{
+  "model": {"width": 48, "heads": 2, "latents": 16, "encoder_depth": 1, "decoder_depth": 1, "ff_multiplier": 2, "fourier_bands": 3, "query_chunk": 64},
+  "data": {"encoder_points": 128, "queries": 64, "mask_fraction": 0.6, "mask_patches": 8},
+  "train": {"epochs": 4, "batch_size": 2, "accumulation": 1, "learning_rate": 0.001, "warmup_epochs": 1, "workers": 0, "amp": "none"}
+}

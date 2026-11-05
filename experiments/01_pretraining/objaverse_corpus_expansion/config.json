@@ -1,0 +1,15 @@
+{
+  "target_additional_train": 30000,
+  "workers": 24,
+  "workers_per_gpu": 8,
+  "gpus": 3,
+  "points": 16384,
+  "queries": 32768,
+  "seed": 17,
+  "cached_candidates": 22689,
+  "minimum_new_files": 7311,
+  "existing_manifest": "/workspace/home/objaverse_base_030_20260924T172527Z/pilots/prepared_35493_5ep/clean.json",
+  "existing_audit": "/workspace/home/objaverse_base_030_20260924T172527Z/pilots/prepared_35493_5ep/audit.json",
+  "output_directory": "/workspace/runs/objaverse_add30000_20260927T140652Z/prepared",
+  "fresh_source_start_index": 61889
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Interim Windsor validation using current incomplete AREALS geometry pretraining. Excluded from fixed-budget main comparison and test scoring.",
+  "geometry_step": 6500,
+  "windsor_training_cars": 18,
+  "validation_cars": 35,
+  "seed": 0,
+  "field_updates": 8000,
+  "test_access": false,
+  "selected": {
+    "lr": 0.0002,
+    "validation_nrmse": 0.25220844380122787,
+    "best_step": 8000,
+    "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/diagnostics/areals_interim_20261031/pressure/lr1/best.pt",
+    "checkpoint_sha256": "4f7f5b7f7abfd5e5a3bbfe255d6d730560ec863950689b209f580c0a3f81761e"
+  },
+  "trials": [
+    {
+      "lr": 2e-05,
+      "validation_nrmse": 0.30891521922571374,
+      "best_step": 7750,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/diagnostics/areals_interim_20261031/pressure/lr0/best.pt",
+      "checkpoint_sha256": "d1dc9ce08f31b3443b3e5d961d119b0c87e2f59b5535e6de4130c9281688fcea"
+    },
+    {
+      "lr": 0.0002,
+      "validation_nrmse": 0.25220844380122787,
+      "best_step": 8000,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/diagnostics/areals_interim_20261031/pressure/lr1/best.pt",
+      "checkpoint_sha256": "4f7f5b7f7abfd5e5a3bbfe255d6d730560ec863950689b209f580c0a3f81761e"
+    },
+    {
+      "lr": 0.001,
+      "validation_nrmse": 0.26499499972999224,
+      "best_step": 7250,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/diagnostics/areals_interim_20261031/pressure/lr2/best.pt",
+      "checkpoint_sha256": "7525f4f7857003e801dbeb2970cb7fbd4b290bdf18c47bf8203984240a2e79ea"
+    }
+  ],
+  "main_fixed_budget_comparison": false
+}

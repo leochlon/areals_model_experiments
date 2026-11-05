@@ -1,0 +1,391 @@
+{
+  "comparisons": [
+    {
+      "arm": "patch",
+      "budget": 18,
+      "pretrained_mean": 0.45746171177115014,
+      "scratch_mean": 0.4419200274928958,
+      "pretrained_seeds": [
+        0.4303446143589153,
+        0.43466041555098534,
+        0.5073801054035502
+      ],
+      "scratch_seeds": [
+        0.4339427064134973,
+        0.44824842883613875,
+        0.4435689472290512
+      ],
+      "gain_nrmse": -0.015541684278254456,
+      "gain_paired_bootstrap_95": [
+        -0.061376968493596334,
+        0.02179709915367107
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.06629066218488983,
+        "scratch": 0.06165535324696629
+      }
+    },
+    {
+      "arm": "patch",
+      "budget": 35,
+      "pretrained_mean": 0.38378626905957186,
+      "scratch_mean": 0.378915650197696,
+      "pretrained_seeds": [
+        0.3716954542454565,
+        0.35405411859031105,
+        0.4256092343429479
+      ],
+      "scratch_seeds": [
+        0.36421497427007327,
+        0.4012447979131934,
+        0.3712871784098211
+      ],
+      "gain_nrmse": -0.004870618861875796,
+      "gain_paired_bootstrap_95": [
+        -0.05214552852736011,
+        0.04556212995408982
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.06449978288174385,
+        "scratch": 0.06624493282135864
+      }
+    },
+    {
+      "arm": "patch",
+      "budget": 69,
+      "pretrained_mean": 0.30677264021281003,
+      "scratch_mean": 0.2730347385831444,
+      "pretrained_seeds": [
+        0.3121723091691014,
+        0.2944399104040146,
+        0.31370570106531404
+      ],
+      "scratch_seeds": [
+        0.27904812981351007,
+        0.27558126705377217,
+        0.26447481888215085
+      ],
+      "gain_nrmse": -0.03373790162966561,
+      "gain_paired_bootstrap_95": [
+        -0.053865512736264144,
+        -0.011913528224009881
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.06529603894977343,
+        "scratch": 0.06586839226739748
+      }
+    },
+    {
+      "arm": "patch",
+      "budget": 137,
+      "pretrained_mean": 0.2567948367575513,
+      "scratch_mean": 0.2233161623204645,
+      "pretrained_seeds": [
+        0.2638054928283969,
+        0.254636721334854,
+        0.25194229610940305
+      ],
+      "scratch_seeds": [
+        0.21971207166317616,
+        0.2377563483449764,
+        0.2124800669532409
+      ],
+      "gain_nrmse": -0.033478674437086825,
+      "gain_paired_bootstrap_95": [
+        -0.057485831477768895,
+        -0.009735569426139307
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.06557826711602198,
+        "scratch": 0.0657812098883802
+      }
+    },
+    {
+      "arm": "patch",
+      "budget": 274,
+      "pretrained_mean": 0.2212470831339136,
+      "scratch_mean": 0.19561343773150555,
+      "pretrained_seeds": [
+        0.20814342465482175,
+        0.2178267187991243,
+        0.2377711059477948
+      ],
+      "scratch_seeds": [
+        0.1970754055506456,
+        0.19044401778640038,
+        0.19932088985747073
+      ],
+      "gain_nrmse": -0.025633645402408037,
+      "gain_paired_bootstrap_95": [
+        -0.047406413792420075,
+        -0.0076873105757031155
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.06232337760891477,
+        "scratch": 0.06831185061573272
+      }
+    },
+    {
+      "arm": "areals",
+      "budget": 18,
+      "pretrained_mean": 0.2773327196444753,
+      "scratch_mean": 0.44311986597940917,
+      "pretrained_seeds": [
+        0.2857636210486985,
+        0.2673812310914475,
+        0.2788533067932798
+      ],
+      "scratch_seeds": [
+        0.44544522957909927,
+        0.4238400817791474,
+        0.4600742865799809
+      ],
+      "gain_nrmse": 0.16578714633493394,
+      "gain_paired_bootstrap_95": [
+        0.14473808712134076,
+        0.1928541028478051
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.3322932160282064,
+        "scratch": 0.3353049694105894
+      }
+    },
+    {
+      "arm": "areals",
+      "budget": 35,
+      "pretrained_mean": 0.22808672493442358,
+      "scratch_mean": 0.3808973131481623,
+      "pretrained_seeds": [
+        0.22872292339122902,
+        0.22273680457112785,
+        0.23280044684091392
+      ],
+      "scratch_seeds": [
+        0.37547643732843394,
+        0.395617683190719,
+        0.3715978189253339
+      ],
+      "gain_nrmse": 0.15281058821373864,
+      "gain_paired_bootstrap_95": [
+        0.12656546503414212,
+        0.18167416701550307
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.3288890455539028,
+        "scratch": 0.33908300248994716
+      }
+    },
+    {
+      "arm": "areals",
+      "budget": 69,
+      "pretrained_mean": 0.19336574903210949,
+      "scratch_mean": 0.26489389714488154,
+      "pretrained_seeds": [
+        0.20167086178895915,
+        0.1867946658689356,
+        0.19163171943843382
+      ],
+      "scratch_seeds": [
+        0.2609756338404661,
+        0.2530813040547591,
+        0.28062475353941935
+      ],
+      "gain_nrmse": 0.071528148112772,
+      "gain_paired_bootstrap_95": [
+        0.05123548001764644,
+        0.09486138058868915
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.3396528325398408,
+        "scratch": 0.3246354558573027
+      }
+    },
+    {
+      "arm": "areals",
+      "budget": 137,
+      "pretrained_mean": 0.1777761730638891,
+      "scratch_mean": 0.2278778812194342,
+      "pretrained_seeds": [
+        0.17725155163087436,
+        0.1760083075893485,
+        0.18006865997144442
+      ],
+      "scratch_seeds": [
+        0.24479262098880997,
+        0.22035343497779683,
+        0.2184875876916959
+      ],
+      "gain_nrmse": 0.050101708155545134,
+      "gain_paired_bootstrap_95": [
+        0.032363281689209995,
+        0.07327910262200794
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.34180115724337246,
+        "scratch": 0.33355345842206763
+      }
+    },
+    {
+      "arm": "areals",
+      "budget": 274,
+      "pretrained_mean": 0.15821884676165612,
+      "scratch_mean": 0.20255024046638392,
+      "pretrained_seeds": [
+        0.17079762562741557,
+        0.14972433511896865,
+        0.1541345795385841
+      ],
+      "scratch_seeds": [
+        0.1975807704830538,
+        0.20295999488038816,
+        0.20710995603570978
+      ],
+      "gain_nrmse": 0.04433139370472779,
+      "gain_paired_bootstrap_95": [
+        0.024675028302470262,
+        0.06612816245297651
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.34312059647802795,
+        "scratch": 0.31585784981115944
+      }
+    },
+    {
+      "arm": "hessian",
+      "budget": 18,
+      "pretrained_mean": 0.30108367816756154,
+      "scratch_mean": 0.47530126457564825,
+      "pretrained_seeds": [
+        0.30684306245232257,
+        0.29999425136569763,
+        0.29641372068466454
+      ],
+      "scratch_seeds": [
+        0.453453504992279,
+        0.49746338166247234,
+        0.47498690707219354
+      ],
+      "gain_nrmse": 0.17421758640808677,
+      "gain_paired_bootstrap_95": [
+        0.14007532339620637,
+        0.2075927564012543
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.07236162404130612,
+        "scratch": 0.07363262812473945
+      }
+    },
+    {
+      "arm": "hessian",
+      "budget": 35,
+      "pretrained_mean": 0.24646693921197216,
+      "scratch_mean": 0.388215024282731,
+      "pretrained_seeds": [
+        0.25135292884648996,
+        0.23810700216045838,
+        0.24994088662896813
+      ],
+      "scratch_seeds": [
+        0.37999015083455645,
+        0.4153777059595245,
+        0.36927721605411223
+      ],
+      "gain_nrmse": 0.14174808507075887,
+      "gain_paired_bootstrap_95": [
+        0.10771472628314094,
+        0.18173669095052736
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.07178984047745221,
+        "scratch": 0.07515762898893584
+      }
+    },
+    {
+      "arm": "hessian",
+      "budget": 69,
+      "pretrained_mean": 0.20606306652737985,
+      "scratch_mean": 0.3005927006010382,
+      "pretrained_seeds": [
+        0.20815517400274916,
+        0.20286244023943345,
+        0.20717158533995694
+      ],
+      "scratch_seeds": [
+        0.32746207531040095,
+        0.2737798633597833,
+        0.3005361631329304
+      ],
+      "gain_nrmse": 0.09452963407365836,
+      "gain_paired_bootstrap_95": [
+        0.06439825583208947,
+        0.1260364947504576
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.07543717370205004,
+        "scratch": 0.07131458246814353
+      }
+    },
+    {
+      "arm": "hessian",
+      "budget": 137,
+      "pretrained_mean": 0.17855050254290583,
+      "scratch_mean": 0.21474158490927245,
+      "pretrained_seeds": [
+        0.1821212366760364,
+        0.17942796527096452,
+        0.17410230568171653
+      ],
+      "scratch_seeds": [
+        0.21747834355901408,
+        0.2135643010585969,
+        0.21318211011020624
+      ],
+      "gain_nrmse": 0.036191082366366575,
+      "gain_paired_bootstrap_95": [
+        0.023039066994708635,
+        0.048921000640226114
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.07142257889610759,
+        "scratch": 0.0721791378517602
+      }
+    },
+    {
+      "arm": "hessian",
+      "budget": 274,
+      "pretrained_mean": 0.1606778889079781,
+      "scratch_mean": 0.18220824653751644,
+      "pretrained_seeds": [
+        0.15799211770246288,
+        0.16504267553627594,
+        0.15899887348519545
+      ],
+      "scratch_seeds": [
+        0.1751411693637322,
+        0.18807931675257544,
+        0.18340425349624165
+      ],
+      "gain_nrmse": 0.021530357629538345,
+      "gain_paired_bootstrap_95": [
+        0.010299750219789834,
+        0.03270800198635971
+      ],
+      "prediction_seconds_per_car": {
+        "pretrained": 0.07332782136051849,
+        "scratch": 0.06995253766931239
+      }
+    }
+  ],
+  "threshold_nrmse": 0.25,
+  "smallest_measured_budget": {
+    "patch/pretrained": 274,
+    "patch/scratch": 137,
+    "areals/pretrained": 35,
+    "areals/scratch": 137,
+    "hessian/pretrained": 35,
+    "hessian/scratch": 137
+  },
+  "null_threshold": "not reached within 274 cars; no extrapolation",
+  "timing_scope": "Encode complete geometry and predict all 32000 native pressure queries per car, including device transfers; no file loading; first car retained.",
+  "scope": "Complete geometry, zero pressure sensors. Exactly the same frozen Objaverse object IDs, splits and pretraining exposure in all arms. Architecture and preprocessing differ, so differences between pretraining gains are not a pure causal target ablation."
+}

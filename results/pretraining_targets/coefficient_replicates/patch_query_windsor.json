@@ -1,0 +1,171 @@
+{
+  "complete": true,
+  "pretraining_seeds": [
+    17,
+    29,
+    43
+  ],
+  "fine_tuning_seeds": [
+    0
+  ],
+  "metric": "Mean per-car area-weighted pressure RMSE / reference standard deviation",
+  "test_cars": 35,
+  "results": [
+    {
+      "training_cars": 274,
+      "runs": [
+        {
+          "pretraining_seed": 17,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.001,
+          "validation": 0.14291873775270972,
+          "test": 0.16096735116518385,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed0/test_metrics.json"
+        },
+        {
+          "pretraining_seed": 29,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.14079908459834745,
+          "test": 0.14897495876153202,
+          "source": "pressure/patch_query/seed29/n274/seed0/early_test_metrics.json"
+        },
+        {
+          "pretraining_seed": 43,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.14278871019793365,
+          "test": 0.15557566952159926,
+          "source": "pressure/patch_query/seed43/n274/seed0/early_test_metrics.json"
+        }
+      ],
+      "mean_test_nrmse": 0.15517265981610504,
+      "std_test_nrmse": 0.006006345103957431
+    },
+    {
+      "training_cars": 18,
+      "runs": [
+        {
+          "pretraining_seed": 17,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.2543412977873975,
+          "test": 0.267682810759726,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed0/test_metrics.json"
+        },
+        {
+          "pretraining_seed": 29,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.24285703802762645,
+          "test": 0.2627336685712279,
+          "source": "pressure/patch_query/seed29/n18/seed0/early_test_metrics.json"
+        },
+        {
+          "pretraining_seed": 43,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.2401178053782076,
+          "test": 0.26077470757843824,
+          "source": "pressure/patch_query/seed43/n18/seed0/early_test_metrics.json"
+        }
+      ],
+      "mean_test_nrmse": 0.26373039563646405,
+      "std_test_nrmse": 0.00356027681827695
+    },
+    {
+      "training_cars": 35,
+      "runs": [
+        {
+          "pretraining_seed": 17,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.2084591781078636,
+          "test": 0.22415901618633727,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed0/test_metrics.json"
+        },
+        {
+          "pretraining_seed": 29,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.2034931224574804,
+          "test": 0.2277811128820257,
+          "source": "pressure/patch_query/seed29/n35/seed0/early_test_metrics.json"
+        },
+        {
+          "pretraining_seed": 43,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.20254016323137228,
+          "test": 0.2145648172046528,
+          "source": "pressure/patch_query/seed43/n35/seed0/early_test_metrics.json"
+        }
+      ],
+      "mean_test_nrmse": 0.2221683154243386,
+      "std_test_nrmse": 0.00682933269073948
+    },
+    {
+      "training_cars": 69,
+      "runs": [
+        {
+          "pretraining_seed": 17,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.1728534953295415,
+          "test": 0.18623502517354026,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed0/test_metrics.json"
+        },
+        {
+          "pretraining_seed": 29,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.17493993899913166,
+          "test": 0.1892697264263106,
+          "source": "pressure/patch_query/seed29/n69/seed0/early_test_metrics.json"
+        },
+        {
+          "pretraining_seed": 43,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.17041450894726082,
+          "test": 0.18664872632231633,
+          "source": "pressure/patch_query/seed43/n69/seed0/early_test_metrics.json"
+        }
+      ],
+      "mean_test_nrmse": 0.1873844926407224,
+      "std_test_nrmse": 0.001645711694029994
+    },
+    {
+      "training_cars": 137,
+      "runs": [
+        {
+          "pretraining_seed": 17,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.14893022424884944,
+          "test": 0.17784022582023828,
+          "source": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed0/test_metrics.json"
+        },
+        {
+          "pretraining_seed": 29,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.155298241016112,
+          "test": 0.16895730814997786,
+          "source": "pressure/patch_query/seed29/n137/seed0/early_test_metrics.json"
+        },
+        {
+          "pretraining_seed": 43,
+          "fine_tuning_seed": 0,
+          "selected_lr": 0.0002,
+          "validation": 0.1485989228358637,
+          "test": 0.17227712641442167,
+          "source": "pressure/patch_query/seed43/n137/seed0/early_test_metrics.json"
+        }
+      ],
+      "mean_test_nrmse": 0.17302488679487926,
+      "std_test_nrmse": 0.0044884201868912385
+    }
+  ],
+  "scope": "Three patch-supervised shared-query pretraining seeds, conditional on Windsor fine-tuning seed 0. Seed 17 reuses its completed validation-selected result."
+}

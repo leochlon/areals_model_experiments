@@ -1,0 +1,1626 @@
+{
+  "arm": "areals",
+  "checkpoint_sha256": "f87f179b3c08627fba8ac0f1ef086a97f8a71387c4ccbc4f0ff2f5a8ab37a6fa",
+  "splits": {
+    "val": {
+      "objects": 85,
+      "mean": {
+        "loss": 0.12298170348958057,
+        "distance": 0.0007696381899329615,
+        "normal": 0.12221206529613804,
+        "normal_fraction": 0.7642922794117647,
+        "distance_nrmse": 0.008634859575506519,
+        "normal_degrees": 9.326652866251328
+      },
+      "per_object": [
+        {
+          "id": "061e1c0a8b1d31f1ea004f083357ba99b0fb492f621deb6540daa805fc5c4f6a",
+          "loss": 0.14255887269973755,
+          "distance": 0.0008663998451083899,
+          "normal": 0.14169247448444366,
+          "normal_fraction": 0.8408203125,
+          "distance_nrmse": 0.009308060631155968,
+          "normal_degrees": 8.756678581237793
+        },
+        {
+          "id": "00d54ef3c00aecb0e0a12799de31db0593864bb38d180be9ef75c3e86045c320",
+          "loss": 0.16618172824382782,
+          "distance": 0.0016739944694563746,
+          "normal": 0.16450773179531097,
+          "normal_fraction": 0.7685546875,
+          "distance_nrmse": 0.012945267371833324,
+          "normal_degrees": 14.040986061096191
+        },
+        {
+          "id": "00e8da328bfd7eb5b698d4358a919631ee846a08ea7387f3db3febb2a83aa352",
+          "loss": 0.13933615386486053,
+          "distance": 0.00030815391801297665,
+          "normal": 0.13902799785137177,
+          "normal_fraction": 0.7294921875,
+          "distance_nrmse": 0.005551161244511604,
+          "normal_degrees": 10.678308486938477
+        },
+        {
+          "id": "04e7e19d81b1f9e9a2f8077e25af1d83f4fd6153ac92eb46b1c3fd6b404ba1c7",
+          "loss": 0.2469465732574463,
+          "distance": 0.0016798545839264989,
+          "normal": 0.24526672065258026,
+          "normal_fraction": 0.7646484375,
+          "distance_nrmse": 0.013014442287385464,
+          "normal_degrees": 16.399755477905273
+        },
+        {
+          "id": "01a70fe6e539da2ca28e24820c829d107e94e61f2e80640a6e1d4324476b8312",
+          "loss": 0.06174720078706741,
+          "distance": 0.0006443053716793656,
+          "normal": 0.06110289692878723,
+          "normal_fraction": 0.765625,
+          "distance_nrmse": 0.008026955649256706,
+          "normal_degrees": 4.354809761047363
+        },
+        {
+          "id": "046168d5b08f3c53c2add0662bed0bd7faebe03c2d8b3cffd912417e5a7f4f50",
+          "loss": 0.05721253156661987,
+          "distance": 0.0006397634278982878,
+          "normal": 0.056572768837213516,
+          "normal_fraction": 0.76171875,
+          "distance_nrmse": 0.007998521439731121,
+          "normal_degrees": 5.403778076171875
+        },
+        {
+          "id": "00781bda9372c2afeaaea44da420dfa6f91b21bc3c8c2c3fc085eaf08452dfa5",
+          "loss": 0.1391821950674057,
+          "distance": 0.0010016238084062934,
+          "normal": 0.13818056881427765,
+          "normal_fraction": 0.7880859375,
+          "distance_nrmse": 0.010098767466843128,
+          "normal_degrees": 10.024567604064941
+        },
+        {
+          "id": "046fd6caaf51eab83e5e4244c6eb0a372648d5dcc6ff440e8e56dd863adbd954",
+          "loss": 0.2595769166946411,
+          "distance": 0.0027734371833503246,
+          "normal": 0.2568034827709198,
+          "normal_fraction": 0.7373046875,
+          "distance_nrmse": 0.017688458785414696,
+          "normal_degrees": 17.815509796142578
+        },
+        {
+          "id": "0658f7f6b86299f7890d58b53ac59056ca99d7c9f0e97373ce4a84aef3792848",
+          "loss": 0.09710060060024261,
+          "distance": 0.0003297374350950122,
+          "normal": 0.09677086025476456,
+          "normal_fraction": 0.77734375,
+          "distance_nrmse": 0.005742277018725872,
+          "normal_degrees": 6.2947893142700195
+        },
+        {
+          "id": "057df7ee7fe98cf5afb87d241ad85d8662aa6dac8104213c37d5954788b6b1cd",
+          "loss": 0.09048563987016678,
+          "distance": 0.00015235409955494106,
+          "normal": 0.09033328294754028,
+          "normal_fraction": 0.7373046875,
+          "distance_nrmse": 0.003903256729245186,
+          "normal_degrees": 8.595974922180176
+        },
+        {
+          "id": "03721683a88e1ab4d1d49da322692c423d0d1c3d467738d976f15036d5c918fc",
+          "loss": 0.13052761554718018,
+          "distance": 0.0006560684414580464,
+          "normal": 0.12987154722213745,
+          "normal_fraction": 0.75,
+          "distance_nrmse": 0.008100164122879505,
+          "normal_degrees": 9.671453475952148
+        },
+        {
+          "id": "053602f66729627a4c1fe76809b52f7c631fd728cf532abf7c046ad9d079880a",
+          "loss": 0.07257533818483353,
+          "distance": 0.0004547026474028826,
+          "normal": 0.07212063670158386,
+          "normal_fraction": 0.7353515625,
+          "distance_nrmse": 0.006743163801729679,
+          "normal_degrees": 6.506210803985596
+        },
+        {
+          "id": "01fc2a2f96011c2eacbb33712e851654148062c6387085154f947194fc8f60a4",
+          "loss": 0.10846296697854996,
+          "distance": 0.0002790369908325374,
+          "normal": 0.10818392783403397,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.005282395053654909,
+          "normal_degrees": 8.917823791503906
+        },
+        {
+          "id": "0026935fbed59543c224c6a8b457826db92e2bb11a9f2f2c4279487f75fdf4e1",
+          "loss": 0.11253083497285843,
+          "distance": 0.0006682962412014604,
+          "normal": 0.11186254024505615,
+          "normal_fraction": 0.7119140625,
+          "distance_nrmse": 0.008174940012395382,
+          "normal_degrees": 7.364982604980469
+        },
+        {
+          "id": "065e0c0e028da40657a3f19f19816e1e77905f31dbf5366b595b55fdce1256b5",
+          "loss": 0.0819106325507164,
+          "distance": 0.000502724084071815,
+          "normal": 0.08140791207551956,
+          "normal_fraction": 0.7236328125,
+          "distance_nrmse": 0.0071691363118588924,
+          "normal_degrees": 7.0310587882995605
+        },
+        {
+          "id": "0055668c05fa57311b5534c93ce331f6932a3b803cfc922e20a86a705187eda9",
+          "loss": 0.13923367857933044,
+          "distance": 0.00015850432100705802,
+          "normal": 0.1390751749277115,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.003981259651482105,
+          "normal_degrees": 10.505729675292969
+        },
+        {
+          "id": "0106dbdb32c0b10f970ab993160c009ca1d1168a277e602ea0f6836899499bae",
+          "loss": 0.07785318046808243,
+          "distance": 0.000663679267745465,
+          "normal": 0.07718949764966965,
+          "normal_fraction": 0.771484375,
+          "distance_nrmse": 0.00814855471253395,
+          "normal_degrees": 6.874755382537842
+        },
+        {
+          "id": "02ddc95a2270ffb10ed477bbaedcc0ea1c57c71ace4138577d38646bf497960a",
+          "loss": 0.14178715646266937,
+          "distance": 0.0007704305462539196,
+          "normal": 0.14101672172546387,
+          "normal_fraction": 0.7353515625,
+          "distance_nrmse": 0.008778346702456474,
+          "normal_degrees": 10.510856628417969
+        },
+        {
+          "id": "03adcf49f38b7e0b9eef1014483f188f60006fb022f9581c8a84a83563d4cfd0",
+          "loss": 0.1418672651052475,
+          "distance": 0.0009444502647966146,
+          "normal": 0.14092281460762024,
+          "normal_fraction": 0.7685546875,
+          "distance_nrmse": 0.009718845598399639,
+          "normal_degrees": 9.864052772521973
+        },
+        {
+          "id": "03b66820f020d22db3b37455a175e8ef7809b114ea106ca5600fc316cc98a6b7",
+          "loss": 0.024355974048376083,
+          "distance": 0.00045312073780223727,
+          "normal": 0.023902853950858116,
+          "normal_fraction": 0.79296875,
+          "distance_nrmse": 0.006731424480676651,
+          "normal_degrees": 3.1927573680877686
+        },
+        {
+          "id": "00aefaa813c504bdd5620baadc5bf96831f3783f4ec71c644c737e4ff18910a1",
+          "loss": 0.10290747880935669,
+          "distance": 0.0005513844662345946,
+          "normal": 0.10235609114170074,
+          "normal_fraction": 0.7578125,
+          "distance_nrmse": 0.00742552662268281,
+          "normal_degrees": 7.242839336395264
+        },
+        {
+          "id": "09f24a4aa82f4d22aa9d1be513dce2a16cf4c495ed101ab3f208027a97aed245",
+          "loss": 0.15812095999717712,
+          "distance": 0.0007277664844878018,
+          "normal": 0.1573931872844696,
+          "normal_fraction": 0.7216796875,
+          "distance_nrmse": 0.008535235188901424,
+          "normal_degrees": 11.065723419189453
+        },
+        {
+          "id": "0051116048d670614911dcc2c10e657765719043dc4be7466eb5ab8904b2be3c",
+          "loss": 0.06597207486629486,
+          "distance": 0.00017974659567698836,
+          "normal": 0.06579232960939407,
+          "normal_fraction": 0.7353515625,
+          "distance_nrmse": 0.004239653702825308,
+          "normal_degrees": 7.447633743286133
+        },
+        {
+          "id": "0113d2f808c8891f660754bcd4b2d8201061b909e0dd0215e830db449daca11d",
+          "loss": 0.010806226171553135,
+          "distance": 8.472508488921449e-05,
+          "normal": 0.010721500962972641,
+          "normal_fraction": 0.7314453125,
+          "distance_nrmse": 0.002910757437348366,
+          "normal_degrees": 3.521902322769165
+        },
+        {
+          "id": "04c3349f3488fc93ac6a407944dbb89e6b9a92ed7d16e1352e59ae7dee08f579",
+          "loss": 0.03945591673254967,
+          "distance": 0.00041694118408486247,
+          "normal": 0.03903897479176521,
+          "normal_fraction": 0.779296875,
+          "distance_nrmse": 0.006457098759710789,
+          "normal_degrees": 4.1019768714904785
+        },
+        {
+          "id": "001a8997c34ae01a9089015597f3272204e0e7945cbebbe9f8d68ca0330594da",
+          "loss": 0.3143988251686096,
+          "distance": 0.0005010995082557201,
+          "normal": 0.3138977289199829,
+          "normal_fraction": 0.7392578125,
+          "distance_nrmse": 0.007078838534653187,
+          "normal_degrees": 21.099369049072266
+        },
+        {
+          "id": "01619afcf740a6da9d23ebf1b9852f7305461eb9891fd33af13ee22f5ce8f1ca",
+          "loss": 0.03598270192742348,
+          "distance": 0.00042365261469967663,
+          "normal": 0.03555905073881149,
+          "normal_fraction": 0.7841796875,
+          "distance_nrmse": 0.006508860271424055,
+          "normal_degrees": 5.454896926879883
+        },
+        {
+          "id": "0a5fdfee8588097b4782e7d5ad26e4207e29a0a9c1f093ffa1cf7de08a30be68",
+          "loss": 0.05632894113659859,
+          "distance": 0.0005659617600031197,
+          "normal": 0.05576298013329506,
+          "normal_fraction": 0.7646484375,
+          "distance_nrmse": 0.00752304308116436,
+          "normal_degrees": 6.297761917114258
+        },
+        {
+          "id": "0346e79a2c3160823e12d5a3ad66ce82902f06f2d4df597bd623af9656e97157",
+          "loss": 0.17342810332775116,
+          "distance": 0.0021854275837540627,
+          "normal": 0.17124266922473907,
+          "normal_fraction": 0.7841796875,
+          "distance_nrmse": 0.016880644485354424,
+          "normal_degrees": 11.86336898803711
+        },
+        {
+          "id": "02cd848456783f869cf98d67b2a348443e0e99eb2d637c5d9ba5ea74ae8466a7",
+          "loss": 0.059043999761343,
+          "distance": 0.0004512243904173374,
+          "normal": 0.0585927739739418,
+          "normal_fraction": 0.724609375,
+          "distance_nrmse": 0.006717324256896973,
+          "normal_degrees": 6.608945369720459
+        },
+        {
+          "id": "079ec700dc29ee2dd728208c603fb2ab43e20dd6772e0d6df9757c1f63a6557d",
+          "loss": 0.048943012952804565,
+          "distance": 0.0006225580582395196,
+          "normal": 0.048320453613996506,
+          "normal_fraction": 0.80078125,
+          "distance_nrmse": 0.007898285053670406,
+          "normal_degrees": 3.575289487838745
+        },
+        {
+          "id": "03fd0384db825e5344e0114e25d9c072e39e2f2179244a7d84f9afd454f2bca8",
+          "loss": 0.09309422969818115,
+          "distance": 0.0011925192084163427,
+          "normal": 0.09190171211957932,
+          "normal_fraction": 0.7939453125,
+          "distance_nrmse": 0.01094498485326767,
+          "normal_degrees": 6.795473098754883
+        },
+        {
+          "id": "0632d79e590918135d2effe8022856b52d93b680ce1b9b41383486e7d84827d9",
+          "loss": 0.1340792030096054,
+          "distance": 0.0005805309629067779,
+          "normal": 0.1334986686706543,
+          "normal_fraction": 0.744140625,
+          "distance_nrmse": 0.0076192584820091724,
+          "normal_degrees": 11.1233549118042
+        },
+        {
+          "id": "04418736ee51bf180c050c61267ffdd63c855d3ba193f9d52c7baf6a2b0d46c5",
+          "loss": 0.0957832932472229,
+          "distance": 0.00017527578165754676,
+          "normal": 0.09560801833868027,
+          "normal_fraction": 0.7841796875,
+          "distance_nrmse": 0.004186594858765602,
+          "normal_degrees": 7.780238151550293
+        },
+        {
+          "id": "024b956822d6d989e7bd9370f422d58d2bb07627e313b3743360b7e86d9eab7c",
+          "loss": 0.08417540788650513,
+          "distance": 0.0005026187282055616,
+          "normal": 0.08367279171943665,
+          "normal_fraction": 0.8115234375,
+          "distance_nrmse": 0.0070895603857934475,
+          "normal_degrees": 6.1760478019714355
+        },
+        {
+          "id": "04e6c6c1068a05802486822a6fc7ae2c0409da574b1659df81422de7ad1f15ce",
+          "loss": 0.02239159867167473,
+          "distance": 0.0010037003085017204,
+          "normal": 0.021387899294495583,
+          "normal_fraction": 0.7783203125,
+          "distance_nrmse": 0.010021746158599854,
+          "normal_degrees": 3.921226739883423
+        },
+        {
+          "id": "07df616ea7512ff72709a11e761afdcea633e6622af750a92ba19943fcc62d5e",
+          "loss": 0.1589120626449585,
+          "distance": 0.0008354620658792555,
+          "normal": 0.15807659924030304,
+          "normal_fraction": 0.75390625,
+          "distance_nrmse": 0.00914655439555645,
+          "normal_degrees": 11.813461303710938
+        },
+        {
+          "id": "01d8805638fc2e5a2d4abc0c764c0b71363447c006ebe20469edb3b4a092534e",
+          "loss": 0.30115818977355957,
+          "distance": 0.0008548129699192941,
+          "normal": 0.3003033697605133,
+          "normal_fraction": 0.82421875,
+          "distance_nrmse": 0.009245609864592552,
+          "normal_degrees": 19.935199737548828
+        },
+        {
+          "id": "0119197edf4217dc5102104b2d6645caefa03630ba3358082c663bfc9e63dff2",
+          "loss": 0.05181281268596649,
+          "distance": 0.00017828421550802886,
+          "normal": 0.0516345277428627,
+          "normal_fraction": 0.7431640625,
+          "distance_nrmse": 0.004222371615469456,
+          "normal_degrees": 3.409614086151123
+        },
+        {
+          "id": "021486af77143f780f2f10f5817df1f182d83aab5a55469c3e11d2645c0134e0",
+          "loss": 0.040023546665906906,
+          "distance": 0.00017860098159871995,
+          "normal": 0.03984494507312775,
+          "normal_fraction": 0.7578125,
+          "distance_nrmse": 0.004226121120154858,
+          "normal_degrees": 5.988071918487549
+        },
+        {
+          "id": "02d9a6c6372d86370a7fb5e335de70bc14050dabd3ef163eeef6aceaff3c4bdc",
+          "loss": 0.008874037303030491,
+          "distance": 3.786946035688743e-05,
+          "normal": 0.008836167864501476,
+          "normal_fraction": 0.7548828125,
+          "distance_nrmse": 0.0019460078328847885,
+          "normal_degrees": 3.0226378440856934
+        },
+        {
+          "id": "084638781f8e7879d97ca303cbb88e786b61a8cf40153e90b045dd62a37b54e8",
+          "loss": 0.23466205596923828,
+          "distance": 0.0007689206395298243,
+          "normal": 0.23389314115047455,
+          "normal_fraction": 0.7451171875,
+          "distance_nrmse": 0.008768811821937561,
+          "normal_degrees": 16.3194580078125
+        },
+        {
+          "id": "049e52f1a7cb02e6cf8f2faf767b1e855bfb1f8127cee847e8130d3a2fc8d028",
+          "loss": 0.23931032419204712,
+          "distance": 0.00029755159630440176,
+          "normal": 0.23901277780532837,
+          "normal_fraction": 0.7705078125,
+          "distance_nrmse": 0.005454828962683678,
+          "normal_degrees": 16.143877029418945
+        },
+        {
+          "id": "06b7607f7901e0aea8405de832f6db8b0ba8d645f145a6c0037ad67f75c7bcde",
+          "loss": 0.14352445304393768,
+          "distance": 0.001155151636339724,
+          "normal": 0.14236930012702942,
+          "normal_fraction": 0.849609375,
+          "distance_nrmse": 0.010799084790050983,
+          "normal_degrees": 9.248175621032715
+        },
+        {
+          "id": "05f068002b499b498c30b2c23c209810293b3e04930f84fe51a23d1d14d8e172",
+          "loss": 0.0511164665222168,
+          "distance": 0.00040015781996771693,
+          "normal": 0.05071630701422691,
+          "normal_fraction": 0.75,
+          "distance_nrmse": 0.006327306851744652,
+          "normal_degrees": 6.7149224281311035
+        },
+        {
+          "id": "062a62d697303d7b64fba1ac4a77a2b02ea594043163ce405443edd2539b554a",
+          "loss": 0.014616782777011395,
+          "distance": 0.00020152551587671041,
+          "normal": 0.01441525761038065,
+          "normal_fraction": 0.759765625,
+          "distance_nrmse": 0.004489159677177668,
+          "normal_degrees": 2.7477335929870605
+        },
+        {
+          "id": "020810e6ef74c3441cc81ecee142392c0f2d25d7a06c53ad00faa69af0bed44c",
+          "loss": 0.06890305876731873,
+          "distance": 0.000818047090433538,
+          "normal": 0.06808501482009888,
+          "normal_fraction": 0.771484375,
+          "distance_nrmse": 0.009050054475665092,
+          "normal_degrees": 6.57267951965332
+        },
+        {
+          "id": "043a8e77e8143fb4730d5706162a6759987e121d08f31a0c689548a88d142aa0",
+          "loss": 0.16399650275707245,
+          "distance": 0.0008411246817559004,
+          "normal": 0.16315537691116333,
+          "normal_fraction": 0.8046875,
+          "distance_nrmse": 0.009171986021101475,
+          "normal_degrees": 10.869133949279785
+        },
+        {
+          "id": "00c1b5b6d02540c9384bf75ff6956424a2278b5bae2850c4c21ec8043afbccd7",
+          "loss": 0.22348688542842865,
+          "distance": 0.009583392180502415,
+          "normal": 0.2139034867286682,
+          "normal_fraction": 0.7119140625,
+          "distance_nrmse": 0.08213048428297043,
+          "normal_degrees": 16.086091995239258
+        },
+        {
+          "id": "0348369813216e57f11cca9cc9796735fe5d2ab20197a544ac56c5f2938a9777",
+          "loss": 0.025887930765748024,
+          "distance": 0.00010680080595193431,
+          "normal": 0.02578113041818142,
+          "normal_fraction": 0.7734375,
+          "distance_nrmse": 0.003268039785325527,
+          "normal_degrees": 3.0760645866394043
+        },
+        {
+          "id": "05e196b7eb9e4ce7735c0a00e889ba4739cd7eac02fc36e194662a98544566ff",
+          "loss": 0.21652379631996155,
+          "distance": 0.0010089536663144827,
+          "normal": 0.21551483869552612,
+          "normal_fraction": 0.736328125,
+          "distance_nrmse": 0.010044668801128864,
+          "normal_degrees": 14.619490623474121
+        },
+        {
+          "id": "05f6d70078d504d2bf9ce32a4193c862e516461cff5b01c6f2ea964e3755f828",
+          "loss": 0.22296370565891266,
+          "distance": 0.000598484999500215,
+          "normal": 0.22236521542072296,
+          "normal_fraction": 0.7861328125,
+          "distance_nrmse": 0.00773618184030056,
+          "normal_degrees": 16.08559226989746
+        },
+        {
+          "id": "09f4fbbf2c14eb234a141fc0f8b25f87cdb722f18d0fa69e52f446255cabdf37",
+          "loss": 0.2133437544107437,
+          "distance": 0.001222863676957786,
+          "normal": 0.2121208906173706,
+          "normal_fraction": 0.76171875,
+          "distance_nrmse": 0.011086772195994854,
+          "normal_degrees": 14.621418952941895
+        },
+        {
+          "id": "0616efd2864727de5038948135526292dd9d251535e064673612241645274cab",
+          "loss": 0.1944103240966797,
+          "distance": 0.0009229015558958054,
+          "normal": 0.19348742067813873,
+          "normal_fraction": 0.8427734375,
+          "distance_nrmse": 0.009607437998056412,
+          "normal_degrees": 12.189068794250488
+        },
+        {
+          "id": "020dddf54981a72d31f83b84d2d6601e7d9b5e023208eb12a87b02061de3ea12",
+          "loss": 0.020907849073410034,
+          "distance": 0.00016485617379657924,
+          "normal": 0.0207429938018322,
+          "normal_fraction": 0.7578125,
+          "distance_nrmse": 0.004060248378664255,
+          "normal_degrees": 3.849102258682251
+        },
+        {
+          "id": "002af603a3dba22096a646be8afffcf4ebcacc4f1da181a81faf0e0ac5788fc6",
+          "loss": 0.08745193481445312,
+          "distance": 0.0003590764827094972,
+          "normal": 0.08709286153316498,
+          "normal_fraction": 0.751953125,
+          "distance_nrmse": 0.006204355973750353,
+          "normal_degrees": 7.502005100250244
+        },
+        {
+          "id": "045fe5cc018bd2a7b7da70ce6572f6d7c1c291c7feb3e4e60f703d36ce21d475",
+          "loss": 0.12240694463253021,
+          "distance": 0.0009052694076672196,
+          "normal": 0.12150167673826218,
+          "normal_fraction": 0.7451171875,
+          "distance_nrmse": 0.009514564648270607,
+          "normal_degrees": 10.137929916381836
+        },
+        {
+          "id": "005995299c202aa5859acb03e0c825d672344152f804a0e93d88f659bd6cc1b3",
+          "loss": 0.10979295521974564,
+          "distance": 0.00043872505193576217,
+          "normal": 0.10935422778129578,
+          "normal_fraction": 0.76171875,
+          "distance_nrmse": 0.006623632740229368,
+          "normal_degrees": 7.708400249481201
+        },
+        {
+          "id": "01a5436839ea23ba74a85440d8bdd968818f83ea7924bff3d83e6d29bf15c4c4",
+          "loss": 0.10725325345993042,
+          "distance": 0.00095793092623353,
+          "normal": 0.10629532486200333,
+          "normal_fraction": 0.814453125,
+          "distance_nrmse": 0.009815210476517677,
+          "normal_degrees": 8.037694931030273
+        },
+        {
+          "id": "05a0a95c257766ddc83e5e0517a7ea7310733a7db088a26fec10a3181c24126e",
+          "loss": 0.24348048865795135,
+          "distance": 0.0011906517902389169,
+          "normal": 0.24228984117507935,
+          "normal_fraction": 0.7158203125,
+          "distance_nrmse": 0.010934754274785519,
+          "normal_degrees": 17.78644371032715
+        },
+        {
+          "id": "076be240df79b6889e266506701a6a78a50e3380db5a0dc733fbb1b9129778d5",
+          "loss": 0.21445301175117493,
+          "distance": 0.0010830065002664924,
+          "normal": 0.21337001025676727,
+          "normal_fraction": 0.798828125,
+          "distance_nrmse": 0.01041469257324934,
+          "normal_degrees": 14.373434066772461
+        },
+        {
+          "id": "08185598b6369bcf13b5d40250ef1016b35f09de696cffc1d4f4c9f329df2ef1",
+          "loss": 0.19130980968475342,
+          "distance": 0.0006243335083127022,
+          "normal": 0.1906854808330536,
+          "normal_fraction": 0.7900390625,
+          "distance_nrmse": 0.007901477627456188,
+          "normal_degrees": 13.596424102783203
+        },
+        {
+          "id": "002046166ea2a39ffd41d883d6c46720ae82ca37d841cc08bfd7a0eb5552e40e",
+          "loss": 0.10977761447429657,
+          "distance": 0.0007477882318198681,
+          "normal": 0.10902982950210571,
+          "normal_fraction": 0.796875,
+          "distance_nrmse": 0.008647474460303783,
+          "normal_degrees": 8.576041221618652
+        },
+        {
+          "id": "06c1d9cdadc5baeec82bb349b7f2c939aeee64732a49fe7f5fba6cb4d8118c94",
+          "loss": 0.03309446573257446,
+          "distance": 0.0006405849126167595,
+          "normal": 0.032453879714012146,
+          "normal_fraction": 0.7646484375,
+          "distance_nrmse": 0.008003654889762402,
+          "normal_degrees": 4.6097798347473145
+        },
+        {
+          "id": "05bc7c395a9d8212c9e0721e7b75fcaa5fe67693710b92272e6120f159e96e91",
+          "loss": 0.12412592768669128,
+          "distance": 0.0005716508021578193,
+          "normal": 0.1235542744398117,
+          "normal_fraction": 0.7265625,
+          "distance_nrmse": 0.007560759782791138,
+          "normal_degrees": 9.056929588317871
+        },
+        {
+          "id": "0812a52ab84811b4fe1b1d8e5e68510c2de67471d4c9810134dff58f65207ab4",
+          "loss": 0.10956458747386932,
+          "distance": 0.0004620300605893135,
+          "normal": 0.10910255461931229,
+          "normal_fraction": 0.7470703125,
+          "distance_nrmse": 0.006797279231250286,
+          "normal_degrees": 8.392451286315918
+        },
+        {
+          "id": "03442f7fc011aa6e7ce6e6eb2928076c9cb9301bb1b4bd7277950f9f9852058e",
+          "loss": 0.2530277967453003,
+          "distance": 0.0004294662503525615,
+          "normal": 0.2525983452796936,
+          "normal_fraction": 0.78515625,
+          "distance_nrmse": 0.0065533677116036415,
+          "normal_degrees": 16.085519790649414
+        },
+        {
+          "id": "0965cd5757066df8c6387c81a9fadf06dbedc196ac8bcf03b45a4866cd44a928",
+          "loss": 0.027664005756378174,
+          "distance": 0.0008400417864322662,
+          "normal": 0.026823963969945908,
+          "normal_fraction": 0.787109375,
+          "distance_nrmse": 0.009166480973362923,
+          "normal_degrees": 3.7162437438964844
+        },
+        {
+          "id": "042392f4a47d7b3d99176a8facf06a2f27add7c2ec47e01d56ba33124413771c",
+          "loss": 0.23217137157917023,
+          "distance": 0.000204446681891568,
+          "normal": 0.23196692764759064,
+          "normal_fraction": 0.7626953125,
+          "distance_nrmse": 0.0045215776190161705,
+          "normal_degrees": 16.03851318359375
+        },
+        {
+          "id": "057886abba4273d3487bb1e05028e78447361d63497ab199a78044c91493c535",
+          "loss": 0.12443704903125763,
+          "distance": 0.00042137695709243417,
+          "normal": 0.124015673995018,
+          "normal_fraction": 0.7236328125,
+          "distance_nrmse": 0.006491356063634157,
+          "normal_degrees": 10.40011215209961
+        },
+        {
+          "id": "04a1d38b3df0107c43e6523e99a3d753dee89b7eb64f9538a1811a1576bf24e8",
+          "loss": 0.074833944439888,
+          "distance": 0.000569104915484786,
+          "normal": 0.07426483929157257,
+          "normal_fraction": 0.7451171875,
+          "distance_nrmse": 0.007543903775513172,
+          "normal_degrees": 5.672738075256348
+        },
+        {
+          "id": "087055785c60cefc73869ac2ee886da139d0733cd2192327c8792d08c01bd96f",
+          "loss": 0.1160946860909462,
+          "distance": 0.0005764970555901527,
+          "normal": 0.11551818996667862,
+          "normal_fraction": 0.8046875,
+          "distance_nrmse": 0.007606574799865484,
+          "normal_degrees": 8.928312301635742
+        },
+        {
+          "id": "034b3fce470cfc87fea9321ae1c5db985288ea27b033c81112073f25651572e1",
+          "loss": 0.13394087553024292,
+          "distance": 0.0005366842960938811,
+          "normal": 0.1334041953086853,
+          "normal_fraction": 0.7353515625,
+          "distance_nrmse": 0.007351347710937262,
+          "normal_degrees": 8.60328197479248
+        },
+        {
+          "id": "0410bcd0299d83bb9303e1b1dd216ab74df5530b69aab2ff725a1055703b5e7e",
+          "loss": 0.32927405834198,
+          "distance": 0.0003989415126852691,
+          "normal": 0.3288751244544983,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.006316181737929583,
+          "normal_degrees": 22.033878326416016
+        },
+        {
+          "id": "00a99326db046d254906c0f6340d6341189557d3b1cfd6f076fc31b8a3a65c36",
+          "loss": 0.14030982553958893,
+          "distance": 0.0006026886985637248,
+          "normal": 0.13970713317394257,
+          "normal_fraction": 0.771484375,
+          "distance_nrmse": 0.0077650235034525394,
+          "normal_degrees": 10.141160011291504
+        },
+        {
+          "id": "080b4ab9a300d87183ddde3d2961a74f70f2674dc64aabd8b051811ddd401b33",
+          "loss": 0.1054408997297287,
+          "distance": 0.0011726508382707834,
+          "normal": 0.10426824539899826,
+          "normal_fraction": 0.8291015625,
+          "distance_nrmse": 0.010828900150954723,
+          "normal_degrees": 7.301909446716309
+        },
+        {
+          "id": "0253c15a07ded0f4dfa53aa87e373a0219a25867c04215079abdf3f0c1d5b971",
+          "loss": 0.032142046838998795,
+          "distance": 0.0004344126209616661,
+          "normal": 0.031707633286714554,
+          "normal_fraction": 0.802734375,
+          "distance_nrmse": 0.0065909987315535545,
+          "normal_degrees": 2.77609920501709
+        },
+        {
+          "id": "03f2f62aa46151d7de5b1fdd34ffac76a5d1b17e11d603c896cf4eabc41ae4e0",
+          "loss": 0.10255619138479233,
+          "distance": 0.00020573032088577747,
+          "normal": 0.10235045850276947,
+          "normal_fraction": 0.7177734375,
+          "distance_nrmse": 0.004535750951617956,
+          "normal_degrees": 8.284415245056152
+        },
+        {
+          "id": "0abdcf13090d25ee156548c2053460d4c8385ab06ff84a28b38655e3fd7ed2fc",
+          "loss": 0.1899566948413849,
+          "distance": 0.0008687322260811925,
+          "normal": 0.18908795714378357,
+          "normal_fraction": 0.7666015625,
+          "distance_nrmse": 0.009320581331849098,
+          "normal_degrees": 12.699427604675293
+        },
+        {
+          "id": "048c02b9390db98771075721a746353bc386d36caa3c611d15ca1c95f9768972",
+          "loss": 0.07193804532289505,
+          "distance": 0.000178694783244282,
+          "normal": 0.07175935059785843,
+          "normal_fraction": 0.7734375,
+          "distance_nrmse": 0.004227230791002512,
+          "normal_degrees": 6.23332405090332
+        },
+        {
+          "id": "03f510b5b79164650663ef824a7bd15536bb38cca492f632977b95b5296d7015",
+          "loss": 0.02070905640721321,
+          "distance": 0.0002714426373131573,
+          "normal": 0.020437613129615784,
+          "normal_fraction": 0.7763671875,
+          "distance_nrmse": 0.005210015922784805,
+          "normal_degrees": 3.5875983238220215
+        },
+        {
+          "id": "05696990b24ce62bc084bef5073255566648aabd2a6b73cf47b0303a7a161752",
+          "loss": 0.25425681471824646,
+          "distance": 0.001007946440950036,
+          "normal": 0.2532488703727722,
+          "normal_fraction": 0.7431640625,
+          "distance_nrmse": 0.01006053201854229,
+          "normal_degrees": 17.52520751953125
+        },
+        {
+          "id": "08f618b6e89d6e80019fde139447c155d4e95520a1d27b5e945932efebf8d089",
+          "loss": 0.09039970487356186,
+          "distance": 0.0007142318645492196,
+          "normal": 0.08968546986579895,
+          "normal_fraction": 0.75390625,
+          "distance_nrmse": 0.008451241068542004,
+          "normal_degrees": 6.525876998901367
+        },
+        {
+          "id": "093633c38f39a68fccab56161c295e6a342a43a5754329ea4c85298466ee61e3",
+          "loss": 0.11022046208381653,
+          "distance": 0.00037760124541819096,
+          "normal": 0.10984285920858383,
+          "normal_fraction": 0.728515625,
+          "distance_nrmse": 0.006144926883280277,
+          "normal_degrees": 9.29299259185791
+        },
+        {
+          "id": "03fba77b77af1d59f95d52cd8495e7741626a1545bd4d33d342fa08045b7197c",
+          "loss": 0.07058070600032806,
+          "distance": 0.0016659752000123262,
+          "normal": 0.0689147338271141,
+          "normal_fraction": 0.75,
+          "distance_nrmse": 0.012934673577547073,
+          "normal_degrees": 6.948667049407959
+        }
+      ]
+    },
+    "test": {
+      "objects": 92,
+      "mean": {
+        "loss": 0.14852884803068542,
+        "distance": 0.0008775998981234253,
+        "normal": 0.14765124825214077,
+        "normal_fraction": 0.7629500679347826,
+        "distance_nrmse": 0.008879208527302937,
+        "normal_degrees": 11.01191091083962
+      },
+      "per_object": [
+        {
+          "id": "05b5c435f975fccd589bdcc4c1f0d5450f0538d4e57a72ac627d5f139ba3d0b0",
+          "loss": 0.20876231789588928,
+          "distance": 0.0012281585950404406,
+          "normal": 0.20753416419029236,
+          "normal_fraction": 0.72265625,
+          "distance_nrmse": 0.011101006530225277,
+          "normal_degrees": 14.720709800720215
+        },
+        {
+          "id": "06545140a94cddbeb9596c76ee3aa065ea5942ba40f4cc476ae358a94e7ed97a",
+          "loss": 0.12395437806844711,
+          "distance": 0.0011342880316078663,
+          "normal": 0.12282008677721024,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.010654796846210957,
+          "normal_degrees": 8.822938919067383
+        },
+        {
+          "id": "00a73f6e524b0af1ae995f1f6f82a9c2bcaec09ac764f90ab41a2c2621cf4299",
+          "loss": 0.21434684097766876,
+          "distance": 0.0017931254114955664,
+          "normal": 0.2125537097454071,
+          "normal_fraction": 0.8037109375,
+          "distance_nrmse": 0.013561472296714783,
+          "normal_degrees": 15.589274406433105
+        },
+        {
+          "id": "04b17c55f03cc5793b048dde304337072fac1f0f4a648394e997ffcfb8e67ea5",
+          "loss": 0.03600423410534859,
+          "distance": 0.00033658830216154456,
+          "normal": 0.035667646676301956,
+          "normal_fraction": 0.75,
+          "distance_nrmse": 0.005801623221486807,
+          "normal_degrees": 5.24187707901001
+        },
+        {
+          "id": "022bfcb17f0d3188a95adc97d4fd615c036ee95f8651b7458d2d0f0b8461c541",
+          "loss": 0.1773802638053894,
+          "distance": 0.000410197681048885,
+          "normal": 0.17697006464004517,
+          "normal_fraction": 0.720703125,
+          "distance_nrmse": 0.006404667627066374,
+          "normal_degrees": 13.316003799438477
+        },
+        {
+          "id": "03f77b6bff7f661d5a41cb188c60745ac0b5bc1a565988fd2811f0aa6244ddff",
+          "loss": 0.35842815041542053,
+          "distance": 0.0020512754563242197,
+          "normal": 0.35637688636779785,
+          "normal_fraction": 0.8056640625,
+          "distance_nrmse": 0.014418631792068481,
+          "normal_degrees": 23.64176368713379
+        },
+        {
+          "id": "08c90b00dfa633c6b0421cc0fee6484ad9acdae6e1e2113884c027684c526298",
+          "loss": 0.12060915678739548,
+          "distance": 0.0003964398056268692,
+          "normal": 0.12021271884441376,
+          "normal_fraction": 0.7822265625,
+          "distance_nrmse": 0.006296346429735422,
+          "normal_degrees": 10.038509368896484
+        },
+        {
+          "id": "03e2060048c51ea95cb019ce556debf7a6468d3237c204dc813eb4e9a6a75172",
+          "loss": 0.08689430356025696,
+          "distance": 0.0001358608715236187,
+          "normal": 0.08675844222307205,
+          "normal_fraction": 0.828125,
+          "distance_nrmse": 0.003685931209474802,
+          "normal_degrees": 8.482826232910156
+        },
+        {
+          "id": "038d668f3f7e507d5182f81706613b02ae39ba5fe206f12a67f2527120563e12",
+          "loss": 0.23092612624168396,
+          "distance": 0.000517883338034153,
+          "normal": 0.23040823638439178,
+          "normal_fraction": 0.798828125,
+          "distance_nrmse": 0.007196411024779081,
+          "normal_degrees": 15.884693145751953
+        },
+        {
+          "id": "02f9cf029c3767315bee5bfc74bd75510b5888e3ed46e1a0a5c68446565c7da7",
+          "loss": 0.07290608435869217,
+          "distance": 0.00035242101876065135,
+          "normal": 0.07255366444587708,
+          "normal_fraction": 0.7509765625,
+          "distance_nrmse": 0.005936506669968367,
+          "normal_degrees": 6.991130828857422
+        },
+        {
+          "id": "04cd9002b309a1a0f4fdb50483b927c2ab712c07a0822f793e44991c77937852",
+          "loss": 0.029766477644443512,
+          "distance": 0.00018597819143906236,
+          "normal": 0.029580499976873398,
+          "normal_fraction": 0.736328125,
+          "distance_nrmse": 0.004312518984079361,
+          "normal_degrees": 4.663995265960693
+        },
+        {
+          "id": "080ef07993402b325e3e7e4078c81a062ec10fa0b398b1d4aa56396b71a0aa89",
+          "loss": 0.23790869116783142,
+          "distance": 0.001300343661569059,
+          "normal": 0.2366083413362503,
+          "normal_fraction": 0.76171875,
+          "distance_nrmse": 0.011404424905776978,
+          "normal_degrees": 17.270267486572266
+        },
+        {
+          "id": "026a9ba47532fc0acf327a6ba8540b99abe7d1adf67d71c1b62af31cbababeb3",
+          "loss": 0.1004360243678093,
+          "distance": 0.0004970241570845246,
+          "normal": 0.0999390035867691,
+          "normal_fraction": 0.7373046875,
+          "distance_nrmse": 0.007067973259836435,
+          "normal_degrees": 8.152469635009766
+        },
+        {
+          "id": "05bec065e87263ddd4275b39eeed6048f46740726b60b1460b8d40db2e42ef14",
+          "loss": 0.05484580621123314,
+          "distance": 0.0002590547373984009,
+          "normal": 0.054586753249168396,
+          "normal_fraction": 0.7587890625,
+          "distance_nrmse": 0.0050897421315312386,
+          "normal_degrees": 5.265474796295166
+        },
+        {
+          "id": "026ae97eeddd38d2f4c6b5b58da04a55e5b86621c85d59cc3b4829cc86a2f01e",
+          "loss": 0.08884971588850021,
+          "distance": 0.0002496633096598089,
+          "normal": 0.0886000543832779,
+          "normal_fraction": 0.78125,
+          "distance_nrmse": 0.0049966322258114815,
+          "normal_degrees": 7.582608222961426
+        },
+        {
+          "id": "04567944b70a4bd5163718764b704279aabd6dd4001b29bcaa7f06b20c075dc1",
+          "loss": 0.22685983777046204,
+          "distance": 0.0014625575859099627,
+          "normal": 0.2253972738981247,
+          "normal_fraction": 0.767578125,
+          "distance_nrmse": 0.01214885525405407,
+          "normal_degrees": 17.21775245666504
+        },
+        {
+          "id": "0450967e18162cc1d80db497e98668292ed5baad61eb78d1d7b8310f775e4331",
+          "loss": 0.19173987209796906,
+          "distance": 0.0008230612147599459,
+          "normal": 0.19091680645942688,
+          "normal_fraction": 0.740234375,
+          "distance_nrmse": 0.009073433466255665,
+          "normal_degrees": 14.80763053894043
+        },
+        {
+          "id": "06e54b364c324f1a9c57949accbab75d7a959b0d9ba9cb68569595e5c3600e35",
+          "loss": 0.12859253585338593,
+          "distance": 0.0005363937234506011,
+          "normal": 0.128056138753891,
+          "normal_fraction": 0.8056640625,
+          "distance_nrmse": 0.007324035745114088,
+          "normal_degrees": 9.539201736450195
+        },
+        {
+          "id": "022312f279d58d9759f1da6f1d45b9cb890c17d5409faac6b7614ee8fb9a5025",
+          "loss": 0.06428471952676773,
+          "distance": 0.00018522900063544512,
+          "normal": 0.06409949064254761,
+          "normal_fraction": 0.7353515625,
+          "distance_nrmse": 0.0043038236908614635,
+          "normal_degrees": 6.602829456329346
+        },
+        {
+          "id": "064dcd7933f771facaabfe36eb3c6c8a62ee9763f08f975e30ad45da2c916b7a",
+          "loss": 0.10027004033327103,
+          "distance": 0.0003921026363968849,
+          "normal": 0.09987793862819672,
+          "normal_fraction": 0.783203125,
+          "distance_nrmse": 0.006261809729039669,
+          "normal_degrees": 8.065875053405762
+        },
+        {
+          "id": "03a8769251cf534408434070447c489250922142ff63ca3d59803984a4eb31f3",
+          "loss": 0.18083277344703674,
+          "distance": 0.0007517331978306174,
+          "normal": 0.18008103966712952,
+          "normal_fraction": 0.7626953125,
+          "distance_nrmse": 0.008670254610478878,
+          "normal_degrees": 13.360013008117676
+        },
+        {
+          "id": "0a2307238554416be980c7834d999613c5106ca0f0819d6bfcbe9cf02a50e159",
+          "loss": 0.07257478684186935,
+          "distance": 0.000460265640867874,
+          "normal": 0.07211451977491379,
+          "normal_fraction": 0.75390625,
+          "distance_nrmse": 0.0067842877469956875,
+          "normal_degrees": 5.899632453918457
+        },
+        {
+          "id": "09344179ccb3d9ed4fc7d6ddeef922ccd6fa410e5231dcebd935d21a6908cf9f",
+          "loss": 0.11526314169168472,
+          "distance": 0.00047615874791517854,
+          "normal": 0.11478698253631592,
+          "normal_fraction": 0.7626953125,
+          "distance_nrmse": 0.006901097018271685,
+          "normal_degrees": 9.090993881225586
+        },
+        {
+          "id": "08725bfae161c1711734dd2ced9f215896c34d156e3455d97afd9d7c1a288d87",
+          "loss": 0.16643324494361877,
+          "distance": 0.0009309130255132914,
+          "normal": 0.16550232470035553,
+          "normal_fraction": 0.7392578125,
+          "distance_nrmse": 0.009654927998781204,
+          "normal_degrees": 10.66008186340332
+        },
+        {
+          "id": "03e70b8cfedf73a751e58a8c6707054d166270454b1bb4d2c19608af21064c72",
+          "loss": 0.3437405526638031,
+          "distance": 0.0008641396416351199,
+          "normal": 0.3428764045238495,
+          "normal_fraction": 0.73046875,
+          "distance_nrmse": 0.009295910596847534,
+          "normal_degrees": 23.25926971435547
+        },
+        {
+          "id": "02a6b87e48af82e112b1ee39244d6258af6eed3fb40e1211cdd8b6ae8d21ff4d",
+          "loss": 0.1358431726694107,
+          "distance": 0.001082162605598569,
+          "normal": 0.1347610056400299,
+          "normal_fraction": 0.7724609375,
+          "distance_nrmse": 0.01040270458906889,
+          "normal_degrees": 9.318109512329102
+        },
+        {
+          "id": "0386a63a1363c65696cf87cc9cd024d927bfda383ebdb3d5047a81f39a4ef17e",
+          "loss": 0.04453490674495697,
+          "distance": 0.0009896766860038042,
+          "normal": 0.043545231223106384,
+          "normal_fraction": 0.7578125,
+          "distance_nrmse": 0.009985094889998436,
+          "normal_degrees": 5.944739818572998
+        },
+        {
+          "id": "05c7bc5f7a2114f9a8e1da6b7e9d2e0b9d16e3ddcbcfafe8da8f71cd643c08ee",
+          "loss": 0.298410028219223,
+          "distance": 0.001981864683330059,
+          "normal": 0.2964281737804413,
+          "normal_fraction": 0.798828125,
+          "distance_nrmse": 0.014117220416665077,
+          "normal_degrees": 20.378969192504883
+        },
+        {
+          "id": "042ee3796099ec91d0d4ff399a4f5dd252e147b0fb6003f5140a55360ce4e34a",
+          "loss": 0.01019067969173193,
+          "distance": 0.00032332760747522116,
+          "normal": 0.009867352433502674,
+          "normal_fraction": 0.751953125,
+          "distance_nrmse": 0.005686190910637379,
+          "normal_degrees": 2.0428223609924316
+        },
+        {
+          "id": "056469e12eeb0777a53cb0c266560b5d291fa7807a3c300cbd0de4a210f5e22c",
+          "loss": 0.0683555006980896,
+          "distance": 0.0004204984870739281,
+          "normal": 0.06793500483036041,
+          "normal_fraction": 0.7197265625,
+          "distance_nrmse": 0.006484584882855415,
+          "normal_degrees": 5.996855735778809
+        },
+        {
+          "id": "03e570d319cf09dd98d95920724611a8c926190f5ad312ee4907e6f26d8b0445",
+          "loss": 0.12172377854585648,
+          "distance": 0.0009023575112223625,
+          "normal": 0.12082142382860184,
+          "normal_fraction": 0.8173828125,
+          "distance_nrmse": 0.009506378322839737,
+          "normal_degrees": 8.20748233795166
+        },
+        {
+          "id": "04dc5a871eb3a80d2c1c768ae908056b7487148b0222e71f521b96406db7b16f",
+          "loss": 0.13011515140533447,
+          "distance": 0.0004435847222339362,
+          "normal": 0.12967157363891602,
+          "normal_fraction": 0.7392578125,
+          "distance_nrmse": 0.006660216022282839,
+          "normal_degrees": 10.700310707092285
+        },
+        {
+          "id": "0284e92875943548605ce6bd47e1f50c9a92dff641c62a7f1b048995dcc5b744",
+          "loss": 0.27884575724601746,
+          "distance": 0.005555429495871067,
+          "normal": 0.27329033613204956,
+          "normal_fraction": 0.7568359375,
+          "distance_nrmse": 0.027288399636745453,
+          "normal_degrees": 21.21875
+        },
+        {
+          "id": "02ae477ebdb699c7c14956f840df2e0e7294e8f2167d2087d7a5542f14d7dbf7",
+          "loss": 0.1676589399576187,
+          "distance": 0.000644276849925518,
+          "normal": 0.16701465845108032,
+          "normal_fraction": 0.7373046875,
+          "distance_nrmse": 0.008026700466871262,
+          "normal_degrees": 10.930420875549316
+        },
+        {
+          "id": "046197292b2d142bb00a8d7e21c0352fbee411b9ad0c14baa03ee00427201560",
+          "loss": 0.10965635627508163,
+          "distance": 0.000718034862075001,
+          "normal": 0.1089383214712143,
+          "normal_fraction": 0.810546875,
+          "distance_nrmse": 0.00847482867538929,
+          "normal_degrees": 7.637632369995117
+        },
+        {
+          "id": "02ac1c8f5f84132b9ad0ea1a8eddfab0bec4d9d07c9153b986ceef8889432e53",
+          "loss": 0.10546829551458359,
+          "distance": 0.00046209918218664825,
+          "normal": 0.10500619560480118,
+          "normal_fraction": 0.73828125,
+          "distance_nrmse": 0.006797787733376026,
+          "normal_degrees": 9.221355438232422
+        },
+        {
+          "id": "02c376d2e33829129abb4bfeeaa9f37dadec14aef844b16e9f9ed0dfab28fae4",
+          "loss": 0.032243143767118454,
+          "distance": 0.0004015494487248361,
+          "normal": 0.031841594725847244,
+          "normal_fraction": 0.751953125,
+          "distance_nrmse": 0.006358118262141943,
+          "normal_degrees": 3.6286609172821045
+        },
+        {
+          "id": "05cefa2daa700b5ea938b3452250ded9f88a3f4aa246b25eb36bb840b9bf3155",
+          "loss": 0.3212713599205017,
+          "distance": 0.0012757601216435432,
+          "normal": 0.31999561190605164,
+          "normal_fraction": 0.7548828125,
+          "distance_nrmse": 0.011331908404827118,
+          "normal_degrees": 22.010208129882812
+        },
+        {
+          "id": "0124821b1542f6c73706504dc6afaf515b8b232dc8b37376d078c700fc0c37d3",
+          "loss": 0.182627871632576,
+          "distance": 0.00044651300413534045,
+          "normal": 0.18218135833740234,
+          "normal_fraction": 0.8125,
+          "distance_nrmse": 0.006682162638753653,
+          "normal_degrees": 13.411026954650879
+        },
+        {
+          "id": "00b21dcdffe87e0d833c16766bd74931580f82e53b223fb170fded58e9b89457",
+          "loss": 0.16286000609397888,
+          "distance": 0.0007216079393401742,
+          "normal": 0.16213840246200562,
+          "normal_fraction": 0.755859375,
+          "distance_nrmse": 0.008518093265593052,
+          "normal_degrees": 9.593422889709473
+        },
+        {
+          "id": "0933414a12572e26251d43fbc36ccd820cf8e2a43e3a0c169d1a28d4cd0a68cb",
+          "loss": 0.1615775227546692,
+          "distance": 0.0021466196049004793,
+          "normal": 0.15943090617656708,
+          "normal_fraction": 0.765625,
+          "distance_nrmse": 0.015070541761815548,
+          "normal_degrees": 10.652958869934082
+        },
+        {
+          "id": "0694d755bc2dd6d0aec7804ef30425b5d97ea8071473077e2a7cdbf521797d1e",
+          "loss": 0.21322192251682281,
+          "distance": 0.0006359466933645308,
+          "normal": 0.21258597075939178,
+          "normal_fraction": 0.78125,
+          "distance_nrmse": 0.007974626496434212,
+          "normal_degrees": 13.724142074584961
+        },
+        {
+          "id": "0773ac63160011a39015b0dbf56c801b7b0069a6a1a084ea279fd877cd7e697a",
+          "loss": 0.2607865631580353,
+          "distance": 0.0006434137467294931,
+          "normal": 0.2601431608200073,
+          "normal_fraction": 0.705078125,
+          "distance_nrmse": 0.008021307177841663,
+          "normal_degrees": 18.45136070251465
+        },
+        {
+          "id": "02f2385a04a3bcf8294211354268435ef48db39d830fd46e7addd3f81b635ff7",
+          "loss": 0.006804767530411482,
+          "distance": 0.00027904455782845616,
+          "normal": 0.006525722797960043,
+          "normal_fraction": 0.6884765625,
+          "distance_nrmse": 0.0052824681624770164,
+          "normal_degrees": 0.9964585900306702
+        },
+        {
+          "id": "04ebccb1f5f8433e355be5c9d40832c722ddf54d7397f527af949ced71eada24",
+          "loss": 0.16436515748500824,
+          "distance": 0.00025858075241558254,
+          "normal": 0.1641065776348114,
+          "normal_fraction": 0.74609375,
+          "distance_nrmse": 0.005085083190351725,
+          "normal_degrees": 11.655784606933594
+        },
+        {
+          "id": "04ab477b95f214e7862d43328cc3bbeeaff77d9e1c6fc125eabdbf22cb65360e",
+          "loss": 0.2749786972999573,
+          "distance": 0.0015149075770750642,
+          "normal": 0.27346378564834595,
+          "normal_fraction": 0.77734375,
+          "distance_nrmse": 0.012334023602306843,
+          "normal_degrees": 19.43885040283203
+        },
+        {
+          "id": "018c0c4200a3a0fab9e2daf5c29301d4ab952e913d041d1d017b45d36800b0e7",
+          "loss": 0.11968923360109329,
+          "distance": 0.0004288613563403487,
+          "normal": 0.11926037073135376,
+          "normal_fraction": 0.80078125,
+          "distance_nrmse": 0.006548750679939985,
+          "normal_degrees": 9.777959823608398
+        },
+        {
+          "id": "03f239c51a0e9df5a9a500302863456cfdfb20462bd956a75bbad8a8384b5c6e",
+          "loss": 0.08165575563907623,
+          "distance": 0.0002787979901768267,
+          "normal": 0.08137695491313934,
+          "normal_fraction": 0.736328125,
+          "distance_nrmse": 0.005280132405459881,
+          "normal_degrees": 6.66933536529541
+        },
+        {
+          "id": "0549df84f78d623b39ca4965a22be72afb67120ee12b89552037f4aa7a8ed913",
+          "loss": 0.06703731417655945,
+          "distance": 0.00031378629500977695,
+          "normal": 0.0667235255241394,
+          "normal_fraction": 0.7431640625,
+          "distance_nrmse": 0.0056016636081039906,
+          "normal_degrees": 6.557149887084961
+        },
+        {
+          "id": "05789c41e3b149f7272aeeef84214633de6ee3dfc3e8abe453159346bb439c23",
+          "loss": 0.10537099093198776,
+          "distance": 0.0007141588721424341,
+          "normal": 0.10465683043003082,
+          "normal_fraction": 0.7587890625,
+          "distance_nrmse": 0.008450792171061039,
+          "normal_degrees": 9.656831741333008
+        },
+        {
+          "id": "054613b824a9bc98ea5e3dc3817da7e32ebfa07107a975d7d6398dbbbede0679",
+          "loss": 0.30429819226264954,
+          "distance": 0.00035563274286687374,
+          "normal": 0.30394256114959717,
+          "normal_fraction": 0.7265625,
+          "distance_nrmse": 0.005963495001196861,
+          "normal_degrees": 21.593791961669922
+        },
+        {
+          "id": "04bdd8b1d2576ccc09ec841f07d4035a291661ad8c2ccc79b099173924e3cfa2",
+          "loss": 0.17706891894340515,
+          "distance": 0.0007648182800039649,
+          "normal": 0.17630410194396973,
+          "normal_fraction": 0.771484375,
+          "distance_nrmse": 0.008745389059185982,
+          "normal_degrees": 13.265028953552246
+        },
+        {
+          "id": "09cf820e6ac1fc3707561c000655ab046ee1a3cc8422244b877f7f8f8ccc5744",
+          "loss": 0.051667045801877975,
+          "distance": 0.00023722901823930442,
+          "normal": 0.05142981559038162,
+          "normal_fraction": 0.765625,
+          "distance_nrmse": 0.004870615433901548,
+          "normal_degrees": 5.014510154724121
+        },
+        {
+          "id": "00e3684dfcf9157ccd7b8d16d05f150e61450b1f34ac64400dd7dd1998847f6f",
+          "loss": 0.2844942510128021,
+          "distance": 0.0014474819181486964,
+          "normal": 0.28304678201675415,
+          "normal_fraction": 0.7548828125,
+          "distance_nrmse": 0.012288753874599934,
+          "normal_degrees": 19.8426513671875
+        },
+        {
+          "id": "057d7a1bd5d909aeda301cd352751a98618bc7ea99f0fa84c75299b6ccae4793",
+          "loss": 0.0874963328242302,
+          "distance": 0.0005147242918610573,
+          "normal": 0.08698160946369171,
+          "normal_fraction": 0.7666015625,
+          "distance_nrmse": 0.007175187114626169,
+          "normal_degrees": 6.9979248046875
+        },
+        {
+          "id": "01cc6f80adba27eee27464b20af959543ac7fab4065446228ae90a92fbfa3e8d",
+          "loss": 0.14106501638889313,
+          "distance": 0.0009377578389830887,
+          "normal": 0.1401272565126419,
+          "normal_fraction": 0.7021484375,
+          "distance_nrmse": 0.009683788754045963,
+          "normal_degrees": 9.251168251037598
+        },
+        {
+          "id": "060383c2731396d2fe5e60646ec3320cb3390b1e75ab162b24aa5ab3a2c57d80",
+          "loss": 0.06599274277687073,
+          "distance": 0.00021149833628442138,
+          "normal": 0.06578124314546585,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.004598895087838173,
+          "normal_degrees": 7.183933734893799
+        },
+        {
+          "id": "0146e1a2cdf9c5b9f8b8c06362cf2eb29a3a1ac3282a2cbae44f8926f6df2078",
+          "loss": 0.14348803460597992,
+          "distance": 0.0006943454500287771,
+          "normal": 0.1427936851978302,
+          "normal_fraction": 0.775390625,
+          "distance_nrmse": 0.00833273958414793,
+          "normal_degrees": 9.557204246520996
+        },
+        {
+          "id": "06011214232aca3dbcfc254c26cfdce4546b26b4264502f3aa7d3592a2efe725",
+          "loss": 0.1579381674528122,
+          "distance": 0.0017744756769388914,
+          "normal": 0.15616369247436523,
+          "normal_fraction": 0.712890625,
+          "distance_nrmse": 0.013853543438017368,
+          "normal_degrees": 11.933187484741211
+        },
+        {
+          "id": "0b7733a9d9997924549b09d3443c6a99731638bf59ac0085824e6464eef4abae",
+          "loss": 0.17620454728603363,
+          "distance": 0.0005582357989624143,
+          "normal": 0.17564630508422852,
+          "normal_fraction": 0.7919921875,
+          "distance_nrmse": 0.007471517659723759,
+          "normal_degrees": 12.125537872314453
+        },
+        {
+          "id": "083b53a228d8592b520b7d9dea78735128414198d823a3591c55af6c7c178371",
+          "loss": 0.08154048025608063,
+          "distance": 0.000729826046153903,
+          "normal": 0.08081065118312836,
+          "normal_fraction": 0.765625,
+          "distance_nrmse": 0.008542986586689949,
+          "normal_degrees": 7.06002140045166
+        },
+        {
+          "id": "024cac6bdf8351fcedc68b9eb5bfe0af6a0c052e8c02d7a932a4a078df310b92",
+          "loss": 0.16136285662651062,
+          "distance": 0.0010737379780039191,
+          "normal": 0.16028912365436554,
+          "normal_fraction": 0.7861328125,
+          "distance_nrmse": 0.010404029861092567,
+          "normal_degrees": 12.40328311920166
+        },
+        {
+          "id": "0452a94706664fc58256645a6565730332b8882ef602875ccfa617d074dadd9b",
+          "loss": 0.17761698365211487,
+          "distance": 0.0015304042026400566,
+          "normal": 0.17608657479286194,
+          "normal_fraction": 0.76953125,
+          "distance_nrmse": 0.012387342751026154,
+          "normal_degrees": 12.096357345581055
+        },
+        {
+          "id": "00052f6245a219734ba2b1c0721726db84588cf1caaa9202e080c9576ba6afcf",
+          "loss": 0.17501936852931976,
+          "distance": 0.0006666597910225391,
+          "normal": 0.1743527054786682,
+          "normal_fraction": 0.734375,
+          "distance_nrmse": 0.008164923638105392,
+          "normal_degrees": 13.518206596374512
+        },
+        {
+          "id": "02855dc328c4a74b672b29af360135490e8ac9bccb65f5ca87b3464a3db8a9d9",
+          "loss": 0.09855928272008896,
+          "distance": 0.0002962964354082942,
+          "normal": 0.09826298803091049,
+          "normal_fraction": 0.775390625,
+          "distance_nrmse": 0.005443312227725983,
+          "normal_degrees": 8.723185539245605
+        },
+        {
+          "id": "045e13a542ef0cbece34be1cef643bce62fd90e86d816a34725bb4c575ef4115",
+          "loss": 0.15113982558250427,
+          "distance": 0.0010881491471081972,
+          "normal": 0.15005168318748474,
+          "normal_fraction": 0.7646484375,
+          "distance_nrmse": 0.010431438684463501,
+          "normal_degrees": 9.856075286865234
+        },
+        {
+          "id": "0219d000b12e4d9490c3c6463a5c514b0f8764df9e1511d707999b1c580dda5e",
+          "loss": 0.18271304666996002,
+          "distance": 0.0014568495098501444,
+          "normal": 0.18125618994235992,
+          "normal_fraction": 0.818359375,
+          "distance_nrmse": 0.012076348066329956,
+          "normal_degrees": 11.400520324707031
+        },
+        {
+          "id": "0694cca1db248d2f4efb2df29c9fa3e812a6dd13bc9dea78f92febd488d6d4a2",
+          "loss": 0.09700264781713486,
+          "distance": 0.001111239893361926,
+          "normal": 0.09589140862226486,
+          "normal_fraction": 0.7626953125,
+          "distance_nrmse": 0.011900142766535282,
+          "normal_degrees": 8.206957817077637
+        },
+        {
+          "id": "031073d42fa5413bb88010c093519e7761843e29e6e6d95148528c025f8f98b7",
+          "loss": 0.02211124077439308,
+          "distance": 0.00016955482715275139,
+          "normal": 0.021941686049103737,
+          "normal_fraction": 0.748046875,
+          "distance_nrmse": 0.004117703530937433,
+          "normal_degrees": 4.398264408111572
+        },
+        {
+          "id": "000c12eacea5fe10903d8b5e7df27eca1d439798b207b74db8467c4f42c8e718",
+          "loss": 0.19610333442687988,
+          "distance": 0.0007079285569489002,
+          "normal": 0.19539541006088257,
+          "normal_fraction": 0.763671875,
+          "distance_nrmse": 0.008413849398493767,
+          "normal_degrees": 12.563958168029785
+        },
+        {
+          "id": "02b42a1eaa3317b390a462f4e54c14df5ad349cfcc0ffaf5f6bfc7f1eb5098b3",
+          "loss": 0.2302733212709427,
+          "distance": 0.002564230002462864,
+          "normal": 0.2277090847492218,
+          "normal_fraction": 0.7861328125,
+          "distance_nrmse": 0.016728444024920464,
+          "normal_degrees": 15.7573881149292
+        },
+        {
+          "id": "01bb1a2d86c018b54cc9f212eab224bfbb1b9460c4c172a96d0ed85143d53506",
+          "loss": 0.08724348992109299,
+          "distance": 0.0005573758389800787,
+          "normal": 0.08668611198663712,
+          "normal_fraction": 0.751953125,
+          "distance_nrmse": 0.007478410843759775,
+          "normal_degrees": 7.703777313232422
+        },
+        {
+          "id": "023d7f4cfb9b395357c10d6d95544354c32bb52d6f5c63cb967699e19827dadf",
+          "loss": 0.14993324875831604,
+          "distance": 0.0013408748200163245,
+          "normal": 0.14859236776828766,
+          "normal_fraction": 0.8046875,
+          "distance_nrmse": 0.012604804709553719,
+          "normal_degrees": 10.794580459594727
+        },
+        {
+          "id": "01e08c5d5fb0e559f76d65399419eefb802a9e675d31a7f45626f318d0720350",
+          "loss": 0.024899743497371674,
+          "distance": 0.00017061017570085824,
+          "normal": 0.024729132652282715,
+          "normal_fraction": 0.71875,
+          "distance_nrmse": 0.004130498971790075,
+          "normal_degrees": 3.193768262863159
+        },
+        {
+          "id": "05f57ed348941f9d045c67503584af00b25564e1a3e400911109634a4b919cb4",
+          "loss": 0.067656010389328,
+          "distance": 0.00027622393099591136,
+          "normal": 0.06737978756427765,
+          "normal_fraction": 0.736328125,
+          "distance_nrmse": 0.00525570148602128,
+          "normal_degrees": 4.406300067901611
+        },
+        {
+          "id": "0936f6566aca7d4d1b2569449feef6455177d5bdb8710031b18dcf01f50c8543",
+          "loss": 0.14755982160568237,
+          "distance": 0.0013260033447295427,
+          "normal": 0.14623381197452545,
+          "normal_fraction": 0.744140625,
+          "distance_nrmse": 0.011533032171428204,
+          "normal_degrees": 12.183098793029785
+        },
+        {
+          "id": "05cdfe19d01d9a0de68bf67c4d6965ad132bed1458f5f809607681a6e812d2cf",
+          "loss": 0.051898274570703506,
+          "distance": 0.00041255730320699513,
+          "normal": 0.05148571729660034,
+          "normal_fraction": 0.8037109375,
+          "distance_nrmse": 0.0064230626448988914,
+          "normal_degrees": 4.060117721557617
+        },
+        {
+          "id": "005369930cbc578c95b6130dce0e66c32bad2d9dab68409bae05b871cf6f4c66",
+          "loss": 0.20825599133968353,
+          "distance": 0.0014524473808705807,
+          "normal": 0.20680354535579681,
+          "normal_fraction": 0.7958984375,
+          "distance_nrmse": 0.012097915634512901,
+          "normal_degrees": 14.340839385986328
+        },
+        {
+          "id": "053a7029270b9d0216ca305ca921156b3b41c1ca2bec2a8ecd5b3a2dda8b0bd9",
+          "loss": 0.033899493515491486,
+          "distance": 0.00021764621487818658,
+          "normal": 0.03368184715509415,
+          "normal_fraction": 0.771484375,
+          "distance_nrmse": 0.004665256943553686,
+          "normal_degrees": 4.832662105560303
+        },
+        {
+          "id": "045f0cd3166f6f76e6b93d519186db3efc4fc5fbdeb0fa11fb27989ca17a2532",
+          "loss": 0.42942115664482117,
+          "distance": 0.0011851310264319181,
+          "normal": 0.4282360374927521,
+          "normal_fraction": 0.7587890625,
+          "distance_nrmse": 0.01089432928711176,
+          "normal_degrees": 30.912147521972656
+        },
+        {
+          "id": "0285e6ac628ba26cf519d5b836189ccf064adc96a7a0e3eb191921ce87541de7",
+          "loss": 0.17978014051914215,
+          "distance": 0.0010484419763088226,
+          "normal": 0.17873169481754303,
+          "normal_fraction": 0.80859375,
+          "distance_nrmse": 0.010242418386042118,
+          "normal_degrees": 12.213701248168945
+        },
+        {
+          "id": "0648392e11e4746b636ba911c7e705baea196d04b1f232e198172e4f33f77059",
+          "loss": 0.1899225413799286,
+          "distance": 0.0012498581781983376,
+          "normal": 0.18867267668247223,
+          "normal_fraction": 0.8193359375,
+          "distance_nrmse": 0.011187422089278698,
+          "normal_degrees": 13.059082984924316
+        },
+        {
+          "id": "0b773c920e04d42a9ec93c97a1cd7f49ca35eb4fe2246c619956de18a5dbb25e",
+          "loss": 0.17315992712974548,
+          "distance": 0.0014701101463288069,
+          "normal": 0.17168982326984406,
+          "normal_fraction": 0.791015625,
+          "distance_nrmse": 0.01241336390376091,
+          "normal_degrees": 11.08055305480957
+        },
+        {
+          "id": "0684dd28aa6cb9bfc89c43f3719d44e138713201ded26eb29493893a198c47d9",
+          "loss": 0.18536904454231262,
+          "distance": 0.0006958627491258085,
+          "normal": 0.18467317521572113,
+          "normal_fraction": 0.7802734375,
+          "distance_nrmse": 0.008341839537024498,
+          "normal_degrees": 11.926687240600586
+        },
+        {
+          "id": "044339cce457d94d7593ccbea44d11b3c8abff1a7e36789a94e5fb9c76835368",
+          "loss": 0.10460119694471359,
+          "distance": 0.0005708250682801008,
+          "normal": 0.10403037071228027,
+          "normal_fraction": 0.712890625,
+          "distance_nrmse": 0.007555297110229731,
+          "normal_degrees": 8.630666732788086
+        },
+        {
+          "id": "046313c66bafd4f89ea3e6f3bbe0e05101945dc3f9ea1b56f5f6e413c17a0d0b",
+          "loss": 0.17252755165100098,
+          "distance": 0.0006378350080922246,
+          "normal": 0.17188972234725952,
+          "normal_fraction": 0.7705078125,
+          "distance_nrmse": 0.007986457087099552,
+          "normal_degrees": 12.227055549621582
+        },
+        {
+          "id": "089c98efcd654d5a34dad14643a69642659f77fa7387d73e62dd2b595a773b6e",
+          "loss": 0.16101837158203125,
+          "distance": 0.0002757651382125914,
+          "normal": 0.1607426106929779,
+          "normal_fraction": 0.7080078125,
+          "distance_nrmse": 0.005251335445791483,
+          "normal_degrees": 12.475608825683594
+        },
+        {
+          "id": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+          "loss": 0.2441677451133728,
+          "distance": 0.0032678735442459583,
+          "normal": 0.24089987576007843,
+          "normal_fraction": 0.7490234375,
+          "distance_nrmse": 0.023815413936972618,
+          "normal_degrees": 16.70104217529297
+        },
+        {
+          "id": "04847290ab9bdb25928d1dbb99a289b5f44bb9dced7f067f2c0d3eddfa659694",
+          "loss": 0.09459232538938522,
+          "distance": 0.0003160920459777117,
+          "normal": 0.09427623450756073,
+          "normal_fraction": 0.72265625,
+          "distance_nrmse": 0.0056222062557935715,
+          "normal_degrees": 7.947612762451172
+        },
+        {
+          "id": "0504b18aad69f8ab1dab19a02c9c8c03c900a8d7d4917655bbf09f798a5f93ab",
+          "loss": 0.07079505175352097,
+          "distance": 0.00038374721771106124,
+          "normal": 0.0704113021492958,
+          "normal_fraction": 0.7626953125,
+          "distance_nrmse": 0.0064710709266364574,
+          "normal_degrees": 4.937720775604248
+        },
+        {
+          "id": "001c67ba31809963e1251cd9ac6fc36888956db535f955d5e485fcb7f71a4608",
+          "loss": 0.19530104100704193,
+          "distance": 0.0024045752361416817,
+          "normal": 0.19289647042751312,
+          "normal_fraction": 0.8515625,
+          "distance_nrmse": 0.015657303854823112,
+          "normal_degrees": 12.718827247619629
+        },
+        {
+          "id": "0577ff56b0cc2c57f2cba788459d81e95c965d7589a871059f706cdd5155bf3a",
+          "loss": 0.17159326374530792,
+          "distance": 0.0012745409039780498,
+          "normal": 0.17031872272491455,
+          "normal_fraction": 0.79296875,
+          "distance_nrmse": 0.011348697356879711,
+          "normal_degrees": 12.011374473571777
+        }
+      ]
+    }
+  },
+  "patch_measure": "8 area-sampled patches per object; fresh local queries. This is not an exhaustive chart qualification."
+}

@@ -1,0 +1,29 @@
+{
+  "original_manifest": "/workspace/runs/objaverse_training_pool/versions/20260927T140652Z/manifest.json",
+  "counts": {
+    "train": 61822,
+    "test": 1825,
+    "val": 1844
+  },
+  "settings": {
+    "edge_length": 0.01,
+    "remesh_iterations": 5,
+    "remesh_deviation": 0.001,
+    "minimum_coverage": 0.95,
+    "max_source_faces": 2000000,
+    "timeout_seconds": 600,
+    "patches": 1024,
+    "max_faces": 2048,
+    "coverage_points": 8192,
+    "target_coverage": 0.98
+  },
+  "units": "Remesh lengths are fractions of original bounding-box diagonal.",
+  "original_splits_preserved": true,
+  "sampling": "area on original mesh for final coverage",
+  "exclusions": "Per-object failures and coverage below .95 are recorded; other objects continue. No split reassignment.",
+  "consolidation": "One HDF5 pack per 128 source objects, with independently indexed patch/query groups.",
+  "references": [
+    "https://pymeshlab.readthedocs.io/en/latest/filter_list.html#meshing-isotropic-explicit-remeshing",
+    "https://trimesh.org/trimesh.repair.html#trimesh.repair.fix_winding"
+  ]
+}

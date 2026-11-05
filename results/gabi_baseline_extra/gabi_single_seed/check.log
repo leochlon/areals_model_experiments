@@ -1,0 +1,8 @@
+PASS gabi dd_007dd0b20f75630572b0 patch-64-0.25: largest change 7.40e-06 x field spread; observed values +1 spread moves the hidden prediction +0.24 spreads
+PASS gabi dd_007dd0b20f75630572b0 patch-64-0.90: largest change 5.68e-06 x field spread; observed values +1 spread moves the hidden prediction +0.15 spreads
+PASS gabi dd_007dd0b20f75630572b0 sensors-20: largest change 6.18e-06 x field spread; observed values +1 spread moves the hidden prediction +0.10 spreads
+PASS gabi dd_03753f0a5564d23a01b5 patch-64-0.25: largest change 7.13e-06 x field spread; observed values +1 spread moves the hidden prediction +0.16 spreads
+PASS gabi dd_03753f0a5564d23a01b5 patch-64-0.90: largest change 4.70e-06 x field spread; observed values +1 spread moves the hidden prediction +0.12 spreads
+PASS gabi dd_03753f0a5564d23a01b5 sensors-20: largest change 7.64e-06 x field spread; observed values +1 spread moves the hidden prediction +0.10 spreads
+6/6 passed
+response to the observed values (1 = carries the observed level into the hidden region, 0 = ignores it): patch-64-0.25 +0.20, patch-64-0.90 +0.13, sensors-20 +0.10

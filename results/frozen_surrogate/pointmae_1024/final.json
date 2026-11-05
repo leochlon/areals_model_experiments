@@ -1,0 +1,9 @@
+{
+  "arm": "pointmae",
+  "completed_epochs": 20,
+  "best_ema_rl2": 0.5993694588541985,
+  "best_epoch": 20,
+  "final_ema_rl2": 0.5993694588541985,
+  "final_live_rl2": 0.33534402027726173,
+  "elapsed_seconds": 264.57729601860046
+}

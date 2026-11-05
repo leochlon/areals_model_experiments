@@ -1,0 +1,299 @@
+[
+  {
+    "id": "0000a09b3b22da52cd0a55918c511184e5bfe4adc846e7a522bc6b227a1781a3",
+    "group": "heldout",
+    "disk_radius": 0.03800133243203163,
+    "epsilon_disk_grid": 0.4008621801570223,
+    "disk_max_underestimate": 0.037908587745267563,
+    "disk_max_overestimate": 0.4008621801570223,
+    "full_max_underestimate": 0.3946807449101838,
+    "full_max_overestimate": 0.39933394686730367,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.2327487991802286e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 135084,
+      "query": [
+        -1.469795631116452,
+        -0.2168746859695172,
+        0.4793265951632528
+      ],
+      "true": 0.02233669860808389,
+      "disk": 0.4231988787651062,
+      "full": 0.4216706454753876
+    },
+    "seconds": 3.0470094783231616,
+    "base_field_sha256": "5328283eb0bbb86f2e8af38f6cafff46c6f1d7bccec37b105bac6283576a4688",
+    "prepared_sha256": "f6d1eb4e793bb462981e8fd97fddba91a2ddc47b74a79d4d0cca83ba6ece2184"
+  },
+  {
+    "id": "000223fb1496e6885cc20ed47db02763a282c71e91e7a5ca2d3367b72a6c1067",
+    "group": "heldout",
+    "disk_radius": 0.03382617235183716,
+    "epsilon_disk_grid": 0.11608593673007171,
+    "disk_max_underestimate": 0.03378889792147777,
+    "disk_max_overestimate": 0.11608593673007171,
+    "full_max_underestimate": 0.4492663628763818,
+    "full_max_overestimate": 0.1108903596027751,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.4225187633675205e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 447997,
+      "query": [
+        0.2664842474624418,
+        0.43450879035314127,
+        0.12870958102066377
+      ],
+      "true": 0.03897237270577271,
+      "disk": 0.15505830943584442,
+      "full": 0.14137502014636993
+    },
+    "seconds": 1.6895486498251557,
+    "base_field_sha256": "b6791418a5dd7eddf877e82d8f6b4c928fee5901a2d9453c89425019b245791d",
+    "prepared_sha256": "57e465cb3fea7c1525933c53697ca1c6057b329c2ea168db6b78b953f0d91d82"
+  },
+  {
+    "id": "00052f6245a219734ba2b1c0721726db84588cf1caaa9202e080c9576ba6afcf",
+    "group": "heldout",
+    "disk_radius": 0.026807986199855804,
+    "epsilon_disk_grid": 0.08723870651025342,
+    "disk_max_underestimate": 0.026447194708357546,
+    "disk_max_overestimate": 0.08723870651025342,
+    "full_max_underestimate": 0.3431618550873139,
+    "full_max_overestimate": 0.05662306575679111,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.1603577060602674e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 211120,
+      "query": [
+        -1.3385339693409168,
+        -0.04742590517132905,
+        -0.002111222659709533
+      ],
+      "true": 0.004917182166389952,
+      "disk": 0.09215588867664337,
+      "full": 0.05579172074794769
+    },
+    "seconds": 1.7062015738338232,
+    "base_field_sha256": "c142b15690c800f9e3e7d2e25c4aa9e8939e30e683957e09ed0dda52569e96a0",
+    "prepared_sha256": "7960d171391f91bfe50d38edc270ce913adb4df9393165e2839c9165ac00406b"
+  },
+  {
+    "id": "00096fd5ab994d62e44faf96c086e0ecdc1aae2a73a0efcbeedfbdf700375ec7",
+    "group": "heldout",
+    "disk_radius": 0.028886592015624046,
+    "epsilon_disk_grid": 0.09287601409616811,
+    "disk_max_underestimate": 0.026008241191347148,
+    "disk_max_overestimate": 0.09287601409616811,
+    "full_max_underestimate": 0.40603041413842467,
+    "full_max_overestimate": 0.04214290434321133,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 1.4751747556829287e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 323068,
+      "query": [
+        -0.5637451230128645,
+        -0.5647540073448489,
+        0.4114903942261885
+      ],
+      "true": 0.0035837099128689038,
+      "disk": 0.09645972400903702,
+      "full": 0.01303124614059925
+    },
+    "seconds": 1.726186971180141,
+    "base_field_sha256": "25136a5b5b4611ca9bacaebe2585bcfac9cfe127bf058a6bea677edea275c421",
+    "prepared_sha256": "d05b393693211675fc05fa2842860e4aff34f7c77d1787c0a6fad60591c9db77"
+  },
+  {
+    "id": "000c12eacea5fe10903d8b5e7df27eca1d439798b207b74db8467c4f42c8e718",
+    "group": "heldout",
+    "disk_radius": 0.02512277103960514,
+    "epsilon_disk_grid": 0.10234758458699633,
+    "disk_max_underestimate": 0.024883883009596097,
+    "disk_max_overestimate": 0.10234758458699633,
+    "full_max_underestimate": 0.21473127309715978,
+    "full_max_overestimate": 0.09604308666900886,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.8436351939831184e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0012139400359330033,
+    "overestimate_witness": {
+      "index": 476247,
+      "query": [
+        0.06386533304123532,
+        0.7506245851611697,
+        1.0003055409058939
+      ],
+      "true": 0.03500556744967053,
+      "disk": 0.13735315203666687,
+      "full": 0.10238391906023026
+    },
+    "seconds": 1.7032861728221178,
+    "base_field_sha256": "d9b6996bde5e9d42e21a3e4cc5891c335af7581e90fd47d93e07713978468f8d",
+    "prepared_sha256": "90bc4c48b72fb43b6388cea7b3569c92c09a370e43339271e868a725131ecd8b"
+  },
+  {
+    "id": "001c67ba31809963e1251cd9ac6fc36888956db535f955d5e485fcb7f71a4608",
+    "group": "heldout",
+    "disk_radius": 0.045224208384752274,
+    "epsilon_disk_grid": 0.13482520782797455,
+    "disk_max_underestimate": 0.04411942747517783,
+    "disk_max_overestimate": 0.13482520782797455,
+    "full_max_underestimate": 0.37117054757554835,
+    "full_max_overestimate": 0.1275471677765143,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 1.4312763951807028e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 308611,
+      "query": [
+        -0.6053728729361965,
+        1.0159720806428956,
+        0.2386865995579337
+      ],
+      "true": 0.0016319373861062563,
+      "disk": 0.1364571452140808,
+      "full": 0.12917910516262054
+    },
+    "seconds": 1.7117491504177451,
+    "base_field_sha256": "2557af306233eaab57d6292d413e409452c818b70afe9aa86ff627be7f8cd133",
+    "prepared_sha256": "232208b67f2a388868cded2f073fd0fbadda5d32d3c4f56bc783ecfc2f9b8954"
+  },
+  {
+    "id": "00274992f13a0cb5c0061bb48895610b21ec8d6b13f7366ceaa74b231bdbf600",
+    "group": "heldout",
+    "disk_radius": 0.028351930901408195,
+    "epsilon_disk_grid": 0.10747493953051611,
+    "disk_max_underestimate": 0.027016230198813773,
+    "disk_max_overestimate": 0.10747493953051611,
+    "full_max_underestimate": 0.978994499473185,
+    "full_max_overestimate": 0.09979934581603928,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.444602453799405e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 478545,
+      "query": [
+        0.019360339656838477,
+        1.5716065046270735,
+        -0.15355687983642818
+      ],
+      "true": 0.00795190631804422,
+      "disk": 0.11542684584856033,
+      "full": 0.06918201595544815
+    },
+    "seconds": 1.7111108461394906,
+    "base_field_sha256": "b4c00962f1cce3780959af7a67cb7100f4c60aefa8121769354f733d5306948b",
+    "prepared_sha256": "38b2cab7364cafda229de4d368ee13be2b4a5cc466356d91fb659dc49746c0b8"
+  },
+  {
+    "id": "0031d8b8002f6606c2945060313666cd227ba6a598458835ba28f2b212d1a059",
+    "group": "heldout",
+    "disk_radius": 0.034605804830789566,
+    "epsilon_disk_grid": 0.24710461128661854,
+    "disk_max_underestimate": 0.034203054892907536,
+    "disk_max_overestimate": 0.24710461128661854,
+    "full_max_underestimate": 0.3156126208042327,
+    "full_max_overestimate": 0.23302951086471302,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.3800856996381015e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 486290,
+      "query": [
+        0.02619025446287848,
+        1.235383016326403,
+        -0.5005455069007352
+      ],
+      "true": 0.01473933826973217,
+      "disk": 0.2618439495563507,
+      "full": 0.2477688491344452
+    },
+    "seconds": 1.7734430385753512,
+    "base_field_sha256": "941e7cdef0923b7523b8e8e8e078cfa3e7d05400c2ba9581d3194e1bc63fa2bd",
+    "prepared_sha256": "03f2724d63cb73135929116b0e5ee5e81d680e7bd7c1d863104e0a63c6c676a7"
+  },
+  {
+    "id": "sphere",
+    "group": "control",
+    "disk_radius": 0.026410667225718498,
+    "epsilon_disk_grid": 0.06931191457039433,
+    "disk_max_underestimate": 0.0003488658976460446,
+    "disk_max_overestimate": 0.06931191457039433,
+    "full_max_underestimate": 0.3668805832451779,
+    "full_max_overestimate": 0.02022221523826663,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 1.77328211670158e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 728816,
+      "query": [
+        0.9692236080747594,
+        -0.12861040434210302,
+        0.22323419083505103
+      ],
+      "true": 0.003303388528761099,
+      "disk": 0.07261530309915543,
+      "full": 0.020493684336543083
+    },
+    "seconds": 1.6897840593010187,
+    "base_field_sha256": "d35db4206979883fbd28a64b39d3b2809a2b2ff4c608308a4682fa1b5732ccb9",
+    "prepared_sha256": "36e6fdfc573ee9d88307181c6c967b7d97063b5f95fea89ec4d2a593c0b4c156"
+  },
+  {
+    "id": "torus",
+    "group": "control",
+    "disk_radius": 0.02487660013139248,
+    "epsilon_disk_grid": 0.06140935459412459,
+    "disk_max_underestimate": 0.0009865949704717103,
+    "disk_max_overestimate": 0.06140935459412459,
+    "full_max_underestimate": 0.6187468523024611,
+    "full_max_overestimate": 0.012011174603288186,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 1.5318408164155528e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 440623,
+      "query": [
+        -0.07809698140371202,
+        1.203639912908979,
+        0.04146975272344311
+      ],
+      "true": 0.001933887216674054,
+      "disk": 0.06334324181079865,
+      "full": 0.0059172241017222404
+    },
+    "seconds": 1.6920252973213792,
+    "base_field_sha256": "15739e012ea5090d646809295cea17b750283db9423c4c1466a604e6a859653d",
+    "prepared_sha256": "c50bf0c97826125102a20f652de476cd3a5a1002a60e5560965659e4a44ea44d"
+  },
+  {
+    "id": "two_spheres",
+    "group": "control",
+    "disk_radius": 0.02430119179189205,
+    "epsilon_disk_grid": 0.06252177292065875,
+    "disk_max_underestimate": 0.0004578823061929249,
+    "disk_max_overestimate": 0.06252177292065875,
+    "full_max_underestimate": 0.7727762193101937,
+    "full_max_overestimate": 0.02129172024040597,
+    "full_decoder_replay_max_delta": 0.0,
+    "independent_disk_formula_max_delta": 2.7026016202746916e-07,
+    "native_16_vs_all_2048_max_delta_on_256_queries": 0.0,
+    "overestimate_witness": {
+      "index": 598927,
+      "query": [
+        0.6285181375905466,
+        0.6226675860425663,
+        0.046328599820733896
+      ],
+      "true": 0.0020294762258027464,
+      "disk": 0.06455124914646149,
+      "full": 0.011904225684702396
+    },
+    "seconds": 1.7014786321669817,
+    "base_field_sha256": "cbd6ce0dc9d09b8315894ba52cd3241bb7712d5aee58daf2f25f6beee1c494e2",
+    "prepared_sha256": "5e4be495a4a7ec6cc99943ff52797dbbea5f25d3d3ce599a4374881a834a093f"
+  }
+]

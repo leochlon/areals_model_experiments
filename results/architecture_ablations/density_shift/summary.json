@@ -1,0 +1,36 @@
+{
+  "models": 6,
+  "meshes": 32,
+  "predictions": 1344,
+  "settings": {
+    "reference": {
+      "uniform": {
+        "normalized_mse": 0.007415288749890635,
+        "prediction_change": 0.0
+      },
+      "biased_fixed_anchors_frame": {
+        "normalized_mse": 0.007441069228570895,
+        "prediction_change": 0.0025353756930808023
+      },
+      "biased_reanchor": {
+        "normalized_mse": 0.007193749293834367,
+        "prediction_change": 0.037070448104380364
+      }
+    },
+    "ordinary_attention": {
+      "uniform": {
+        "normalized_mse": 0.006779904105640923,
+        "prediction_change": 0.0
+      },
+      "biased_fixed_anchors_frame": {
+        "normalized_mse": 0.007362027068835538,
+        "prediction_change": 0.01370607492764673
+      },
+      "biased_reanchor": {
+        "normalized_mse": 0.007120621847615527,
+        "prediction_change": 0.03727547536005434
+      }
+    }
+  },
+  "scope": "Exploratory ninefold long-axis sampling-density change with inverse-proposal quadrature weights. Three fixed seeds, 4096 samples, 256 tokens. Fixed-anchor and full-preprocessing controls; all outcomes retained. Not arbitrary remeshing or production-scale pretraining."
+}

@@ -1,0 +1,82 @@
+% Simulation efficiency: zero-sensor test nRMSE against the number of training simulations, for AREALS and the same
+% architecture from scratch. Lines: means over three seeds; shading: pointwise 95% bootstrap intervals over seeds and
+% test geometries; 8,000 updates per fit. Data in figures/efficiency_data/, written by efficiency_curves.py from the
+% simulation-efficiency summaries of 29 October 2026. From scratch uses Figure 3's purple; AREALS the teal of Figures 1
+% and 5. Arrows run along the 0.25 target from the smallest tested budget at which scratch reaches it to AREALS's.
+% The three tables below are the contents of figures/efficiency_data/*.dat, embedded so that the figure needs no
+% external data file (arXiv builds do not read them reliably).
+\pgfplotstableread[row sep=\\]{%
+  budget scratch scratchlo scratchhi areals arealslo arealshi \\
+  18 0.44783 0.41559 0.48301 0.27479 0.24758 0.30220 \\
+  35 0.34900 0.31890 0.37842 0.22266 0.20029 0.24510 \\
+  69 0.26989 0.24185 0.29744 0.19246 0.16986 0.21774 \\
+  137 0.21173 0.18988 0.23635 0.16570 0.14315 0.19238 \\
+  274 0.18732 0.16331 0.21402 0.14605 0.12587 0.16905 \\
+}\arealsEffWindsor
+\pgfplotstableread[row sep=\\]{%
+  budget scratch scratchlo scratchhi areals arealslo arealshi \\
+  25 0.48944 0.47332 0.50561 0.36870 0.36031 0.37704 \\
+  50 0.41597 0.40183 0.43079 0.30812 0.30015 0.31558 \\
+  100 0.34679 0.33244 0.36203 0.25339 0.24663 0.26034 \\
+  200 0.26909 0.25913 0.27878 0.20937 0.20468 0.21430 \\
+  400 0.21935 0.21323 0.22574 0.18089 0.17685 0.18511 \\
+}\arealsEffDrivAerML
+\pgfplotstableread[row sep=\\]{%
+  budget scratch scratchlo scratchhi areals arealslo arealshi \\
+  406 0.30346 0.29783 0.30939 0.27712 0.27291 0.28139 \\
+  812 0.27650 0.27048 0.28273 0.25493 0.25168 0.25843 \\
+  1623 0.25637 0.25215 0.26061 0.23860 0.23568 0.24184 \\
+  3246 0.24746 0.24421 0.25091 0.23257 0.22965 0.23581 \\
+  6492 0.24603 0.24193 0.25052 0.23026 0.22742 0.23341 \\
+}\arealsEffDrivAerNetPP
+\definecolor{arealscratch}{HTML}{7A5195}%
+\def\arealsEffPanel#1#2#3#4{% data file, AREALS budget, scratch budget, saving
+  \addplot[name path=sl, draw=none, forget plot] table[x=budget, y=scratchlo] {#1};
+  \addplot[name path=sh, draw=none, forget plot] table[x=budget, y=scratchhi] {#1};
+  \addplot[arealscratch, fill opacity=0.15, draw=none, forget plot] fill between[of=sl and sh];
+  \addplot[name path=al, draw=none, forget plot] table[x=budget, y=arealslo] {#1};
+  \addplot[name path=ah, draw=none, forget plot] table[x=budget, y=arealshi] {#1};
+  \addplot[arealteal, fill opacity=0.15, draw=none, forget plot] fill between[of=al and ah];
+  \addplot[arealscratch, line width=1.2pt, mark=*, mark size=1.9pt, mark options={fill=white, line width=0.9pt}]
+    table[x=budget, y=scratch] {#1};
+  \addplot[arealteal, line width=1.4pt, mark=*, mark size=2.1pt, mark options={draw=white, line width=0.4pt}]
+    table[x=budget, y=areals] {#1};
+  \draw[-{Stealth[length=4.5pt,width=4pt]}, arealfg, line width=0.8pt] (axis cs:#3,0.25) -- (axis cs:#2,0.25);
+  \node[anchor=north east, font=\scriptsize, text=arealfg, align=right] at (rel axis cs:0.97,0.97)
+    {#4\% fewer\\simulations};
+}%
+\begin{tikzpicture}
+\begin{groupplot}[
+    group style={group size=3 by 1, horizontal sep=1.05cm},
+    width=0.355\textwidth, height=4.4cm,
+    xmode=log, log basis x=2, xminorticks=false,
+    enlarge x limits=0.07,
+    xlabel={Training simulations},
+    tick label style={font=\scriptsize},
+    label style={font=\small},
+    title style={font=\small, yshift=-3pt},
+    axis line style={arealmuted}, tick style={arealmuted},
+    ymajorgrids, grid style={arealgrid},
+    extra y ticks={0.25}, extra y tick labels={},
+    extra y tick style={grid=major, major grid style={arealmuted, dashed, line width=0.7pt}},
+    yticklabel style={/pgf/number format/fixed, /pgf/number format/fixed zerofill, /pgf/number format/precision=2},
+  ]
+  \nextgroupplot[title={WindsorML}, ylabel={Test nRMSE, no sensors},
+    ymin=0.11, ymax=0.50, ytick={0.2,0.3,0.4},
+    xtick={18,35,69,137,274}, xticklabels={18,35,69,137,274},
+    legend to name=arealsefflegend, legend columns=3,
+    legend style={font=\scriptsize, draw=none, column sep=10pt}]
+  \arealsEffPanel{\arealsEffWindsor}{35}{137}{74.5}
+  \addlegendentry{from scratch}
+  \addlegendentry{\areals{}}
+  \addlegendimage{arealmuted, dashed, line width=0.7pt}
+  \addlegendentry{target, nRMSE 0.25}
+  \nextgroupplot[title={DrivAerML}, ymin=0.16, ymax=0.52, ytick={0.2,0.3,0.4,0.5},
+    xtick={25,50,100,200,400}, xticklabels={25,50,100,200,400}]
+  \arealsEffPanel{\arealsEffDrivAerML}{200}{400}{50}
+  \nextgroupplot[title={DrivAerNet++}, ymin=0.22, ymax=0.315, ytick={0.22,0.24,0.26,0.28,0.30},
+    xtick={406,812,1623,3246,6492}, xticklabels={406,812,{1,623},{3,246},{6,492}}]
+  \arealsEffPanel{\arealsEffDrivAerNetPP}{1623}{3246}{50}
+\end{groupplot}
+\node[anchor=south] at ([yshift=13pt]group c2r1.north) {\pgfplotslegendfromname{arealsefflegend}};
+\end{tikzpicture}

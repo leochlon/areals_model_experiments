@@ -1,0 +1,2759 @@
+{
+  "version": "patch-pressure-data-v1",
+  "evaluation_scope": "held_out_cars",
+  "condition_names": [],
+  "cases": [
+    {
+      "id": "WindsorML__run_0",
+      "car_id": "WindsorML__run_0",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_0.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_0.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_1",
+      "car_id": "WindsorML__run_1",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_1.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_1.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_10",
+      "car_id": "WindsorML__run_10",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_10.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_10.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_100",
+      "car_id": "WindsorML__run_100",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_100.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_100.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_101",
+      "car_id": "WindsorML__run_101",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_101.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_101.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_102",
+      "car_id": "WindsorML__run_102",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_102.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_102.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_103",
+      "car_id": "WindsorML__run_103",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_103.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_103.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_104",
+      "car_id": "WindsorML__run_104",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_104.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_104.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_105",
+      "car_id": "WindsorML__run_105",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_105.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_105.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_106",
+      "car_id": "WindsorML__run_106",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_106.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_106.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_107",
+      "car_id": "WindsorML__run_107",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_107.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_107.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_108",
+      "car_id": "WindsorML__run_108",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_108.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_108.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_109",
+      "car_id": "WindsorML__run_109",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_109.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_109.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_11",
+      "car_id": "WindsorML__run_11",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_11.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_11.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_110",
+      "car_id": "WindsorML__run_110",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_110.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_110.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_111",
+      "car_id": "WindsorML__run_111",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_111.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_111.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_112",
+      "car_id": "WindsorML__run_112",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_112.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_112.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_113",
+      "car_id": "WindsorML__run_113",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_113.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_113.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_114",
+      "car_id": "WindsorML__run_114",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_114.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_114.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_115",
+      "car_id": "WindsorML__run_115",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_115.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_115.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_116",
+      "car_id": "WindsorML__run_116",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_116.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_116.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_117",
+      "car_id": "WindsorML__run_117",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_117.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_117.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_118",
+      "car_id": "WindsorML__run_118",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_118.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_118.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_119",
+      "car_id": "WindsorML__run_119",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_119.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_119.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_12",
+      "car_id": "WindsorML__run_12",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_12.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_12.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_120",
+      "car_id": "WindsorML__run_120",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_120.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_120.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_121",
+      "car_id": "WindsorML__run_121",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_121.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_121.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_122",
+      "car_id": "WindsorML__run_122",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_122.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_122.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_123",
+      "car_id": "WindsorML__run_123",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_123.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_123.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_124",
+      "car_id": "WindsorML__run_124",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_124.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_124.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_125",
+      "car_id": "WindsorML__run_125",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_125.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_125.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_126",
+      "car_id": "WindsorML__run_126",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_126.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_126.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_127",
+      "car_id": "WindsorML__run_127",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_127.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_127.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_128",
+      "car_id": "WindsorML__run_128",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_128.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_128.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_129",
+      "car_id": "WindsorML__run_129",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_129.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_129.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_13",
+      "car_id": "WindsorML__run_13",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_13.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_13.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_130",
+      "car_id": "WindsorML__run_130",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_130.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_130.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_131",
+      "car_id": "WindsorML__run_131",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_131.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_131.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_132",
+      "car_id": "WindsorML__run_132",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_132.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_132.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_133",
+      "car_id": "WindsorML__run_133",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_133.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_133.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_135",
+      "car_id": "WindsorML__run_135",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_135.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_135.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_136",
+      "car_id": "WindsorML__run_136",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_136.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_136.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_137",
+      "car_id": "WindsorML__run_137",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_137.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_137.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_138",
+      "car_id": "WindsorML__run_138",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_138.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_138.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_139",
+      "car_id": "WindsorML__run_139",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_139.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_139.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_14",
+      "car_id": "WindsorML__run_14",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_14.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_14.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_140",
+      "car_id": "WindsorML__run_140",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_140.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_140.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_141",
+      "car_id": "WindsorML__run_141",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_141.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_141.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_142",
+      "car_id": "WindsorML__run_142",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_142.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_142.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_143",
+      "car_id": "WindsorML__run_143",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_143.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_143.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_144",
+      "car_id": "WindsorML__run_144",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_144.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_144.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_145",
+      "car_id": "WindsorML__run_145",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_145.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_145.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_146",
+      "car_id": "WindsorML__run_146",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_146.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_146.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_147",
+      "car_id": "WindsorML__run_147",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_147.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_147.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_148",
+      "car_id": "WindsorML__run_148",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_148.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_148.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_149",
+      "car_id": "WindsorML__run_149",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_149.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_149.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_15",
+      "car_id": "WindsorML__run_15",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_15.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_15.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_150",
+      "car_id": "WindsorML__run_150",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_150.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_150.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_151",
+      "car_id": "WindsorML__run_151",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_151.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_151.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_152",
+      "car_id": "WindsorML__run_152",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_152.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_152.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_153",
+      "car_id": "WindsorML__run_153",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_153.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_153.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_154",
+      "car_id": "WindsorML__run_154",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_154.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_154.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_155",
+      "car_id": "WindsorML__run_155",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_155.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_155.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_156",
+      "car_id": "WindsorML__run_156",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_156.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_156.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_157",
+      "car_id": "WindsorML__run_157",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_157.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_157.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_158",
+      "car_id": "WindsorML__run_158",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_158.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_158.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_159",
+      "car_id": "WindsorML__run_159",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_159.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_159.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_16",
+      "car_id": "WindsorML__run_16",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_16.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_16.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_160",
+      "car_id": "WindsorML__run_160",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_160.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_160.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_161",
+      "car_id": "WindsorML__run_161",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_161.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_161.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_162",
+      "car_id": "WindsorML__run_162",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_162.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_162.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_163",
+      "car_id": "WindsorML__run_163",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_163.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_163.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_164",
+      "car_id": "WindsorML__run_164",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_164.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_164.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_165",
+      "car_id": "WindsorML__run_165",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_165.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_165.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_166",
+      "car_id": "WindsorML__run_166",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_166.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_166.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_167",
+      "car_id": "WindsorML__run_167",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_167.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_167.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_168",
+      "car_id": "WindsorML__run_168",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_168.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_168.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_169",
+      "car_id": "WindsorML__run_169",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_169.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_169.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_17",
+      "car_id": "WindsorML__run_17",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_17.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_17.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_170",
+      "car_id": "WindsorML__run_170",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_170.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_170.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_171",
+      "car_id": "WindsorML__run_171",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_171.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_171.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_172",
+      "car_id": "WindsorML__run_172",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_172.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_172.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_173",
+      "car_id": "WindsorML__run_173",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_173.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_173.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_174",
+      "car_id": "WindsorML__run_174",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_174.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_174.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_175",
+      "car_id": "WindsorML__run_175",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_175.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_175.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_176",
+      "car_id": "WindsorML__run_176",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_176.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_176.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_177",
+      "car_id": "WindsorML__run_177",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_177.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_177.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_178",
+      "car_id": "WindsorML__run_178",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_178.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_178.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_179",
+      "car_id": "WindsorML__run_179",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_179.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_179.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_18",
+      "car_id": "WindsorML__run_18",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_18.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_18.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_180",
+      "car_id": "WindsorML__run_180",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_180.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_180.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_181",
+      "car_id": "WindsorML__run_181",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_181.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_181.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_182",
+      "car_id": "WindsorML__run_182",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_182.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_182.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_183",
+      "car_id": "WindsorML__run_183",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_183.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_183.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_184",
+      "car_id": "WindsorML__run_184",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_184.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_184.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_185",
+      "car_id": "WindsorML__run_185",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_185.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_185.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_186",
+      "car_id": "WindsorML__run_186",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_186.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_186.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_187",
+      "car_id": "WindsorML__run_187",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_187.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_187.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_188",
+      "car_id": "WindsorML__run_188",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_188.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_188.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_189",
+      "car_id": "WindsorML__run_189",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_189.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_189.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_19",
+      "car_id": "WindsorML__run_19",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_19.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_19.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_190",
+      "car_id": "WindsorML__run_190",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_190.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_190.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_191",
+      "car_id": "WindsorML__run_191",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_191.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_191.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_192",
+      "car_id": "WindsorML__run_192",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_192.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_192.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_193",
+      "car_id": "WindsorML__run_193",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_193.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_193.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_194",
+      "car_id": "WindsorML__run_194",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_194.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_194.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_195",
+      "car_id": "WindsorML__run_195",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_195.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_195.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_196",
+      "car_id": "WindsorML__run_196",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_196.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_196.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_197",
+      "car_id": "WindsorML__run_197",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_197.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_197.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_198",
+      "car_id": "WindsorML__run_198",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_198.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_198.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_199",
+      "car_id": "WindsorML__run_199",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_199.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_199.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_2",
+      "car_id": "WindsorML__run_2",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_2.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_2.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_20",
+      "car_id": "WindsorML__run_20",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_20.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_20.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_200",
+      "car_id": "WindsorML__run_200",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_200.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_200.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_201",
+      "car_id": "WindsorML__run_201",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_201.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_201.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_202",
+      "car_id": "WindsorML__run_202",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_202.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_202.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_203",
+      "car_id": "WindsorML__run_203",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_203.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_203.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_204",
+      "car_id": "WindsorML__run_204",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_204.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_204.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_205",
+      "car_id": "WindsorML__run_205",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_205.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_205.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_206",
+      "car_id": "WindsorML__run_206",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_206.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_206.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_207",
+      "car_id": "WindsorML__run_207",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_207.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_207.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_208",
+      "car_id": "WindsorML__run_208",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_208.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_208.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_209",
+      "car_id": "WindsorML__run_209",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_209.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_209.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_21",
+      "car_id": "WindsorML__run_21",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_21.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_21.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_210",
+      "car_id": "WindsorML__run_210",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_210.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_210.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_211",
+      "car_id": "WindsorML__run_211",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_211.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_211.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_212",
+      "car_id": "WindsorML__run_212",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_212.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_212.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_213",
+      "car_id": "WindsorML__run_213",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_213.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_213.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_214",
+      "car_id": "WindsorML__run_214",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_214.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_214.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_215",
+      "car_id": "WindsorML__run_215",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_215.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_215.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_216",
+      "car_id": "WindsorML__run_216",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_216.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_216.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_217",
+      "car_id": "WindsorML__run_217",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_217.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_217.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_218",
+      "car_id": "WindsorML__run_218",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_218.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_218.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_219",
+      "car_id": "WindsorML__run_219",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_219.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_219.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_22",
+      "car_id": "WindsorML__run_22",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_22.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_22.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_220",
+      "car_id": "WindsorML__run_220",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_220.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_220.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_221",
+      "car_id": "WindsorML__run_221",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_221.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_221.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_222",
+      "car_id": "WindsorML__run_222",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_222.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_222.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_223",
+      "car_id": "WindsorML__run_223",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_223.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_223.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_224",
+      "car_id": "WindsorML__run_224",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_224.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_224.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_225",
+      "car_id": "WindsorML__run_225",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_225.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_225.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_226",
+      "car_id": "WindsorML__run_226",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_226.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_226.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_227",
+      "car_id": "WindsorML__run_227",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_227.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_227.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_228",
+      "car_id": "WindsorML__run_228",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_228.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_228.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_229",
+      "car_id": "WindsorML__run_229",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_229.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_229.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_23",
+      "car_id": "WindsorML__run_23",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_23.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_23.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_230",
+      "car_id": "WindsorML__run_230",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_230.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_230.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_232",
+      "car_id": "WindsorML__run_232",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_232.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_232.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_233",
+      "car_id": "WindsorML__run_233",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_233.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_233.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_234",
+      "car_id": "WindsorML__run_234",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_234.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_234.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_235",
+      "car_id": "WindsorML__run_235",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_235.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_235.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_236",
+      "car_id": "WindsorML__run_236",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_236.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_236.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_237",
+      "car_id": "WindsorML__run_237",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_237.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_237.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_238",
+      "car_id": "WindsorML__run_238",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_238.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_238.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_239",
+      "car_id": "WindsorML__run_239",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_239.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_239.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_24",
+      "car_id": "WindsorML__run_24",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_24.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_24.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_240",
+      "car_id": "WindsorML__run_240",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_240.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_240.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_242",
+      "car_id": "WindsorML__run_242",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_242.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_242.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_243",
+      "car_id": "WindsorML__run_243",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_243.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_243.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_244",
+      "car_id": "WindsorML__run_244",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_244.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_244.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_245",
+      "car_id": "WindsorML__run_245",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_245.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_245.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_246",
+      "car_id": "WindsorML__run_246",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_246.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_246.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_247",
+      "car_id": "WindsorML__run_247",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_247.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_247.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_248",
+      "car_id": "WindsorML__run_248",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_248.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_248.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_249",
+      "car_id": "WindsorML__run_249",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_249.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_249.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_25",
+      "car_id": "WindsorML__run_25",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_25.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_25.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_250",
+      "car_id": "WindsorML__run_250",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_250.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_250.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_251",
+      "car_id": "WindsorML__run_251",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_251.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_251.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_252",
+      "car_id": "WindsorML__run_252",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_252.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_252.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_253",
+      "car_id": "WindsorML__run_253",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_253.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_253.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_254",
+      "car_id": "WindsorML__run_254",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_254.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_254.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_255",
+      "car_id": "WindsorML__run_255",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_255.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_255.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_256",
+      "car_id": "WindsorML__run_256",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_256.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_256.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_257",
+      "car_id": "WindsorML__run_257",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_257.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_257.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_258",
+      "car_id": "WindsorML__run_258",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_258.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_258.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_259",
+      "car_id": "WindsorML__run_259",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_259.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_259.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_26",
+      "car_id": "WindsorML__run_26",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_26.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_26.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_260",
+      "car_id": "WindsorML__run_260",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_260.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_260.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_261",
+      "car_id": "WindsorML__run_261",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_261.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_261.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_262",
+      "car_id": "WindsorML__run_262",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_262.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_262.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_263",
+      "car_id": "WindsorML__run_263",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_263.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_263.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_264",
+      "car_id": "WindsorML__run_264",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_264.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_264.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_265",
+      "car_id": "WindsorML__run_265",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_265.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_265.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_266",
+      "car_id": "WindsorML__run_266",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_266.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_266.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_267",
+      "car_id": "WindsorML__run_267",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_267.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_267.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_268",
+      "car_id": "WindsorML__run_268",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_268.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_268.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_269",
+      "car_id": "WindsorML__run_269",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_269.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_269.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_27",
+      "car_id": "WindsorML__run_27",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_27.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_27.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_270",
+      "car_id": "WindsorML__run_270",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_270.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_270.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_272",
+      "car_id": "WindsorML__run_272",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_272.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_272.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_273",
+      "car_id": "WindsorML__run_273",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_273.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_273.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_274",
+      "car_id": "WindsorML__run_274",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_274.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_274.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_275",
+      "car_id": "WindsorML__run_275",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_275.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_275.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_276",
+      "car_id": "WindsorML__run_276",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_276.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_276.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_277",
+      "car_id": "WindsorML__run_277",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_277.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_277.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_278",
+      "car_id": "WindsorML__run_278",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_278.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_278.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_279",
+      "car_id": "WindsorML__run_279",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_279.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_279.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_28",
+      "car_id": "WindsorML__run_28",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_28.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_28.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_280",
+      "car_id": "WindsorML__run_280",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_280.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_280.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_281",
+      "car_id": "WindsorML__run_281",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_281.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_281.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_282",
+      "car_id": "WindsorML__run_282",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_282.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_282.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_283",
+      "car_id": "WindsorML__run_283",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_283.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_283.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_284",
+      "car_id": "WindsorML__run_284",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_284.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_284.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_285",
+      "car_id": "WindsorML__run_285",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_285.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_285.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_286",
+      "car_id": "WindsorML__run_286",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_286.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_286.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_287",
+      "car_id": "WindsorML__run_287",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_287.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_287.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_288",
+      "car_id": "WindsorML__run_288",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_288.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_288.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_289",
+      "car_id": "WindsorML__run_289",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_289.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_289.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_29",
+      "car_id": "WindsorML__run_29",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_29.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_29.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_290",
+      "car_id": "WindsorML__run_290",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_290.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_290.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_291",
+      "car_id": "WindsorML__run_291",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_291.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_291.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_292",
+      "car_id": "WindsorML__run_292",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_292.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_292.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_293",
+      "car_id": "WindsorML__run_293",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_293.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_293.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_294",
+      "car_id": "WindsorML__run_294",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_294.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_294.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_295",
+      "car_id": "WindsorML__run_295",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_295.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_295.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_296",
+      "car_id": "WindsorML__run_296",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_296.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_296.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_297",
+      "car_id": "WindsorML__run_297",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_297.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_297.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_298",
+      "car_id": "WindsorML__run_298",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_298.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_298.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_299",
+      "car_id": "WindsorML__run_299",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_299.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_299.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_3",
+      "car_id": "WindsorML__run_3",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_3.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_3.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_30",
+      "car_id": "WindsorML__run_30",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_30.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_30.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_300",
+      "car_id": "WindsorML__run_300",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_300.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_300.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_301",
+      "car_id": "WindsorML__run_301",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_301.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_301.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_302",
+      "car_id": "WindsorML__run_302",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_302.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_302.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_303",
+      "car_id": "WindsorML__run_303",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_303.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_303.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_305",
+      "car_id": "WindsorML__run_305",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_305.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_305.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_306",
+      "car_id": "WindsorML__run_306",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_306.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_306.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_307",
+      "car_id": "WindsorML__run_307",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_307.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_307.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_308",
+      "car_id": "WindsorML__run_308",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_308.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_308.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_309",
+      "car_id": "WindsorML__run_309",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_309.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_309.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_310",
+      "car_id": "WindsorML__run_310",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_310.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_310.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_311",
+      "car_id": "WindsorML__run_311",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_311.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_311.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_312",
+      "car_id": "WindsorML__run_312",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_312.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_312.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_313",
+      "car_id": "WindsorML__run_313",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_313.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_313.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_314",
+      "car_id": "WindsorML__run_314",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_314.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_314.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_315",
+      "car_id": "WindsorML__run_315",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_315.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_315.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_316",
+      "car_id": "WindsorML__run_316",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_316.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_316.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_317",
+      "car_id": "WindsorML__run_317",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_317.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_317.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_318",
+      "car_id": "WindsorML__run_318",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_318.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_318.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_319",
+      "car_id": "WindsorML__run_319",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_319.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_319.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_32",
+      "car_id": "WindsorML__run_32",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_32.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_32.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_320",
+      "car_id": "WindsorML__run_320",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_320.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_320.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_321",
+      "car_id": "WindsorML__run_321",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_321.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_321.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_322",
+      "car_id": "WindsorML__run_322",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_322.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_322.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_323",
+      "car_id": "WindsorML__run_323",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_323.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_323.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_324",
+      "car_id": "WindsorML__run_324",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_324.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_324.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_325",
+      "car_id": "WindsorML__run_325",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_325.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_325.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_326",
+      "car_id": "WindsorML__run_326",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_326.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_326.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_327",
+      "car_id": "WindsorML__run_327",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_327.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_327.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_328",
+      "car_id": "WindsorML__run_328",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_328.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_328.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_329",
+      "car_id": "WindsorML__run_329",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_329.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_329.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_33",
+      "car_id": "WindsorML__run_33",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_33.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_33.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_330",
+      "car_id": "WindsorML__run_330",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_330.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_330.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_331",
+      "car_id": "WindsorML__run_331",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_331.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_331.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_332",
+      "car_id": "WindsorML__run_332",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_332.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_332.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_333",
+      "car_id": "WindsorML__run_333",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_333.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_333.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_334",
+      "car_id": "WindsorML__run_334",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_334.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_334.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_335",
+      "car_id": "WindsorML__run_335",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_335.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_335.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_336",
+      "car_id": "WindsorML__run_336",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_336.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_336.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_337",
+      "car_id": "WindsorML__run_337",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_337.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_337.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_338",
+      "car_id": "WindsorML__run_338",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_338.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_338.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_339",
+      "car_id": "WindsorML__run_339",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_339.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_339.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_34",
+      "car_id": "WindsorML__run_34",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_34.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_34.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_340",
+      "car_id": "WindsorML__run_340",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_340.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_340.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_341",
+      "car_id": "WindsorML__run_341",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_341.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_341.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_342",
+      "car_id": "WindsorML__run_342",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_342.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_342.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_343",
+      "car_id": "WindsorML__run_343",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_343.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_343.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_344",
+      "car_id": "WindsorML__run_344",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_344.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_344.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_345",
+      "car_id": "WindsorML__run_345",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_345.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_345.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_346",
+      "car_id": "WindsorML__run_346",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_346.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_346.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_347",
+      "car_id": "WindsorML__run_347",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_347.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_347.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_348",
+      "car_id": "WindsorML__run_348",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_348.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_348.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_349",
+      "car_id": "WindsorML__run_349",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_349.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_349.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_35",
+      "car_id": "WindsorML__run_35",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_35.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_35.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_36",
+      "car_id": "WindsorML__run_36",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_36.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_36.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_37",
+      "car_id": "WindsorML__run_37",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_37.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_37.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_38",
+      "car_id": "WindsorML__run_38",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_38.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_38.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_39",
+      "car_id": "WindsorML__run_39",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_39.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_39.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_4",
+      "car_id": "WindsorML__run_4",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_4.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_4.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_40",
+      "car_id": "WindsorML__run_40",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_40.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_40.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_41",
+      "car_id": "WindsorML__run_41",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_41.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_41.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_42",
+      "car_id": "WindsorML__run_42",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_42.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_42.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_43",
+      "car_id": "WindsorML__run_43",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_43.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_43.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_44",
+      "car_id": "WindsorML__run_44",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_44.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_44.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_45",
+      "car_id": "WindsorML__run_45",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_45.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_45.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_46",
+      "car_id": "WindsorML__run_46",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_46.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_46.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_47",
+      "car_id": "WindsorML__run_47",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_47.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_47.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_48",
+      "car_id": "WindsorML__run_48",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_48.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_48.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_49",
+      "car_id": "WindsorML__run_49",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_49.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_49.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_5",
+      "car_id": "WindsorML__run_5",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_5.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_5.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_50",
+      "car_id": "WindsorML__run_50",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_50.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_50.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_51",
+      "car_id": "WindsorML__run_51",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_51.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_51.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_52",
+      "car_id": "WindsorML__run_52",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_52.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_52.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_53",
+      "car_id": "WindsorML__run_53",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_53.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_53.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_54",
+      "car_id": "WindsorML__run_54",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_54.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_54.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_55",
+      "car_id": "WindsorML__run_55",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_55.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_55.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_56",
+      "car_id": "WindsorML__run_56",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_56.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_56.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_57",
+      "car_id": "WindsorML__run_57",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_57.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_57.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_58",
+      "car_id": "WindsorML__run_58",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_58.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_58.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_59",
+      "car_id": "WindsorML__run_59",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_59.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_59.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_6",
+      "car_id": "WindsorML__run_6",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_6.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_6.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_60",
+      "car_id": "WindsorML__run_60",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_60.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_60.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_61",
+      "car_id": "WindsorML__run_61",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_61.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_61.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_62",
+      "car_id": "WindsorML__run_62",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_62.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_62.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_63",
+      "car_id": "WindsorML__run_63",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_63.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_63.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_64",
+      "car_id": "WindsorML__run_64",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_64.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_64.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_65",
+      "car_id": "WindsorML__run_65",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_65.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_65.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_66",
+      "car_id": "WindsorML__run_66",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_66.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_66.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_67",
+      "car_id": "WindsorML__run_67",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_67.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_67.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_68",
+      "car_id": "WindsorML__run_68",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_68.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_68.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_69",
+      "car_id": "WindsorML__run_69",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_69.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_69.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_7",
+      "car_id": "WindsorML__run_7",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_7.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_7.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_70",
+      "car_id": "WindsorML__run_70",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_70.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_70.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_71",
+      "car_id": "WindsorML__run_71",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_71.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_71.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_72",
+      "car_id": "WindsorML__run_72",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_72.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_72.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_73",
+      "car_id": "WindsorML__run_73",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_73.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_73.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_74",
+      "car_id": "WindsorML__run_74",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_74.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_74.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_75",
+      "car_id": "WindsorML__run_75",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_75.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_75.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_76",
+      "car_id": "WindsorML__run_76",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_76.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_76.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_77",
+      "car_id": "WindsorML__run_77",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_77.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_77.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_78",
+      "car_id": "WindsorML__run_78",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_78.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_78.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_79",
+      "car_id": "WindsorML__run_79",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_79.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_79.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_8",
+      "car_id": "WindsorML__run_8",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_8.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_8.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_80",
+      "car_id": "WindsorML__run_80",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_80.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_80.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_81",
+      "car_id": "WindsorML__run_81",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_81.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_81.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_82",
+      "car_id": "WindsorML__run_82",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_82.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_82.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_83",
+      "car_id": "WindsorML__run_83",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_83.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_83.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_84",
+      "car_id": "WindsorML__run_84",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_84.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_84.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_85",
+      "car_id": "WindsorML__run_85",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_85.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_85.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_86",
+      "car_id": "WindsorML__run_86",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_86.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_86.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_87",
+      "car_id": "WindsorML__run_87",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_87.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_87.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_88",
+      "car_id": "WindsorML__run_88",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_88.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_88.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_89",
+      "car_id": "WindsorML__run_89",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_89.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_89.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_9",
+      "car_id": "WindsorML__run_9",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_9.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_9.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_90",
+      "car_id": "WindsorML__run_90",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_90.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_90.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_91",
+      "car_id": "WindsorML__run_91",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_91.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_91.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_92",
+      "car_id": "WindsorML__run_92",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_92.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_92.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_93",
+      "car_id": "WindsorML__run_93",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_93.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_93.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_94",
+      "car_id": "WindsorML__run_94",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_94.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_94.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_95",
+      "car_id": "WindsorML__run_95",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_95.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_95.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_96",
+      "car_id": "WindsorML__run_96",
+      "split": "train",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_96.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_96.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_97",
+      "car_id": "WindsorML__run_97",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_97.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_97.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_98",
+      "car_id": "WindsorML__run_98",
+      "split": "test",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_98.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_98.npz",
+      "conditions": []
+    },
+    {
+      "id": "WindsorML__run_99",
+      "car_id": "WindsorML__run_99",
+      "split": "val",
+      "geometry": "/workspace/runs/patch385_windsor_20261030/windsor/geometry/WindsorML__run_99.npz",
+      "field": "/workspace/runs/patch385_windsor_20261030/windsor/fields/WindsorML__run_99.npz",
+      "conditions": []
+    }
+  ]
+}

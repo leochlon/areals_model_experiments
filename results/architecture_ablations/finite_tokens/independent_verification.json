@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "hand_fixture": true,
+  "geometries": 32,
+  "token_settings": 2,
+  "raw_prediction_cases": 448,
+  "maximum_disagreements": {
+    "distance_nmse": 4.336808689942018e-19,
+    "output_change": 2.2419997317002505e-09,
+    "learned_head_change": 1.4094693329136376e-09,
+    "normal_degrees": 1.141309269314661e-13
+  }
+}

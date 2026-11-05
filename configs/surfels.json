@@ -1,0 +1,6 @@
+{
+  "model": {"width": 192, "heads": 4, "latents": 256, "encoder_depth": 4, "decoder_depth": 2, "ff_multiplier": 4, "fourier_bands": 8, "min_wavelength": 0.05, "max_wavelength": 4.0, "query_chunk": 256,
+            "normal_head": "projector", "normal_prior": "surfels", "distance_prior": "surfels", "surfels_per_token": 8, "input_condition": "complete"},
+  "data": {"encoder_points": 4096, "queries": 1024, "mask_fraction": 0.6, "mask_patches": 32, "target_mode": "provided"},
+  "train": {"epochs": 100, "batch_size": 4, "accumulation": 2, "learning_rate": 0.0003, "warmup_epochs": 5, "weight_decay": 0.05, "gradient_clip": 1.0, "normal_weight": 1.0, "normal_loss": "unoriented", "workers": 4, "amp": "bf16", "seed": 17}
+}

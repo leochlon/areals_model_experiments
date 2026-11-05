@@ -1,0 +1,15 @@
+--- a/src/areal_tokens/model.py
++++ b/src/areal_tokens/model.py
+@@ -490,6 +490,12 @@
+                     normal_gate = gate[..., 1]
+                     if self.config.distance_prior == "surfels":
+                         normalized_distance = gate[..., 0] * prior_distance + (1 - gate[..., 0]) * normalized_distance
++        if self.config.distance_prior != "none":
++            # Complete inputs use the measured disks; completion is only needed for partial inputs.
++            complete = geometry.complete
++            if complete is None:
++                complete = torch.ones_like(geometry.scale)
++            normalized_distance = torch.where(complete == 1, prior_distance, normalized_distance)
+         if self.config.normal_head == "projector":
+             tensor = symmetric_matrix(self.normal_head(hidden).float())
+             if self.config.normal_prior == "anchors":

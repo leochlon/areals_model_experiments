@@ -1,0 +1,142 @@
+[
+  {
+    "sensors": 0,
+    "target": 0.2,
+    "pretrained_minimum_tested_budget": 400,
+    "scratch_minimum_tested_budget": null,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      400.0,
+      400.0
+    ],
+    "scratch_grid_interval95": [
+      null,
+      null
+    ],
+    "bootstrap_both_cross_fraction": 0.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0
+  },
+  {
+    "sensors": 0,
+    "target": 0.25,
+    "pretrained_minimum_tested_budget": 200,
+    "scratch_minimum_tested_budget": 400,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      100.0,
+      200.0
+    ],
+    "scratch_grid_interval95": [
+      400.0,
+      400.0
+    ],
+    "bootstrap_both_cross_fraction": 1.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0,
+    "training_simulations_saved": 200,
+    "training_reduction": 0.5,
+    "reduction_including_validation": 0.4608294930875576,
+    "training_ratio": 2.0,
+    "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+    ]
+  },
+  {
+    "sensors": 0,
+    "target": 0.3,
+    "pretrained_minimum_tested_budget": 100,
+    "scratch_minimum_tested_budget": 200,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      100.0,
+      100.0
+    ],
+    "scratch_grid_interval95": [
+      200.0,
+      200.0
+    ],
+    "bootstrap_both_cross_fraction": 1.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0,
+    "training_simulations_saved": 100,
+    "training_reduction": 0.5,
+    "reduction_including_validation": 0.4273504273504274,
+    "training_ratio": 2.0,
+    "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      2.0
+    ]
+  },
+  {
+    "sensors": 20,
+    "target": 0.2,
+    "pretrained_minimum_tested_budget": 400,
+    "scratch_minimum_tested_budget": null,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      400.0,
+      400.0
+    ],
+    "scratch_grid_interval95": [
+      null,
+      null
+    ],
+    "bootstrap_both_cross_fraction": 0.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0
+  },
+  {
+    "sensors": 20,
+    "target": 0.25,
+    "pretrained_minimum_tested_budget": 200,
+    "scratch_minimum_tested_budget": 400,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      100.0,
+      200.0
+    ],
+    "scratch_grid_interval95": [
+      400.0,
+      400.0
+    ],
+    "bootstrap_both_cross_fraction": 1.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0,
+    "training_simulations_saved": 200,
+    "training_reduction": 0.5,
+    "reduction_including_validation": 0.4608294930875576,
+    "training_ratio": 2.0,
+    "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+    ]
+  },
+  {
+    "sensors": 20,
+    "target": 0.3,
+    "pretrained_minimum_tested_budget": 100,
+    "scratch_minimum_tested_budget": 200,
+    "censoring_limit": 400,
+    "pretrained_grid_interval95": [
+      100.0,
+      100.0
+    ],
+    "scratch_grid_interval95": [
+      200.0,
+      200.0
+    ],
+    "bootstrap_both_cross_fraction": 1.0,
+    "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+    "bootstrap_both_censored_fraction": 0.0,
+    "training_simulations_saved": 100,
+    "training_reduction": 0.5,
+    "reduction_including_validation": 0.4273504273504274,
+    "training_ratio": 2.0,
+    "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      2.0
+    ]
+  }
+]

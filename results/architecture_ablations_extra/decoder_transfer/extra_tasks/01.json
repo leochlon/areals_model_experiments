@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "task": 1,
+  "backbone": "areals",
+  "seed": 0,
+  "group": "fresh_decoder_areals",
+  "name": "fresh_decoder_areals_seed0",
+  "checkpoint_source": "/workspace/runs/areals_decoder_transfer_20261024/results/architecture/reference/seed0/best.pt",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/fresh_decoder_areals_seed0/field_best.pt",
+  "checkpoint_sha256": "e420ed5ed127f64da792eefe8d233631d358e9bab69a1ffce0c1be1c1f483165",
+  "true_downstream_seed": 0,
+  "base_sha256": "ee40e0f57c3a67429497545e9248fb8ee367c45c4ae2afcc5b081c321c8c74d1",
+  "encoder_gradient": {
+    "parameter": "latent_token",
+    "gradient_norm": 0.28961971402168274,
+    "finite": true,
+    "requires_grad": true
+  },
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

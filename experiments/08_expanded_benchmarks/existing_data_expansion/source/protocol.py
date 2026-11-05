@@ -1,0 +1,32 @@
+from util import BASE, ROOT, write
+
+protocol = dict(version=1, created='2026-10-25',
+    experiments=dict(
+        doubledelta=dict(train_angles=list(range(11, 17)), val_angles=[17], test_angles=[18, 19],
+                         geometry_families=[228, 16, 16], alias_policy='one source grid per physical family'),
+        blendednet=dict(owned_cases=12480, condition_bands='Mach quantiles 0.70 and 0.85, frozen from metadata before field export or training',
+                        train='geometry hash fold <80 and Mach <= q70',
+                        val='geometry hash fold 80..89 and q70 < Mach <= q85',
+                        test='geometry hash fold >=90 and Mach > q85', min_val_families=30, min_test_families=30),
+        drivaerml=dict(official_split=[400, 34, 50], fresh_field_fits=True),
+        drivaernet=dict(geometry_hash_folds=[80, 10, 10], deduplicate_before_splitting=True),
+        pretraining=dict(target_train_meshes=150000, baseline_train_meshes=61822, seeds=[17, 18, 19],
+                          architecture='unchanged production', objective='native sign-free masked completion',
+                          global_batch=64, gpus_per_fit=4, updates=10626, schedule_reference_steps_per_epoch=966,
+                          schedule_horizon_epochs=15, downstream=['doubledelta', 'drivaerml'])),
+    field_training=dict(seeds=[0, 1, 2], epochs=40, batch_size=8, queries=2048, lr=1e-3, new_lr=1e-3,
+                        weight_decay=.05, amp='bf16', geometry_tokens=256, encoder_points=4096,
+                        normalisation='training records only',
+                        primary='pretrained vs same architecture scratch; matched examples/order/updates/LR',
+                        references=['shape-only', 'given true conditions'],
+                        reference_condition_input='normalised condition vector through a zero-output-initialised MLP added to geometry token states; no sensor readings',
+                        selection='mean validation nRMSE on all four fixed sensor counts, max 64 fixed dev cases',
+                        sensor_training_mix=dict(nothing_observed=.1, scattered_sensors=.9),
+                        inference_sensors=[5, 20, 100, 500], sensor_locations='fixed independent of pressure labels and identical across methods',
+                        field_points=32000, geometry_samples=16384,
+                        fields='Native preprocessed nondimensional pressure coefficient; no repeat unit conversions',
+                        query_rule='fixed uniform without replacement subset of native surface vertices with original lumped area weights',
+                        primary_metrics=['hidden-area nRMSE', 'hidden-area relative L2'],
+                        uncertainty='paired bootstrap over physical geometry families, mean over seeds'),
+    baseline=dict(path=str(BASE)))
+write(ROOT / 'protocol.json', protocol)

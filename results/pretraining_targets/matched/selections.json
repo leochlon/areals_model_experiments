@@ -1,0 +1,907 @@
+{
+  "selection": "minimum full-validation mean per-car area-weighted nRMSE; tie: lower encoder LR",
+  "winners": {
+    "patch/pretrained/18": {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 18,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/pretrained/n18/seed0-lr0",
+      "validation": 0.4025231618865159,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/pretrained/n18/seed0-lr0/best.pt",
+      "sha256": "f2c133378b9d3597d2d406af426978f7b6a72cc2e61f16ebf4b00eca1f115502"
+    },
+    "patch/pretrained/35": {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 35,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/pretrained/n35/seed0-lr0",
+      "validation": 0.36032369408541215,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/pretrained/n35/seed0-lr0/best.pt",
+      "sha256": "5f9e36b5d0c63559ff9b3f62312a189d2b4987a712797555277ff5348bd9d88d"
+    },
+    "patch/pretrained/69": {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 69,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "patch/pretrained/n69/seed0-lr1",
+      "validation": 0.3159862029284281,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/pretrained/n69/seed0-lr1/best.pt",
+      "sha256": "cc0c2c9fad656d281e22cd2b49bd8df4cc43b6fef55c48d61d82c183b82c81ab"
+    },
+    "patch/pretrained/137": {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 137,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/pretrained/n137/seed0-lr0",
+      "validation": 0.25131218406330175,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/pretrained/n137/seed0-lr0/best.pt",
+      "sha256": "b6807f5cc2d3197d9de9fac9bc971539ee0d3b61ba9f1aa048eb1aae91250acc"
+    },
+    "patch/pretrained/274": {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 274,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "patch/pretrained/n274/seed0-lr2",
+      "validation": 0.20968840482658305,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/pretrained/n274/seed0-lr2/best.pt",
+      "sha256": "67239e5d5c8cc802e6adb8f8c2e96601175f4d66d9629f3052e495e72eafc775"
+    },
+    "patch/scratch/18": {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 18,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/scratch/n18/seed0-lr0",
+      "validation": 0.4020021252654398,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/scratch/n18/seed0-lr0/best.pt",
+      "sha256": "677fa393736bf585784d9a384ad8cbad57cfb3d47f91d712a8c4412a402c627f"
+    },
+    "patch/scratch/35": {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 35,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/scratch/n35/seed0-lr0",
+      "validation": 0.35932201681219106,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/scratch/n35/seed0-lr0/best.pt",
+      "sha256": "efa9df2698f878454225d68cc3e350517a7f83602d7efe8d784654995efeb406"
+    },
+    "patch/scratch/69": {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 69,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/scratch/n69/seed0-lr0",
+      "validation": 0.27802899328601705,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/scratch/n69/seed0-lr0/best.pt",
+      "sha256": "9a7f06ad169b15a8a49d44d309fbd54570746f6f9d372cf8cdb2bb6b672bce22"
+    },
+    "patch/scratch/137": {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 137,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/scratch/n137/seed0-lr0",
+      "validation": 0.22886064267138032,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/scratch/n137/seed0-lr0/best.pt",
+      "sha256": "38ee6454b8578f27f1f623cbc05d1f7fda29db9addb1620384d466b33c4a002d"
+    },
+    "patch/scratch/274": {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 274,
+      "seed": 0,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "name": "patch/scratch/n274/seed0-lr0",
+      "validation": 0.19062567175512832,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/patch/scratch/n274/seed0-lr0/best.pt",
+      "sha256": "975fb714aaba386b17bb6ba6d664f466466e3de275d60b216383b5cd7ccd5d61"
+    },
+    "areals/pretrained/18": {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 18,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/pretrained/n18/seed0-lr1",
+      "validation": 0.27340913149521073,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/pretrained/n18/seed0-lr1/best.pt",
+      "sha256": "f60695b187d9ee5222efe9f6a1c1dc153add2e381d1a38b01f612a16989591ff"
+    },
+    "areals/pretrained/35": {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 35,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/pretrained/n35/seed0-lr1",
+      "validation": 0.20751406310747383,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/pretrained/n35/seed0-lr1/best.pt",
+      "sha256": "5c6d29c1f9961a2b8effd41197f6c84a71df6601a693e1bb0286d9d872aff115"
+    },
+    "areals/pretrained/69": {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 69,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/pretrained/n69/seed0-lr1",
+      "validation": 0.1801041472845583,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/pretrained/n69/seed0-lr1/best.pt",
+      "sha256": "8b3ff8987a17e6d4acd8069dea646b077ea2bdf6d356d2d073525c569e77b2df"
+    },
+    "areals/pretrained/137": {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 137,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "areals/pretrained/n137/seed0-lr2",
+      "validation": 0.15286547320316266,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/pretrained/n137/seed0-lr2/best.pt",
+      "sha256": "0aae0bb239943c0b2020ed177916522cf56cc0428bb37d4d05a81c0af00c4889"
+    },
+    "areals/pretrained/274": {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 274,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "areals/pretrained/n274/seed0-lr2",
+      "validation": 0.14730259173654872,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/pretrained/n274/seed0-lr2/best.pt",
+      "sha256": "81770e37c5d6fede9be2b7dfcb53c0a0f41545e36974cbfd4fcffdb39956f76e"
+    },
+    "areals/scratch/18": {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 18,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/scratch/n18/seed0-lr1",
+      "validation": 0.4405244822984738,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/scratch/n18/seed0-lr1/best.pt",
+      "sha256": "7bde3bda853fb61404850a84a9fb011f9450abed66b622acb5cd9284e8e404c1"
+    },
+    "areals/scratch/35": {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 35,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/scratch/n35/seed0-lr1",
+      "validation": 0.35092883215884446,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/scratch/n35/seed0-lr1/best.pt",
+      "sha256": "41ba1c293f8dc096a56ae56f3e904fc19fde4511b94ea1307434982fc2788f43"
+    },
+    "areals/scratch/69": {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 69,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "areals/scratch/n69/seed0-lr2",
+      "validation": 0.2793450283599869,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/scratch/n69/seed0-lr2/best.pt",
+      "sha256": "be8986b4ff0400166a0a81cc776a024e3f25fabfa38250eceabbe292e2b7a0db"
+    },
+    "areals/scratch/137": {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 137,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "areals/scratch/n137/seed0-lr2",
+      "validation": 0.21240450580554465,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/scratch/n137/seed0-lr2/best.pt",
+      "sha256": "6631ac5ae8f4aaa84a74df9b46c9f0502e730c13afe503a16ddcd2319cc9c312"
+    },
+    "areals/scratch/274": {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 274,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "areals/scratch/n274/seed0-lr1",
+      "validation": 0.18087509258789358,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/areals/scratch/n274/seed0-lr1/best.pt",
+      "sha256": "3e0fc69af76a436d9ab166220fc0c272be811ca7baa1bc2b379d4e229f82a165"
+    },
+    "hessian/pretrained/18": {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 18,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/pretrained/n18/seed0-lr1",
+      "validation": 0.290103983326819,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/pretrained/n18/seed0-lr1/best.pt",
+      "sha256": "406285d7a8e986eb420ea77956a505d3d6c012628969cc6f41de8339f036b068"
+    },
+    "hessian/pretrained/35": {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 35,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/pretrained/n35/seed0-lr1",
+      "validation": 0.23271753759500216,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/pretrained/n35/seed0-lr1/best.pt",
+      "sha256": "720250704f9c7ac260a77c1f24ebe139b47bb1bad008f31d3c2c10e196f1dfcb"
+    },
+    "hessian/pretrained/69": {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 69,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/pretrained/n69/seed0-lr1",
+      "validation": 0.19262594839415018,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/pretrained/n69/seed0-lr1/best.pt",
+      "sha256": "457886ea401ef01ba19e6203fb11cc4fee689ecf7b560f3c08b99aaa9cb9c203"
+    },
+    "hessian/pretrained/137": {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 137,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/pretrained/n137/seed0-lr1",
+      "validation": 0.16269219634673848,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/pretrained/n137/seed0-lr1/best.pt",
+      "sha256": "534d81786a55ab7952269858297143608e3b93af7ca62d9a457e4be63c4e84c7"
+    },
+    "hessian/pretrained/274": {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 274,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/pretrained/n274/seed0-lr1",
+      "validation": 0.14523663220470978,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/pretrained/n274/seed0-lr1/best.pt",
+      "sha256": "c833efaa76b333a59b579b05e4a8d0db0ab75907ddf2c3a6db929387d0860044"
+    },
+    "hessian/scratch/18": {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 18,
+      "seed": 0,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "name": "hessian/scratch/n18/seed0-lr1",
+      "validation": 0.45208113160420016,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/scratch/n18/seed0-lr1/best.pt",
+      "sha256": "f8bbae962fc62f1185641f5c58725746f6d48f1bfaf458da5ae5dce8bb2cb4bb"
+    },
+    "hessian/scratch/35": {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 35,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "hessian/scratch/n35/seed0-lr2",
+      "validation": 0.38455870325631,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/scratch/n35/seed0-lr2/best.pt",
+      "sha256": "8b43bfbc3afc22b7042a9744ff7186e07b4304f5ee1936ddae9dc84cc6a8326f"
+    },
+    "hessian/scratch/69": {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 69,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "hessian/scratch/n69/seed0-lr2",
+      "validation": 0.33439864296349725,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/scratch/n69/seed0-lr2/best.pt",
+      "sha256": "8181a43703044e093b1715096282d1ad627ac1e442dff394defe555a923ffc07"
+    },
+    "hessian/scratch/137": {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 137,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "hessian/scratch/n137/seed0-lr2",
+      "validation": 0.2186972953446605,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/scratch/n137/seed0-lr2/best.pt",
+      "sha256": "b3a4cd65be3e2438e3a2ebc510380f84bd7a38830306d8b141a031efb09c0932"
+    },
+    "hessian/scratch/274": {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 274,
+      "seed": 0,
+      "lr": 0.001,
+      "lr_index": 2,
+      "name": "hessian/scratch/n274/seed0-lr2",
+      "validation": 0.17352590365834408,
+      "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/field/runs/hessian/scratch/n274/seed0-lr2/best.pt",
+      "sha256": "73f7d792a49f2ef0ee347be0b00fec830c6c57f895e9042208ee5a24e5355d29"
+    }
+  },
+  "followup": [
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/pretrained/n18/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/pretrained/n18/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/pretrained/n35/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/pretrained/n35/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "patch/pretrained/n69/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "patch/pretrained/n69/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/pretrained/n137/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/pretrained/n137/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "patch/pretrained/n274/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "patch/pretrained/n274/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/scratch/n18/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/scratch/n18/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/scratch/n35/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/scratch/n35/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/scratch/n69/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/scratch/n69/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/scratch/n137/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/scratch/n137/seed2-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 1,
+      "name": "patch/scratch/n274/seed1-selected"
+    },
+    {
+      "arm": "patch",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 2e-05,
+      "lr_index": 0,
+      "seed": 2,
+      "name": "patch/scratch/n274/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/pretrained/n18/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/pretrained/n18/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/pretrained/n35/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/pretrained/n35/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/pretrained/n69/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/pretrained/n69/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "areals/pretrained/n137/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "areals/pretrained/n137/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "areals/pretrained/n274/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "areals/pretrained/n274/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/scratch/n18/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/scratch/n18/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/scratch/n35/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/scratch/n35/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "areals/scratch/n69/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "areals/scratch/n69/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "areals/scratch/n137/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "areals/scratch/n137/seed2-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "areals/scratch/n274/seed1-selected"
+    },
+    {
+      "arm": "areals",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "areals/scratch/n274/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/pretrained/n18/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/pretrained/n18/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/pretrained/n35/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 35,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/pretrained/n35/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/pretrained/n69/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 69,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/pretrained/n69/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/pretrained/n137/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 137,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/pretrained/n137/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/pretrained/n274/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "pretrained",
+      "budget": 274,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/pretrained/n274/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 1,
+      "name": "hessian/scratch/n18/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 18,
+      "lr": 0.0002,
+      "lr_index": 1,
+      "seed": 2,
+      "name": "hessian/scratch/n18/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "hessian/scratch/n35/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 35,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "hessian/scratch/n35/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "hessian/scratch/n69/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 69,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "hessian/scratch/n69/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "hessian/scratch/n137/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 137,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "hessian/scratch/n137/seed2-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 1,
+      "name": "hessian/scratch/n274/seed1-selected"
+    },
+    {
+      "arm": "hessian",
+      "initialization": "scratch",
+      "budget": 274,
+      "lr": 0.001,
+      "lr_index": 2,
+      "seed": 2,
+      "name": "hessian/scratch/n274/seed2-selected"
+    }
+  ]
+}

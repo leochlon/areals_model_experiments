@@ -1,0 +1,65 @@
+{
+  "study": "AREALS DrivAerML simulation efficiency",
+  "dataset": "neashton/drivaerml",
+  "dataset_revision": "5d448b209bf654503c64ce7261c34fa125f46392",
+  "data_license": "CC-BY-SA-4.0",
+  "budgets": [
+    25,
+    50,
+    100,
+    200,
+    400
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "arms": [
+    "pretrained",
+    "scratch"
+  ],
+  "split": {
+    "train_pool": 400,
+    "validation": 34,
+    "test": 50
+  },
+  "subset_rule": "For each seed, order the 400 official training cases by a hash of 'areals-efficiency-v1|seed|case_id'; take nested prefixes. Both arms share each prefix.",
+  "primary": {
+    "sensors": 0,
+    "target_nrmse": 0.25,
+    "metric": "mean per-car area-weighted RMSE / full-car area-weighted target standard deviation"
+  },
+  "secondary": {
+    "sensors": [
+      20
+    ],
+    "target_nrmse": [
+      0.2,
+      0.25,
+      0.3
+    ]
+  },
+  "selection": "Lowest zero-sensor mean validation nRMSE, evaluated every 500 updates; same selected checkpoint also evaluated at 20 sensors.",
+  "training": {
+    "updates": 8000,
+    "batch_size": 8,
+    "queries": 2048,
+    "learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "schedule": "OneCycleLR, pct_start=0.1, cosine annealing",
+    "gradient_clip": 1.0,
+    "amp": "bf16",
+    "validation_every": 500,
+    "reference_round_examples": 400,
+    "sensor_mix": {
+      "unobserved": 0.1,
+      "sensors": 0.9
+    },
+    "sensor_range": [
+      5,
+      500
+    ],
+    "visible_loss_weight": 0.25
+  }
+}

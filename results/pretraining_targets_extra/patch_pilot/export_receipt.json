@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "b97ad50247d1b1955808a1fd5b4bf3004651a6236672ac06ed348777c0f0059d",
+  "checkpoint_step": 10626,
+  "geometry_cache_sha256": "170496989657cfc43b69f16e020b1683e5710d1df2859dce233e6c27ba4363c2",
+  "training_meshes": 385,
+  "training_source_meshes_sha256": "32af681c71c7b7f4b2ad84cb2e4149c2966037891fea45a56b3ea38a3343aa40",
+  "geometry_masking": "none: this patch encoder used complete-geometry pretraining",
+  "tensor_equality_verified": true,
+  "source_checkpoint_sha256": "6ead141ba53a0ad8dc4c530b5b45dd0bdc78356ddb72a334516c3ba5a905a297"
+}

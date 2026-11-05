@@ -1,0 +1,719 @@
+{
+  "version": "shared_query_pressure_v1",
+  "selection_sha256": "8a4313711af68654e493742698a9e194ce57664bffcd64f3eb5e872dfb548564",
+  "test_provenance": {
+    "WindsorML__run_100": {
+      "field": "9f048583b0a9bcbf9b5ecff44443307594c097b27f039c7c6bbe4b65ab682340",
+      "geometry": "68e15d28de15b13713c236d4b775c1a04c1ad4a0340a3b3b8ececaf30f324426"
+    },
+    "WindsorML__run_104": {
+      "field": "7bb1e477d91337ac3ee5e30c2154785e2300c34c427cb1745a76965b6348af71",
+      "geometry": "e76bd503c4d8e17a545a42aa8a80f89eba7f49b3f3cb5d90de359c84d858901a"
+    },
+    "WindsorML__run_113": {
+      "field": "be933c13cd81200c509ae2c8be2e0542e13c49c14fac86c785343592237c5509",
+      "geometry": "e75ce15b43120fb252f1b2992262e7b4e3de0c43580361bbfb001c155a6b09c5"
+    },
+    "WindsorML__run_123": {
+      "field": "6e0984731f56976f2502d23368a16ba2f2a443061aa53956c02a96a58994b6da",
+      "geometry": "e2048be9422b43766069c280ae82999c6b7eac0eb725fc70211ba99c63727183"
+    },
+    "WindsorML__run_125": {
+      "field": "aa4275a1429d18cff5bc72a421c7baca2afe92548080047bf5f7b00e2ba27fe7",
+      "geometry": "8c0dc50473fb4b73557220b6ff84bf457c3eb66bd822a3dc9df9e428d3db01e8"
+    },
+    "WindsorML__run_130": {
+      "field": "e2cec701d335bd80271b9023e5f12d98d30fc5c62e2f4d5219e1913c64dc53c2",
+      "geometry": "b33dc967ca3d7a0a7105ac37dd86d2247ecf7f9ee0f67baebcf5ce3a5faeb850"
+    },
+    "WindsorML__run_136": {
+      "field": "719a8fc27c60d277a26f4a53faacdff72ff1e87162d51c99542aadaf59dbf444",
+      "geometry": "55a564a3de83322fa295af705c4e5b7cb3c57018aedd7285c68c3626fc87d41b"
+    },
+    "WindsorML__run_139": {
+      "field": "640889775a3b3de8f1baec666695732c8fafc4053fe02877bc79ea5d2fbd0f78",
+      "geometry": "39faaba0295af6147f2c9764477944bbdcc370bd76bab67446cd8e9db81d7ddf"
+    },
+    "WindsorML__run_148": {
+      "field": "198f41a39dddb2139e1d0f073d36c2280db877a7edf0ebffe1aa6de763c425fc",
+      "geometry": "adc37301b94dc780bb1ff7291c8c962ef0a7301a86990ce852857dd8fa15c65e"
+    },
+    "WindsorML__run_172": {
+      "field": "a1bef074b3aeaa11ddaba1dbfcdb8ffec4cba25939902ce1bc38958198923e87",
+      "geometry": "8587ce80e6f17efbf8aa82d200d07997e50f66ae27ea51edff511a932929f876"
+    },
+    "WindsorML__run_18": {
+      "field": "d518233009234c36514d6e8a208854d3c66eff0094a2bef645550c95e67c0289",
+      "geometry": "61b8f501345129d5dff17d578c398ca6afb5152e83735a43ae2e1bfb0e47425d"
+    },
+    "WindsorML__run_216": {
+      "field": "b669c997f50b11774e21eee8b29fd257d9333991ae5e8cdb0b4575e33c96c77c",
+      "geometry": "e8249d00a0411c3bac5ec1801f8108884b979452930469070d1b6150749a745b"
+    },
+    "WindsorML__run_23": {
+      "field": "dd010922dabede5cae8eb1702112e3e392134f9559c464f748a307f0a509eea4",
+      "geometry": "848355938f778e6be434a1c41c2f452b7a81be719a54c377f08085acce8469d5"
+    },
+    "WindsorML__run_232": {
+      "field": "df7c0377aa26c8e3d432a459d1df119354d6344a067e6460e68ece216d283ebc",
+      "geometry": "f7bad695771d5911eb2a3606c2ec3d7412c8a9fefdd64cf094f8b97c22d60e1a"
+    },
+    "WindsorML__run_253": {
+      "field": "e2289c5dd3a4e6abb3d70bfd29f9e8a9151d44e69468d4b75596491042e34126",
+      "geometry": "7b58c105ae1f072a8a6b3d77e976fc38f781e5e644c28075a9a9e7d86c257252"
+    },
+    "WindsorML__run_256": {
+      "field": "c76d22ec0cc9a87f05fae68024f99cd7b9e9b2b13b8657b1188bf2c337c1f599",
+      "geometry": "a5536cbbbff69dd6eaeacc3f8e667d0fad76ae9b65f6871fa6f65a40b869ef06"
+    },
+    "WindsorML__run_257": {
+      "field": "fb19e4a931d37aac92ed4840283cb66fca22dc310defa1237b8e11d339ce423a",
+      "geometry": "40479f9491407a5a6f772d78ce7e53f6e9df6cf530a605ce60ec98f76b4f40f2"
+    },
+    "WindsorML__run_270": {
+      "field": "05fa18b929f258b475d3f754391ff16bbac42ce10901d678f254dccbd1c48221",
+      "geometry": "6e2ba172c910a8e4a32b4fd331adb1fe782a9f4b9b62b416f00a63192342b9cb"
+    },
+    "WindsorML__run_28": {
+      "field": "142e7774dd10b115c36759767fb99f866067f13383f0a86eabc106e584f3cb55",
+      "geometry": "e061bc9f43f3987439c95e1e7778ed16a04d37d068c935bde473ffbf29fbcaa6"
+    },
+    "WindsorML__run_283": {
+      "field": "0fd6fb906b522f8057f8dac09676387c73ddb3d803d7efbbb9252b188aca4970",
+      "geometry": "e6316960bb2eb8c051b3e01c8f5d6e5dcf6606c0a3fbd35a5626bfd977ed2ba2"
+    },
+    "WindsorML__run_299": {
+      "field": "e601ab0a7065b7328fecf94c3086e9f8cb904500219eb2eee9bbc185c869538f",
+      "geometry": "34f5ee51585007dfa9283d3ef67edce1d3d3d5625a4b0136e2062d0aa7a7008b"
+    },
+    "WindsorML__run_32": {
+      "field": "58af7c90f96540003cbf8c83def7f5d84b72804f92325290f201ec9cc77a3b26",
+      "geometry": "9f90da236572995ed0667d76fa98978123cd0d6f6304a08d086f11f75af80bd8"
+    },
+    "WindsorML__run_333": {
+      "field": "dde88158e29c9bb89f92d7b251832616d45f89dc5b341bbc8715749eac3e4e93",
+      "geometry": "d9d2bfeb68fdc8a4a2b074cc81d7c2fd6542290103e6a5ead73b3cea26fb6893"
+    },
+    "WindsorML__run_336": {
+      "field": "c44d7dd0ca79acd108fe93a306085a717d01e1f27f97aafc972dcdc1d6ea3f9c",
+      "geometry": "864853e5565cecfb0bfcec6f2df34650fa4b6ee11d3a425a206148892ce4b201"
+    },
+    "WindsorML__run_341": {
+      "field": "890eba1712b028bb14b147ea2ded1329f7c839be609a79a5cf1791c8e0e84224",
+      "geometry": "feb4ad9742a2a1d5ccc3a8416b642c03d60415e52edb7f84b9ee8cecdb74651c"
+    },
+    "WindsorML__run_47": {
+      "field": "3d08bd85b17776a2c80108acf674d11192b2aeaa54bfe0e8aa30da864879f44e",
+      "geometry": "a5934b815894ced49a757f1cd401057baade47527a1b5ad39bd6742c258f5ddd"
+    },
+    "WindsorML__run_58": {
+      "field": "1528c0e0e262d4ba61b3a90ee193b31f3c7570ce592141b906d7d4405ef2315f",
+      "geometry": "8f67a2aa30b11bc13282f6415b49ce4d87b4136b3fbe42aa704e5c7919257227"
+    },
+    "WindsorML__run_66": {
+      "field": "8900e6cf960e17998f070ec293626e730ea8b72d76ecdcb82bcb70c15095ff9f",
+      "geometry": "4060347acdcf1d20778e6c7f7ef4c1b1650bcaf6aaa9b4b49b13739d89f0e730"
+    },
+    "WindsorML__run_69": {
+      "field": "d4283dfbf0210ab9c7fc8c47ec998d9bdfdc725bd28218e477bec08a95fc5931",
+      "geometry": "419c0477e52a371049e77bf2a2ff5c694c5c946319f93a35e1a3fac1724e5436"
+    },
+    "WindsorML__run_7": {
+      "field": "613aa2cde4440829337b71be591e547c92d4c223458a11bf30e8909f7912ea1b",
+      "geometry": "9406358cd72d4df800d3457c88fc438dd1cb847f16b7dc16ad4575ebbe3cb259"
+    },
+    "WindsorML__run_85": {
+      "field": "acea6d2710d1ba632c4adf8b5d0c9264541f7c1e688eb22e4e72f21ae36ca5f7",
+      "geometry": "b012649140b66e234741fd5938b4be50b3399dbf62247951b69a14fde3a09f6d"
+    },
+    "WindsorML__run_89": {
+      "field": "7b569f5ec6a9545e49908b741ad44ae69ca127ea7c3a0fb3b6d678c750070720",
+      "geometry": "a687dcba10b32c8c9932df44a5e684d819fa2596716338fb7a566a3e45b17d1d"
+    },
+    "WindsorML__run_95": {
+      "field": "e25b79faeb3f4f90043b134daaa91b1444f7d29465611d3f8d30fd4de89a3655",
+      "geometry": "23d62467b26ddccf655034fb498c2182f032fac4462bf1d5a747fe4677cb050f"
+    },
+    "WindsorML__run_97": {
+      "field": "c7ba6b0f49b9c5205c2d11c465fafc97c3a346769fbd9e1782b442eb2d8bba61",
+      "geometry": "503e0bfedc03adbdcb65b1a05a5ad5319bc41481710bff952aaf1b0b763d2d51"
+    },
+    "WindsorML__run_98": {
+      "field": "630d118ef12d02f7a70f7a7a39149a0bb04de36a7347506396b96de649938fdd",
+      "geometry": "f0230f07cdad20fcfa7668346a279660c9236c64d40c29e50677e5db0513c282"
+    }
+  },
+  "metrics": {
+    "pretrained": {
+      "mean_nrmse": 0.1570832123165827,
+      "cars": [
+        {
+          "id": "WindsorML__run_100",
+          "nrmse": 0.13799261359413495,
+          "rmse": 0.03930081410196594,
+          "reference_std": 0.2848037520150015,
+          "queries": 32000,
+          "seconds": 0.5778346029110253
+        },
+        {
+          "id": "WindsorML__run_104",
+          "nrmse": 0.1475424810233283,
+          "rmse": 0.04539196836272175,
+          "reference_std": 0.30765355203390354,
+          "queries": 32000,
+          "seconds": 0.3034624829888344
+        },
+        {
+          "id": "WindsorML__run_113",
+          "nrmse": 0.21265255861679405,
+          "rmse": 0.0741976789015029,
+          "reference_std": 0.3489150536637052,
+          "queries": 32000,
+          "seconds": 0.30410421919077635
+        },
+        {
+          "id": "WindsorML__run_123",
+          "nrmse": 0.1089055474272281,
+          "rmse": 0.03496693303648755,
+          "reference_std": 0.32107577494941514,
+          "queries": 32000,
+          "seconds": 0.3069465197622776
+        },
+        {
+          "id": "WindsorML__run_125",
+          "nrmse": 0.250390200764601,
+          "rmse": 0.09688103949695077,
+          "reference_std": 0.3869202516756293,
+          "queries": 32000,
+          "seconds": 0.30199993308633566
+        },
+        {
+          "id": "WindsorML__run_130",
+          "nrmse": 0.4400255619351876,
+          "rmse": 0.14381025838676065,
+          "reference_std": 0.3268225094794443,
+          "queries": 32000,
+          "seconds": 0.30425146920606494
+        },
+        {
+          "id": "WindsorML__run_136",
+          "nrmse": 0.14299124981755298,
+          "rmse": 0.05442241014582532,
+          "reference_std": 0.38059958364770274,
+          "queries": 32000,
+          "seconds": 0.307619194034487
+        },
+        {
+          "id": "WindsorML__run_139",
+          "nrmse": 0.14675169933529908,
+          "rmse": 0.05334849264432196,
+          "reference_std": 0.3635289600458461,
+          "queries": 32000,
+          "seconds": 0.30477786902338266
+        },
+        {
+          "id": "WindsorML__run_148",
+          "nrmse": 0.21452900812873266,
+          "rmse": 0.062010748929139485,
+          "reference_std": 0.28905530990908523,
+          "queries": 32000,
+          "seconds": 0.30580806406214833
+        },
+        {
+          "id": "WindsorML__run_172",
+          "nrmse": 0.163115383563145,
+          "rmse": 0.05538288742697823,
+          "reference_std": 0.33953196943891245,
+          "queries": 32000,
+          "seconds": 0.30465156212449074
+        },
+        {
+          "id": "WindsorML__run_18",
+          "nrmse": 0.1328794347671617,
+          "rmse": 0.05255840034982643,
+          "reference_std": 0.3955344966805586,
+          "queries": 32000,
+          "seconds": 0.3080950127914548
+        },
+        {
+          "id": "WindsorML__run_216",
+          "nrmse": 0.13296252787935633,
+          "rmse": 0.04379195203051336,
+          "reference_std": 0.3293555916013271,
+          "queries": 32000,
+          "seconds": 0.30441580619663
+        },
+        {
+          "id": "WindsorML__run_23",
+          "nrmse": 0.08850701608885854,
+          "rmse": 0.03318669697827693,
+          "reference_std": 0.3749612001941002,
+          "queries": 32000,
+          "seconds": 0.3019829480908811
+        },
+        {
+          "id": "WindsorML__run_232",
+          "nrmse": 0.2099859990063949,
+          "rmse": 0.07513554867195607,
+          "reference_std": 0.3578121828478093,
+          "queries": 32000,
+          "seconds": 0.3044846183620393
+        },
+        {
+          "id": "WindsorML__run_253",
+          "nrmse": 0.08301021261339332,
+          "rmse": 0.035901395243901194,
+          "reference_std": 0.4324937150939024,
+          "queries": 32000,
+          "seconds": 0.3086765627376735
+        },
+        {
+          "id": "WindsorML__run_256",
+          "nrmse": 0.15025948149845436,
+          "rmse": 0.059057033660975755,
+          "reference_std": 0.39303365798971723,
+          "queries": 32000,
+          "seconds": 0.3245387109927833
+        },
+        {
+          "id": "WindsorML__run_257",
+          "nrmse": 0.11985254862796561,
+          "rmse": 0.03904210067638186,
+          "reference_std": 0.3257511093700016,
+          "queries": 32000,
+          "seconds": 0.3051237710751593
+        },
+        {
+          "id": "WindsorML__run_270",
+          "nrmse": 0.12686293008265825,
+          "rmse": 0.03704637023256673,
+          "reference_std": 0.2920188758720058,
+          "queries": 32000,
+          "seconds": 0.3061586171388626
+        },
+        {
+          "id": "WindsorML__run_28",
+          "nrmse": 0.1378634611078586,
+          "rmse": 0.04235632385230807,
+          "reference_std": 0.307233863939991,
+          "queries": 32000,
+          "seconds": 0.3071027989499271
+        },
+        {
+          "id": "WindsorML__run_283",
+          "nrmse": 0.0924631837216223,
+          "rmse": 0.031465415243491814,
+          "reference_std": 0.3403020962183644,
+          "queries": 32000,
+          "seconds": 0.3067251802422106
+        },
+        {
+          "id": "WindsorML__run_299",
+          "nrmse": 0.07711892310870086,
+          "rmse": 0.030517461698547067,
+          "reference_std": 0.39571950007045636,
+          "queries": 32000,
+          "seconds": 0.3059148592874408
+        },
+        {
+          "id": "WindsorML__run_32",
+          "nrmse": 0.13177378854441324,
+          "rmse": 0.05298973377972911,
+          "reference_std": 0.402126510629004,
+          "queries": 32000,
+          "seconds": 0.3103425381705165
+        },
+        {
+          "id": "WindsorML__run_333",
+          "nrmse": 0.13880180637410436,
+          "rmse": 0.04817435304125182,
+          "reference_std": 0.34707295459405124,
+          "queries": 32000,
+          "seconds": 0.30719991493970156
+        },
+        {
+          "id": "WindsorML__run_336",
+          "nrmse": 0.10746943288154526,
+          "rmse": 0.037486728359091434,
+          "reference_std": 0.34881293549217834,
+          "queries": 32000,
+          "seconds": 0.31058615120127797
+        },
+        {
+          "id": "WindsorML__run_341",
+          "nrmse": 0.17677701243798402,
+          "rmse": 0.05147865723641602,
+          "reference_std": 0.29120673851457635,
+          "queries": 32000,
+          "seconds": 0.3068684940226376
+        },
+        {
+          "id": "WindsorML__run_47",
+          "nrmse": 0.15625310566756553,
+          "rmse": 0.042568987012274094,
+          "reference_std": 0.27243610186437667,
+          "queries": 32000,
+          "seconds": 0.30454980209469795
+        },
+        {
+          "id": "WindsorML__run_58",
+          "nrmse": 0.17340006609075212,
+          "rmse": 0.05298029621214258,
+          "reference_std": 0.3055379239844947,
+          "queries": 32000,
+          "seconds": 0.3068346679210663
+        },
+        {
+          "id": "WindsorML__run_66",
+          "nrmse": 0.27182694944350533,
+          "rmse": 0.11253930494667214,
+          "reference_std": 0.4140108446828652,
+          "queries": 32000,
+          "seconds": 0.3247082610614598
+        },
+        {
+          "id": "WindsorML__run_69",
+          "nrmse": 0.11950720848132207,
+          "rmse": 0.040897210516875095,
+          "reference_std": 0.34221542814521494,
+          "queries": 32000,
+          "seconds": 0.3040553508326411
+        },
+        {
+          "id": "WindsorML__run_7",
+          "nrmse": 0.2154772862655898,
+          "rmse": 0.0763655219138346,
+          "reference_std": 0.35440172482824533,
+          "queries": 32000,
+          "seconds": 0.3059311993420124
+        },
+        {
+          "id": "WindsorML__run_85",
+          "nrmse": 0.18776975690092892,
+          "rmse": 0.057746944650210325,
+          "reference_std": 0.307541244145503,
+          "queries": 32000,
+          "seconds": 0.306023305747658
+        },
+        {
+          "id": "WindsorML__run_89",
+          "nrmse": 0.10827016453694792,
+          "rmse": 0.04198395552426276,
+          "reference_std": 0.38777031238310766,
+          "queries": 32000,
+          "seconds": 0.306925468146801
+        },
+        {
+          "id": "WindsorML__run_95",
+          "nrmse": 0.1723115039745409,
+          "rmse": 0.05396270256182043,
+          "reference_std": 0.31316947108646587,
+          "queries": 32000,
+          "seconds": 0.30475401412695646
+        },
+        {
+          "id": "WindsorML__run_97",
+          "nrmse": 0.14036568681470582,
+          "rmse": 0.04201280097845129,
+          "reference_std": 0.29930962425248286,
+          "queries": 32000,
+          "seconds": 0.3061435301788151
+        },
+        {
+          "id": "WindsorML__run_98",
+          "nrmse": 0.08124663995806122,
+          "rmse": 0.030683919094438322,
+          "reference_std": 0.3776638530562874,
+          "queries": 32000,
+          "seconds": 0.30285605089738965
+        }
+      ]
+    },
+    "scratch": {
+      "mean_nrmse": 0.19622813386983054,
+      "cars": [
+        {
+          "id": "WindsorML__run_100",
+          "nrmse": 0.16448786134327442,
+          "rmse": 0.046846760071487886,
+          "reference_std": 0.2848037520150015,
+          "queries": 32000,
+          "seconds": 0.31000122986733913
+        },
+        {
+          "id": "WindsorML__run_104",
+          "nrmse": 0.189663472804339,
+          "rmse": 0.05835064109934056,
+          "reference_std": 0.30765355203390354,
+          "queries": 32000,
+          "seconds": 0.30760500160977244
+        },
+        {
+          "id": "WindsorML__run_113",
+          "nrmse": 0.19501197667994669,
+          "rmse": 0.06804261430834882,
+          "reference_std": 0.3489150536637052,
+          "queries": 32000,
+          "seconds": 0.3053837991319597
+        },
+        {
+          "id": "WindsorML__run_123",
+          "nrmse": 0.16960996833965336,
+          "rmse": 0.05445765202379997,
+          "reference_std": 0.32107577494941514,
+          "queries": 32000,
+          "seconds": 0.3038054942153394
+        },
+        {
+          "id": "WindsorML__run_125",
+          "nrmse": 0.26701876249529644,
+          "rmse": 0.10331496678679519,
+          "reference_std": 0.3869202516756293,
+          "queries": 32000,
+          "seconds": 0.3031779401935637
+        },
+        {
+          "id": "WindsorML__run_130",
+          "nrmse": 0.6296095928969616,
+          "rmse": 0.2057705871429163,
+          "reference_std": 0.3268225094794443,
+          "queries": 32000,
+          "seconds": 0.3104385077022016
+        },
+        {
+          "id": "WindsorML__run_136",
+          "nrmse": 0.15886648674204754,
+          "rmse": 0.06046451870959658,
+          "reference_std": 0.38059958364770274,
+          "queries": 32000,
+          "seconds": 0.30433798488229513
+        },
+        {
+          "id": "WindsorML__run_139",
+          "nrmse": 0.17323356684416238,
+          "rmse": 0.06297541839989092,
+          "reference_std": 0.3635289600458461,
+          "queries": 32000,
+          "seconds": 0.30694760708138347
+        },
+        {
+          "id": "WindsorML__run_148",
+          "nrmse": 0.24099115984677227,
+          "rmse": 0.06965977439485865,
+          "reference_std": 0.28905530990908523,
+          "queries": 32000,
+          "seconds": 0.30423881486058235
+        },
+        {
+          "id": "WindsorML__run_172",
+          "nrmse": 0.14990350790419785,
+          "rmse": 0.05089703326451388,
+          "reference_std": 0.33953196943891245,
+          "queries": 32000,
+          "seconds": 0.3040178050287068
+        },
+        {
+          "id": "WindsorML__run_18",
+          "nrmse": 0.15875621024682735,
+          "rmse": 0.0627935577148918,
+          "reference_std": 0.3955344966805586,
+          "queries": 32000,
+          "seconds": 0.30793380504474044
+        },
+        {
+          "id": "WindsorML__run_216",
+          "nrmse": 0.13199142247122367,
+          "rmse": 0.043472113034310575,
+          "reference_std": 0.3293555916013271,
+          "queries": 32000,
+          "seconds": 0.3127052620984614
+        },
+        {
+          "id": "WindsorML__run_23",
+          "nrmse": 0.1665001850100974,
+          "rmse": 0.06243110920392584,
+          "reference_std": 0.3749612001941002,
+          "queries": 32000,
+          "seconds": 0.3242578189820051
+        },
+        {
+          "id": "WindsorML__run_232",
+          "nrmse": 0.18755932998484992,
+          "rmse": 0.06711101327535172,
+          "reference_std": 0.3578121828478093,
+          "queries": 32000,
+          "seconds": 0.30830432986840606
+        },
+        {
+          "id": "WindsorML__run_253",
+          "nrmse": 0.1122338138221337,
+          "rmse": 0.04854041909909197,
+          "reference_std": 0.4324937150939024,
+          "queries": 32000,
+          "seconds": 0.30668156687170267
+        },
+        {
+          "id": "WindsorML__run_256",
+          "nrmse": 0.11775912432350559,
+          "rmse": 0.04628329939453329,
+          "reference_std": 0.39303365798971723,
+          "queries": 32000,
+          "seconds": 0.30354988295584917
+        },
+        {
+          "id": "WindsorML__run_257",
+          "nrmse": 0.19111387004016528,
+          "rmse": 0.06225555518157815,
+          "reference_std": 0.3257511093700016,
+          "queries": 32000,
+          "seconds": 0.30848212726414204
+        },
+        {
+          "id": "WindsorML__run_270",
+          "nrmse": 0.18787900268655564,
+          "rmse": 0.05486421516448154,
+          "reference_std": 0.2920188758720058,
+          "queries": 32000,
+          "seconds": 0.3064601640217006
+        },
+        {
+          "id": "WindsorML__run_28",
+          "nrmse": 0.14501367621604466,
+          "rmse": 0.044553112067998175,
+          "reference_std": 0.307233863939991,
+          "queries": 32000,
+          "seconds": 0.30631259828805923
+        },
+        {
+          "id": "WindsorML__run_283",
+          "nrmse": 0.12509887508954784,
+          "rmse": 0.04257140942753246,
+          "reference_std": 0.3403020962183644,
+          "queries": 32000,
+          "seconds": 0.30798468086868525
+        },
+        {
+          "id": "WindsorML__run_299",
+          "nrmse": 0.10822468754564389,
+          "rmse": 0.042826619250843544,
+          "reference_std": 0.39571950007045636,
+          "queries": 32000,
+          "seconds": 0.3162598768249154
+        },
+        {
+          "id": "WindsorML__run_32",
+          "nrmse": 0.15902441919112517,
+          "rmse": 0.06394793479413119,
+          "reference_std": 0.402126510629004,
+          "queries": 32000,
+          "seconds": 0.31180986296385527
+        },
+        {
+          "id": "WindsorML__run_333",
+          "nrmse": 0.1374042899154389,
+          "rmse": 0.04768931287484898,
+          "reference_std": 0.34707295459405124,
+          "queries": 32000,
+          "seconds": 0.32904460188001394
+        },
+        {
+          "id": "WindsorML__run_336",
+          "nrmse": 0.16799516843379453,
+          "rmse": 0.0585988878498948,
+          "reference_std": 0.34881293549217834,
+          "queries": 32000,
+          "seconds": 0.32377330120652914
+        },
+        {
+          "id": "WindsorML__run_341",
+          "nrmse": 0.2501291918110966,
+          "rmse": 0.07283930615459631,
+          "reference_std": 0.29120673851457635,
+          "queries": 32000,
+          "seconds": 0.34057988692075014
+        },
+        {
+          "id": "WindsorML__run_47",
+          "nrmse": 0.20516568072572589,
+          "rmse": 0.055894538293268035,
+          "reference_std": 0.27243610186437667,
+          "queries": 32000,
+          "seconds": 0.33630630699917674
+        },
+        {
+          "id": "WindsorML__run_58",
+          "nrmse": 0.20897343799579834,
+          "rmse": 0.06384931041313875,
+          "reference_std": 0.3055379239844947,
+          "queries": 32000,
+          "seconds": 0.31290145264938474
+        },
+        {
+          "id": "WindsorML__run_66",
+          "nrmse": 0.23319893933980462,
+          "rmse": 0.09654688985522075,
+          "reference_std": 0.4140108446828652,
+          "queries": 32000,
+          "seconds": 0.30467164190486073
+        },
+        {
+          "id": "WindsorML__run_69",
+          "nrmse": 0.30618961989842836,
+          "rmse": 0.10478281186716128,
+          "reference_std": 0.34221542814521494,
+          "queries": 32000,
+          "seconds": 0.3079955819994211
+        },
+        {
+          "id": "WindsorML__run_7",
+          "nrmse": 0.27447974924091145,
+          "rmse": 0.09727609656140329,
+          "reference_std": 0.35440172482824533,
+          "queries": 32000,
+          "seconds": 0.3056668541394174
+        },
+        {
+          "id": "WindsorML__run_85",
+          "nrmse": 0.3124567308270785,
+          "rmse": 0.09609333174019626,
+          "reference_std": 0.307541244145503,
+          "queries": 32000,
+          "seconds": 0.3061280082911253
+        },
+        {
+          "id": "WindsorML__run_89",
+          "nrmse": 0.1086107899433458,
+          "rmse": 0.04211603994450729,
+          "reference_std": 0.38777031238310766,
+          "queries": 32000,
+          "seconds": 0.30310466792434454
+        },
+        {
+          "id": "WindsorML__run_95",
+          "nrmse": 0.21467601424392593,
+          "rmse": 0.0672299738357209,
+          "reference_std": 0.31316947108646587,
+          "queries": 32000,
+          "seconds": 0.30445627123117447
+        },
+        {
+          "id": "WindsorML__run_97",
+          "nrmse": 0.19803872072777062,
+          "rmse": 0.05927489508847142,
+          "reference_std": 0.29930962425248286,
+          "queries": 32000,
+          "seconds": 0.3035768219269812
+        },
+        {
+          "id": "WindsorML__run_98",
+          "nrmse": 0.12111537981657909,
+          "rmse": 0.045740901005904964,
+          "reference_std": 0.3776638530562874,
+          "queries": 32000,
+          "seconds": 0.30439449893310666
+        }
+      ]
+    }
+  },
+  "relative_error_change": -0.1994867951973437
+}

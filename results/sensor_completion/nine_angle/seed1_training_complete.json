@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "seed": 1,
+  "epochs": 40,
+  "updates": 10800,
+  "selected_epoch": 38,
+  "checkpoint_sha256": "c6a39fc01ab91d9f62f2e3c38be0419306aa19dbe7f897ba9d12a5fdf2e2cba3",
+  "initial_weights_sha256": "168b22d560ef8071798fc2a91cbe3035fea33b8a4c3b9aed11e81bea165375f7",
+  "protocol_sha256": "468feec417fc5e364e04d3ad93afb66bd601c6454f93168498394589e20eb248"
+}

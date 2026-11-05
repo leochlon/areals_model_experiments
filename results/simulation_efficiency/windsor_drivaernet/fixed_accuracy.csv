@@ -1,0 +1,5 @@
+dataset,sensors,target,pretrained_N,scratch_N,maximum_N,training_reduction,including_validation_reduction,bootstrap_fewer_fraction,interpretation
+windsor,0,0.25,35,137,274,0.7445255474452555,0.5930232558139534,1.0,Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation).
+windsor,20,0.25,35,137,274,0.7445255474452555,0.5930232558139534,1.0,Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation).
+drivaernet,0,0.25,1623,3246,6492,0.5,0.4033300198807157,0.9994,"Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+drivaernet,20,0.25,1623,3246,6492,0.5,0.4033300198807157,0.9994,"Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."

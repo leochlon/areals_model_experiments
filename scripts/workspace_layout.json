@@ -1,0 +1,414 @@
+{
+ "description": "Where each part of this repository ran. Paths are relative to the workspace root (/workspace).",
+ "studies": [
+  {
+   "repo": "experiments/01_pretraining/geometry_pretraining",
+   "workspace": "home/areal_objaverse_060_61822_15ep_20260928T121633Z"
+  },
+  {
+   "repo": "experiments/01_pretraining/objaverse_base_corpus",
+   "workspace": "home/objaverse_base_030_20260924T172527Z"
+  },
+  {
+   "repo": "experiments/01_pretraining/objaverse_corpus_expansion",
+   "workspace": "home/objaverse_add30000_20260927T140652Z"
+  },
+  {
+   "repo": "experiments/02_simulation_efficiency/drivaerml",
+   "workspace": "runs/areals_simulation_efficiency_20261028"
+  },
+  {
+   "repo": "experiments/02_simulation_efficiency/windsor_drivaernet",
+   "workspace": "runs/areals_all_simulation_efficiency_20261028"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors",
+   "workspace": "runs/matched_priors_windsor_20261030"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/cohort_and_windsor_data",
+   "workspace": "runs/objaverse_target_comparison_20261030"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/patch_pilot",
+   "workspace": "runs/patch385_windsor_20261030"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/coefficient_prior",
+   "workspace": "runs/shared_query_controlled_20261031"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/coefficient_replicates",
+   "workspace": "runs/curvature_controls_20261031"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/coefficient_prior/AREALS_shared_query",
+   "workspace": "runs/curvature_controls_20261031/AREALS_shared_query"
+  },
+  {
+   "repo": "experiments/04_masked_vs_unmasked/geometry_pretraining",
+   "workspace": "runs/areals_production_mechanism_20261025"
+  },
+  {
+   "repo": "experiments/04_masked_vs_unmasked/mask_pressure_transfer",
+   "workspace": "runs/areals_mask_pressure_transfer_20261025"
+  },
+  {
+   "repo": "experiments/05_gaussian_fields/field_adaptation",
+   "workspace": "runs/areals_production_mechanism_20261025"
+  },
+  {
+   "repo": "experiments/05_gaussian_fields/grf_benchmark",
+   "workspace": "runs/areals_inversion_20261024"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/single_seed_study",
+   "workspace": "runs/areals_multicondition_wings_20261023"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/scratch_baseline",
+   "workspace": "runs/areals_doubledelta_scratch_20261023"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/three_seeds",
+   "workspace": "runs/areals_nine_angle_seeds_20261029"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/condition_inference",
+   "workspace": "runs/areals_condition_inference_20261029"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/heldout_angles",
+   "workspace": "runs/areals_architecture_controls_20261024"
+  },
+  {
+   "repo": "experiments/07_gabi_baseline/gabi_graph_ablation",
+   "workspace": "runs/gabi_graph_ablation_20261028"
+  },
+  {
+   "repo": "experiments/07_gabi_baseline/gabi_single_seed",
+   "workspace": "runs/gabi_doubledelta_20261023"
+  },
+  {
+   "repo": "experiments/07_gabi_baseline/gabi_graph_ablation/source/GABI",
+   "workspace": "runs/gabi_doubledelta_20261023/GABI"
+  },
+  {
+   "repo": "experiments/08_expanded_benchmarks/existing_data_expansion",
+   "workspace": "runs/areals_existing_data_expansion_20261025"
+  },
+  {
+   "repo": "experiments/09_reserved_cars/holdout_evaluation",
+   "workspace": "runs/areals_fresh_car_holdout_20261024"
+  },
+  {
+   "repo": "experiments/09_reserved_cars/model_training",
+   "workspace": "runs/areals_architecture_controls_20261024"
+  },
+  {
+   "repo": "experiments/09_reserved_cars/drivaerml_420_split",
+   "workspace": "home/areal_drivaerml_420_epoch14_20260927T162928Z"
+  },
+  {
+   "repo": "experiments/09_reserved_cars/drivaerml_pilot_split",
+   "workspace": "home/drivaerml_transfer_pilot_20260925T121525Z"
+  },
+  {
+   "repo": "experiments/09_reserved_cars/native_field_preparation",
+   "workspace": "home/areal_objaverse_060_61822_15ep_20260928T121633Z"
+  },
+  {
+   "repo": "experiments/10_frozen_surrogate/aerojepa_surrogate",
+   "workspace": "home/areal_aerojepa_20260928"
+  },
+  {
+   "repo": "experiments/10_frozen_surrogate/earlier_prior",
+   "workspace": "home/areal_objaverse_scratch61822_15ep_20260927T152147Z"
+  },
+  {
+   "repo": "experiments/11_architecture_ablations/architecture_controls",
+   "workspace": "runs/areals_architecture_controls_20261024"
+  },
+  {
+   "repo": "experiments/11_architecture_ablations/decoder_transfer/decoder_study",
+   "workspace": "runs/areals_decoder_transfer_20261024"
+  },
+  {
+   "repo": "experiments/11_architecture_ablations/decoder_transfer/pointmae_released",
+   "workspace": "home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_pointmae_released_420"
+  },
+  {
+   "repo": "experiments/11_architecture_ablations/numerical_checks",
+   "workspace": "local/areals_numerical_checks_20261024"
+  },
+  {
+   "repo": "experiments/12_attention_analysis/attention_attribution",
+   "workspace": "runs/areals-attention-attribution-20261026"
+  },
+  {
+   "repo": "experiments/12_attention_analysis/angle_decomposition",
+   "workspace": "runs/areals-angle-decomposition-20261026"
+  },
+  {
+   "repo": "experiments/13_distance_tubes/distance_scale",
+   "workspace": "runs/areals-distance-scale-evidence-20261026"
+  },
+  {
+   "repo": "experiments/13_distance_tubes/complete_masked",
+   "workspace": "runs/areals-complete-masked-20261026"
+  }
+ ],
+ "files": [
+  {
+   "repo": "shared/field_benchmark/v1/field_benchmark.py",
+   "workspace": "runs/field_benchmark_4gpu_20261023/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/kit/field_benchmark.py",
+   "workspace": "runs/areals_simulation_efficiency_20261028/source/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/kit/field_benchmark.py",
+   "workspace": "runs/areals_all_simulation_efficiency_20261028/source/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/kit/field_benchmark.py",
+   "workspace": "runs/areals_existing_data_expansion_20261025/kit/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/kit/field_benchmark.py",
+   "workspace": "runs/areals_inversion_20261024/kit/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/areals_multicondition_wings_20261023/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/areals_doubledelta_scratch_20261023/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/areals_nine_angle_seeds_20261029/source/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/areals_condition_inference_20261029/source/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/areals-attention-attribution-20261026/native/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/gabi_graph_ablation_20261028/source/field_benchmark.py"
+  },
+  {
+   "repo": "shared/field_benchmark/native/field_benchmark.py",
+   "workspace": "runs/gabi_doubledelta_20261023/field_benchmark.py"
+  },
+  {
+   "repo": "experiments/07_gabi_baseline/gabi_graph_ablation/source/gabi_adapter.py",
+   "workspace": "runs/gabi_doubledelta_20261023/gabi_adapter.py"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/single_seed_study/study.py",
+   "workspace": "runs/areals_doubledelta_scratch_20261023/study.py"
+  },
+  {
+   "repo": "experiments/01_pretraining/geometry_pretraining/benchmark_support.py",
+   "workspace": "home/areal_objaverse_scratch61822_15ep_20260927T152147Z/benchmark_support.py"
+  },
+  {
+   "repo": "experiments/01_pretraining/geometry_pretraining/fixed_global_batches.py",
+   "workspace": "home/areal_objaverse_scratch61822_15ep_20260927T152147Z/fixed_global_batches.py"
+  },
+  {
+   "repo": "experiments/01_pretraining/geometry_pretraining/config.json",
+   "workspace": "runs/areals_architecture_controls_20261024/production_config.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/coefficient_prior/protocol/cohort.json",
+   "workspace": "runs/curvature_controls_20261031/protocol/cohort.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/protocol/native_config.json",
+   "workspace": "runs/curvature_controls_20261031/AREALS_shared_query/native_config.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/protocol/native_config.json",
+   "workspace": "runs/patch385_windsor_20261030/protocol/native_config.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/windsor_protocol/subsets.json",
+   "workspace": "runs/shared_query_controlled_20261031/windsor_protocol/subsets.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/windsor_protocol/subsets.json",
+   "workspace": "runs/curvature_controls_20261031/windsor_protocol/subsets.json"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/single_seed_study/study.py",
+   "workspace": "runs/areals_nine_angle_seeds_20261029/source/study.py"
+  },
+  {
+   "repo": "experiments/06_sensor_completion/single_seed_study/study_protocol.json",
+   "workspace": "runs/areals_nine_angle_seeds_20261029/source/study_protocol.json"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/geometry_data.py",
+   "workspace": "runs/patch385_windsor_20261030/source/geometry_data.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/geometry_data.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/geometry_data.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/prepare_corpus.py",
+   "workspace": "runs/patch385_windsor_20261030/source/prepare_corpus.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/prepare_corpus.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/prepare_corpus.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/pretrain.py",
+   "workspace": "runs/patch385_windsor_20261030/source/pretrain.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/pretrain.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/pretrain.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/train_mesh_geometry.py",
+   "workspace": "runs/patch385_windsor_20261030/source/train_mesh_geometry.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/train_mesh_geometry.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/train_mesh_geometry.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/train_query_geometry.py",
+   "workspace": "runs/patch385_windsor_20261030/source/train_query_geometry.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/train_query_geometry.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/train_query_geometry.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/pressure_model.py",
+   "workspace": "runs/patch385_windsor_20261030/patch_pressure/pressure_model.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/pressure_model.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/pressure_model.py"
+  },
+  {
+   "repo": "experiments/03_pretraining_targets/matched_priors/source/prepare_windsor.py",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/prepare_windsor.py"
+  },
+  {
+   "repo": "src/areal_tokens/train.py",
+   "workspace": "home/objaverse_base_030_20260924T172527Z/geometry_latents_minimal/src/geom_latents/train.py"
+  },
+  {
+   "repo": "src/areal_tokens/probe.py",
+   "workspace": "home/objaverse_base_030_20260924T172527Z/geometry_latents_minimal/src/geom_latents/probe.py"
+  }
+ ],
+ "packages": [
+  {
+   "repo": "src/areal_tokens",
+   "layout": "project",
+   "workspace": "home/areal_objaverse_060_61822_15ep_20260928T121633Z/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "project",
+   "workspace": "runs/areals_architecture_controls_20261024/vendor/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals_simulation_efficiency_20261028/model_src/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals_all_simulation_efficiency_20261028/model_src/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals_nine_angle_seeds_20261029/source/areal_src/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals_condition_inference_20261029/source/areal_src/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals-attention-attribution-20261026/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals-distance-scale-evidence-20261026/vendor/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals-complete-masked-20261026/baseline/areal_tokens"
+  },
+  {
+   "repo": "tests",
+   "layout": "package_tests",
+   "workspace": "runs/areals-complete-masked-20261026/original_tests"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/objaverse_target_comparison_20261030/source/native/areal_tokens",
+   "overlay": "experiments/03_pretraining_targets/matched_priors/source/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/patch385_windsor_20261030/source/native/areal_tokens",
+   "overlay": "experiments/03_pretraining_targets/matched_priors/source/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/shared_query_controlled_20261031/AREALS_shared_query/vendor/areal_tokens",
+   "overlay": "experiments/03_pretraining_targets/matched_priors/source/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/curvature_controls_20261031/AREALS_shared_query/vendor/areal_tokens",
+   "overlay": "experiments/03_pretraining_targets/matched_priors/source/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/matched_priors_windsor_20261030/source/native/areal_tokens",
+   "overlay": "experiments/03_pretraining_targets/matched_priors/source/native/areal_tokens"
+  },
+  {
+   "repo": "src/areal_tokens",
+   "layout": "package",
+   "workspace": "runs/areals-complete-masked-20261026/code/areal_tokens",
+   "overlay": "experiments/13_distance_tubes/complete_masked/code/areal_tokens"
+  }
+ ],
+ "python_environments": [
+  "home/objaverse_base_030_20260924T172527Z/.venv",
+  "home/cfd_vector_icl_20261002T160236Z/.venv",
+  "runs/gabi_doubledelta_20261023/.venv",
+  "home/areal_aerojepa_20260928/.venv",
+  "home/multiphysics-table16-20261009/training-contract/source-a1e5e478-native/.venv"
+ ]
+}

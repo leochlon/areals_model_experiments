@@ -1,0 +1,63 @@
+{
+  "phase": "ready",
+  "utc": "2026-09-27T15:15:51.493960+00:00",
+  "additional_training_geometries": 30000,
+  "combined_splits": {
+    "train": 61822,
+    "val": 1844,
+    "test": 1825
+  },
+  "generated": 7314,
+  "reused": 22686,
+  "rejected_records": [
+    {
+      "id": "2c88368cb1e496d18d754da2136c51924fbdb62a708c558c6f6c3f63ebd04b1b",
+      "path": "/workspace/runs/objaverse_base_030_20260924T172527Z/prepared/shape_0029353.npz",
+      "error": "ValueError: ValueError: A positive-weight surface sample has a zero normal"
+    },
+    {
+      "id": "2e09c307d1ff643626dce56e652b4fce59fa8eb484e63b914e770da1cf5c826f",
+      "path": "/workspace/runs/objaverse_base_030_20260924T172527Z/prepared/shape_0030358.npz",
+      "error": "ValueError: ValueError: A positive-weight surface sample has a zero normal"
+    },
+    {
+      "id": "5b9949b45d9ab1dfcc64bb8c47cc0ec74d352f42ed8d3d6507fa3f675228ee95",
+      "path": "/workspace/runs/objaverse_base_030_20260924T172527Z/prepared/shape_0059921.npz",
+      "error": "ValueError: ValueError: A positive-weight surface sample has a zero normal"
+    }
+  ],
+  "all_referenced_files_present": true,
+  "per_file_quality_and_content_hashes_verified_against_completed_audits": true,
+  "source_id_index_and_training_split_verified": true,
+  "no_duplicate_ids_or_files": true,
+  "no_family_crosses_splits": true,
+  "heldout_records_and_order_unchanged": true,
+  "exact_heldout_geometry_check": {
+    "passed": true,
+    "heldout_records": 3669,
+    "evidence": "/workspace/home/objaverse_add30000_20260927T140652Z/logs/coordinator.log",
+    "runner_sha256": "3d0e98fc8e79f632bfd127d7f2cb6b2c055f611f41946184e4c7a2a850c25bba",
+    "check_reused_from_completed_preparation": true
+  },
+  "distance_backend": {
+    "new_meshes_checked_against_cpu_reference": 7314,
+    "full_cpu_fallbacks": 1,
+    "full_query_reference_checks": 25,
+    "max_accepted_gpu_error_over_mesh_extent": 3.660237950535526e-06,
+    "tolerance": 1e-05
+  },
+  "points_after_native_coalescing": [
+    15733,
+    16384
+  ],
+  "queries_per_added_mesh": 32768,
+  "manifest": "/workspace/runs/objaverse_training_pool/versions/20260927T140652Z/manifest.json",
+  "audit": "/workspace/runs/objaverse_training_pool/versions/20260927T140652Z/audit.json",
+  "manifest_sha256": "2c0f0ac62571aa08e78d7e24acfbdf3057deb4cd0872092350f123faccb1178b",
+  "content_sha256": "4b54d127e280de1f6a6b92ec91e36b15d6ff52443fc71bdc41ec521b2067e065",
+  "original_manifest_unchanged": true,
+  "training_started": false,
+  "verification_runner_sha256": "6b2aa65da56e7ba00f6376b8e08e04b147b6320d803816629009ccc8e138ec8a",
+  "current_manifest": "/workspace/runs/objaverse_training_pool/current/manifest.json",
+  "current_audit": "/workspace/runs/objaverse_training_pool/current/audit.json"
+}

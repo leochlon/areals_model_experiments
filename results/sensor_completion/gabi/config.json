@@ -1,0 +1,40 @@
+{
+  "data_dims": {
+    "be_dim": 0,
+    "edge_feature_dim": 0,
+    "node_feature_dim": 1,
+    "node_out_dim": 1,
+    "pos_dim": 3
+  },
+  "data_settings": {
+    "dataset_type": "HelmholtzCar",
+    "transform": ""
+  },
+  "hyperparameters": {
+    "batch_size": 100,
+    "epochs": 455,
+    "lr_decay": 0.9899297943599356,
+    "start_lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "io_settings": {
+    "pretrained_model": "",
+    "run_dir": "/workspace/runs/gabi_graph_ablation_20261028/runs",
+    "save_epochs": 45,
+    "train_dataset_path": "/workspace/runs/gabi_doubledelta_20261023/bench/gabi/train.pkl",
+    "valid_dataset_path": "/workspace/runs/gabi_doubledelta_20261023/bench/gabi/val.pkl"
+  },
+  "model_settings": {
+    "latent_dim": 100,
+    "model_type": "GCN",
+    "n_layers": 6,
+    "use_boundary_encoding": false,
+    "use_pos": true,
+    "z_dim": 100
+  },
+  "run_settings": {
+    "num_t_workers": 4,
+    "num_v_workers": 4,
+    "validate": true
+  }
+}

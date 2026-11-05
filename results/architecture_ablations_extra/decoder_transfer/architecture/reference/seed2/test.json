@@ -1,0 +1,1037 @@
+{
+  "normalized_mse": 0.008879699208591774,
+  "normal_degrees": 24.964230969548225,
+  "selection": 0.04974016916821711,
+  "rows": [
+    {
+      "id": "042ee3796099ec91d0d4ff399a4f5dd252e147b0fb6003f5140a55360ce4e34a",
+      "family": "042ee3796099ec91d0d4ff399a4f5dd252e147b0fb6003f5140a55360ce4e34a",
+      "normalized_mse": 0.007242754101753235,
+      "normal_degrees": 6.4027509689331055,
+      "selection": 0.027263805270195007,
+      "normal_count": 777
+    },
+    {
+      "id": "2e2bcd9edc15dee89063d20895f495abb912e26ace27c188def6b216b2556fe5",
+      "family": "2e2bcd9edc15dee89063d20895f495abb912e26ace27c188def6b216b2556fe5",
+      "normalized_mse": 0.007862549275159836,
+      "normal_degrees": 15.315081596374512,
+      "selection": 0.04287911579012871,
+      "normal_count": 733
+    },
+    {
+      "id": "09cf820e6ac1fc3707561c000655ab046ee1a3cc8422244b877f7f8f8ccc5744",
+      "family": "09cf820e6ac1fc3707561c000655ab046ee1a3cc8422244b877f7f8f8ccc5744",
+      "normalized_mse": 0.0031660101376473904,
+      "normal_degrees": 13.73156452178955,
+      "selection": 0.026462242007255554,
+      "normal_count": 764
+    },
+    {
+      "id": "213ed284e5ed0896ac72db3f9330c361f7d7858fce0d79de123133b8e9601612",
+      "family": "213ed284e5ed0896ac72db3f9330c361f7d7858fce0d79de123133b8e9601612",
+      "normalized_mse": 0.002695037517696619,
+      "normal_degrees": 15.90572738647461,
+      "selection": 0.027112102136015892,
+      "normal_count": 826
+    },
+    {
+      "id": "080ef07993402b325e3e7e4078c81a062ec10fa0b398b1d4aa56396b71a0aa89",
+      "family": "080ef07993402b325e3e7e4078c81a062ec10fa0b398b1d4aa56396b71a0aa89",
+      "normalized_mse": 0.005080730188637972,
+      "normal_degrees": 33.87922668457031,
+      "selection": 0.05203617736697197,
+      "normal_count": 770
+    },
+    {
+      "id": "16b3b2d6bb15cd92ee23842ae817a72783ebf2552fd2aea49109e0727716867d",
+      "family": "16b3b2d6bb15cd92ee23842ae817a72783ebf2552fd2aea49109e0727716867d",
+      "normalized_mse": 0.006787502206861973,
+      "normal_degrees": 31.367938995361328,
+      "selection": 0.04648876190185547,
+      "normal_count": 769
+    },
+    {
+      "id": "0da8de9c61e52b59c914580100160223a9a45a61bbf200287efa3b7229085247",
+      "family": "0da8de9c61e52b59c914580100160223a9a45a61bbf200287efa3b7229085247",
+      "normalized_mse": 0.016510264948010445,
+      "normal_degrees": 39.87353515625,
+      "selection": 0.08893466740846634,
+      "normal_count": 723
+    },
+    {
+      "id": "08e0cf63bf1e3b5c1d4ec50b36d05a0eb35929fc691c89dd95ca7e4e1ba53abd",
+      "family": "08e0cf63bf1e3b5c1d4ec50b36d05a0eb35929fc691c89dd95ca7e4e1ba53abd",
+      "normalized_mse": 0.007332165259867907,
+      "normal_degrees": 23.846494674682617,
+      "selection": 0.0443996861577034,
+      "normal_count": 731
+    },
+    {
+      "id": "2671d08fe2577e3f601c68dc3caad9d3e5321339df515ab24ac55dc2bc0e7499",
+      "family": "2671d08fe2577e3f601c68dc3caad9d3e5321339df515ab24ac55dc2bc0e7499",
+      "normalized_mse": 0.002059782622382045,
+      "normal_degrees": 15.156002044677734,
+      "selection": 0.024659747257828712,
+      "normal_count": 801
+    },
+    {
+      "id": "260d4cdc270315a6ff181a2248f0e4995794ec7990834c82a3fd8d558aa5f519",
+      "family": "260d4cdc270315a6ff181a2248f0e4995794ec7990834c82a3fd8d558aa5f519",
+      "normalized_mse": 0.027378486469388008,
+      "normal_degrees": 25.918373107910156,
+      "selection": 0.0766414925456047,
+      "normal_count": 754
+    },
+    {
+      "id": "2f21f4a5941a7c880e2e2e0b57134b6fe5e88fe4f69e93422dd4c0c1e66fe065",
+      "family": "2f21f4a5941a7c880e2e2e0b57134b6fe5e88fe4f69e93422dd4c0c1e66fe065",
+      "normalized_mse": 0.01048164814710617,
+      "normal_degrees": 32.52415084838867,
+      "selection": 0.06301197409629822,
+      "normal_count": 780
+    },
+    {
+      "id": "08c90b00dfa633c6b0421cc0fee6484ad9acdae6e1e2113884c027684c526298",
+      "family": "08c90b00dfa633c6b0421cc0fee6484ad9acdae6e1e2113884c027684c526298",
+      "normalized_mse": 0.002604692243039608,
+      "normal_degrees": 25.158710479736328,
+      "selection": 0.03324880823493004,
+      "normal_count": 815
+    },
+    {
+      "id": "35307de20076dae7abcefcdaf61dfd6ef5d15f6487a3975c1a1445e56b247a95",
+      "family": "35307de20076dae7abcefcdaf61dfd6ef5d15f6487a3975c1a1445e56b247a95",
+      "normalized_mse": 0.0072980644181370735,
+      "normal_degrees": 19.940528869628906,
+      "selection": 0.03883015364408493,
+      "normal_count": 808
+    },
+    {
+      "id": "1698d5cdf76d0a7f93c74c3a07af8b68062553260f8bb361513ec07ef603f805",
+      "family": "1698d5cdf76d0a7f93c74c3a07af8b68062553260f8bb361513ec07ef603f805",
+      "normalized_mse": 0.00829952210187912,
+      "normal_degrees": 30.167766571044922,
+      "selection": 0.05683527886867523,
+      "normal_count": 754
+    },
+    {
+      "id": "17e34e3a554d59b6d040006156161beca9cde27407e61144a4f0f758d0dd5cc8",
+      "family": "17e34e3a554d59b6d040006156161beca9cde27407e61144a4f0f758d0dd5cc8",
+      "normalized_mse": 0.00496999267488718,
+      "normal_degrees": 23.185880661010742,
+      "selection": 0.04009325057268143,
+      "normal_count": 723
+    },
+    {
+      "id": "1ced5d3f5487e38b77e60f61d97ba9a0202668c5137d61cd8017ede5ad5d07f8",
+      "family": "1ced5d3f5487e38b77e60f61d97ba9a0202668c5137d61cd8017ede5ad5d07f8",
+      "normalized_mse": 0.002024794928729534,
+      "normal_degrees": 7.034294128417969,
+      "selection": 0.01742665097117424,
+      "normal_count": 757
+    },
+    {
+      "id": "08725bfae161c1711734dd2ced9f215896c34d156e3455d97afd9d7c1a288d87",
+      "family": "08725bfae161c1711734dd2ced9f215896c34d156e3455d97afd9d7c1a288d87",
+      "normalized_mse": 0.016839761286973953,
+      "normal_degrees": 26.9714298248291,
+      "selection": 0.07224167883396149,
+      "normal_count": 760
+    },
+    {
+      "id": "2418b15cd4e27848a95d36f95bd6817bb40b9c68a443f79577a883a8a3847d14",
+      "family": "2418b15cd4e27848a95d36f95bd6817bb40b9c68a443f79577a883a8a3847d14",
+      "normalized_mse": 0.013417926616966724,
+      "normal_degrees": 26.234375,
+      "selection": 0.06320834904909134,
+      "normal_count": 802
+    },
+    {
+      "id": "2ca68e519dd7c6b76392bb08a33198ee0d424d885490f3314910ba037da3aac6",
+      "family": "2ca68e519dd7c6b76392bb08a33198ee0d424d885490f3314910ba037da3aac6",
+      "normalized_mse": 0.0060399556532502174,
+      "normal_degrees": 32.16287612915039,
+      "selection": 0.05086292326450348,
+      "normal_count": 773
+    },
+    {
+      "id": "30eb8a89f028dc7c57dfb479df0a1e5df303712ef7063ec53d88f0b1b722cf88",
+      "family": "30eb8a89f028dc7c57dfb479df0a1e5df303712ef7063ec53d88f0b1b722cf88",
+      "normalized_mse": 0.005728551652282476,
+      "normal_degrees": 20.851613998413086,
+      "selection": 0.03948745131492615,
+      "normal_count": 747
+    },
+    {
+      "id": "2e52b2644da9d83510b5a0701a61ee956eeda8f75b999fc2bcfca9c47ef21111",
+      "family": "2e52b2644da9d83510b5a0701a61ee956eeda8f75b999fc2bcfca9c47ef21111",
+      "normalized_mse": 0.007015050854533911,
+      "normal_degrees": 37.383079528808594,
+      "selection": 0.06017139554023743,
+      "normal_count": 790
+    },
+    {
+      "id": "2c01197f5aaadc7f4d98b1cba437d86bfabc4ed32a9948125826f8ac2e8fbefd",
+      "family": "2c01197f5aaadc7f4d98b1cba437d86bfabc4ed32a9948125826f8ac2e8fbefd",
+      "normalized_mse": 0.003873482346534729,
+      "normal_degrees": 19.355642318725586,
+      "selection": 0.03440861776471138,
+      "normal_count": 739
+    },
+    {
+      "id": "1ed20182d5c6262c323d69bf14e10e159a3f1f8748f2a849de3551ef50d47649",
+      "family": "1ed20182d5c6262c323d69bf14e10e159a3f1f8748f2a849de3551ef50d47649",
+      "normalized_mse": 0.007354008033871651,
+      "normal_degrees": 24.86672019958496,
+      "selection": 0.056592971086502075,
+      "normal_count": 786
+    },
+    {
+      "id": "21b89224894190e20e3355a368572149b0fee53017fcb331031fe2472ca96976",
+      "family": "21b89224894190e20e3355a368572149b0fee53017fcb331031fe2472ca96976",
+      "normalized_mse": 0.01318024005740881,
+      "normal_degrees": 33.47846221923828,
+      "selection": 0.07028469443321228,
+      "normal_count": 736
+    },
+    {
+      "id": "1dcd1f6d7db90034b28e03d1c01228eb10986c4b7947f655d273d724d17537b6",
+      "family": "1dcd1f6d7db90034b28e03d1c01228eb10986c4b7947f655d273d724d17537b6",
+      "normalized_mse": 0.02283780835568905,
+      "normal_degrees": 13.953470230102539,
+      "selection": 0.06461844593286514,
+      "normal_count": 733
+    },
+    {
+      "id": "32d060bbb4a62b6c4f7474ff02c291e052959ad9bde859bae7feb8a7af4d9b60",
+      "family": "32d060bbb4a62b6c4f7474ff02c291e052959ad9bde859bae7feb8a7af4d9b60",
+      "normalized_mse": 0.008835505694150925,
+      "normal_degrees": 42.14419937133789,
+      "selection": 0.06648550927639008,
+      "normal_count": 765
+    },
+    {
+      "id": "11b18c5f651ceb7d12b02dcfd2ee758943155c0a02db242748c6f0c963acfec9",
+      "family": "11b18c5f651ceb7d12b02dcfd2ee758943155c0a02db242748c6f0c963acfec9",
+      "normalized_mse": 0.0018188842805102468,
+      "normal_degrees": 10.128792762756348,
+      "selection": 0.015661336481571198,
+      "normal_count": 795
+    },
+    {
+      "id": "09fed9112eea56fb1f3e7d4417a1ccde27b2ee97fbffeae7df6ddb4997435b23",
+      "family": "09fed9112eea56fb1f3e7d4417a1ccde27b2ee97fbffeae7df6ddb4997435b23",
+      "normalized_mse": 0.00977611169219017,
+      "normal_degrees": 26.29959487915039,
+      "selection": 0.06007051095366478,
+      "normal_count": 753
+    },
+    {
+      "id": "34c6a016e99110fbf8427dd2580be5d4e507ec2fa5eb848adb55c3cb052208ce",
+      "family": "34c6a016e99110fbf8427dd2580be5d4e507ec2fa5eb848adb55c3cb052208ce",
+      "normalized_mse": 0.024819040670990944,
+      "normal_degrees": 36.28739929199219,
+      "selection": 0.09774117916822433,
+      "normal_count": 780
+    },
+    {
+      "id": "32599b4b3dc1b9025b51815a8fb9a6c5cb592a9c7426810ee7eb1c63fc6d4506",
+      "family": "32599b4b3dc1b9025b51815a8fb9a6c5cb592a9c7426810ee7eb1c63fc6d4506",
+      "normalized_mse": 0.0038757554721087217,
+      "normal_degrees": 16.097890853881836,
+      "selection": 0.028782885521650314,
+      "normal_count": 784
+    },
+    {
+      "id": "2ed013f423e0b2e2d2890a4330cd213e15d701cf3bac424c744878ff4e4f782f",
+      "family": "2ed013f423e0b2e2d2890a4330cd213e15d701cf3bac424c744878ff4e4f782f",
+      "normalized_mse": 0.0041299788281321526,
+      "normal_degrees": 25.041738510131836,
+      "selection": 0.038995273411273956,
+      "normal_count": 892
+    },
+    {
+      "id": "0f0fba471c9c526e9d6007f9ec2a5efe2c885cc532e3cb10aab3a8d1d836bd6a",
+      "family": "0f0fba471c9c526e9d6007f9ec2a5efe2c885cc532e3cb10aab3a8d1d836bd6a",
+      "normalized_mse": 0.013121579773724079,
+      "normal_degrees": 17.027204513549805,
+      "selection": 0.04470280930399895,
+      "normal_count": 791
+    },
+    {
+      "id": "04ebccb1f5f8433e355be5c9d40832c722ddf54d7397f527af949ced71eada24",
+      "family": "04ebccb1f5f8433e355be5c9d40832c722ddf54d7397f527af949ced71eada24",
+      "normalized_mse": 0.0024552233517169952,
+      "normal_degrees": 21.572368621826172,
+      "selection": 0.030088864266872406,
+      "normal_count": 792
+    },
+    {
+      "id": "2d70c8c6efefa55ec2c556e3469cb69f0bcd4497d4e642ef0683b871b619ac49",
+      "family": "2d70c8c6efefa55ec2c556e3469cb69f0bcd4497d4e642ef0683b871b619ac49",
+      "normalized_mse": 0.0044928304851055145,
+      "normal_degrees": 45.22121047973633,
+      "selection": 0.06386249512434006,
+      "normal_count": 754
+    },
+    {
+      "id": "232721b934e306bc39f7e88c5fb00d8a371bac84c8c4cbc1032748dd9ceb761f",
+      "family": "232721b934e306bc39f7e88c5fb00d8a371bac84c8c4cbc1032748dd9ceb761f",
+      "normalized_mse": 0.007571808993816376,
+      "normal_degrees": 34.782073974609375,
+      "selection": 0.05761061608791351,
+      "normal_count": 793
+    },
+    {
+      "id": "1875fe19cbeba480bccf819f28c60424aeae4006c28daa758254da426d8141c0",
+      "family": "1875fe19cbeba480bccf819f28c60424aeae4006c28daa758254da426d8141c0",
+      "normalized_mse": 0.004139726050198078,
+      "normal_degrees": 34.96023941040039,
+      "selection": 0.04973677545785904,
+      "normal_count": 775
+    },
+    {
+      "id": "07566a1426bae19b05e054b08bfb976b2b794dfd16cc24d6bfcdb4e1f01c9de9",
+      "family": "07566a1426bae19b05e054b08bfb976b2b794dfd16cc24d6bfcdb4e1f01c9de9",
+      "normalized_mse": 0.0038923947140574455,
+      "normal_degrees": 58.496585845947266,
+      "selection": 0.07952122390270233,
+      "normal_count": 832
+    },
+    {
+      "id": "257b886a06a99fe2a369a43c5c69087a5f023747566fb1ff42d9324bb82dd147",
+      "family": "257b886a06a99fe2a369a43c5c69087a5f023747566fb1ff42d9324bb82dd147",
+      "normalized_mse": 0.00165536068379879,
+      "normal_degrees": 9.728614807128906,
+      "selection": 0.01725560612976551,
+      "normal_count": 813
+    },
+    {
+      "id": "083d33737727b2faefec928bb8d897853b49f6d9288ac1d84e4760d7ff6aa0d6",
+      "family": "083d33737727b2faefec928bb8d897853b49f6d9288ac1d84e4760d7ff6aa0d6",
+      "normalized_mse": 0.01982158049941063,
+      "normal_degrees": 21.519203186035156,
+      "selection": 0.06986723095178604,
+      "normal_count": 733
+    },
+    {
+      "id": "35e84fa6d2e04785b3eb0cde036d094e374a30d99f3b61f9b771210f10a20e29",
+      "family": "35e84fa6d2e04785b3eb0cde036d094e374a30d99f3b61f9b771210f10a20e29",
+      "normalized_mse": 0.006431744433939457,
+      "normal_degrees": 18.854366302490234,
+      "selection": 0.042001791298389435,
+      "normal_count": 811
+    },
+    {
+      "id": "24e32add7589f5b61acd86267ba4005e289373643ae3d5bfc9508cc2c4f4b468",
+      "family": "24e32add7589f5b61acd86267ba4005e289373643ae3d5bfc9508cc2c4f4b468",
+      "normalized_mse": 0.013752155937254429,
+      "normal_degrees": 17.66130256652832,
+      "selection": 0.049559637904167175,
+      "normal_count": 778
+    },
+    {
+      "id": "0e6d4eab5121c29b2671d40028988928d8e75724ccbac0fd10d08666e759b4a7",
+      "family": "0e6d4eab5121c29b2671d40028988928d8e75724ccbac0fd10d08666e759b4a7",
+      "normalized_mse": 0.007702881004661322,
+      "normal_degrees": 37.01874542236328,
+      "selection": 0.0657159611582756,
+      "normal_count": 784
+    },
+    {
+      "id": "15372705edde3f99122fffa4ca2d26c1cad419204f546e6ccb5e7848ae64f342",
+      "family": "15372705edde3f99122fffa4ca2d26c1cad419204f546e6ccb5e7848ae64f342",
+      "normalized_mse": 0.009530093520879745,
+      "normal_degrees": 26.94295883178711,
+      "selection": 0.05297437310218811,
+      "normal_count": 752
+    },
+    {
+      "id": "0aa5d97dee92a867a57f431f4f5966b7b312d4f7272b973775054f0c4618fa1e",
+      "family": "0aa5d97dee92a867a57f431f4f5966b7b312d4f7272b973775054f0c4618fa1e",
+      "normalized_mse": 0.022513099014759064,
+      "normal_degrees": 36.15122985839844,
+      "selection": 0.09675846993923187,
+      "normal_count": 749
+    },
+    {
+      "id": "0ba4651f2a9375180ac431e2708f5377f020624c9505f81542d767745cc3503d",
+      "family": "0ba4651f2a9375180ac431e2708f5377f020624c9505f81542d767745cc3503d",
+      "normalized_mse": 0.00832778587937355,
+      "normal_degrees": 24.265857696533203,
+      "selection": 0.04917432367801666,
+      "normal_count": 760
+    },
+    {
+      "id": "20670116429b4809b9b1356d5c84c66aa0fad25ec9fde1c5f5cdf2f35aa5ca3c",
+      "family": "20670116429b4809b9b1356d5c84c66aa0fad25ec9fde1c5f5cdf2f35aa5ca3c",
+      "normalized_mse": 0.0019345791079103947,
+      "normal_degrees": 12.770750999450684,
+      "selection": 0.020151905715465546,
+      "normal_count": 810
+    },
+    {
+      "id": "2aec040c9c8c109d787602aa605eaefd415bb52383da5694c5e0db42c47c8dae",
+      "family": "2aec040c9c8c109d787602aa605eaefd415bb52383da5694c5e0db42c47c8dae",
+      "normalized_mse": 0.008562184870243073,
+      "normal_degrees": 27.841796875,
+      "selection": 0.054204195737838745,
+      "normal_count": 770
+    },
+    {
+      "id": "0599a16c2bb62f5d2052132a1dd65467783708f752b0056c0385992b4d3b8f10",
+      "family": "0599a16c2bb62f5d2052132a1dd65467783708f752b0056c0385992b4d3b8f10",
+      "normalized_mse": 0.04937410354614258,
+      "normal_degrees": 41.500423431396484,
+      "selection": 0.12750083208084106,
+      "normal_count": 739
+    },
+    {
+      "id": "08154ed5c526c7d6879bf230dbb0b178662d09a41543090ec378b6790bd75ed3",
+      "family": "08154ed5c526c7d6879bf230dbb0b178662d09a41543090ec378b6790bd75ed3",
+      "normalized_mse": 0.004985832143574953,
+      "normal_degrees": 26.66002082824707,
+      "selection": 0.0403570756316185,
+      "normal_count": 807
+    },
+    {
+      "id": "06a33758d7908e01a868431f3f7a5c2db575384cdd035a43fb643097d495da71",
+      "family": "06a33758d7908e01a868431f3f7a5c2db575384cdd035a43fb643097d495da71",
+      "normalized_mse": 0.003888989333063364,
+      "normal_degrees": 24.0987548828125,
+      "selection": 0.042206086218357086,
+      "normal_count": 826
+    },
+    {
+      "id": "0e553da3c4fa56fae80d9c34fb61f210ace913dbffccbbc5efff8af23cef2cbd",
+      "family": "0e553da3c4fa56fae80d9c34fb61f210ace913dbffccbbc5efff8af23cef2cbd",
+      "normalized_mse": 0.029058266431093216,
+      "normal_degrees": 28.309011459350586,
+      "selection": 0.07866400480270386,
+      "normal_count": 759
+    },
+    {
+      "id": "24f8f8b9361eae5f24de674b82a30222d8bf7017bc5edf15e252d37eb988fd9f",
+      "family": "24f8f8b9361eae5f24de674b82a30222d8bf7017bc5edf15e252d37eb988fd9f",
+      "normalized_mse": 0.0032658919226378202,
+      "normal_degrees": 33.761558532714844,
+      "selection": 0.04455440491437912,
+      "normal_count": 760
+    },
+    {
+      "id": "250e7d8d6e073110c9d57c0e8fd3e6d7a24b9ab0ebe0e32beecbceffe3527904",
+      "family": "250e7d8d6e073110c9d57c0e8fd3e6d7a24b9ab0ebe0e32beecbceffe3527904",
+      "normalized_mse": 0.00611601397395134,
+      "normal_degrees": 17.526350021362305,
+      "selection": 0.03804657980799675,
+      "normal_count": 789
+    },
+    {
+      "id": "0a0c269a5b3d3219661bc43b1f71e7c8489555e751ac60e4e4f41d838cd67952",
+      "family": "0a0c269a5b3d3219661bc43b1f71e7c8489555e751ac60e4e4f41d838cd67952",
+      "normalized_mse": 0.002625327557325363,
+      "normal_degrees": 10.384882926940918,
+      "selection": 0.020980771631002426,
+      "normal_count": 753
+    },
+    {
+      "id": "1a5387180b42b446c3cb940e44e1ad37333b2ce4021293f26a438e1570d79145",
+      "family": "1a5387180b42b446c3cb940e44e1ad37333b2ce4021293f26a438e1570d79145",
+      "normalized_mse": 0.006203054450452328,
+      "normal_degrees": 30.065563201904297,
+      "selection": 0.05088896304368973,
+      "normal_count": 806
+    },
+    {
+      "id": "134c14a8694f9dfbd4975643cd5df806ece3b832efb1c3e027b67f30dea1bce9",
+      "family": "134c14a8694f9dfbd4975643cd5df806ece3b832efb1c3e027b67f30dea1bce9",
+      "normalized_mse": 0.014372935518622398,
+      "normal_degrees": 11.647655487060547,
+      "selection": 0.041190311312675476,
+      "normal_count": 748
+    },
+    {
+      "id": "2c3d4ba07da162923ec3a130875b74cccee34f9da8e7e5b25d0cad65bcbb0778",
+      "family": "2c3d4ba07da162923ec3a130875b74cccee34f9da8e7e5b25d0cad65bcbb0778",
+      "normalized_mse": 0.005342358723282814,
+      "normal_degrees": 20.692642211914062,
+      "selection": 0.038994982838630676,
+      "normal_count": 761
+    },
+    {
+      "id": "24285d3f8e5345faeee78155e0e44e405c72ea449666b215d2acb37236cd996d",
+      "family": "24285d3f8e5345faeee78155e0e44e405c72ea449666b215d2acb37236cd996d",
+      "normalized_mse": 0.04129160940647125,
+      "normal_degrees": 18.253509521484375,
+      "selection": 0.09388942271471024,
+      "normal_count": 745
+    },
+    {
+      "id": "13f471697b363618fa142dee3adcb408388892b4cfc7965777f54de2f7a3cf12",
+      "family": "13f471697b363618fa142dee3adcb408388892b4cfc7965777f54de2f7a3cf12",
+      "normalized_mse": 0.005486858077347279,
+      "normal_degrees": 36.44275665283203,
+      "selection": 0.051586393266916275,
+      "normal_count": 919
+    },
+    {
+      "id": "1e7b591d655aa4287303d55640fc12971bcc80aaf26c93dbfcdad870caf0714f",
+      "family": "1e7b591d655aa4287303d55640fc12971bcc80aaf26c93dbfcdad870caf0714f",
+      "normalized_mse": 0.003151135053485632,
+      "normal_degrees": 30.499919891357422,
+      "selection": 0.04254040867090225,
+      "normal_count": 774
+    },
+    {
+      "id": "0285e6ac628ba26cf519d5b836189ccf064adc96a7a0e3eb191921ce87541de7",
+      "family": "0285e6ac628ba26cf519d5b836189ccf064adc96a7a0e3eb191921ce87541de7",
+      "normalized_mse": 0.007878882810473442,
+      "normal_degrees": 26.55063819885254,
+      "selection": 0.05200732499361038,
+      "normal_count": 809
+    },
+    {
+      "id": "329794bfb91af0109b230875d4572d4c031f0015f5488a3046caa04a25af73c1",
+      "family": "329794bfb91af0109b230875d4572d4c031f0015f5488a3046caa04a25af73c1",
+      "normalized_mse": 0.00269742077216506,
+      "normal_degrees": 17.656455993652344,
+      "selection": 0.02924644947052002,
+      "normal_count": 770
+    },
+    {
+      "id": "0ad6c8e0ca299df5f6fa9a995966ba36ca2c3717481a5e208bd1f5ff47ae2566",
+      "family": "0ad6c8e0ca299df5f6fa9a995966ba36ca2c3717481a5e208bd1f5ff47ae2566",
+      "normalized_mse": 0.01215664017945528,
+      "normal_degrees": 34.82280349731445,
+      "selection": 0.06954781711101532,
+      "normal_count": 727
+    },
+    {
+      "id": "3044314106c20b82c612cd6a60b19b633051c4f3cfa07fcac4ecd99b1733a476",
+      "family": "3044314106c20b82c612cd6a60b19b633051c4f3cfa07fcac4ecd99b1733a476",
+      "normalized_mse": 0.010868407785892487,
+      "normal_degrees": 46.4914436340332,
+      "selection": 0.08190429955720901,
+      "normal_count": 807
+    },
+    {
+      "id": "1799f2bf16b387e92d8369377d02f723960cde05bc49f16cc59fae690047be93",
+      "family": "1799f2bf16b387e92d8369377d02f723960cde05bc49f16cc59fae690047be93",
+      "normalized_mse": 0.012196204625070095,
+      "normal_degrees": 28.156909942626953,
+      "selection": 0.058839377015829086,
+      "normal_count": 773
+    },
+    {
+      "id": "2b897a69be173978c65e923180acee44ea6639ea4c82e55d2a9af7b270305540",
+      "family": "2b897a69be173978c65e923180acee44ea6639ea4c82e55d2a9af7b270305540",
+      "normalized_mse": 0.004254557192325592,
+      "normal_degrees": 26.207300186157227,
+      "selection": 0.03748025745153427,
+      "normal_count": 774
+    },
+    {
+      "id": "031073d42fa5413bb88010c093519e7761843e29e6e6d95148528c025f8f98b7",
+      "family": "031073d42fa5413bb88010c093519e7761843e29e6e6d95148528c025f8f98b7",
+      "normalized_mse": 0.0024200393818318844,
+      "normal_degrees": 9.01207160949707,
+      "selection": 0.019174398854374886,
+      "normal_count": 783
+    },
+    {
+      "id": "02d895fec2a4ffba566d81308ccd31406a18fbc0a2a8efd2e2e9006dc2eae4a0",
+      "family": "02d895fec2a4ffba566d81308ccd31406a18fbc0a2a8efd2e2e9006dc2eae4a0",
+      "normalized_mse": 0.0034903036430478096,
+      "normal_degrees": 21.300397872924805,
+      "selection": 0.0338580384850502,
+      "normal_count": 805
+    },
+    {
+      "id": "1fafa2d6cb7092a57777104e2f7f3a4adce3c1ab26feac65b642ab7b52b947f8",
+      "family": "1fafa2d6cb7092a57777104e2f7f3a4adce3c1ab26feac65b642ab7b52b947f8",
+      "normalized_mse": 0.004770170897245407,
+      "normal_degrees": 32.57267761230469,
+      "selection": 0.046360526233911514,
+      "normal_count": 745
+    },
+    {
+      "id": "1495d65462045f0b64b44a8c9eee57dca078f67920e87711a9c47eeab9acf0dd",
+      "family": "1495d65462045f0b64b44a8c9eee57dca078f67920e87711a9c47eeab9acf0dd",
+      "normalized_mse": 0.020661404356360435,
+      "normal_degrees": 27.777524948120117,
+      "selection": 0.07198432832956314,
+      "normal_count": 711
+    },
+    {
+      "id": "2f9cb361bf4b641c636c3ec9d0fbabb8e553fd9db4c935ab23659909bdab46a2",
+      "family": "2f9cb361bf4b641c636c3ec9d0fbabb8e553fd9db4c935ab23659909bdab46a2",
+      "normalized_mse": 0.0033902847208082676,
+      "normal_degrees": 30.426559448242188,
+      "selection": 0.03987719118595123,
+      "normal_count": 752
+    },
+    {
+      "id": "179b6f9078a9a18c78ad9f7745f79f92ddc1296edb4fbb9096b2c84aef791810",
+      "family": "179b6f9078a9a18c78ad9f7745f79f92ddc1296edb4fbb9096b2c84aef791810",
+      "normalized_mse": 0.006994345225393772,
+      "normal_degrees": 10.383185386657715,
+      "selection": 0.03210552781820297,
+      "normal_count": 746
+    },
+    {
+      "id": "0ca55174b6880838141a69cf5449a19240f27247d91232053e851c19c654f91d",
+      "family": "0ca55174b6880838141a69cf5449a19240f27247d91232053e851c19c654f91d",
+      "normalized_mse": 0.006833797320723534,
+      "normal_degrees": 15.709464073181152,
+      "selection": 0.04056043177843094,
+      "normal_count": 815
+    },
+    {
+      "id": "35c6ceddce7fb4b749b67c00e4926e69d7d2a4890f70887b74e8dad64260e861",
+      "family": "35c6ceddce7fb4b749b67c00e4926e69d7d2a4890f70887b74e8dad64260e861",
+      "normalized_mse": 0.005207851529121399,
+      "normal_degrees": 30.211151123046875,
+      "selection": 0.04666507989168167,
+      "normal_count": 839
+    },
+    {
+      "id": "1535c606946c4dad7cc7bfaee3fff4a4966777ee4bbdff65eacace00fd6e70f1",
+      "family": "1535c606946c4dad7cc7bfaee3fff4a4966777ee4bbdff65eacace00fd6e70f1",
+      "normalized_mse": 0.01962042599916458,
+      "normal_degrees": 29.5140380859375,
+      "selection": 0.08544818311929703,
+      "normal_count": 735
+    },
+    {
+      "id": "15840028c21bf159bc217ec7bb9c04a3c0ff0840dfc07b968ccbfb496d9ebba5",
+      "family": "15840028c21bf159bc217ec7bb9c04a3c0ff0840dfc07b968ccbfb496d9ebba5",
+      "normalized_mse": 0.004761429037898779,
+      "normal_degrees": 17.01004409790039,
+      "selection": 0.032978206872940063,
+      "normal_count": 756
+    },
+    {
+      "id": "17606a3694c34dfab3b28825164d6c9283c9a7cdcc4a5861a956d503328a6e4d",
+      "family": "17606a3694c34dfab3b28825164d6c9283c9a7cdcc4a5861a956d503328a6e4d",
+      "normalized_mse": 0.010181725025177002,
+      "normal_degrees": 29.04587173461914,
+      "selection": 0.06213347613811493,
+      "normal_count": 786
+    },
+    {
+      "id": "1faab81526b6ec4e6741da7c74606e8d1c2aacbe9bd036cce394869e33d8170e",
+      "family": "1faab81526b6ec4e6741da7c74606e8d1c2aacbe9bd036cce394869e33d8170e",
+      "normalized_mse": 0.0363394096493721,
+      "normal_degrees": 44.173770904541016,
+      "selection": 0.13024520874023438,
+      "normal_count": 777
+    },
+    {
+      "id": "1f7e305c67e1153ae2dfa75ebd7220bf88ca491108fd57c5478e8f27b4cfab2b",
+      "family": "1f7e305c67e1153ae2dfa75ebd7220bf88ca491108fd57c5478e8f27b4cfab2b",
+      "normalized_mse": 0.004026525653898716,
+      "normal_degrees": 39.80685043334961,
+      "selection": 0.05423828586935997,
+      "normal_count": 771
+    },
+    {
+      "id": "1c59674cb4280c937348ea203e4240e20e9cb0a8f918fa23470e027aa3d77e0d",
+      "family": "1c59674cb4280c937348ea203e4240e20e9cb0a8f918fa23470e027aa3d77e0d",
+      "normalized_mse": 0.0021964891348034143,
+      "normal_degrees": 16.636686325073242,
+      "selection": 0.026350952684879303,
+      "normal_count": 808
+    },
+    {
+      "id": "092a41be0ee6803b2b36d01ee19acee2d094045bf72c75247b69c65ef9eba462",
+      "family": "092a41be0ee6803b2b36d01ee19acee2d094045bf72c75247b69c65ef9eba462",
+      "normalized_mse": 0.0031468928791582584,
+      "normal_degrees": 35.69355010986328,
+      "selection": 0.04846017062664032,
+      "normal_count": 770
+    },
+    {
+      "id": "2c86d5ec9dbec304fbe3d8a234f36b255c5134e88f35bcc8ca812944a48ae045",
+      "family": "2c86d5ec9dbec304fbe3d8a234f36b255c5134e88f35bcc8ca812944a48ae045",
+      "normalized_mse": 0.002104321727529168,
+      "normal_degrees": 21.09841537475586,
+      "selection": 0.02766197733581066,
+      "normal_count": 768
+    },
+    {
+      "id": "1b6c6f8c77e60e5cf2dfaa88864169e5375bb56a4972a6dd317baca9c7c3ea80",
+      "family": "1b6c6f8c77e60e5cf2dfaa88864169e5375bb56a4972a6dd317baca9c7c3ea80",
+      "normalized_mse": 0.005379228852689266,
+      "normal_degrees": 32.648067474365234,
+      "selection": 0.05399363115429878,
+      "normal_count": 779
+    },
+    {
+      "id": "0afdd3e7471c7311bc4101330df0a4e1372b7dc23e780f4d4ae54845d89d3272",
+      "family": "0afdd3e7471c7311bc4101330df0a4e1372b7dc23e780f4d4ae54845d89d3272",
+      "normalized_mse": 0.0015734746120870113,
+      "normal_degrees": 8.452879905700684,
+      "selection": 0.016447976231575012,
+      "normal_count": 848
+    },
+    {
+      "id": "0c8a79b3753be7d250a92ed3c9043940b474c7e692adbb105c23d91a1a92e120",
+      "family": "0c8a79b3753be7d250a92ed3c9043940b474c7e692adbb105c23d91a1a92e120",
+      "normalized_mse": 0.008888030424714088,
+      "normal_degrees": 14.558578491210938,
+      "selection": 0.04023168608546257,
+      "normal_count": 770
+    },
+    {
+      "id": "17a0abbe1e17c701e50354f04e56e1f69b9ead19f82f64a7892360fcce4183ec",
+      "family": "17a0abbe1e17c701e50354f04e56e1f69b9ead19f82f64a7892360fcce4183ec",
+      "normalized_mse": 0.004093907307833433,
+      "normal_degrees": 17.252634048461914,
+      "selection": 0.03390675410628319,
+      "normal_count": 769
+    },
+    {
+      "id": "14e8b07b6b9feb55503da246dd693b4e5e05bc2ecf720f7b38d50f63d526495c",
+      "family": "14e8b07b6b9feb55503da246dd693b4e5e05bc2ecf720f7b38d50f63d526495c",
+      "normalized_mse": 0.006116768345236778,
+      "normal_degrees": 22.995473861694336,
+      "selection": 0.04781344532966614,
+      "normal_count": 793
+    },
+    {
+      "id": "0a8fadaf861a35b0fcf9c3827d6c2c9abc96c07d72ce7179ba8c9eeaa6f415ee",
+      "family": "0a8fadaf861a35b0fcf9c3827d6c2c9abc96c07d72ce7179ba8c9eeaa6f415ee",
+      "normalized_mse": 0.025997480377554893,
+      "normal_degrees": 27.994190216064453,
+      "selection": 0.09009967744350433,
+      "normal_count": 713
+    },
+    {
+      "id": "25a2fbf80259f1abd7980eb472aff178bec33def60129e92ef280cc8c8d14d89",
+      "family": "25a2fbf80259f1abd7980eb472aff178bec33def60129e92ef280cc8c8d14d89",
+      "normalized_mse": 0.006780048366636038,
+      "normal_degrees": 16.93328094482422,
+      "selection": 0.04039088264107704,
+      "normal_count": 762
+    },
+    {
+      "id": "126ab2b11b4a14d7859fd66aaf8364bfadc439419db12d641ce010f496fcddd4",
+      "family": "126ab2b11b4a14d7859fd66aaf8364bfadc439419db12d641ce010f496fcddd4",
+      "normalized_mse": 0.005208192393183708,
+      "normal_degrees": 14.043753623962402,
+      "selection": 0.03665970265865326,
+      "normal_count": 772
+    },
+    {
+      "id": "13dcbb0a63f7e921c228ab0596d8bd8af02ac134e67c3e3a948bf2174c800e78",
+      "family": "13dcbb0a63f7e921c228ab0596d8bd8af02ac134e67c3e3a948bf2174c800e78",
+      "normalized_mse": 0.002571727614849806,
+      "normal_degrees": 8.126319885253906,
+      "selection": 0.020688451826572418,
+      "normal_count": 763
+    },
+    {
+      "id": "06b85e4a96c15740077895325b465e014a12c320ae917057a1ffbf90a4daf18d",
+      "family": "06b85e4a96c15740077895325b465e014a12c320ae917057a1ffbf90a4daf18d",
+      "normalized_mse": 0.034916482865810394,
+      "normal_degrees": 25.08173370361328,
+      "selection": 0.09070898592472076,
+      "normal_count": 762
+    },
+    {
+      "id": "077ff91ed4e1c110d8c860648713fd42660b72da114b71638403ba130d2b29e2",
+      "family": "077ff91ed4e1c110d8c860648713fd42660b72da114b71638403ba130d2b29e2",
+      "normalized_mse": 0.002351788803935051,
+      "normal_degrees": 27.19913673400879,
+      "selection": 0.03649342805147171,
+      "normal_count": 797
+    },
+    {
+      "id": "1b998a409017c2cbadef01247f1f8890fdce89ade317d71f1ac339f31c9ff9d4",
+      "family": "1b998a409017c2cbadef01247f1f8890fdce89ade317d71f1ac339f31c9ff9d4",
+      "normalized_mse": 0.004039812833070755,
+      "normal_degrees": 19.50644302368164,
+      "selection": 0.03321581333875656,
+      "normal_count": 718
+    },
+    {
+      "id": "0b346c8c95b465b884b423c44b3604d76eae0da9ae3b51c3627683ec803f3816",
+      "family": "0b346c8c95b465b884b423c44b3604d76eae0da9ae3b51c3627683ec803f3816",
+      "normalized_mse": 0.004219423048198223,
+      "normal_degrees": 30.74883270263672,
+      "selection": 0.050423458218574524,
+      "normal_count": 839
+    },
+    {
+      "id": "2eb451a498e7c20b718066351a27668a8c61627b29129d7e40d1330887c59997",
+      "family": "2eb451a498e7c20b718066351a27668a8c61627b29129d7e40d1330887c59997",
+      "normalized_mse": 0.0015575459692627192,
+      "normal_degrees": 17.481168746948242,
+      "selection": 0.021831808611750603,
+      "normal_count": 805
+    },
+    {
+      "id": "1d6f1fe37ed5a446592670bd5bb185da320305823d41b67ae6ae14036b53db86",
+      "family": "1d6f1fe37ed5a446592670bd5bb185da320305823d41b67ae6ae14036b53db86",
+      "normalized_mse": 0.007860307581722736,
+      "normal_degrees": 21.440452575683594,
+      "selection": 0.04592517763376236,
+      "normal_count": 767
+    },
+    {
+      "id": "2872e9d4ee5610f9119969b9adc40d455dae6cd1f51975d173d0cf840ddcfd84",
+      "family": "2872e9d4ee5610f9119969b9adc40d455dae6cd1f51975d173d0cf840ddcfd84",
+      "normalized_mse": 0.005654754117131233,
+      "normal_degrees": 33.76679611206055,
+      "selection": 0.0529509112238884,
+      "normal_count": 773
+    },
+    {
+      "id": "093a0216133a606e9a829202a37cfed9b0ba9de74010748bb35821dc21c1437a",
+      "family": "093a0216133a606e9a829202a37cfed9b0ba9de74010748bb35821dc21c1437a",
+      "normalized_mse": 0.00518516730517149,
+      "normal_degrees": 30.52737808227539,
+      "selection": 0.047092705965042114,
+      "normal_count": 746
+    },
+    {
+      "id": "07877b4d38f87ebb1854b6d03740c2f5fe65c6a20fa31aeb9b314b2f2a5e8d9b",
+      "family": "07877b4d38f87ebb1854b6d03740c2f5fe65c6a20fa31aeb9b314b2f2a5e8d9b",
+      "normalized_mse": 0.0026952000334858894,
+      "normal_degrees": 21.218503952026367,
+      "selection": 0.03223401680588722,
+      "normal_count": 815
+    },
+    {
+      "id": "0e9ae5d0cbc2e3e86974eb6a4864a513d6da47fa40f9a3f66a5c4de967685d0a",
+      "family": "0e9ae5d0cbc2e3e86974eb6a4864a513d6da47fa40f9a3f66a5c4de967685d0a",
+      "normalized_mse": 0.004790394566953182,
+      "normal_degrees": 35.498924255371094,
+      "selection": 0.05394250527024269,
+      "normal_count": 785
+    },
+    {
+      "id": "1e107539e14486f8e59d450b08b3a0356e20e92ad2bf67e4a080bb0e9d154eef",
+      "family": "1e107539e14486f8e59d450b08b3a0356e20e92ad2bf67e4a080bb0e9d154eef",
+      "normalized_mse": 0.006413057446479797,
+      "normal_degrees": 22.0835018157959,
+      "selection": 0.04421035200357437,
+      "normal_count": 783
+    },
+    {
+      "id": "0fe9e56c7638bd2c3fe389c793efcae1f7111d5d95df69977dd170dc136c119e",
+      "family": "0fe9e56c7638bd2c3fe389c793efcae1f7111d5d95df69977dd170dc136c119e",
+      "normalized_mse": 0.010140664875507355,
+      "normal_degrees": 33.211883544921875,
+      "selection": 0.06305651366710663,
+      "normal_count": 816
+    },
+    {
+      "id": "33732c452fb5d045ffb53c77223950c66c20caa802f5efd504106db9207c68ab",
+      "family": "33732c452fb5d045ffb53c77223950c66c20caa802f5efd504106db9207c68ab",
+      "normalized_mse": 0.008898591622710228,
+      "normal_degrees": 38.581886291503906,
+      "selection": 0.06708419322967529,
+      "normal_count": 787
+    },
+    {
+      "id": "2da90cf6dc91bb47086180b7b6e48ba98ce6b41beb58b079f4dc4533f5a0a6e5",
+      "family": "2da90cf6dc91bb47086180b7b6e48ba98ce6b41beb58b079f4dc4533f5a0a6e5",
+      "normalized_mse": 0.008958633057773113,
+      "normal_degrees": 8.151098251342773,
+      "selection": 0.030409032478928566,
+      "normal_count": 777
+    },
+    {
+      "id": "2a1b89881092ef9ae07fa53058ab80c3cc71a68a08445fee1b20d6bf3c941084",
+      "family": "2a1b89881092ef9ae07fa53058ab80c3cc71a68a08445fee1b20d6bf3c941084",
+      "normalized_mse": 0.0038480344228446484,
+      "normal_degrees": 14.815513610839844,
+      "selection": 0.028188321739435196,
+      "normal_count": 784
+    },
+    {
+      "id": "192578907f89633aef2696f5062cffde27a0e7dea7794f54c42a2179f2c6303f",
+      "family": "192578907f89633aef2696f5062cffde27a0e7dea7794f54c42a2179f2c6303f",
+      "normalized_mse": 0.006090688519179821,
+      "normal_degrees": 34.10995101928711,
+      "selection": 0.05460477992892265,
+      "normal_count": 804
+    },
+    {
+      "id": "0458b934260dae7226418165c2350501c939ffe08746d62870022f9b471f5197",
+      "family": "0458b934260dae7226418165c2350501c939ffe08746d62870022f9b471f5197",
+      "normalized_mse": 0.012272799387574196,
+      "normal_degrees": 21.001192092895508,
+      "selection": 0.058888547122478485,
+      "normal_count": 735
+    },
+    {
+      "id": "1d11a07c41470ec64ba2ec31d72cb80e979e00ea58074f46168b2b5f6ea27180",
+      "family": "1d11a07c41470ec64ba2ec31d72cb80e979e00ea58074f46168b2b5f6ea27180",
+      "normalized_mse": 0.00364711438305676,
+      "normal_degrees": 25.902324676513672,
+      "selection": 0.04045891761779785,
+      "normal_count": 763
+    },
+    {
+      "id": "2fb1c925c831c084a5658d9495a7854ef10fd2107d2053bdbff52f8c73ae9f1c",
+      "family": "2fb1c925c831c084a5658d9495a7854ef10fd2107d2053bdbff52f8c73ae9f1c",
+      "normalized_mse": 0.01738772727549076,
+      "normal_degrees": 15.415536880493164,
+      "selection": 0.06290940940380096,
+      "normal_count": 767
+    },
+    {
+      "id": "2ac258cc235457c3753c463fc68dd898af2761d8455e826721ec60facabe90c7",
+      "family": "2ac258cc235457c3753c463fc68dd898af2761d8455e826721ec60facabe90c7",
+      "normalized_mse": 0.004949822556227446,
+      "normal_degrees": 39.96581268310547,
+      "selection": 0.05874469876289368,
+      "normal_count": 780
+    },
+    {
+      "id": "2829b388abffd32d73ce7bd33934a35540127ef8bf8adecc24a818e287052e3b",
+      "family": "2829b388abffd32d73ce7bd33934a35540127ef8bf8adecc24a818e287052e3b",
+      "normalized_mse": 0.006246293894946575,
+      "normal_degrees": 21.947689056396484,
+      "selection": 0.04261482506990433,
+      "normal_count": 761
+    },
+    {
+      "id": "2273dc10f2f662547fcdcbcb026cd45c2862875e18c9d728d92ef518bfa44fc7",
+      "family": "2273dc10f2f662547fcdcbcb026cd45c2862875e18c9d728d92ef518bfa44fc7",
+      "normalized_mse": 0.03989581763744354,
+      "normal_degrees": 28.352643966674805,
+      "selection": 0.09739453345537186,
+      "normal_count": 747
+    },
+    {
+      "id": "24798a52c93be7fd1bba1d844848dda02db71eebdbde856e91666a7a5cc6e2d0",
+      "family": "24798a52c93be7fd1bba1d844848dda02db71eebdbde856e91666a7a5cc6e2d0",
+      "normalized_mse": 0.002919783117249608,
+      "normal_degrees": 16.19860076904297,
+      "selection": 0.02786574885249138,
+      "normal_count": 741
+    },
+    {
+      "id": "2f1cdf1c8acaee98fea5e5d1425853eb81aad94e54ae251d13bcfb2016752d37",
+      "family": "2f1cdf1c8acaee98fea5e5d1425853eb81aad94e54ae251d13bcfb2016752d37",
+      "normalized_mse": 0.0035473837051540613,
+      "normal_degrees": 25.38887596130371,
+      "selection": 0.043860502541065216,
+      "normal_count": 803
+    },
+    {
+      "id": "2be0ac8a865e1e4d35e7c5d0ed2c3212fb54f5b8bf79a7a128d473d05045cec8",
+      "family": "2be0ac8a865e1e4d35e7c5d0ed2c3212fb54f5b8bf79a7a128d473d05045cec8",
+      "normalized_mse": 0.00675869919359684,
+      "normal_degrees": 20.601478576660156,
+      "selection": 0.041375480592250824,
+      "normal_count": 801
+    },
+    {
+      "id": "342b9fbbec9522cd2f4125dac71f33126a49addaebeebd1e7372f417b9621990",
+      "family": "342b9fbbec9522cd2f4125dac71f33126a49addaebeebd1e7372f417b9621990",
+      "normalized_mse": 0.00640663830563426,
+      "normal_degrees": 23.780242919921875,
+      "selection": 0.04600146412849426,
+      "normal_count": 762
+    },
+    {
+      "id": "289a2396983806f06bc960489fc7649af13c13f743d680f3b1353da0e3ad6eb2",
+      "family": "289a2396983806f06bc960489fc7649af13c13f743d680f3b1353da0e3ad6eb2",
+      "normalized_mse": 0.00573663180693984,
+      "normal_degrees": 20.140792846679688,
+      "selection": 0.0422341525554657,
+      "normal_count": 759
+    },
+    {
+      "id": "1af618e8a2d9aa4389c75952344a3b757d1d4757eba5b010f14d7289d52851eb",
+      "family": "1af618e8a2d9aa4389c75952344a3b757d1d4757eba5b010f14d7289d52851eb",
+      "normalized_mse": 0.015371320769190788,
+      "normal_degrees": 21.190196990966797,
+      "selection": 0.06277956068515778,
+      "normal_count": 734
+    },
+    {
+      "id": "202706448c62554726bd231710142c54d5f416dfbc0b6fa61a7c2bd5183795a7",
+      "family": "202706448c62554726bd231710142c54d5f416dfbc0b6fa61a7c2bd5183795a7",
+      "normalized_mse": 0.0076563493348658085,
+      "normal_degrees": 15.129020690917969,
+      "selection": 0.03317020460963249,
+      "normal_count": 757
+    },
+    {
+      "id": "22944fecfa23fcef8b67295d5884ff3e3d60542f5760bfea67014344940c30fc",
+      "family": "22944fecfa23fcef8b67295d5884ff3e3d60542f5760bfea67014344940c30fc",
+      "normalized_mse": 0.005408199969679117,
+      "normal_degrees": 35.272705078125,
+      "selection": 0.05329415947198868,
+      "normal_count": 778
+    },
+    {
+      "id": "1b43f5cd36919466c695c1af8947e9973e230cae4886b0376d49e965e72d3121",
+      "family": "1b43f5cd36919466c695c1af8947e9973e230cae4886b0376d49e965e72d3121",
+      "normalized_mse": 0.0036594769917428493,
+      "normal_degrees": 31.912521362304688,
+      "selection": 0.042999520897865295,
+      "normal_count": 786
+    },
+    {
+      "id": "16a18ee02b5fa00108b863cfce93b84fa4d7737327202d4685b4c03b7b91b174",
+      "family": "16a18ee02b5fa00108b863cfce93b84fa4d7737327202d4685b4c03b7b91b174",
+      "normalized_mse": 0.006242899224162102,
+      "normal_degrees": 9.19316291809082,
+      "selection": 0.02793104387819767,
+      "normal_count": 774
+    },
+    {
+      "id": "09be0e2576c43cda512c1477a0695039eb70790b34f1a31d98dde779e0d5e343",
+      "family": "09be0e2576c43cda512c1477a0695039eb70790b34f1a31d98dde779e0d5e343",
+      "normalized_mse": 0.01163319032639265,
+      "normal_degrees": 19.184263229370117,
+      "selection": 0.05293627828359604,
+      "normal_count": 747
+    },
+    {
+      "id": "1f1c019bc5d34efebad10962d57574b3d0073d78b5ea80ba217164e3a0f3e17d",
+      "family": "1f1c019bc5d34efebad10962d57574b3d0073d78b5ea80ba217164e3a0f3e17d",
+      "normalized_mse": 0.007622214034199715,
+      "normal_degrees": 26.5019474029541,
+      "selection": 0.05511636659502983,
+      "normal_count": 783
+    },
+    {
+      "id": "1093fd458539936806ac16fc237bf8aad443c9d17af368f3df7682b33d9644ba",
+      "family": "1093fd458539936806ac16fc237bf8aad443c9d17af368f3df7682b33d9644ba",
+      "normalized_mse": 0.009193465113639832,
+      "normal_degrees": 32.88907241821289,
+      "selection": 0.062108881771564484,
+      "normal_count": 807
+    },
+    {
+      "id": "28a6028bbfb5fb95676f18104e8706aef31a0d06fc4dcfd2309a7d612da9576f",
+      "family": "28a6028bbfb5fb95676f18104e8706aef31a0d06fc4dcfd2309a7d612da9576f",
+      "normalized_mse": 0.001389291137456894,
+      "normal_degrees": 28.918394088745117,
+      "selection": 0.03126568719744682,
+      "normal_count": 844
+    },
+    {
+      "id": "023d7f4cfb9b395357c10d6d95544354c32bb52d6f5c63cb967699e19827dadf",
+      "family": "023d7f4cfb9b395357c10d6d95544354c32bb52d6f5c63cb967699e19827dadf",
+      "normalized_mse": 0.005825982429087162,
+      "normal_degrees": 24.526025772094727,
+      "selection": 0.04253629595041275,
+      "normal_count": 823
+    }
+  ],
+  "seed": 2,
+  "arm": "reference",
+  "selected_epoch": 4,
+  "steps": 2048,
+  "elapsed_seconds": 299.60830295085907,
+  "scope": "Four-epoch reduced-budget core architecture screen, not production-scale pretraining."
+}

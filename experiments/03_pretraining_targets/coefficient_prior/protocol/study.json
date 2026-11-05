@@ -1,0 +1,55 @@
+{
+  "modes": [
+    "operator"
+  ],
+  "cohort": {
+    "test": 632,
+    "train": 14304,
+    "val": 637
+  },
+  "pretraining": {
+    "fresh_weights": true,
+    "seed": 17,
+    "steps": 10626,
+    "global_batch": 64,
+    "object_presentations": 680064,
+    "gpus_per_mode": 4,
+    "precision": "fp32",
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "auxiliary_weight": 0.1,
+    "validation_every": 500,
+    "validation_objects": 128
+  },
+  "pressure": {
+    "budgets": [
+      18,
+      35,
+      69,
+      137,
+      274
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "initializations": [
+      "pretrained",
+      "scratch"
+    ],
+    "steps": 8000,
+    "batch": 8,
+    "queries": 2048,
+    "encoder_lrs": [
+      2e-05,
+      0.0002,
+      0.001
+    ],
+    "new_head_lr": 0.0002,
+    "validation_every": 250,
+    "fits": 90,
+    "test_evaluations": 30,
+    "transfer": "Full native encoder AND spatial query decoder; new scalar pressure head."
+  }
+}

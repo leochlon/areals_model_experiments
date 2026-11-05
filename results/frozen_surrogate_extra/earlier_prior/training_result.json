@@ -1,0 +1,9 @@
+{
+  "completed_epochs": 15,
+  "global_step": 14490,
+  "world_size": 6,
+  "global_batch_size": 64,
+  "best_normalized_rmse": 0.09942027424944866,
+  "initialization": "random",
+  "training_geometries": 61822
+}

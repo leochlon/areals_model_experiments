@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "sensor_counts": [5, 20, 100, 500],
+  "seeds": [0, 1, 2],
+  "angle_grid_step": 0.25,
+  "sigma_factors": [0, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100],
+  "solver_seed": 1029,
+  "initial_candidates": 256,
+  "starts": 16,
+  "adam_lr": 0.05,
+  "adam_steps": 200,
+  "lbfgs_steps": 40
+}

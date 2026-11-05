@@ -1,0 +1,591 @@
+{
+  "passed": true,
+  "source": "Independent stdlib CSV reduction and saved execution logs/metadata; bootstrap intervals are read from the registered scorer, not independently resampled here.",
+  "test_cars": 48,
+  "completed_models": 48,
+  "summary_sha256": "73e5753e8c152956bec68acd7e15e17d1f403d0ea46e4e2eb38629d0931a03ac",
+  "csv_sha256": "0d21cce1c452fa04490c65a2543d90275ce96a6d14937332ab68c69ec4cb648d",
+  "means_from_csv": {
+    "architecture/anchored_no_rotary": 0.4241606021419942,
+    "architecture/ordinary_attention": 0.2433075315264915,
+    "architecture/oriented_normal_target": 0.2403302028780696,
+    "architecture/reference": 0.2469049876563306,
+    "architecture/unanchored_latents": 0.3316603333681383,
+    "architecture/unanchored_no_rotary": 0.38981168742860905,
+    "architecture/unoriented_vector_target": 0.2954992774010023,
+    "frozen/areal": 0.32884541018825925,
+    "frozen/native": 0.3319349949687856,
+    "frozen/native_normals": 0.33143420994076744,
+    "online/areals_lr1e-3": 0.26310909476202865,
+    "online/areals_lr1e-4": 0.25697699940634133,
+    "online/pointmae_lr1e-3": 0.2537438407600144,
+    "online/pointmae_lr1e-4": 0.2649312767285899,
+    "replication/pretrained": 0.2264800081193449,
+    "replication/scratch": 0.2838485407185442
+  },
+  "per_seed_means_from_csv": {
+    "architecture/anchored_no_rotary": [
+      0.4173563162929625,
+      0.449609309007511,
+      0.4055161811255092
+    ],
+    "architecture/ordinary_attention": [
+      0.24984934089609312,
+      0.2409821232477561,
+      0.23909113043562522
+    ],
+    "architecture/oriented_normal_target": [
+      0.2375797154787372,
+      0.24448375987821078,
+      0.2389271332772609
+    ],
+    "architecture/reference": [
+      0.25472144812729036,
+      0.24058126523084414,
+      0.2454122496108572
+    ],
+    "architecture/unanchored_latents": [
+      0.3321519528137294,
+      0.3503976524383268,
+      0.31243139485235877
+    ],
+    "architecture/unanchored_no_rotary": [
+      0.3885224024662693,
+      0.3692804367870062,
+      0.4116322230325517
+    ],
+    "architecture/unoriented_vector_target": [
+      0.29769683404771813,
+      0.28785324963190134,
+      0.3009477485233874
+    ],
+    "frozen/areal": [
+      0.3272847261697372,
+      0.32858295997876913,
+      0.3306685444162715
+    ],
+    "frozen/native": [
+      0.3306065881889331,
+      0.3342391175888362,
+      0.3309592791285874
+    ],
+    "frozen/native_normals": [
+      0.32865649755845466,
+      0.33279708018435766,
+      0.33284905207948995
+    ],
+    "online/areals_lr1e-3": [
+      0.27143036356799816,
+      0.2602076379076272,
+      0.2576892828104606
+    ],
+    "online/areals_lr1e-4": [
+      0.25437982261542463,
+      0.2530127795339541,
+      0.2635383960696453
+    ],
+    "online/pointmae_lr1e-3": [
+      0.25197676168229105,
+      0.24964316959013386,
+      0.25961159100761827
+    ],
+    "online/pointmae_lr1e-4": [
+      0.26847510314522444,
+      0.2573759250274353,
+      0.2689428020131101
+    ],
+    "replication/pretrained": [
+      0.22565030872137645,
+      0.22680727955324076,
+      0.22698243608341748
+    ],
+    "replication/scratch": [
+      0.280563257318631,
+      0.28697549241120157,
+      0.2840068724258001
+    ]
+  },
+  "maximum_mean_disagreement": 5.551115123125783e-17,
+  "comparisons": [
+    {
+      "family": "replication",
+      "first": "pretrained",
+      "second": "scratch",
+      "per_seed_differences": [
+        -0.05491294859725457,
+        -0.06016821285796081,
+        -0.057024436342382606
+      ],
+      "mean_difference": -0.0573685325991993,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.057368532599199336,
+        "low": -0.060719232632891126,
+        "high": -0.05401681880132612,
+        "cars": 48
+      }
+    },
+    {
+      "family": "online",
+      "first": "areals_lr1e-4",
+      "second": "pointmae_lr1e-3",
+      "per_seed_differences": [
+        0.002403060933133583,
+        0.0033696099438202676,
+        0.003926805062027028
+      ],
+      "mean_difference": 0.00323315864632695,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": 0.0032331586463269393,
+        "low": 0.0014712784908950537,
+        "high": 0.0050334482886731586,
+        "cars": 48
+      }
+    },
+    {
+      "family": "online",
+      "first": "areals_lr1e-3",
+      "second": "pointmae_lr1e-3",
+      "per_seed_differences": [
+        0.019453601885707106,
+        0.01056446831749333,
+        -0.0019223081971576628
+      ],
+      "mean_difference": 0.009365254002014267,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": 0.009365254002014236,
+        "low": 0.00715984071439024,
+        "high": 0.011576969571891547,
+        "cars": 48
+      }
+    },
+    {
+      "family": "online",
+      "first": "areals_lr1e-4",
+      "second": "pointmae_lr1e-4",
+      "per_seed_differences": [
+        -0.014095280529799803,
+        -0.0043631454934811575,
+        -0.005404405943464807
+      ],
+      "mean_difference": -0.00795427732224857,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.007954277322248618,
+        "low": -0.010112955300857759,
+        "high": -0.005869307978220736,
+        "cars": 48
+      }
+    },
+    {
+      "family": "architecture",
+      "first": "reference",
+      "second": "ordinary_attention",
+      "per_seed_differences": [
+        0.004872107231197242,
+        -0.00040085801691197576,
+        0.006321119175231982
+      ],
+      "mean_difference": 0.003597456129839083,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": 0.0035974561298390967,
+        "low": 0.0024505738316331466,
+        "high": 0.004698879221587255,
+        "cars": 48
+      }
+    },
+    {
+      "family": "architecture",
+      "first": "reference",
+      "second": "unanchored_latents",
+      "per_seed_differences": [
+        -0.07743050468643903,
+        -0.10981638720748269,
+        -0.06701914524150157
+      ],
+      "mean_difference": -0.08475534571180773,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.08475534571180772,
+        "low": -0.09117553412035309,
+        "high": -0.07835318170380193,
+        "cars": 48
+      }
+    },
+    {
+      "family": "architecture",
+      "first": "reference",
+      "second": "oriented_normal_target",
+      "per_seed_differences": [
+        0.01714173264855315,
+        -0.003902494647366639,
+        0.0064851163335963025
+      ],
+      "mean_difference": 0.006574784778260984,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": 0.006574784778260949,
+        "low": 0.004635776185033268,
+        "high": 0.008717242547614983,
+        "cars": 48
+      }
+    },
+    {
+      "family": "architecture",
+      "first": "reference",
+      "second": "unoriented_vector_target",
+      "per_seed_differences": [
+        -0.04297538592042777,
+        -0.047271984401057204,
+        -0.05553549891253021
+      ],
+      "mean_difference": -0.0485942897446717,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.048594289744671726,
+        "low": -0.05226662907482928,
+        "high": -0.044927209628773314,
+        "cars": 48
+      }
+    },
+    {
+      "family": "architecture",
+      "first": "anchored_no_rotary",
+      "second": "unanchored_no_rotary",
+      "per_seed_differences": [
+        0.028833913826693203,
+        0.08032887222050478,
+        -0.006116041907042513
+      ],
+      "mean_difference": 0.03434891471338514,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": 0.03434891471338512,
+        "low": 0.031162498090677223,
+        "high": 0.037436142049277685,
+        "cars": 48
+      }
+    },
+    {
+      "family": "frozen",
+      "first": "areal",
+      "second": "native",
+      "per_seed_differences": [
+        -0.0033218620191959314,
+        -0.005656157610067047,
+        -0.00029073471231588766
+      ],
+      "mean_difference": -0.0030895847805263443,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.003089584780526305,
+        "low": -0.0057064149207109085,
+        "high": -0.00033637244443444225,
+        "cars": 48
+      }
+    },
+    {
+      "family": "frozen",
+      "first": "areal",
+      "second": "native_normals",
+      "per_seed_differences": [
+        -0.0013717713887174687,
+        -0.004214120205588534,
+        -0.002180507663218423
+      ],
+      "mean_difference": -0.0025887997525081974,
+      "car_bootstrap_95_from_saved_summary": {
+        "mean": -0.002588799752508124,
+        "low": -0.0051857510702516185,
+        "high": 9.45023822322496e-06,
+        "cars": 48
+      }
+    }
+  ],
+  "hidden_pressure_checks_passed": 264,
+  "hidden_pressure_checks_failed": 0,
+  "check_counts": [
+    {
+      "name": "online_areals_lr1e-4_seed0",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-3_seed0",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "pretrained_seed0",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "scratch_seed0",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "online_areals_lr1e-4_seed1",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-3_seed1",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "pretrained_seed1",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "scratch_seed1",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "online_areals_lr1e-4_seed2",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-3_seed2",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "pretrained_seed2",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "scratch_seed2",
+      "family": "replication",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "online_areals_lr1e-3_seed0",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-4_seed0",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_areals_lr1e-3_seed1",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-4_seed1",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_areals_lr1e-3_seed2",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "online_pointmae_lr1e-4_seed2",
+      "family": "online",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "reference_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "reference_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "reference_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "ordinary_attention_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "ordinary_attention_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "ordinary_attention_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_latents_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_latents_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_latents_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "oriented_normal_target_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "oriented_normal_target_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "oriented_normal_target_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unoriented_vector_target_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unoriented_vector_target_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unoriented_vector_target_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "anchored_no_rotary_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "anchored_no_rotary_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "anchored_no_rotary_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_no_rotary_seed0",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_no_rotary_seed1",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "unanchored_no_rotary_seed2",
+      "family": "architecture",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_seed0",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_seed1",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_seed2",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "areal_seed0",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "areal_seed1",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "areal_seed2",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_normals_seed0",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_normals_seed1",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "name": "native_normals_seed2",
+      "family": "frozen",
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "architecture_seed_qualification": "Architecture replicas vary upstream pretraining and new-head seeds 0/1/2 but reuse downstream data-sampling seed0 because the old wrapper consumed that flag. They are not three independently sampled downstream runs. Primary online and pretrained/scratch comparisons, and frozen comparisons, have actual downstream seeds 0/1/2."
+}

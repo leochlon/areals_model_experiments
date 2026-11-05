@@ -1,0 +1,9 @@
+{
+  "arm": "utonia",
+  "completed_epochs": 20,
+  "best_ema_rl2": 0.5943090096116066,
+  "best_epoch": 20,
+  "final_ema_rl2": 0.5943090096116066,
+  "final_live_rl2": 0.32938207127153873,
+  "elapsed_seconds": 285.7167944908142
+}

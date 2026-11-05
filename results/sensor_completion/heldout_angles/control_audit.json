@@ -1,0 +1,60 @@
+{
+  "maximum_nrmse_disagreement": 1.1102230246251565e-16,
+  "disagreement_below_1e12": true,
+  "roles": {
+    "geometry": {
+      "pass_lines": 12,
+      "fail_lines": 0,
+      "summary": [
+        "12/12 passed"
+      ],
+      "log_sha256": "567785521ee66d82b6dcc67f3ab3a5031a7ccc7674cb24646c76c3c46b0c55f4",
+      "base_sha256": "10692310919ceb8c9937a663f27bfa3c6a8ddc09540b6cac5ee0a106c0c63172",
+      "epochs": 72,
+      "training_cases": 1200
+    },
+    "measurements": {
+      "pass_lines": 12,
+      "fail_lines": 0,
+      "summary": [
+        "12/12 passed"
+      ],
+      "log_sha256": "c76cee8af16b2b469248c3801ed76298ac2823e3e33dcee60e1d0c8e3899fb7b",
+      "base_sha256": "10692310919ceb8c9937a663f27bfa3c6a8ddc09540b6cac5ee0a106c0c63172",
+      "epochs": 72,
+      "training_cases": 1200
+    },
+    "conditioned": {
+      "pass_lines": 12,
+      "fail_lines": 0,
+      "summary": [
+        "12/12 passed"
+      ],
+      "log_sha256": "f8d766234a7ff92e7d1cab1b03c1ba301b458db526169e059844ac8f74e32596",
+      "base_sha256": "10692310919ceb8c9937a663f27bfa3c6a8ddc09540b6cac5ee0a106c0c63172",
+      "epochs": 72,
+      "training_cases": 1200
+    }
+  },
+  "geometry_groups_disjoint": true,
+  "train_angles": [
+    11.0,
+    13.0,
+    15.0,
+    17.0,
+    19.0
+  ],
+  "development_angles": [
+    11.0,
+    13.0,
+    15.0,
+    17.0,
+    19.0
+  ],
+  "test_angles": [
+    12.0,
+    14.0,
+    16.0,
+    18.0
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "remote_root": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_utonia_compare_420",
+  "geometry_checkpoint": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_finetune/geometry_epoch11.pt",
+  "geometry_epoch": 11,
+  "original_package_src": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/areal_tokens/src",
+  "native_package_src": "/workspace/home/areal_objaverse_060_61822_15ep_20260928T121633Z/field_prior_gate_check/areals/src",
+  "python": "/workspace/home/objaverse_base_030_20260924T172527Z/.venv/bin/python",
+  "data_root": "/workspace/runs/areal_drivaerml_420_epoch14_20260927T162928Z",
+  "pilot_root": "/workspace/home/drivaerml_transfer_pilot_20260925T121525Z",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sources": [
+    "areal",
+    "utonia"
+  ],
+  "train_cars": 420,
+  "validation_cars": 16,
+  "epochs": 20,
+  "optimizer_steps": 1060,
+  "field_config": {
+    "epochs": 20,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "new_learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "hidden_range": [
+      0.0,
+      1.0
+    ],
+    "full_hidden_probability": 0.15,
+    "mask_patches": 64,
+    "queries": 2048,
+    "visible_weight": 0.25,
+    "sign_flip": true,
+    "ratio_range": [
+      0.5,
+      2.0
+    ],
+    "eval_hidden": [
+      0.6,
+      1.0
+    ],
+    "workers": 4,
+    "seed": 0,
+    "amp": "bf16",
+    "prior": "frozen",
+    "normalize": "dataset"
+  },
+  "pretrained_backbones_frozen": true,
+  "shared_field_branch": "Native GeometryEncoder widened with value and presence, freshly initialized identically for each paired seed",
+  "shared_field_decoder": "Native SpatialDecoder and linear field head, freshly initialized identically for each paired seed",
+  "feature_adapter": "Input LayerNorm without affine parameters, trainable linear projection to width192, output LayerNorm without affine parameters; full feature channels retained",
+  "feature_locations": "Identical 256 FPS anchors of the same up-to4096-point input surface used by previous native field run",
+  "areal_features": "Frozen epoch11 encoder tokens, 192 channels",
+  "utonia_features": "Frozen official backbone, concatenate all five hierarchy levels, 1386 channels, map back by inverse then select exact same anchor points",
+  "utonia_repository": "https://github.com/Pointcept/Utonia",
+  "utonia_git_revision": "da776a0bd3a48c6df83ac2ae0e27b26141cc7e31",
+  "utonia_checkpoint_repository": "Pointcept/Utonia",
+  "utonia_checkpoint_revision": "fb39b40d33d215d29d1d4717ffb86287f4700c4d",
+  "utonia_checkpoint_filename": "utonia.pth",
+  "utonia_transform": {
+    "normalize_coord": true,
+    "scale": 1.0,
+    "apply_z_positive": true,
+    "grid_size": 0.01,
+    "missing_color": "zeros as documented",
+    "normal": "same geometry normals as Areal",
+    "feature_restore": "all 4 parent levels then inverse"
+  },
+  "primary_metric": "Fixed final epoch20 raw Cp relative L2 over original fixed2048 queries, per-car then arithmetic mean over16 validation cars",
+  "normalization": "Training-only equal-car area-weighted pressure mean/std; same cached training statistics in both arms",
+  "secondary_metrics": [
+    "Native nRMSE at60%hidden",
+    "Native nRMSE at100%hidden",
+    "raw Cp RMSE at100%hidden",
+    "epoch train loss"
+  ],
+  "comparison_to_previous_03999": "Context only; downstream initialization and learning-rate grouping changed to remove inherited Areal decoder/branch feature-format advantage",
+  "selection": "Both primary scores fixed final epoch20; native best checkpoint retained but not substituted",
+  "test_scored": false,
+  "geometry_retrained": false,
+  "verification": [
+    "same per-seed shared trainable initialization",
+    "same per-seed sampling RNG and query/mask batches",
+    "hidden pressures never enter frozen features",
+    "backbone tensor digests unchanged",
+    "source field.py unchanged",
+    "per-case validation paired",
+    "all full feature dimensions used"
+  ]
+}

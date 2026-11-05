@@ -1,0 +1,66 @@
+{
+  "pretraining_seeds": [
+    29,
+    43
+  ],
+  "fine_tuning_seeds": [
+    0
+  ],
+  "budgets": [
+    274,
+    18,
+    35,
+    69,
+    137
+  ],
+  "pressure_settings": {
+    "budgets": [
+      18,
+      35,
+      69,
+      137,
+      274
+    ],
+    "seeds": [
+      0
+    ],
+    "rates": [
+      2e-05,
+      0.0002,
+      0.001
+    ],
+    "new_head_lr": 0.0002,
+    "steps": 8000,
+    "global_batch": 8,
+    "queries_per_car": 2048,
+    "validation_every": 250,
+    "full_validation_cars": 35,
+    "test_cars": 35,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0,
+    "schedule": "constant",
+    "precision": "fp32"
+  },
+  "reference_seed17": {
+    "274": {
+      "test": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed0/test_metrics.json",
+      "selection": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n274/seed0/selection.json"
+    },
+    "18": {
+      "test": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed0/test_metrics.json",
+      "selection": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n18/seed0/selection.json"
+    },
+    "35": {
+      "test": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed0/test_metrics.json",
+      "selection": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n35/seed0/selection.json"
+    },
+    "69": {
+      "test": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed0/test_metrics.json",
+      "selection": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n69/seed0/selection.json"
+    },
+    "137": {
+      "test": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed0/test_metrics.json",
+      "selection": "/workspace/runs/shared_query_controlled_20261031/pressure/operator/n137/seed0/selection.json"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "training",
+  "utc": "2026-09-28T13:37:15.817685+00:00",
+  "optimizer_steps": 10875,
+  "total_optimizer_steps": 14490,
+  "epoch": 12,
+  "completed_epochs": 11,
+  "planned_epochs": 15,
+  "gpus": 6,
+  "global_batch_size": 64,
+  "elapsed_seconds_this_launch": 3841.0624051038176,
+  "estimated_remaining_seconds": 1276.8221236276138,
+  "learning_rate": 5.768879474021021e-05
+}

@@ -1,0 +1,18 @@
+{
+  "arm": "hessian",
+  "steps": 10626,
+  "global_object_batch": 64,
+  "world_size": 4,
+  "index_sha256": "c1d901581d3c73894726e56ac9761fbe49d65471c27d76c0bf00194338c9c945",
+  "native_config_sha256": "dc2da70d3275b942ab3a08c90615e491677239b3ef29d7f8e88349566c30a669",
+  "seed": 17,
+  "complete_inputs": true,
+  "peak_lr": 0.0003,
+  "final_lr_ratio": 0.05,
+  "deterministic_attention": "math",
+  "targets": "d,P,H",
+  "patches_per_object": null,
+  "queries_per_patch": null,
+  "checkpoint_for_downstream": "final.pt at the matched update budget; validation does not shorten exposure",
+  "parameters": 3217948
+}

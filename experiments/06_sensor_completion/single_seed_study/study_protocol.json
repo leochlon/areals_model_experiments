@@ -1,0 +1,43 @@
+{
+  "seed": 0,
+  "epochs": 40,
+  "global_batch": 8,
+  "base_lr": 0.0001,
+  "new_lr": 0.001,
+  "roles": [
+    "geometry",
+    "measurements",
+    "conditioned"
+  ],
+  "selection_settings": {
+    "geometry": [
+      "sensors-5 (ignored by model)"
+    ],
+    "conditioned": [
+      "sensors-5 (ignored by model)"
+    ],
+    "measurements": [
+      "sensors-20",
+      "sensors-500",
+      "patch-64-0.60"
+    ]
+  },
+  "evaluation": {
+    "patch_counts": [
+      64
+    ],
+    "hidden": [
+      0.25,
+      0.6,
+      0.9
+    ],
+    "sensors": [
+      5,
+      20,
+      100,
+      500
+    ],
+    "unobserved": true
+  },
+  "gap_formula": "(MSE_geometry - MSE_measurements)/(MSE_geometry - MSE_conditioned); undefined if denominator <= 0."
+}

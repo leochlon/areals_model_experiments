@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-24T09:01:55.232072+00:00",
+  "purpose": "Separate the complete AREALS pretrained geometry stack from encoder-only transfer into a fresh query decoder. Add a larger released Point-MAE encoder under the same new-reader training.",
+  "primary_protocol_sha256": "10d27381640c36fe0de534e71e85e24a888e3dea6a0bb9a9180af645235967e1",
+  "model_selection": "No40-car confirmation outcomes inspected before freezing these controls. The default Point-MAE LR1e-3 comes from old validation; all added models use backbone/new-reader LR1e-3 and the already fixed40epochs.",
+  "comparisons": [
+    [
+      "isotropic_reference",
+      "fresh_decoder_pointmae"
+    ],
+    [
+      "isotropic_reference",
+      "fresh_decoder_areals"
+    ]
+  ],
+  "fairness": "Same380train/16selection/40test, three true downstream seeds,256tokens,4096-point cap, common native query-decoder architecture, same scalar-head initialisation57300+seed, identical query/label stream and update count. Both added arms get a fresh common decoder91700+seed. Full AREALS retains its pretrained coordinate-query decoder by design. Point-MAE receivesXYZ only and has21.825Mbackbone parameters versusAREALS2.274M; upstream corpora and pretraining budgets differ. This tests complete transfer pathways, not an encoder-only or isolated single-component effect.",
+  "statistics": "Report original four primary contrasts with their registered rule. Additionally report all six contrasts with car-grouped10000-draw Bonferroni99.166667% intervals across the expanded family. No configuration selection on the40testcars.",
+  "resource": "Six extra field-only jobs after the original18-job array, at most4B200s; no extra geometry pretraining and no extra source data.",
+  "source_hashes": {
+    "/workspace/runs/areals_decoder_transfer_20261024/source/extra_task.py": "b481f17d8adcc3ec3fb92e9e2ac4c5d0be4986633ed58760965d0645a6024906",
+    "/workspace/runs/areals_decoder_transfer_20261024/source/freeze_decoder_controls.py": "d077506a260e7f9437105f4d7dfda229baaede9ce8f6b77ae672cb232f616771",
+    "/workspace/runs/areals_architecture_controls_20261024/source/online_backbone.py": "2a26d2c262ffd2ef7a359b1bfe716f4c7c266578b1fd8bc4bccc4d53864f24a1",
+    "/workspace/runs/areals_architecture_controls_20261024/source/transfer_architecture.py": "c1cb2ecc760d1b42d121d9d5f103bd806e8ffd880d6efec582031fc164e75d9b"
+  }
+}

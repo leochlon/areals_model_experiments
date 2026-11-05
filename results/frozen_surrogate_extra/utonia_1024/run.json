@@ -1,0 +1,178 @@
+{
+  "arm": "utonia",
+  "train_cars": 420,
+  "val_cars": 16,
+  "epochs": 20,
+  "steps_per_epoch": 53,
+  "total_updates": 1060,
+  "shared_initialization": {
+    "target_encoder": "b3e59e80c560896f7f430e963cb5b26ebc9b3c84c9b29bc3eb05a3cbfc607be6",
+    "predictor": "1a9f7da39784196cb95300be6d5cf9a147a15afae0c8a550849d334197a49c32",
+    "decoder": "c986efef12c10504d825208771256f98b3450809d37638687db295d21ba6e024"
+  },
+  "frozen_prior_digest": null,
+  "trainable_parameters": 8377281,
+  "physicsnemo_commit": "426f7552da4b4fa675e404e8a4f437e27681b668",
+  "config": {
+    "use_te": false,
+    "model": {
+      "_target_": "physicsnemo.experimental.models.aerojepa.AeroJEPA",
+      "trunk": {
+        "_target_": "physicsnemo.experimental.models.aerojepa.AeroJEPATrunk",
+        "include_geometry_global_in_decoder_cond": false,
+        "mask_prediction_enabled": false,
+        "context_encoder": {
+          "_target_": "physicsnemo.experimental.models.aerojepa.ContextTransformer",
+          "point_input_dim": 3,
+          "token_dim": 128,
+          "max_point_tokens": 256,
+          "tokenizer_strategy": "fps_cluster",
+          "tokenizer_cluster_size": 16,
+          "tokenizer_knn_chunk_size": 128,
+          "point_pos_pe_bands": 6,
+          "num_heads": 4,
+          "num_layers": 4,
+          "neighbor_k": 16,
+          "mlp_ratio": 4,
+          "dropout": 0.0,
+          "use_te": false,
+          "use_sdf": false,
+          "use_solid_normals": false,
+          "use_solid_n_dot_uinf": false
+        },
+        "target_encoder": {
+          "_target_": "physicsnemo.experimental.models.aerojepa.TargetTransformer",
+          "point_input_dim": 4,
+          "token_dim": 128,
+          "max_point_tokens": 512,
+          "tokenizer_strategy": "fps_cluster",
+          "tokenizer_cluster_size": 16,
+          "tokenizer_knn_chunk_size": 128,
+          "point_pos_pe_bands": 6,
+          "num_heads": 4,
+          "num_layers": 4,
+          "neighbor_k": 16,
+          "mlp_ratio": 4,
+          "dropout": 0.0,
+          "use_te": false
+        },
+        "decoder": {
+          "_target_": "physicsnemo.experimental.models.aerojepa.QueryTokenDecoder",
+          "token_dim": 128,
+          "hidden_dim": 128,
+          "num_layers": 4,
+          "out_dim": 1,
+          "use_sdf": false,
+          "cond_dim": 2,
+          "pe_num_bands": 16,
+          "cross_attention_heads": 4,
+          "cross_attention_layers": 4,
+          "cross_attention_k": 8,
+          "attention_mlp_ratio": 4,
+          "dropout": 0.0,
+          "query_chunk_size": 1024,
+          "use_te": false
+        }
+      },
+      "predictor": {
+        "_target_": "physicsnemo.experimental.models.aerojepa.PrototypeTokenJEPAHead",
+        "token_dim": 128,
+        "cond_dim": 2,
+        "hidden_dim": 128,
+        "depth": 4,
+        "num_heads": 4,
+        "neighbor_k": 8,
+        "query_pe_bands": 6,
+        "mlp_ratio": 4,
+        "dropout": 0.0,
+        "use_te": false
+      }
+    },
+    "training": {
+      "epochs": 20,
+      "batch_size": 4,
+      "eval_batch_size": 1,
+      "max_eval_batches": null,
+      "precision": "bf16",
+      "save_every_epochs": 10,
+      "log_every": 50,
+      "max_train_batches": null,
+      "profile": false,
+      "profile_steps": 12,
+      "optimizer": {
+        "_target_": "torch.optim.AdamW",
+        "lr": 0.001,
+        "weight_decay": 0.001,
+        "betas": [
+          0.9,
+          0.95
+        ]
+      },
+      "scheduler": {
+        "name": "warmup_cosine",
+        "warmup_epochs": 2
+      },
+      "grad_clip_norm": 10.0,
+      "ema": {
+        "enabled": true,
+        "decay": 0.999
+      },
+      "loss": {
+        "recon": {
+          "kind": "relative_l2_mse",
+          "relative_mse_mode": "pointwise",
+          "eps": 0.01,
+          "relative_l2_weight": 1.0,
+          "mse_weight": 0.2,
+          "weight": 1.0,
+          "warmup_epochs": 0
+        },
+        "latent": {
+          "weight": 1.0,
+          "mse_weight": 0.5,
+          "cosine_weight": 0.5,
+          "warmup_epochs": 5
+        },
+        "sigreg": {
+          "weight": 0.01,
+          "warmup_epochs": 5,
+          "knots": 17,
+          "num_proj": 1024
+        },
+        "sigreg_context": {
+          "weight": 0.0,
+          "warmup_epochs": 5,
+          "knots": 17,
+          "num_proj": 1024
+        }
+      },
+      "two_phase_training": {
+        "enabled": false,
+        "phase1_epochs": 100
+      },
+      "resume": {
+        "enabled": false,
+        "checkpoint_path": null,
+        "strict": true,
+        "load_optimizer": true,
+        "load_scheduler": true
+      },
+      "init_from_checkpoint": {
+        "path": null,
+        "strict": true
+      }
+    },
+    "comparison": {
+      "arm": "utonia",
+      "seed": 0,
+      "world_size": 2,
+      "global_batch_size": 8,
+      "areal_checkpoint": null,
+      "areal_frozen": false,
+      "geometry_tokens": 1024,
+      "selection_metric": "geometry_only_raw_cp_mean_per_car_rl2_ema",
+      "frozen_feature_cache": "/workspace/home/areal_aerojepa_20260928/backbone_tokens/utonia",
+      "backbone_frozen": true
+    }
+  }
+}

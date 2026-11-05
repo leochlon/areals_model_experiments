@@ -1,0 +1,338 @@
+{
+  "passed": true,
+  "models": 21,
+  "test_objects": 128,
+  "summaries": {
+    "reference": {
+      "normalized_mse": {
+        "mean": 0.011669639927458687,
+        "low": 0.01021943508502232,
+        "high": 0.013350714749489491,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 25.339216317518485,
+        "low": 23.588535877473788,
+        "high": 27.048917205401096,
+        "objects": 128
+      }
+    },
+    "ordinary_attention": {
+      "normalized_mse": {
+        "mean": 0.01116680753866017,
+        "low": 0.009678843451034078,
+        "high": 0.012857094805345555,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 25.23504113307112,
+        "low": 23.487066853215687,
+        "high": 26.951235553093884,
+        "objects": 128
+      }
+    },
+    "unanchored_latents": {
+      "normalized_mse": {
+        "mean": 0.03683412635181064,
+        "low": 0.031640582436233224,
+        "high": 0.042022572251709515,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 40.297712878752776,
+        "low": 38.56654767386112,
+        "high": 42.004029096808104,
+        "objects": 128
+      }
+    },
+    "oriented_normal_target": {
+      "normalized_mse": {
+        "mean": 0.011071907005019843,
+        "low": 0.009241346302915652,
+        "high": 0.013180270191495985,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 28.688893678943696,
+        "low": 26.901863740895404,
+        "high": 30.468850091763322,
+        "objects": 128
+      }
+    },
+    "unoriented_vector_target": {
+      "normalized_mse": {
+        "mean": 0.017528997522416795,
+        "low": 0.015759246952785307,
+        "high": 0.019444315849471303,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 39.170216385899096,
+        "low": 37.52562747180526,
+        "high": 40.766616533163784,
+        "objects": 128
+      }
+    },
+    "anchored_no_rotary": {
+      "normalized_mse": {
+        "mean": 0.0336837536761565,
+        "low": 0.029184560151740032,
+        "high": 0.038264495120366844,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 41.01111824841888,
+        "low": 39.253735685071106,
+        "high": 42.75899273091276,
+        "objects": 128
+      }
+    },
+    "unanchored_no_rotary": {
+      "normalized_mse": {
+        "mean": 0.03419452431720216,
+        "low": 0.02936035459733245,
+        "high": 0.03900271636019638,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 40.43020895261709,
+        "low": 38.62045973453755,
+        "high": 42.15749897097595,
+        "objects": 128
+      }
+    }
+  },
+  "seeds": [
+    {
+      "arm": "reference",
+      "seed": 0,
+      "normalized_mse": 0.012578191772207563,
+      "normal_degrees": 25.334508728225778
+    },
+    {
+      "arm": "reference",
+      "seed": 1,
+      "normalized_mse": 0.011269962946984522,
+      "normal_degrees": 25.324459270015012
+    },
+    {
+      "arm": "reference",
+      "seed": 2,
+      "normalized_mse": 0.011160765063183975,
+      "normal_degrees": 25.358680954314654
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 0,
+      "normalized_mse": 0.01177771223246291,
+      "normal_degrees": 25.31208789967048
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 1,
+      "normalized_mse": 0.011080685299221984,
+      "normal_degrees": 25.148510226670247
+    },
+    {
+      "arm": "ordinary_attention",
+      "seed": 2,
+      "normalized_mse": 0.010642025084295615,
+      "normal_degrees": 25.24452527287263
+    },
+    {
+      "arm": "unanchored_latents",
+      "seed": 0,
+      "normalized_mse": 0.044356824685437495,
+      "normal_degrees": 40.75728681691454
+    },
+    {
+      "arm": "unanchored_latents",
+      "seed": 1,
+      "normalized_mse": 0.03328779366560011,
+      "normal_degrees": 41.93106901760396
+    },
+    {
+      "arm": "unanchored_latents",
+      "seed": 2,
+      "normalized_mse": 0.03285776070439434,
+      "normal_degrees": 38.20478280173981
+    },
+    {
+      "arm": "oriented_normal_target",
+      "seed": 0,
+      "normalized_mse": 0.011041171280959643,
+      "normal_degrees": 28.708579599219163
+    },
+    {
+      "arm": "oriented_normal_target",
+      "seed": 1,
+      "normalized_mse": 0.01089204583967263,
+      "normal_degrees": 29.051295520089777
+    },
+    {
+      "arm": "oriented_normal_target",
+      "seed": 2,
+      "normalized_mse": 0.011282503894427257,
+      "normal_degrees": 28.306805917522155
+    },
+    {
+      "arm": "unoriented_vector_target",
+      "seed": 0,
+      "normalized_mse": 0.02020369431308414,
+      "normal_degrees": 40.02969301081518
+    },
+    {
+      "arm": "unoriented_vector_target",
+      "seed": 1,
+      "normalized_mse": 0.016886618487218112,
+      "normal_degrees": 39.525944811098135
+    },
+    {
+      "arm": "unoriented_vector_target",
+      "seed": 2,
+      "normalized_mse": 0.015496679766948122,
+      "normal_degrees": 37.955011335783965
+    },
+    {
+      "arm": "anchored_no_rotary",
+      "seed": 0,
+      "normalized_mse": 0.0354585161665332,
+      "normal_degrees": 40.80967729377117
+    },
+    {
+      "arm": "anchored_no_rotary",
+      "seed": 1,
+      "normalized_mse": 0.032274065316742824,
+      "normal_degrees": 41.431393391167155
+    },
+    {
+      "arm": "anchored_no_rotary",
+      "seed": 2,
+      "normalized_mse": 0.03331867954519349,
+      "normal_degrees": 40.79228406031836
+    },
+    {
+      "arm": "unanchored_no_rotary",
+      "seed": 0,
+      "normalized_mse": 0.0397213021780676,
+      "normal_degrees": 40.83351870354906
+    },
+    {
+      "arm": "unanchored_no_rotary",
+      "seed": 1,
+      "normalized_mse": 0.02965407104228553,
+      "normal_degrees": 39.27611557242475
+    },
+    {
+      "arm": "unanchored_no_rotary",
+      "seed": 2,
+      "normalized_mse": 0.033208199731253316,
+      "normal_degrees": 41.1809925818775
+    }
+  ],
+  "contrasts": [
+    {
+      "first": "reference",
+      "second": "ordinary_attention",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": 0.000502832388798515,
+        "low": 0.0002565748365266357,
+        "high": 0.0007295620415454456,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 0.1041751844473618,
+        "low": 0.04736922786985193,
+        "high": 0.16041432890555685,
+        "objects": 128
+      }
+    },
+    {
+      "first": "reference",
+      "second": "unanchored_latents",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": -0.025164486424351953,
+        "low": -0.02954376644087367,
+        "high": -0.02071167806065345,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": -14.95849656123429,
+        "low": -16.173507543580836,
+        "high": -13.72796330211771,
+        "objects": 128
+      }
+    },
+    {
+      "first": "anchored_no_rotary",
+      "second": "unanchored_no_rotary",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": -0.0005107706410456575,
+        "low": -0.0011173689296873088,
+        "high": 4.303037893076263e-05,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": 0.5809092958017894,
+        "low": 0.3662560465244441,
+        "high": 0.8085892861113413,
+        "objects": 128
+      }
+    },
+    {
+      "first": "reference",
+      "second": "oriented_normal_target",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": 0.0005977329224388428,
+        "low": -0.0006179450249674654,
+        "high": 0.00165565374665342,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": -3.349677361425215,
+        "low": -3.9682365044626686,
+        "high": -2.7965347438597346,
+        "objects": 128
+      }
+    },
+    {
+      "first": "reference",
+      "second": "unoriented_vector_target",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": -0.005859357594958106,
+        "low": -0.006884072236665293,
+        "high": -0.00484368547725629,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": -13.831000068380622,
+        "low": -14.690832825996257,
+        "high": -12.989091266951819,
+        "objects": 128
+      }
+    },
+    {
+      "first": "oriented_normal_target",
+      "second": "unoriented_vector_target",
+      "direction": "first minus second; negative favours first",
+      "normalized_mse": {
+        "mean": -0.006457090517396949,
+        "low": -0.007820336790160216,
+        "high": -0.00507956248366294,
+        "objects": 128
+      },
+      "normal_degrees": {
+        "mean": -10.481322706955407,
+        "low": -11.288188203866968,
+        "high": -9.646769507104729,
+        "objects": 128
+      }
+    }
+  ],
+  "scope": "Four-epoch, 8192-object reduced-budget mechanistic screen, without analytic surfel/symmetry decoder priors. Intervals resample objects, retain all three seeds and are descriptive, unadjusted for multiple contrasts. Normal-head alternatives do not test signed-distance pretraining. Unanchored variants change spatial token structure; the no-rotary pair controls the rotary-position interaction."
+}

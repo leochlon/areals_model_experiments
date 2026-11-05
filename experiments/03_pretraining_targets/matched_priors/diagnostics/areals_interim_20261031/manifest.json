@@ -1,0 +1,22 @@
+{
+  "checkpoint": "/workspace/runs/matched_priors_windsor_20261030/diagnostics/areals_interim_20261031/geometry_step_6500.pt",
+  "checkpoint_selection": "best validation; independent LR grid",
+  "created_utc": "2026-10-31T00:50:50.122985+00:00",
+  "decoder_lr": 0.0002,
+  "encoder_lrs": [
+    2e-05,
+    0.0002,
+    0.001
+  ],
+  "field_updates": 8000,
+  "fresh_field_optimizer": true,
+  "geometry_object_exposures": 416000,
+  "geometry_step": 6500,
+  "planned_geometry_steps": 10626,
+  "scope": "Windsor validation from the AREALS checkpoint at 6,500 of 10,626 pretraining updates; not part of the main comparison.",
+  "seed": 0,
+  "source": "/workspace/runs/matched_priors_windsor_20261030/pretraining/areals/last.pt",
+  "validation_cars": 35,
+  "validation_every": 250,
+  "windsor_training_cars": 18
+}

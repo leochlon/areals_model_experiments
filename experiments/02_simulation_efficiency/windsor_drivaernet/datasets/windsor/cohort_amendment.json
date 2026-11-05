@@ -1,0 +1,9 @@
+{
+  "rule": "Keep one case per native geometry; preserve test, then validation, then training; smallest numerical run ID breaks ties.",
+  "reason": "Six matching native geometry pairs in Windsor, three crossing official split boundaries; remove geometry leakage and repeated single-condition geometries before any fits.",
+  "expected_counts": {
+    "train": 274,
+    "val": 35,
+    "test": 35
+  }
+}

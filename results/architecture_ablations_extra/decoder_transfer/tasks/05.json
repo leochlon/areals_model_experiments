@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "task": 5,
+  "arm": "ordinary_attention",
+  "seed": 2,
+  "group": "isotropic_ordinary_attention",
+  "pretrained": "/workspace/runs/areals_decoder_transfer_20261024/results/architecture/ordinary_attention/seed2/best.pt",
+  "retrain_geometry": true,
+  "name": "isotropic_ordinary_attention_seed2",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/isotropic_ordinary_attention_seed2/field_best.pt",
+  "checkpoint_sha256": "decd4329a6e1d03cbeb3b1b57eccf0d40d0b5fa54cd9c5acd7e8fcd2c6cb5648",
+  "base_sha256": "5cc4be7702f5c38011b23062e60bc3fcb3cd51c8276bd79a006cd3898e6ddc89",
+  "checkpoint_unchanged": true,
+  "true_downstream_seed": 2,
+  "train_cars": 380,
+  "selection_epoch": 40,
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}

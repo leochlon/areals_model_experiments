@@ -1,0 +1,14 @@
+{
+  "contrast": "Masked versus unmasked geometry pretraining transferred to CFD pressure tasks",
+  "geometry_checkpoints": "Final epoch_11.pt for masked_native/unmasked_native, geometry seeds17,18,19; all 10626 updates. Do not select the best geometry checkpoint separately by arm.",
+  "data": ["Existing DoubleDelta train11-16/val17/test18-19 with geometry families separated", "Existing official DrivAerML train400/val34/test50"],
+  "field_seeds": [0, 1, 2],
+  "geometry_seed_pairing": "field_seed+17 for both arms",
+  "field_training": {"epochs":40,"batch_size":8,"lr":0.001,"new_lr":0.001,"queries":2048,"mix_unobserved":0.1,"mix_sensors":0.9,"normalise":"dataset","train_geometry_encoder":true},
+  "paired_controls": "Identical native trainer, inputs, loss, examples, ordering seed, observation RNG, field-head initialization, update budget and validation-selection rule within each seed. Equal updates does not assert equal geometry-pretraining FLOPs.",
+  "primary_endpoints": ["DoubleDelta hidden-field nRMSE at20 sensors", "DrivAerML hidden-field nRMSE at20 sensors"],
+  "secondary_endpoints": ["5/100/500 sensors", "Unobserved shape-only performance"],
+  "uncertainty": "Paired differences over seeds and physical geometry groups; 5000 bootstrap draws, jointly resample seeds and geometry families. Primary endpoints use97.5% intervals for a two-endpoint family.",
+  "allowed_claim": "A supported gain establishes a masking contribution under the tested pretraining and field-training recipes; it does not alone uniquely identify an inverse-operator mechanism.",
+  "release": "Keep all outcomes including non-improvements; no stopping at a favourable seed or sensor count"
+}

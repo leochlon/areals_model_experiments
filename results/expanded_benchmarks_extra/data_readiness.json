@@ -1,0 +1,179 @@
+{
+  "checked_utc": "2026-10-25T09:46:56.766123+00:00",
+  "datasets": {
+    "doubledelta": {
+      "data_ready": {
+        "passed": true,
+        "counts": {
+          "train": 1368,
+          "val": 16,
+          "test": 32
+        },
+        "internal_hardlinks": true,
+        "external_downloads": 0
+      },
+      "checks": {
+        "passed": true,
+        "counts": {
+          "train": 1368,
+          "val": 16,
+          "test": 32
+        },
+        "physical_families": 260,
+        "no_cross_split_families": true,
+        "one_geometry_input_per_family": true,
+        "no_identical_cloud_cross_split": true,
+        "manifest_sha256": "90362e540eb89d72ddd8385c9bb26c3c156b5ee14ba68f30cc001278eac3bdca",
+        "condition_statistics": {
+          "names": [
+            "aoa_degrees"
+          ],
+          "mean": [
+            13.5
+          ],
+          "std": [
+            1.707825127659933
+          ],
+          "fitted_on": "training records only"
+        }
+      }
+    },
+    "blendednet": {
+      "data_ready": {
+        "passed": true,
+        "counts": {
+          "train": 8736,
+          "val": 1872,
+          "test": 1872
+        },
+        "families": {
+          "train": 8736,
+          "val": 1872,
+          "test": 1872
+        },
+        "full_inventory_cases": 12480,
+        "export_failed": 0,
+        "external_downloads": 0
+      },
+      "checks": {
+        "passed": true,
+        "counts": {
+          "train": 8736,
+          "val": 1872,
+          "test": 1872
+        },
+        "physical_families": 12480,
+        "no_cross_split_families": true,
+        "one_geometry_input_per_geometry_id": true,
+        "no_identical_cloud_cross_split": true,
+        "manifest_sha256": "8ef8866964682542f552fcc7f10579068dfecf58d635999ad628e5587f080b80",
+        "split_protocol_sha256": "2f4f4305c02278206d1b2a976786b8140399f18b1501a2907c08b19b05d9dae0",
+        "condition_statistics": {
+          "names": [
+            "mach",
+            "aoa_degrees",
+            "altitude"
+          ],
+          "mean": [
+            0.20746676291552257,
+            3.9825682077021405,
+            6088.558806106611
+          ],
+          "std": [
+            0.09088358638252463,
+            6.916707385336829,
+            3505.225075524663
+          ],
+          "fitted_on": "training records only"
+        }
+      }
+    },
+    "drivaerml": {
+      "data_ready": {
+        "passed": true,
+        "counts": {
+          "train": 400,
+          "val": 34,
+          "test": 50
+        },
+        "families": {
+          "train": 400,
+          "val": 34,
+          "test": 50
+        },
+        "full_inventory_cases": 484,
+        "export_failed": 0,
+        "external_downloads": 0
+      },
+      "checks": {
+        "passed": true,
+        "counts": {
+          "train": 400,
+          "val": 34,
+          "test": 50
+        },
+        "physical_families": 484,
+        "no_cross_split_families": true,
+        "one_geometry_input_per_family": true,
+        "no_identical_cloud_cross_split": true,
+        "manifest_sha256": "06a21a90666d851b035a2895395dd8b6d3a32f7a3f8b17e7e891a471d196e697",
+        "condition_statistics": {
+          "names": [
+            "constant_flow"
+          ],
+          "mean": [
+            0.0
+          ],
+          "std": [
+            1e-08
+          ],
+          "fitted_on": "training records only"
+        }
+      }
+    },
+    "drivaernet": {
+      "data_ready": {
+        "passed": true,
+        "counts": {
+          "train": 6492,
+          "val": 778,
+          "test": 848
+        },
+        "families": {
+          "train": 6492,
+          "val": 778,
+          "test": 848
+        },
+        "full_inventory_cases": 8118,
+        "export_failed": 0,
+        "external_downloads": 0
+      },
+      "checks": {
+        "passed": true,
+        "counts": {
+          "train": 6492,
+          "val": 778,
+          "test": 848
+        },
+        "physical_families": 8118,
+        "no_cross_split_families": true,
+        "one_geometry_input_per_geometry_id": true,
+        "no_identical_cloud_cross_split": true,
+        "manifest_sha256": "0f6f9453f5ce684511dc58e63be99150ddf7de2d79ab96f90f92980cb18d2d8e",
+        "split_protocol_sha256": "f976ac89979a49fc3f1c44282d069357ef03e5b46e9ae4fb2bb22ba2568f18ce",
+        "condition_statistics": {
+          "names": [
+            "constant_flow"
+          ],
+          "mean": [
+            0.0
+          ],
+          "std": [
+            1e-08
+          ],
+          "fitted_on": "training records only"
+        }
+      }
+    }
+  }
+}

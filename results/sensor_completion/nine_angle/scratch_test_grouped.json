@@ -1,0 +1,376 @@
+{
+  "split": "test",
+  "settings": [
+    {
+      "setting": "patch-64-0.25",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.294664031552193,
+          "low": 0.26499150321648424,
+          "high": 0.32502782897599974
+        },
+        "measurements": {
+          "mean": 0.13451423014054265,
+          "low": 0.12337021666449922,
+          "high": 0.14671736913870817
+        },
+        "conditioned": {
+          "mean": 0.1369454637648987,
+          "low": 0.12457665318388852,
+          "high": 0.15029114080361697
+        },
+        "areal_scratch": {
+          "mean": 0.20921608155821342,
+          "low": 0.19032167994302035,
+          "high": 0.23064048225869982
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.08544794999397966,
+          "low": -0.10493819071647197,
+          "high": -0.06620253566842199,
+          "geometries_scratch_better": 16
+        },
+        "measurements": {
+          "mean": 0.07470185141767074,
+          "low": 0.056653019592871334,
+          "high": 0.09480649471756569,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.07227061779331471,
+          "low": 0.04963617023905069,
+          "high": 0.09595746956234957,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "patch-64-0.60",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.2931953349159968,
+          "low": 0.2612697768338443,
+          "high": 0.3233320804797329
+        },
+        "measurements": {
+          "mean": 0.12738546500959913,
+          "low": 0.11752586039340152,
+          "high": 0.13698654111231934
+        },
+        "conditioned": {
+          "mean": 0.12598361492262367,
+          "low": 0.1134333820782804,
+          "high": 0.14129297779128408
+        },
+        "areal_scratch": {
+          "mean": 0.1966717580203386,
+          "low": 0.17819715927088414,
+          "high": 0.2159359745189361
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.09652357689565819,
+          "low": -0.12396604720024758,
+          "high": -0.07171344102610319,
+          "geometries_scratch_better": 16
+        },
+        "measurements": {
+          "mean": 0.06928629301073948,
+          "low": 0.054692323745322624,
+          "high": 0.08565321664385894,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.07068814309771494,
+          "low": 0.05292296747353255,
+          "high": 0.08907633830841069,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "patch-64-0.90",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30198849396878025,
+          "low": 0.2742140195097225,
+          "high": 0.3273819606024883
+        },
+        "measurements": {
+          "mean": 0.15578263960971522,
+          "low": 0.14313766833721542,
+          "high": 0.16926392688916642
+        },
+        "conditioned": {
+          "mean": 0.13814819075104456,
+          "low": 0.1239478897256943,
+          "high": 0.1544006150992462
+        },
+        "areal_scratch": {
+          "mean": 0.222666621513692,
+          "low": 0.20230998780976095,
+          "high": 0.24506822606737222
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.07932187245508832,
+          "low": -0.10654370985889369,
+          "high": -0.05293299920626942,
+          "geometries_scratch_better": 14
+        },
+        "measurements": {
+          "mean": 0.06688398190397674,
+          "low": 0.052785420183041186,
+          "high": 0.08089191912044358,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.08451843076264742,
+          "low": 0.06823352817431368,
+          "high": 0.10118761145878102,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "sensors-5",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.302118364994603,
+          "low": 0.27406799652546493,
+          "high": 0.32798804774523393
+        },
+        "measurements": {
+          "mean": 0.21294836702484726,
+          "low": 0.18530625134502599,
+          "high": 0.2429751144426746
+        },
+        "conditioned": {
+          "mean": 0.1372783877701464,
+          "low": 0.12360590222082857,
+          "high": 0.15284374148612942
+        },
+        "areal_scratch": {
+          "mean": 0.27612217849981,
+          "low": 0.24176930037748667,
+          "high": 0.3124451498941816
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.02599618649479295,
+          "low": -0.05921822685817303,
+          "high": 0.005253632769438323,
+          "geometries_scratch_better": 9
+        },
+        "measurements": {
+          "mean": 0.06317381147496275,
+          "low": 0.04720915571796542,
+          "high": 0.08125579215065683,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.13884379072966363,
+          "low": 0.10542507181019954,
+          "high": 0.17433294103089103,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "sensors-20",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30229305563453557,
+          "low": 0.2742394096956883,
+          "high": 0.3282111252106051
+        },
+        "measurements": {
+          "mean": 0.16315916671215466,
+          "low": 0.14893336069488003,
+          "high": 0.17797174415693526
+        },
+        "conditioned": {
+          "mean": 0.13741612030640304,
+          "low": 0.12373232407793594,
+          "high": 0.15296794105971395
+        },
+        "areal_scratch": {
+          "mean": 0.2218975281005498,
+          "low": 0.20335909155166662,
+          "high": 0.2407481383953344
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.08039552753398573,
+          "low": -0.10696436706322636,
+          "high": -0.05560566309954455,
+          "geometries_scratch_better": 16
+        },
+        "measurements": {
+          "mean": 0.05873836138839515,
+          "low": 0.04093971498903766,
+          "high": 0.07797677239816886,
+          "geometries_scratch_better": 1
+        },
+        "conditioned": {
+          "mean": 0.08448140779414676,
+          "low": 0.06824504498605735,
+          "high": 0.10169043868108006,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "sensors-100",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.3035842547857952,
+          "low": 0.2753152089272023,
+          "high": 0.3298235560730322
+        },
+        "measurements": {
+          "mean": 0.1442324849633158,
+          "low": 0.13262551741381123,
+          "high": 0.15615266930346874
+        },
+        "conditioned": {
+          "mean": 0.13828519868573996,
+          "low": 0.12452735855542561,
+          "high": 0.15389625884619085
+        },
+        "areal_scratch": {
+          "mean": 0.21622764030837094,
+          "low": 0.19674938206156942,
+          "high": 0.23634834967635576
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.08735661447742427,
+          "low": -0.11257749994757736,
+          "high": -0.0635654987807991,
+          "geometries_scratch_better": 16
+        },
+        "measurements": {
+          "mean": 0.07199515534505514,
+          "low": 0.05844682414119429,
+          "high": 0.08523931915507173,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.07794244162263098,
+          "low": 0.06141110969239263,
+          "high": 0.09415435454760114,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "sensors-500",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.31006213031611984,
+          "low": 0.28026570477267493,
+          "high": 0.3375983988995052
+        },
+        "measurements": {
+          "mean": 0.14346657099705734,
+          "low": 0.1310393793139365,
+          "high": 0.15668291265123052
+        },
+        "conditioned": {
+          "mean": 0.14257450486037063,
+          "low": 0.12844580661878094,
+          "high": 0.15844951778529495
+        },
+        "areal_scratch": {
+          "mean": 0.2176571948958255,
+          "low": 0.1996866484011274,
+          "high": 0.23602548862576953
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": -0.09240493542029438,
+          "low": -0.11901705809962695,
+          "high": -0.06780751709766916,
+          "geometries_scratch_better": 16
+        },
+        "measurements": {
+          "mean": 0.07419062389876811,
+          "low": 0.06062277913047148,
+          "high": 0.08874478039831002,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.07508269003545485,
+          "low": 0.05898046208684749,
+          "high": 0.09110621449961635,
+          "geometries_scratch_better": 0
+        }
+      }
+    },
+    {
+      "setting": "unobserved",
+      "nrmse": {
+        "geometry": {
+          "mean": 0.30203355985316027,
+          "low": 0.27401514242388814,
+          "high": 0.32787783832545697
+        },
+        "measurements": {
+          "mean": 0.2995024221458187,
+          "low": 0.2706878833540821,
+          "high": 0.3259427730540245
+        },
+        "conditioned": {
+          "mean": 0.13722222242209423,
+          "low": 0.12355753017239425,
+          "high": 0.15277315433514818
+        },
+        "areal_scratch": {
+          "mean": 0.336069498716444,
+          "low": 0.3055440449234582,
+          "high": 0.3647836881683064
+        }
+      },
+      "scratch_minus": {
+        "geometry": {
+          "mean": 0.03403593886328374,
+          "low": 0.02532098054255571,
+          "high": 0.0436970948699742,
+          "geometries_scratch_better": 0
+        },
+        "measurements": {
+          "mean": 0.03656707657062533,
+          "low": 0.02743305258455194,
+          "high": 0.04663651378972221,
+          "geometries_scratch_better": 0
+        },
+        "conditioned": {
+          "mean": 0.19884727629434976,
+          "low": 0.16702543853818244,
+          "high": 0.22763672417982567,
+          "geometries_scratch_better": 0
+        }
+      }
+    }
+  ],
+  "methods": [
+    "geometry",
+    "measurements",
+    "conditioned",
+    "areal_scratch"
+  ],
+  "independent_geometry_groups": 16,
+  "conditions_per_geometry": 9,
+  "interval_unit": "physical geometry with all nine conditions retained",
+  "exact_training_metadata_match": true,
+  "scope": "One seed, matched lr1e-4 backbone and lr1e-3 new layers at 40 epochs."
+}

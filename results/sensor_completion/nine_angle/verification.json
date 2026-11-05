@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "468feec417fc5e364e04d3ad93afb66bd601c6454f93168498394589e20eb248",
+  "recomputed_predictions": 6912,
+  "maximum_difference_from_native_metrics": {
+    "nrmse": 2.220446049250313e-16,
+    "force_rel": 3.8469227803261674e-14
+  },
+  "original_seed0_scores_reproduced": true,
+  "original_observations_preserved": true
+}

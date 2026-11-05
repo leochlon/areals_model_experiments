@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T09:03:27.149998+00:00",
+  "scope": "Independent recomputation of held-out 20-sensor field and force metrics from saved predictions; all six runs, no training or inference rerun.",
+  "protocol_sha256": "3a4bf2c8a23b6aae18dabd1373eb45bf1a1e2572d442b801cf7762328c4eb016",
+  "unchanged_frozen_source_files": 39,
+  "all_paired_initializations_and_455_epoch_orders_match": true,
+  "predictions_checked": 864,
+  "test_cases": 144,
+  "physical_geometries": 16,
+  "angles_per_geometry": 9,
+  "maximum_difference_from_recorded_scores": {
+    "nrmse": 4.440892098500626e-16,
+    "force_rel": 3.347322419244847e-14
+  },
+  "verified_runs": [
+    {
+      "run": "euclidean_seed0",
+      "selected_epoch": 378,
+      "checkpoint_sha256": "e5880d5bd160be1380548a099d4d13bf4a2abde6cd7d726e8a0c1c6fd308bd4b",
+      "means": {
+        "nrmse": 0.6803246153350471,
+        "force_rel": 0.41917003596976216
+      }
+    },
+    {
+      "run": "surface_seed0",
+      "selected_epoch": 342,
+      "checkpoint_sha256": "6bd27457b668f6b02fed7bdf2aecf9fe3e90002b6f194b703825b2dd8224a315",
+      "means": {
+        "nrmse": 0.49428798443351163,
+        "force_rel": 0.1274026049785153
+      }
+    },
+    {
+      "run": "euclidean_seed1",
+      "selected_epoch": 179,
+      "checkpoint_sha256": "3c137f807b9f8b90dca3ee63131726e8376fb43e36c153b6f09a2e0ffb3dd0cf",
+      "means": {
+        "nrmse": 0.7064491911583684,
+        "force_rel": 0.47791851463164925
+      }
+    },
+    {
+      "run": "surface_seed1",
+      "selected_epoch": 125,
+      "checkpoint_sha256": "240757b83b1ec4a9e3ed9eac512ab1525623182dcf93088dd054ede3054ae2ed",
+      "means": {
+        "nrmse": 0.6296339508564853,
+        "force_rel": 0.1570270361327411
+      }
+    },
+    {
+      "run": "euclidean_seed2",
+      "selected_epoch": 81,
+      "checkpoint_sha256": "4cda0c97cac33808c583e4ea66ae4a517069a3925ad661c9cfbd7af1e4cc42a6",
+      "means": {
+        "nrmse": 0.8205723093560466,
+        "force_rel": 0.5456786070415356
+      }
+    },
+    {
+      "run": "surface_seed2",
+      "selected_epoch": 81,
+      "checkpoint_sha256": "f10f473cfb2f2a9932bb75c1dcfd7566f7e16d6d364ef7d1866739b231db6932",
+      "means": {
+        "nrmse": 0.8027847234015487,
+        "force_rel": 0.1573405733378831
+      }
+    }
+  ],
+  "report_hashes": {
+    "val": "0626fb62759421cfa7f5b87d60afcd379ac9a5abe5d5715f8b453f2e0954b9c5",
+    "test": "557eccc003e46926a95677e165171168357142075aac0e215b8bd0823eea4435"
+  }
+}

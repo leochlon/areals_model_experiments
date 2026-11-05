@@ -1,0 +1,26 @@
+{
+  "purpose": "AREALS measurement model trained from random initialisation on DoubleDelta, true angle hidden",
+  "source_study": "/workspace/runs/areals_multicondition_wings_20261023",
+  "training_cases": 2160,
+  "test_cases": 144,
+  "test_geometry_groups": 16,
+  "angles_per_test_geometry": 9,
+  "test_observation_sets": 1152,
+  "epochs": 40,
+  "global_batch": 8,
+  "updates": 10800,
+  "field_example_exposures": 86400,
+  "backbone_max_lr": 0.0001,
+  "new_max_lr": 0.001,
+  "seed": 0,
+  "queries": 2048,
+  "floor": 0.5,
+  "normalise": "dataset",
+  "mix": {
+    "unobserved": 0.1,
+    "sensors": 0.45
+  },
+  "visible_weight": 0.25,
+  "initialization": "--scratch; fresh GeometryAutoencoder with the same architecture",
+  "selection": "same 4 development geometry groups, all 9 conditions; same 3 selection masks"
+}

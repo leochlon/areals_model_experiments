@@ -1,0 +1,2046 @@
+{
+ "as_of_utc": "2026-10-30T01:54:08.363969+00:00",
+ "completed_datasets": 8,
+ "planned_datasets": 8,
+ "status": {
+  "as_of_utc": "2026-10-30T01:54:08.363969+00:00",
+  "datasets": [
+   {
+    "dataset": "windsor",
+    "prepared": true,
+    "completed_fits": 30,
+    "scored_fits": 30,
+    "verified": true,
+    "planned_fits": 30,
+    "split": {
+     "train": 274,
+     "test": 35,
+     "val": 35
+    },
+    "families": {
+     "train": 274,
+     "test": 35,
+     "val": 35
+    },
+    "budgets": [
+     18,
+     35,
+     69,
+     137,
+     274
+    ],
+    "validation_progress": [
+     {
+      "run": "pretrained_n137_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.1419793678642748,
+      "best_validation_s20": 0.1420041076542359
+     },
+     {
+      "run": "pretrained_n137_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.14219555642521842,
+      "best_validation_s20": 0.14219287197210093
+     },
+     {
+      "run": "pretrained_n137_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.15219212155468625,
+      "best_validation_s20": 0.1522209446511309
+     },
+     {
+      "run": "pretrained_n18_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.25544130443003904,
+      "best_validation_s20": 0.2554983080115701
+     },
+     {
+      "run": "pretrained_n18_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.26151891072969385,
+      "best_validation_s20": 0.2615986261285629
+     },
+     {
+      "run": "pretrained_n18_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.26997930234099415,
+      "best_validation_s20": 0.27001987585140597
+     },
+     {
+      "run": "pretrained_n274_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.1316907093974513,
+      "best_validation_s20": 0.1317016786244369
+     },
+     {
+      "run": "pretrained_n274_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.13236642364263143,
+      "best_validation_s20": 0.1323826799135391
+     },
+     {
+      "run": "pretrained_n274_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.13254113878837773,
+      "best_validation_s20": 0.13255079361194896
+     },
+     {
+      "run": "pretrained_n35_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2091190106985922,
+      "best_validation_s20": 0.20914664726420243
+     },
+     {
+      "run": "pretrained_n35_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.20381516967754826,
+      "best_validation_s20": 0.20383886266431778
+     },
+     {
+      "run": "pretrained_n35_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2036191289757562,
+      "best_validation_s20": 0.20365872814333327
+     },
+     {
+      "run": "pretrained_n69_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.17502743081029387,
+      "best_validation_s20": 0.1750219313905047
+     },
+     {
+      "run": "pretrained_n69_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.1689763215387627,
+      "best_validation_s20": 0.16902556846027647
+     },
+     {
+      "run": "pretrained_n69_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.17348300121438776,
+      "best_validation_s20": 0.17352511413261498
+     },
+     {
+      "run": "scratch_n137_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2043700589166212,
+      "best_validation_s20": 0.20440241266784284
+     },
+     {
+      "run": "scratch_n137_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.19235416658595428,
+      "best_validation_s20": 0.1923875870712827
+     },
+     {
+      "run": "scratch_n137_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.20578811696476848,
+      "best_validation_s20": 0.20581262089996125
+     },
+     {
+      "run": "scratch_n18_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.42312260451524897,
+      "best_validation_s20": 0.42315896539643555
+     },
+     {
+      "run": "scratch_n18_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.45452697286301275,
+      "best_validation_s20": 0.4546289345450599
+     },
+     {
+      "run": "scratch_n18_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.4536998473852969,
+      "best_validation_s20": 0.45381374853680545
+     },
+     {
+      "run": "scratch_n274_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.17928527408318246,
+      "best_validation_s20": 0.1792928578883806
+     },
+     {
+      "run": "scratch_n274_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.1594537754920259,
+      "best_validation_s20": 0.15947365529850344
+     },
+     {
+      "run": "scratch_n274_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.18047528381345485,
+      "best_validation_s20": 0.18046895624857764
+     },
+     {
+      "run": "scratch_n35_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.3481153961012587,
+      "best_validation_s20": 0.3482152213540529
+     },
+     {
+      "run": "scratch_n35_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.3328398895581258,
+      "best_validation_s20": 0.33292722979587824
+     },
+     {
+      "run": "scratch_n35_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.354413625717387,
+      "best_validation_s20": 0.3545046809302418
+     },
+     {
+      "run": "scratch_n69_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.28044112226071993,
+      "best_validation_s20": 0.28047280182486284
+     },
+     {
+      "run": "scratch_n69_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2525102347909852,
+      "best_validation_s20": 0.2525689228756619
+     },
+     {
+      "run": "scratch_n69_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.25829027186189296,
+      "best_validation_s20": 0.2582814405677328
+     }
+    ]
+   },
+   {
+    "dataset": "drivaernet",
+    "prepared": true,
+    "completed_fits": 30,
+    "scored_fits": 30,
+    "verified": true,
+    "planned_fits": 30,
+    "split": {
+     "val": 778,
+     "train": 6492,
+     "test": 848
+    },
+    "families": {
+     "val": 778,
+     "train": 6492,
+     "test": 848
+    },
+    "budgets": [
+     406,
+     812,
+     1623,
+     3246,
+     6492
+    ],
+    "validation_progress": [
+     {
+      "run": "pretrained_n1623_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.23657543772694806,
+      "best_validation_s20": 0.23658288791992296
+     },
+     {
+      "run": "pretrained_n1623_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.23739215608747966,
+      "best_validation_s20": 0.23740348240101963
+     },
+     {
+      "run": "pretrained_n1623_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.23682423062328067,
+      "best_validation_s20": 0.2368459173226102
+     },
+     {
+      "run": "pretrained_n3246_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2307045307158866,
+      "best_validation_s20": 0.2307131080545622
+     },
+     {
+      "run": "pretrained_n3246_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.23113180353461735,
+      "best_validation_s20": 0.23114113320335944
+     },
+     {
+      "run": "pretrained_n3246_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.23005662908219707,
+      "best_validation_s20": 0.23007176380060285
+     },
+     {
+      "run": "pretrained_n406_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2730242614626421,
+      "best_validation_s20": 0.27304249528887964
+     },
+     {
+      "run": "pretrained_n406_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2752773623028829,
+      "best_validation_s20": 0.2752878374049895
+     },
+     {
+      "run": "pretrained_n406_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2778483167890064,
+      "best_validation_s20": 0.2778652576481778
+     },
+     {
+      "run": "pretrained_n6492_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2282892595261274,
+      "best_validation_s20": 0.2282985878079344
+     },
+     {
+      "run": "pretrained_n6492_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.22799397542923608,
+      "best_validation_s20": 0.22800272569483584
+     },
+     {
+      "run": "pretrained_n6492_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2283117522069068,
+      "best_validation_s20": 0.22832198295751624
+     },
+     {
+      "run": "pretrained_n812_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2529719877696734,
+      "best_validation_s20": 0.2529794800112676
+     },
+     {
+      "run": "pretrained_n812_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.251471226402207,
+      "best_validation_s20": 0.25148074419355476
+     },
+     {
+      "run": "pretrained_n812_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.25444881549867593,
+      "best_validation_s20": 0.2544598987418274
+     },
+     {
+      "run": "scratch_n1623_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2550790476568549,
+      "best_validation_s20": 0.2550908956478136
+     },
+     {
+      "run": "scratch_n1623_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.251308563756302,
+      "best_validation_s20": 0.25132836353665877
+     },
+     {
+      "run": "scratch_n1623_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2574578025296147,
+      "best_validation_s20": 0.2574698600587523
+     },
+     {
+      "run": "scratch_n3246_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24544618036456992,
+      "best_validation_s20": 0.24545942287183228
+     },
+     {
+      "run": "scratch_n3246_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24370594655194985,
+      "best_validation_s20": 0.2437182036722912
+     },
+     {
+      "run": "scratch_n3246_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24697155763317263,
+      "best_validation_s20": 0.24698245687182377
+     },
+     {
+      "run": "scratch_n406_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.3015501949294271,
+      "best_validation_s20": 0.301571933201883
+     },
+     {
+      "run": "scratch_n406_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.29772173808304536,
+      "best_validation_s20": 0.2977414817680744
+     },
+     {
+      "run": "scratch_n406_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.3063195759029322,
+      "best_validation_s20": 0.30631225128812445
+     },
+     {
+      "run": "scratch_n6492_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24277269074968183,
+      "best_validation_s20": 0.24278449380629785
+     },
+     {
+      "run": "scratch_n6492_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24116782351701382,
+      "best_validation_s20": 0.24118402229592054
+     },
+     {
+      "run": "scratch_n6492_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.24759931401743207,
+      "best_validation_s20": 0.24760867670466163
+     },
+     {
+      "run": "scratch_n812_seed0",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.27471230453507933,
+      "best_validation_s20": 0.2747242489189911
+     },
+     {
+      "run": "scratch_n812_seed1",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.269110088198144,
+      "best_validation_s20": 0.2691157090027211
+     },
+     {
+      "run": "scratch_n812_seed2",
+      "complete": true,
+      "update": 8000,
+      "best_validation_s0": 0.2794529875736221,
+      "best_validation_s20": 0.2794671127916831
+     }
+    ]
+   }
+  ],
+  "execution_failures": [],
+  "scheduler_error": null,
+  "completed_fits": 240,
+  "planned_fits": 240,
+  "note": "Validation progress is provisional. Test claims require all fits sealed and independent replay passed."
+ },
+ "verified_results": [
+  {
+   "dataset": "windsor",
+   "completed_runs": 30,
+   "split": {
+    "train": 274,
+    "test": 35,
+    "val": 35
+   },
+   "physical_families": {
+    "train": 274,
+    "test": 35,
+    "val": 35
+   },
+   "endpoints": [
+    {
+     "sensors": 0,
+     "target": 0.25,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 35,
+     "scratch_minimum_tested_budget": 137,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 102,
+     "training_reduction": 0.7445255474452555,
+     "reduction_including_validation": 0.5930232558139534,
+     "training_ratio": 3.914285714285714,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      7.611111111111111
+     ],
+     "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.25,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 35,
+     "scratch_minimum_tested_budget": 137,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 102,
+     "training_reduction": 0.7445255474452555,
+     "reduction_including_validation": 0.5930232558139534,
+     "training_ratio": 3.914285714285714,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      7.611111111111111
+     ],
+     "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+    }
+   ],
+   "summary": [
+    {
+     "arm": "pretrained",
+     "training_simulations": 18,
+     "including_validation": 53,
+     "sensors": 0,
+     "mean_nrmse": 0.27478925047295094,
+     "ci95_low": 0.24757889929226912,
+     "ci95_high": 0.3022019206197916,
+     "seed_sd": 0.008216431799788707,
+     "seed_0": 0.2740578259133306,
+     "seed_1": 0.2669629840476029,
+     "seed_2": 0.2833469414579195
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 18,
+     "including_validation": 53,
+     "sensors": 20,
+     "mean_nrmse": 0.27480188415555434,
+     "ci95_low": 0.24757954792961848,
+     "ci95_high": 0.3022316109727216,
+     "seed_sd": 0.00819820249238254,
+     "seed_0": 0.2740729389561475,
+     "seed_1": 0.26699249577783085,
+     "seed_2": 0.2833402177326848
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 35,
+     "including_validation": 70,
+     "sensors": 0,
+     "mean_nrmse": 0.2226601449206171,
+     "ci95_low": 0.20029092378729385,
+     "ci95_high": 0.24509746450716838,
+     "seed_sd": 0.0022905153107989204,
+     "seed_0": 0.22392295905402732,
+     "seed_1": 0.22001616841725916,
+     "seed_2": 0.22404130729056462
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 35,
+     "including_validation": 70,
+     "sensors": 20,
+     "mean_nrmse": 0.22263783678640117,
+     "ci95_low": 0.20028553158019755,
+     "ci95_high": 0.24503139848934835,
+     "seed_sd": 0.002280682469320074,
+     "seed_0": 0.22391480973489636,
+     "seed_1": 0.22000472814430513,
+     "seed_2": 0.2239939724800021
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 69,
+     "including_validation": 104,
+     "sensors": 0,
+     "mean_nrmse": 0.1924600432183953,
+     "ci95_low": 0.16985894522257408,
+     "ci95_high": 0.21773591324425867,
+     "seed_sd": 0.003775758620336927,
+     "seed_0": 0.19264820567075575,
+     "seed_1": 0.1961382026165245,
+     "seed_2": 0.18859372136790578
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 69,
+     "including_validation": 104,
+     "sensors": 20,
+     "mean_nrmse": 0.19248554346007882,
+     "ci95_low": 0.16986665604990034,
+     "ci95_high": 0.21776369118628233,
+     "seed_sd": 0.0037652513003900386,
+     "seed_0": 0.1926708449972439,
+     "seed_1": 0.19615472267972428,
+     "seed_2": 0.18863106270326813
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 137,
+     "including_validation": 172,
+     "sensors": 0,
+     "mean_nrmse": 0.16570186778806054,
+     "ci95_low": 0.14315402166523464,
+     "ci95_high": 0.19237956123804997,
+     "seed_sd": 0.004598348141993768,
+     "seed_0": 0.16769685358161276,
+     "seed_1": 0.16044293975771487,
+     "seed_2": 0.16896581002485403
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 137,
+     "including_validation": 172,
+     "sensors": 20,
+     "mean_nrmse": 0.1657291325673289,
+     "ci95_low": 0.14317465407855698,
+     "ci95_high": 0.19241988155251244,
+     "seed_sd": 0.004622698790750778,
+     "seed_0": 0.1677262745743329,
+     "seed_1": 0.16044361486916137,
+     "seed_2": 0.16901750825849243
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 274,
+     "including_validation": 309,
+     "sensors": 0,
+     "mean_nrmse": 0.1460450563344544,
+     "ci95_low": 0.12586794664500833,
+     "ci95_high": 0.16904502850297262,
+     "seed_sd": 0.0017758297362805617,
+     "seed_0": 0.14790724413036335,
+     "seed_1": 0.14437048162852023,
+     "seed_2": 0.14585744324447977
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 274,
+     "including_validation": 309,
+     "sensors": 20,
+     "mean_nrmse": 0.14605019000905603,
+     "ci95_low": 0.12588876502318472,
+     "ci95_high": 0.1690264441211886,
+     "seed_sd": 0.0018112345293920455,
+     "seed_0": 0.14795913912490075,
+     "seed_1": 0.14435577932193142,
+     "seed_2": 0.1458356515803361
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 18,
+     "including_validation": 53,
+     "sensors": 0,
+     "mean_nrmse": 0.44783392668687677,
+     "ci95_low": 0.41559169850208455,
+     "ci95_high": 0.4830139718656435,
+     "seed_sd": 0.014270247642102434,
+     "seed_0": 0.43139795822244376,
+     "seed_1": 0.4570688540070056,
+     "seed_2": 0.45503496783118097
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 18,
+     "including_validation": 53,
+     "sensors": 20,
+     "mean_nrmse": 0.44785129471934293,
+     "ci95_low": 0.4156104590943684,
+     "ci95_high": 0.4830343601413025,
+     "seed_sd": 0.014269468461976348,
+     "seed_0": 0.43141728485440084,
+     "seed_1": 0.4570979695050079,
+     "seed_2": 0.45503862979862014
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 35,
+     "including_validation": 70,
+     "sensors": 0,
+     "mean_nrmse": 0.34899755516843345,
+     "ci95_low": 0.31890484265959634,
+     "ci95_high": 0.3784204688784839,
+     "seed_sd": 0.003978110497204471,
+     "seed_0": 0.3534722260925447,
+     "seed_1": 0.34586113505037835,
+     "seed_2": 0.34765930436237746
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 35,
+     "including_validation": 70,
+     "sensors": 20,
+     "mean_nrmse": 0.3490174564079362,
+     "ci95_low": 0.3189079104974986,
+     "ci95_high": 0.3784382010138033,
+     "seed_sd": 0.004018015682380888,
+     "seed_0": 0.3535310629317704,
+     "seed_1": 0.3458306170527092,
+     "seed_2": 0.34769068923932855
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 69,
+     "including_validation": 104,
+     "sensors": 0,
+     "mean_nrmse": 0.2698852495145713,
+     "ci95_low": 0.24185308548788653,
+     "ci95_high": 0.29744045221027,
+     "seed_sd": 0.012710754479063472,
+     "seed_0": 0.283505796715701,
+     "seed_1": 0.26781035339456544,
+     "seed_2": 0.25833959843344784
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 69,
+     "including_validation": 104,
+     "sensors": 20,
+     "mean_nrmse": 0.26990195185847177,
+     "ci95_low": 0.24179656466650173,
+     "ci95_high": 0.2975365527279276,
+     "seed_sd": 0.012763195338510672,
+     "seed_0": 0.2835820038903215,
+     "seed_1": 0.26780969242836355,
+     "seed_2": 0.25831415925673057
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 137,
+     "including_validation": 172,
+     "sensors": 0,
+     "mean_nrmse": 0.21173084781264745,
+     "ci95_low": 0.189881869068841,
+     "ci95_high": 0.23635482915674672,
+     "seed_sd": 0.007415581717130062,
+     "seed_0": 0.20797257887563056,
+     "seed_1": 0.20694684389513796,
+     "seed_2": 0.22027312066717364
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 137,
+     "including_validation": 172,
+     "sensors": 20,
+     "mean_nrmse": 0.2117812410821604,
+     "ci95_low": 0.18992614744085987,
+     "ci95_high": 0.23643123159002616,
+     "seed_sd": 0.007405215797484826,
+     "seed_0": 0.20798797597738378,
+     "seed_1": 0.20704118953094822,
+     "seed_2": 0.220314557738149
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 274,
+     "including_validation": 309,
+     "sensors": 0,
+     "mean_nrmse": 0.1873241982613951,
+     "ci95_low": 0.16331229188849644,
+     "ci95_high": 0.21401591763127947,
+     "seed_sd": 0.009433365187386352,
+     "seed_0": 0.1849308769602884,
+     "seed_1": 0.1793180121447333,
+     "seed_2": 0.1977237056791638
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 274,
+     "including_validation": 309,
+     "sensors": 20,
+     "mean_nrmse": 0.18733143764550755,
+     "ci95_low": 0.16327430321648193,
+     "ci95_high": 0.21400291361178575,
+     "seed_sd": 0.009438361172996384,
+     "seed_0": 0.18491124031903164,
+     "seed_1": 0.17933883858972793,
+     "seed_2": 0.19774423402776342
+    }
+   ],
+   "training_geometry_counts": [
+    {
+     "budget": 18,
+     "seed": 0,
+     "physical_geometries": 18,
+     "exposures_per_simulation": [
+      3555,
+      3556
+     ]
+    },
+    {
+     "budget": 35,
+     "seed": 0,
+     "physical_geometries": 35,
+     "exposures_per_simulation": [
+      1828,
+      1829
+     ]
+    },
+    {
+     "budget": 69,
+     "seed": 0,
+     "physical_geometries": 69,
+     "exposures_per_simulation": [
+      927,
+      928
+     ]
+    },
+    {
+     "budget": 137,
+     "seed": 0,
+     "physical_geometries": 137,
+     "exposures_per_simulation": [
+      467,
+      468
+     ]
+    },
+    {
+     "budget": 274,
+     "seed": 0,
+     "physical_geometries": 274,
+     "exposures_per_simulation": [
+      233,
+      234
+     ]
+    },
+    {
+     "budget": 18,
+     "seed": 1,
+     "physical_geometries": 18,
+     "exposures_per_simulation": [
+      3555,
+      3556
+     ]
+    },
+    {
+     "budget": 35,
+     "seed": 1,
+     "physical_geometries": 35,
+     "exposures_per_simulation": [
+      1828,
+      1829
+     ]
+    },
+    {
+     "budget": 69,
+     "seed": 1,
+     "physical_geometries": 69,
+     "exposures_per_simulation": [
+      927,
+      928
+     ]
+    },
+    {
+     "budget": 137,
+     "seed": 1,
+     "physical_geometries": 137,
+     "exposures_per_simulation": [
+      467,
+      468
+     ]
+    },
+    {
+     "budget": 274,
+     "seed": 1,
+     "physical_geometries": 274,
+     "exposures_per_simulation": [
+      233,
+      234
+     ]
+    },
+    {
+     "budget": 18,
+     "seed": 2,
+     "physical_geometries": 18,
+     "exposures_per_simulation": [
+      3555,
+      3556
+     ]
+    },
+    {
+     "budget": 35,
+     "seed": 2,
+     "physical_geometries": 35,
+     "exposures_per_simulation": [
+      1828,
+      1829
+     ]
+    },
+    {
+     "budget": 69,
+     "seed": 2,
+     "physical_geometries": 69,
+     "exposures_per_simulation": [
+      927,
+      928
+     ]
+    },
+    {
+     "budget": 137,
+     "seed": 2,
+     "physical_geometries": 137,
+     "exposures_per_simulation": [
+      467,
+      468
+     ]
+    },
+    {
+     "budget": 274,
+     "seed": 2,
+     "physical_geometries": 274,
+     "exposures_per_simulation": [
+      233,
+      234
+     ]
+    }
+   ],
+   "paired_differences": [
+    {
+     "budget": 18,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.17304467621392583,
+     "ci95": [
+      -0.19723458228067808,
+      -0.15119276270164567
+     ]
+    },
+    {
+     "budget": 18,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.17304941056378859,
+     "ci95": [
+      -0.1972950394123682,
+      -0.15118270444336046
+     ]
+    },
+    {
+     "budget": 35,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.12633741024781636,
+     "ci95": [
+      -0.14431677497935474,
+      -0.10774838196491512
+     ]
+    },
+    {
+     "budget": 35,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.12637961962153502,
+     "ci95": [
+      -0.14441507727077812,
+      -0.10772322255408673
+     ]
+    },
+    {
+     "budget": 69,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.07742520629617602,
+     "ci95": [
+      -0.09301276662651167,
+      -0.061651241154084685
+     ]
+    },
+    {
+     "budget": 69,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.07741640839839295,
+     "ci95": [
+      -0.09302404817328089,
+      -0.061652616367148194
+     ]
+    },
+    {
+     "budget": 137,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.04602898002458691,
+     "ci95": [
+      -0.055731004637707526,
+      -0.03521285779883429
+     ]
+    },
+    {
+     "budget": 137,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.04605210851483149,
+     "ci95": [
+      -0.05571080377181295,
+      -0.03522550753166137
+     ]
+    },
+    {
+     "budget": 274,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.04127914192694071,
+     "ci95": [
+      -0.055858717411519515,
+      -0.027397677100015783
+     ]
+    },
+    {
+     "budget": 274,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.041281247636451524,
+     "ci95": [
+      -0.05588734964480896,
+      -0.027360383434152286
+     ]
+    }
+   ],
+   "thresholds": [
+    {
+     "sensors": 0,
+     "target": 0.2,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 69,
+     "scratch_minimum_tested_budget": 274,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "scratch_grid_interval95": [
+      137.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.831,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 205,
+     "training_reduction": 0.7481751824817517,
+     "reduction_including_validation": 0.6634304207119741,
+     "training_ratio": 3.971014492753623,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9855072463768115,
+      3.971014492753623
+     ],
+     "interpretation": "Pretrained: 69; scratch: 274 training simulations. Saving: 74.8% (66.3% including validation)."
+    },
+    {
+     "sensors": 0,
+     "target": 0.25,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 35,
+     "scratch_minimum_tested_budget": 137,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 102,
+     "training_reduction": 0.7445255474452555,
+     "reduction_including_validation": 0.5930232558139534,
+     "training_ratio": 3.914285714285714,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      7.611111111111111
+     ],
+     "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+    },
+    {
+     "sensors": 0,
+     "target": 0.3,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 18,
+     "scratch_minimum_tested_budget": 69,
+     "pretrained_crossing_at_lower_grid_boundary": true,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      69.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 51,
+     "training_reduction": 0.7391304347826086,
+     "reduction_including_validation": 0.4903846153846154,
+     "training_ratio": 3.8333333333333335,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      3.8333333333333335
+     ],
+     "interpretation": "Pretrained: 18; scratch: 69 training simulations. Saving: 73.9% (49.0% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.2,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 69,
+     "scratch_minimum_tested_budget": 274,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "scratch_grid_interval95": [
+      137.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.8308,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 205,
+     "training_reduction": 0.7481751824817517,
+     "reduction_including_validation": 0.6634304207119741,
+     "training_ratio": 3.971014492753623,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9855072463768115,
+      3.971014492753623
+     ],
+     "interpretation": "Pretrained: 69; scratch: 274 training simulations. Saving: 74.8% (66.3% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.25,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 35,
+     "scratch_minimum_tested_budget": 137,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      137.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 102,
+     "training_reduction": 0.7445255474452555,
+     "reduction_including_validation": 0.5930232558139534,
+     "training_ratio": 3.914285714285714,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      7.611111111111111
+     ],
+     "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.3,
+     "smallest_tested_budget": 18,
+     "pretrained_minimum_tested_budget": 18,
+     "scratch_minimum_tested_budget": 69,
+     "pretrained_crossing_at_lower_grid_boundary": true,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 274,
+     "pretrained_grid_interval95": [
+      18.0,
+      35.0
+     ],
+     "scratch_grid_interval95": [
+      69.0,
+      69.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 1.0,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 51,
+     "training_reduction": 0.7391304347826086,
+     "reduction_including_validation": 0.4903846153846154,
+     "training_ratio": 3.8333333333333335,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.9714285714285715,
+      3.8333333333333335
+     ],
+     "interpretation": "Pretrained: 18; scratch: 69 training simulations. Saving: 73.9% (49.0% including validation)."
+    }
+   ],
+   "optimisation_budget_limited_runs": {
+    "0": 0,
+    "20": 0
+   },
+   "summed_fit_wall_gpu_hours": 3.3115356105522045,
+   "total_field_updates": 240000,
+   "engineering_preflight_updates": 12,
+   "uncertainty": "Paired bootstrap over three downstream seeds and physical test geometry groups; 5,000 draws; pointwise 95% intervals.",
+   "scope": "Fixed 8,000-update recipe, sampled native surface; smallest measured training budget; no interpolation.",
+   "checkpoint_selection": "Separate validation-selected checkpoint for each sensor endpoint",
+   "geometry_pretraining_cost_excluded_from_fit_gpu_hours": true
+  },
+  {
+   "dataset": "drivaernet",
+   "completed_runs": 30,
+   "split": {
+    "val": 778,
+    "train": 6492,
+    "test": 848
+   },
+   "physical_families": {
+    "val": 778,
+    "train": 6492,
+    "test": 848
+   },
+   "endpoints": [
+    {
+     "sensors": 0,
+     "target": 0.25,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 1623,
+     "scratch_minimum_tested_budget": 3246,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      1623.0,
+      1623.0
+     ],
+     "scratch_grid_interval95": [
+      3246.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.9676,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.9994,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 1623,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.4033300198807157,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+     ],
+     "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.25,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 1623,
+     "scratch_minimum_tested_budget": 3246,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      1623.0,
+      1623.0
+     ],
+     "scratch_grid_interval95": [
+      3246.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.9674,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.9994,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 1623,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.4033300198807157,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+     ],
+     "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+    }
+   ],
+   "summary": [
+    {
+     "arm": "pretrained",
+     "training_simulations": 406,
+     "including_validation": 1184,
+     "sensors": 0,
+     "mean_nrmse": 0.2771158329671245,
+     "ci95_low": 0.27291284390329984,
+     "ci95_high": 0.2813862707177163,
+     "seed_sd": 0.003198259288539749,
+     "seed_0": 0.27393987852445006,
+     "seed_1": 0.27707168044169705,
+     "seed_2": 0.2803359399352261
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 406,
+     "including_validation": 1184,
+     "sensors": 20,
+     "mean_nrmse": 0.2771140076714637,
+     "ci95_low": 0.2729162131448006,
+     "ci95_high": 0.2813957906099737,
+     "seed_sd": 0.003194342412601361,
+     "seed_0": 0.2739464106939528,
+     "seed_1": 0.27706117227019117,
+     "seed_2": 0.28033444005024827
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 812,
+     "including_validation": 1590,
+     "sensors": 0,
+     "mean_nrmse": 0.2549339338051187,
+     "ci95_low": 0.2516795645513656,
+     "ci95_high": 0.2584312314261192,
+     "seed_sd": 0.0016643955046494452,
+     "seed_0": 0.25570651173300396,
+     "seed_1": 0.2530236517621543,
+     "seed_2": 0.2560716379201973
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 812,
+     "including_validation": 1590,
+     "sensors": 20,
+     "mean_nrmse": 0.25493018080668045,
+     "ci95_low": 0.2516738409395032,
+     "ci95_high": 0.2584276848113141,
+     "seed_sd": 0.0016570781158816552,
+     "seed_0": 0.2557002706987787,
+     "seed_1": 0.25302818858049975,
+     "seed_2": 0.2560620831407641
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 1623,
+     "including_validation": 2401,
+     "sensors": 0,
+     "mean_nrmse": 0.23860127615297033,
+     "ci95_low": 0.23567781496334383,
+     "ci95_high": 0.24183590149331965,
+     "seed_sd": 0.0006602009587789329,
+     "seed_0": 0.23858274075576213,
+     "seed_1": 0.23927054963583738,
+     "seed_2": 0.23795053806731176
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 1623,
+     "including_validation": 2401,
+     "sensors": 20,
+     "mean_nrmse": 0.23860530528386908,
+     "ci95_low": 0.23568034734171062,
+     "ci95_high": 0.24184409921303054,
+     "seed_sd": 0.000661831250589721,
+     "seed_0": 0.23858636706145026,
+     "seed_1": 0.23927640239634215,
+     "seed_2": 0.23795314639381526
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 3246,
+     "including_validation": 4024,
+     "sensors": 0,
+     "mean_nrmse": 0.2325659815543906,
+     "ci95_low": 0.22965047433890817,
+     "ci95_high": 0.23581069686020623,
+     "seed_sd": 0.00041662029724748577,
+     "seed_0": 0.2328679397375423,
+     "seed_1": 0.23273933009623576,
+     "seed_2": 0.23209067482939605
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 3246,
+     "including_validation": 4024,
+     "sensors": 20,
+     "mean_nrmse": 0.2325698442754428,
+     "ci95_low": 0.22964884725727414,
+     "ci95_high": 0.2358169403942321,
+     "seed_sd": 0.0004184358937240744,
+     "seed_0": 0.23287419257180209,
+     "seed_1": 0.23274265887019785,
+     "seed_2": 0.2320926813843289
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 6492,
+     "including_validation": 7270,
+     "sensors": 0,
+     "mean_nrmse": 0.23025600323892165,
+     "ci95_low": 0.22741855484201828,
+     "ci95_high": 0.23340915583951258,
+     "seed_sd": 0.00032003364417492597,
+     "seed_0": 0.23023494707643816,
+     "seed_1": 0.22994701760853314,
+     "seed_2": 0.2305860450317944
+    },
+    {
+     "arm": "pretrained",
+     "training_simulations": 6492,
+     "including_validation": 7270,
+     "sensors": 20,
+     "mean_nrmse": 0.23025857764374938,
+     "ci95_low": 0.22742966046431506,
+     "ci95_high": 0.23340657006917434,
+     "seed_sd": 0.00031798658723033036,
+     "seed_0": 0.23024314698850698,
+     "seed_1": 0.22994858730441153,
+     "seed_2": 0.23058399863832837
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 406,
+     "including_validation": 1184,
+     "sensors": 0,
+     "mean_nrmse": 0.3034624183178086,
+     "ci95_low": 0.29782967199349025,
+     "ci95_high": 0.309388846322449,
+     "seed_sd": 0.005017195042167223,
+     "seed_0": 0.3026870629380487,
+     "seed_1": 0.29887803766959087,
+     "seed_2": 0.30882215434578786
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 406,
+     "including_validation": 1184,
+     "sensors": 20,
+     "mean_nrmse": 0.30346751993288457,
+     "ci95_low": 0.2978295509210368,
+     "ci95_high": 0.30938172925305396,
+     "seed_sd": 0.0050207979644988805,
+     "seed_0": 0.30269271365996103,
+     "seed_1": 0.298879164973348,
+     "seed_2": 0.308830681165345
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 812,
+     "including_validation": 1590,
+     "sensors": 0,
+     "mean_nrmse": 0.2764992755790388,
+     "ci95_low": 0.2704754447624463,
+     "ci95_high": 0.282734444411764,
+     "seed_sd": 0.005511157943296526,
+     "seed_0": 0.2760395209203051,
+     "seed_1": 0.2712323964906361,
+     "seed_2": 0.28222590932617503
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 812,
+     "including_validation": 1590,
+     "sensors": 20,
+     "mean_nrmse": 0.2764979973067116,
+     "ci95_low": 0.27047605700071786,
+     "ci95_high": 0.2827302886981864,
+     "seed_sd": 0.005506422802796706,
+     "seed_0": 0.27603027330761937,
+     "seed_1": 0.27124035516088335,
+     "seed_2": 0.2822233634516322
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 1623,
+     "including_validation": 2401,
+     "sensors": 0,
+     "mean_nrmse": 0.256374413840918,
+     "ci95_low": 0.25214863892654354,
+     "ci95_high": 0.2606078994896128,
+     "seed_sd": 0.002995024733630873,
+     "seed_0": 0.2569749350425234,
+     "seed_1": 0.25312462719854933,
+     "seed_2": 0.2590236792816819
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 1623,
+     "including_validation": 2401,
+     "sensors": 20,
+     "mean_nrmse": 0.25637374584881883,
+     "ci95_low": 0.252148997554303,
+     "ci95_high": 0.2606121806694954,
+     "seed_sd": 0.0029953534685325934,
+     "seed_0": 0.25696972180818556,
+     "seed_1": 0.2531252067522512,
+     "seed_2": 0.2590263089860182
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 3246,
+     "including_validation": 4024,
+     "sensors": 0,
+     "mean_nrmse": 0.24746236750340397,
+     "ci95_low": 0.2442112826848067,
+     "ci95_high": 0.25091149180122035,
+     "seed_sd": 0.0013200780491649626,
+     "seed_0": 0.24754109924630976,
+     "seed_1": 0.24610468564540597,
+     "seed_2": 0.248741317618497
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 3246,
+     "including_validation": 4024,
+     "sensors": 20,
+     "mean_nrmse": 0.24746548969565166,
+     "ci95_low": 0.2442178327850491,
+     "ci95_high": 0.2509172136934853,
+     "seed_sd": 0.0013217248655960734,
+     "seed_0": 0.24754310162435975,
+     "seed_1": 0.24610666899208802,
+     "seed_2": 0.24874669847050412
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 6492,
+     "including_validation": 7270,
+     "sensors": 0,
+     "mean_nrmse": 0.24602782558720482,
+     "ci95_low": 0.2419325383850971,
+     "ci95_high": 0.25051934258390063,
+     "seed_sd": 0.0032180214495756802,
+     "seed_0": 0.2449880806616211,
+     "seed_1": 0.24345822237972167,
+     "seed_2": 0.24963717372027172
+    },
+    {
+     "arm": "scratch",
+     "training_simulations": 6492,
+     "including_validation": 7270,
+     "sensors": 20,
+     "mean_nrmse": 0.246031781935893,
+     "ci95_low": 0.24193753285478325,
+     "ci95_high": 0.25051721293238755,
+     "seed_sd": 0.0032159432403303014,
+     "seed_0": 0.24499755283382915,
+     "seed_1": 0.24346019634797292,
+     "seed_2": 0.24963759662587615
+    }
+   ],
+   "training_geometry_counts": [
+    {
+     "budget": 406,
+     "seed": 0,
+     "physical_geometries": 406,
+     "exposures_per_simulation": [
+      157,
+      158
+     ]
+    },
+    {
+     "budget": 812,
+     "seed": 0,
+     "physical_geometries": 812,
+     "exposures_per_simulation": [
+      78,
+      79
+     ]
+    },
+    {
+     "budget": 1623,
+     "seed": 0,
+     "physical_geometries": 1623,
+     "exposures_per_simulation": [
+      39,
+      40
+     ]
+    },
+    {
+     "budget": 3246,
+     "seed": 0,
+     "physical_geometries": 3246,
+     "exposures_per_simulation": [
+      19,
+      20
+     ]
+    },
+    {
+     "budget": 6492,
+     "seed": 0,
+     "physical_geometries": 6492,
+     "exposures_per_simulation": [
+      9,
+      10
+     ]
+    },
+    {
+     "budget": 406,
+     "seed": 1,
+     "physical_geometries": 406,
+     "exposures_per_simulation": [
+      157,
+      158
+     ]
+    },
+    {
+     "budget": 812,
+     "seed": 1,
+     "physical_geometries": 812,
+     "exposures_per_simulation": [
+      78,
+      79
+     ]
+    },
+    {
+     "budget": 1623,
+     "seed": 1,
+     "physical_geometries": 1623,
+     "exposures_per_simulation": [
+      39,
+      40
+     ]
+    },
+    {
+     "budget": 3246,
+     "seed": 1,
+     "physical_geometries": 3246,
+     "exposures_per_simulation": [
+      19,
+      20
+     ]
+    },
+    {
+     "budget": 6492,
+     "seed": 1,
+     "physical_geometries": 6492,
+     "exposures_per_simulation": [
+      9,
+      10
+     ]
+    },
+    {
+     "budget": 406,
+     "seed": 2,
+     "physical_geometries": 406,
+     "exposures_per_simulation": [
+      157,
+      158
+     ]
+    },
+    {
+     "budget": 812,
+     "seed": 2,
+     "physical_geometries": 812,
+     "exposures_per_simulation": [
+      78,
+      79
+     ]
+    },
+    {
+     "budget": 1623,
+     "seed": 2,
+     "physical_geometries": 1623,
+     "exposures_per_simulation": [
+      39,
+      40
+     ]
+    },
+    {
+     "budget": 3246,
+     "seed": 2,
+     "physical_geometries": 3246,
+     "exposures_per_simulation": [
+      19,
+      20
+     ]
+    },
+    {
+     "budget": 6492,
+     "seed": 2,
+     "physical_geometries": 6492,
+     "exposures_per_simulation": [
+      9,
+      10
+     ]
+    }
+   ],
+   "paired_differences": [
+    {
+     "budget": 406,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.026346585350684126,
+     "ci95": [
+      -0.029835916625022996,
+      -0.022074624055560377
+     ]
+    },
+    {
+     "budget": 406,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.026353512261420853,
+     "ci95": [
+      -0.029837644439566824,
+      -0.022085341682215653
+     ]
+    },
+    {
+     "budget": 812,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.02156534177392011,
+     "ci95": [
+      -0.025937145114100113,
+      -0.01799206841731793
+     ]
+    },
+    {
+     "budget": 812,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.021567816500031145,
+     "ci95": [
+      -0.025937822883624118,
+      -0.017990086752349588
+     ]
+    },
+    {
+     "budget": 1623,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.017773137687947693,
+     "ci95": [
+      -0.021115770863216726,
+      -0.014062138256207585
+     ]
+    },
+    {
+     "budget": 1623,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.01776844056494975,
+     "ci95": [
+      -0.021127745528885494,
+      -0.014052709070755426
+     ]
+    },
+    {
+     "budget": 3246,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.01489638594901338,
+     "ci95": [
+      -0.016713121960620442,
+      -0.013255981785439547
+     ]
+    },
+    {
+     "budget": 3246,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.014895645420208853,
+     "ci95": [
+      -0.016712704683395446,
+      -0.013250979222617143
+     ]
+    },
+    {
+     "budget": 6492,
+     "sensors": 0,
+     "pretrained_minus_scratch": -0.01577182234828317,
+     "ci95": [
+      -0.018965544897246334,
+      -0.013322429220463478
+     ]
+    },
+    {
+     "budget": 6492,
+     "sensors": 20,
+     "pretrained_minus_scratch": -0.015773204292143628,
+     "ci95": [
+      -0.018972740318760645,
+      -0.01332046764138764
+     ]
+    }
+   ],
+   "thresholds": [
+    {
+     "sensors": 0,
+     "target": 0.2,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": null,
+     "scratch_minimum_tested_budget": null,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      null,
+      null
+     ],
+     "scratch_grid_interval95": [
+      null,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.0,
+     "bootstrap_both_censored_fraction": 1.0,
+     "interpretation": "Neither arm reached the target within 6,492 training simulations."
+    },
+    {
+     "sensors": 0,
+     "target": 0.25,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 1623,
+     "scratch_minimum_tested_budget": 3246,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      1623.0,
+      1623.0
+     ],
+     "scratch_grid_interval95": [
+      3246.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.9676,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.9994,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 1623,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.4033300198807157,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+     ],
+     "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+    },
+    {
+     "sensors": 0,
+     "target": 0.3,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 406,
+     "scratch_minimum_tested_budget": 812,
+     "pretrained_crossing_at_lower_grid_boundary": true,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      406.0,
+      406.0
+     ],
+     "scratch_grid_interval95": [
+      406.0,
+      812.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.879,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 406,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.2553459119496856,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.0,
+      2.0
+     ],
+     "interpretation": "Pretrained: 406; scratch: 812 training simulations. Saving: 50.0% (25.5% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.2,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": null,
+     "scratch_minimum_tested_budget": null,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      null,
+      null
+     ],
+     "scratch_grid_interval95": [
+      null,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.0,
+     "bootstrap_both_censored_fraction": 1.0,
+     "interpretation": "Neither arm reached the target within 6,492 training simulations."
+    },
+    {
+     "sensors": 20,
+     "target": 0.25,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 1623,
+     "scratch_minimum_tested_budget": 3246,
+     "pretrained_crossing_at_lower_grid_boundary": false,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      1623.0,
+      1623.0
+     ],
+     "scratch_grid_interval95": [
+      3246.0,
+      null
+     ],
+     "bootstrap_both_cross_fraction": 0.9674,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.9994,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 1623,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.4033300198807157,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      2.0,
+      4.0
+     ],
+     "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+    },
+    {
+     "sensors": 20,
+     "target": 0.3,
+     "smallest_tested_budget": 406,
+     "pretrained_minimum_tested_budget": 406,
+     "scratch_minimum_tested_budget": 812,
+     "pretrained_crossing_at_lower_grid_boundary": true,
+     "scratch_crossing_at_lower_grid_boundary": false,
+     "censoring_limit": 6492,
+     "pretrained_grid_interval95": [
+      406.0,
+      406.0
+     ],
+     "scratch_grid_interval95": [
+      406.0,
+      812.0
+     ],
+     "bootstrap_both_cross_fraction": 1.0,
+     "bootstrap_pretrained_needs_fewer_fraction": 0.8796,
+     "bootstrap_both_censored_fraction": 0.0,
+     "training_simulations_saved": 406,
+     "training_reduction": 0.5,
+     "reduction_including_validation": 0.2553459119496856,
+     "training_ratio": 2.0,
+     "training_ratio_interval95_conditional_on_both_crossing": [
+      1.0,
+      2.0
+     ],
+     "interpretation": "Pretrained: 406; scratch: 812 training simulations. Saving: 50.0% (25.5% including validation)."
+    }
+   ],
+   "optimisation_budget_limited_runs": {
+    "0": 17,
+    "20": 17
+   },
+   "summed_fit_wall_gpu_hours": 17.73681651478918,
+   "total_field_updates": 240000,
+   "engineering_preflight_updates": 12,
+   "uncertainty": "Paired bootstrap over three downstream seeds and physical test geometry groups; 5,000 draws; pointwise 95% intervals.",
+   "scope": "Fixed 8,000-update recipe, sampled native surface; smallest measured training budget; no interpolation.",
+   "checkpoint_selection": "Separate validation-selected checkpoint for each sensor endpoint",
+   "geometry_pretraining_cost_excluded_from_fit_gpu_hours": true
+  }
+ ],
+ "fixed_target": [
+  {
+   "dataset": "windsor",
+   "sensors": 0,
+   "target": 0.25,
+   "pretrained_N": 35,
+   "scratch_N": 137,
+   "maximum_N": 274,
+   "training_reduction": 0.7445255474452555,
+   "including_validation_reduction": 0.5930232558139534,
+   "bootstrap_fewer_fraction": 1.0,
+   "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+  },
+  {
+   "dataset": "windsor",
+   "sensors": 20,
+   "target": 0.25,
+   "pretrained_N": 35,
+   "scratch_N": 137,
+   "maximum_N": 274,
+   "training_reduction": 0.7445255474452555,
+   "including_validation_reduction": 0.5930232558139534,
+   "bootstrap_fewer_fraction": 1.0,
+   "interpretation": "Pretrained: 35; scratch: 137 training simulations. Saving: 74.5% (59.3% including validation)."
+  },
+  {
+   "dataset": "drivaernet",
+   "sensors": 0,
+   "target": 0.25,
+   "pretrained_N": 1623,
+   "scratch_N": 3246,
+   "maximum_N": 6492,
+   "training_reduction": 0.5,
+   "including_validation_reduction": 0.4033300198807157,
+   "bootstrap_fewer_fraction": 0.9994,
+   "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+  },
+  {
+   "dataset": "drivaernet",
+   "sensors": 20,
+   "target": 0.25,
+   "pretrained_N": 1623,
+   "scratch_N": 3246,
+   "maximum_N": 6492,
+   "training_reduction": 0.5,
+   "including_validation_reduction": 0.4033300198807157,
+   "bootstrap_fewer_fraction": 0.9994,
+   "interpretation": "Pretrained: 1,623; scratch: 3,246 training simulations. Saving: 50.0% (40.3% including validation)."
+  }
+ ],
+ "validation_only_completed_pairs": []
+}

@@ -1,0 +1,51 @@
+{
+  "strict_weight_load": true,
+  "weights_identical": true,
+  "removed_config": {
+    "model": {
+      "normal_head": "projector",
+      "normal_prior": "surfels",
+      "distance_prior": "surfels",
+      "normal_target": "residual",
+      "hint_noise": 0.0,
+      "input_condition": "complete",
+      "mirror_prior": "none",
+      "symmetry_prior": "maps"
+    },
+    "data": {
+      "mask_patch_mix": "fixed"
+    },
+    "train": {
+      "warmup_epochs": 0,
+      "normal_loss": "unoriented",
+      "normal_penalty": "cosine"
+    }
+  },
+  "parity": [
+    {
+      "mask_fraction": 0.0,
+      "sample_identical": true,
+      "tokens_identical": true,
+      "features_identical": true,
+      "gate_weights_identical": true,
+      "decode_max_abs": {
+        "udf": 0.0,
+        "normal_tensor": 1.1920928955078125e-07,
+        "symmetry_weight": 0.0
+      }
+    },
+    {
+      "mask_fraction": 0.6,
+      "sample_identical": true,
+      "tokens_identical": true,
+      "features_identical": true,
+      "gate_weights_identical": true,
+      "decode_max_abs": {
+        "udf": 0.0,
+        "normal_tensor": 1.1920928955078125e-07,
+        "symmetry_weight": 0.0
+      }
+    }
+  ],
+  "source_files_unchanged": true
+}

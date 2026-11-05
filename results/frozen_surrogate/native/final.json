@@ -1,0 +1,9 @@
+{
+  "arm": "native",
+  "completed_epochs": 20,
+  "best_ema_rl2": 0.6050086691975594,
+  "best_epoch": 20,
+  "final_ema_rl2": 0.6050086691975594,
+  "final_live_rl2": 0.33382117189466953,
+  "elapsed_seconds": 281.29095697402954
+}

@@ -1,0 +1,11 @@
+{
+  "run_root": "/workspace/home/areal_drivaerml_420_epoch14_20260927T162928Z",
+  "pilot_root": "/workspace/home/drivaerml_transfer_pilot_20260925T121525Z",
+  "data_root": "/workspace/runs/areal_drivaerml_420_epoch14_20260927T162928Z",
+  "comparison_run": "/workspace/home/areal_drivaerml_finetune_20260927T131234Z",
+  "train_cases": 420,
+  "validation_cases": 16,
+  "prepare_workers": 24,
+  "existing_prepared_cars_reused": 80,
+  "additional_training_cars": 356
+}

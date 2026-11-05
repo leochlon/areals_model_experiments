@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "task": 10,
+  "arm": "ordinary_attention",
+  "seed": 1,
+  "group": "original_ordinary_attention",
+  "pretrained": "/workspace/runs/areals_architecture_controls_20261024/results/architecture/ordinary_attention/seed1/best.pt",
+  "pretrained_sha256": "800aefae650481647d1562e95d7c3cc6e0b9558f1cf7ae43c9fb1e6ae4eed247",
+  "retrain_geometry": false,
+  "name": "original_ordinary_attention_seed1",
+  "checkpoint": "/workspace/runs/areals_decoder_transfer_20261024/bench/models/original_ordinary_attention_seed1/field_best.pt",
+  "checkpoint_sha256": "3d2fa0fe06f532ab6608fe30c5131cb4b1d43ce5628f49faa8a16514b85c7e40",
+  "base_sha256": "800aefae650481647d1562e95d7c3cc6e0b9558f1cf7ae43c9fb1e6ae4eed247",
+  "checkpoint_unchanged": true,
+  "true_downstream_seed": 1,
+  "train_cars": 380,
+  "selection_epoch": 39,
+  "job_array": "1061632",
+  "runtime_protocol_sha256": "c7949210279c422c15dba939ba078e8dc6bf65d875e48604664d12f5fd4d15e8",
+  "fixed_development_queries": 8192,
+  "numerical_query_chunk": 2048
+}
